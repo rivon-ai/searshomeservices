@@ -52,9 +52,9 @@ function CityHeroSection({ cities, description, state }: HeroSectionProps) {
 
                     {/* Heading */}
                     <div className='mb-6'>
-                        <h1 className='font-bold text-3xl text-blue-950 mb-3'>Appliance Repair & HVAC System Services in Alabama</h1>
+                        <h1 className='font-bold text-3xl text-blue-950 mb-3'>Appliance Repair & HVAC System Services in {state}</h1>
                         <p className='text-gray-600 text-base leading-relaxed'>
-                            We sWe serve all major cities in the US including Alabama for appliance repair and HVAC system services.                        </p>
+                            We sWe serve all major cities in the US including {state} for appliance repair and HVAC system services.                        </p>
                         <p className='text-gray-600 text-base'>Schedule service your way</p>
                     </div>
 

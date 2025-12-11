@@ -14,11 +14,11 @@ import { useParams } from 'next/navigation'
 import { MdStars } from 'react-icons/md'
 import { Star, User } from 'lucide-react';
 import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
+    Carousel,
+    CarouselContent,
+    CarouselItem,
+    CarouselNext,
+    CarouselPrevious,
 } from "@/components/ui/carousel";
 
 interface HeroSectionProps {
@@ -65,6 +65,24 @@ const reviews = [
     }
 ];
 
+const locations = [
+    {
+        name: "Sears Appliance Repair",
+        address: "1000 E 41st, Austin, Texas 78751",
+        isTopLocation: true
+    },
+    {
+        name: "Sears Appliance Repair",
+        address: "2901 S Capitol of Texas Highway, Austin, Texas 78746",
+        isTopLocation: false
+    },
+    {
+        name: "Sears Appliance Repair",
+        address: "12625 N I-H 35, Austin, Texas 78753",
+        isTopLocation: false
+    }
+]
+
 function MainSection({ cities, description, state }: HeroSectionProps) {
 
     const params = useParams();
@@ -86,7 +104,7 @@ function MainSection({ cities, description, state }: HeroSectionProps) {
                     <span className='text-blue-600 font-medium text-sm'>177939 Customer Reviews</span>
                 </div>
 
-                <Image width={700} height={400} src={imagee} alt="Hero Image" className='w-full h-auto rounded-lg' />
+                <Image src={imagee} alt="Hero Image" className='w-full h-auto rounded-lg' />
 
                 {/* Main Content Card */}
                 <div className='absolute top-[80%] left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white rounded-xl shadow-2xl p-8 max-w-2xl w-[90%]'>
@@ -204,35 +222,60 @@ function MainSection({ cities, description, state }: HeroSectionProps) {
                                 No matter where you bought it, we can fix it.
                             </p>
 
-                            <Button
-                                variant="outline"
-                                className="cursor-pointer border-2 border-blue-700 text-blue-700 hover:bg-blue-50 font-semibold px-6 py-2 rounded"
+                            <Link
+                                href={`/locations/${state}/${city}/sears-appliance-repair`}
+                                className="cursor-pointer border border-blue-900 text-blue-700 hover:bg-gray-50 font-semibold px-6 py-2 rounded-md"
                             >
                                 Read More
-                            </Button>
+                            </Link>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div className='py-20 '>
-                <h1 className="text-2xl font-bold text-blue-950 mb-6 uppercase tracking-wide">
-                    Location near {params.city?.toString().toUpperCase()}
-                </h1>
-                <div className='xl:pl-34'>
-                    <div className='relative pt-6'>
-                        <div className='max-w-xs p-4 pt-8 border border-gray-300 rounded-lg mb-6 hover:shadow-[0_0_10px_rgba(0,0,0,0.25)] cursor-pointer transition-shadow'>
-                            <h1 className="text-xl font-bold text-blue-950 mb-6 uppercase">SEARS APPLIANCES REPAIR {params.city?.toString().toUpperCase()}</h1>
-                            <p className='text-blue-900'>
-                                154 28B W Hively Ave, Pierre Moran Mall, Elkhart, Indiana 46517
-                            </p>
-                        </div>
-                        <div className="absolute top-0 left-16 bg-white flex items-center gap-2 text-blue-950 font-semibold w-fit border border-gray-300 px-4 py-2 rounded-md">
-                            <MdStars /> Top Locations
-                        </div>
+            {locations &&
+                <div className="py-20">
+                    {/* Header */}
+                    <h2 className="text-2xl font-bold text-blue-900 mb-8 uppercase tracking-wide">
+                        LOCATIONS NEAR {city}
+                    </h2>
+
+                    {/* Locations Grid */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        {locations.map((location, index) => (
+                            <div className='w-full flex justify-center'>
+                                <Link
+                                    key={index}
+                                    className="border border-gray-300 max-w-xs rounded-lg p-6 hover:shadow-[0_0_10px_rgba(0,0,0,0.25)] transition-shadow duration-300 bg-white relative"
+                                    href={`/locations/${state}/${params.city}/sears-appliance-repair/${location.address.toLowerCase().replace(/,/g, "").replace(/\s+/g, "-").replace(/--+/g, "-").replace(/^-+|-+$/g, "")}`}
+                                >
+                                    {/* Top Location Badge */}
+                                    {location.isTopLocation && (
+                                        <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+                                            <div className="bg-white flex items-center gap-2 text-blue-950 font-semibold w-fit border border-gray-300 px-4 py-2 rounded-md">
+                                                <MdStars />
+                                                <span className="text-sm">
+                                                    Top Location
+                                                </span>
+                                            </div>
+                                        </div>
+                                    )}
+
+                                    {/* Location Name */}
+                                    <h3 className="text-lg font-bold text-blue-900 mb-3 mt-2 hover:text-blue-700 cursor-pointer">
+                                        {location.name}{params.city ? ` ${params.city.toString().toUpperCase()}` : ''}
+                                    </h3>
+
+                                    {/* Address */}
+                                    <p className="text-sm text-gray-600 leading-relaxed">
+                                        {location.address}
+                                    </p>
+                                </Link>
+                            </div>
+                        ))}
                     </div>
                 </div>
-            </div>
+            }
 
             <div className="pb-20 bg-white">
                 <div className="border-t border-gray-300 pt-16">
@@ -289,7 +332,7 @@ function MainSection({ cities, description, state }: HeroSectionProps) {
                             ))}
                         </CarouselContent>
 
-                        <CarouselPrevious className="hidden md:flex -left-4 bg-white border-2 border-gray-300 hover:bg-gray-50  size-12 cursor-pointer"/>
+                        <CarouselPrevious className="hidden md:flex -left-4 bg-white border-2 border-gray-300 hover:bg-gray-50  size-12 cursor-pointer" />
                         <CarouselNext className="hidden md:flex -right-4 bg-white border-2 border-gray-300 hover:bg-gray-50 size-12 cursor-pointer" />
                     </Carousel>
                 </div>
@@ -301,3 +344,22 @@ function MainSection({ cities, description, state }: HeroSectionProps) {
 }
 
 export default MainSection
+
+// <div className='py-20 '>
+//     <h1 className="text-2xl font-bold text-blue-950 mb-6 uppercase tracking-wide">
+//         Location near {params.city?.toString().toUpperCase()}
+//     </h1>
+//     <div className='xl:pl-34'>
+//         <div className='relative pt-6'>
+//             <div className='max-w-xs p-4 pt-8 border border-gray-300 rounded-lg mb-6 hover:shadow-[0_0_10px_rgba(0,0,0,0.25)] cursor-pointer transition-shadow'>
+//                 <h1 className="text-xl font-bold text-blue-950 mb-6 uppercase">SEARS APPLIANCES REPAIR {params.city?.toString().toUpperCase()}</h1>
+//                 <p className='text-blue-900'>
+//                     154 28B W Hively Ave, Pierre Moran Mall, Elkhart, Indiana 46517
+//                 </p>
+//             </div>
+//             <div className="absolute top-0 left-16 bg-white flex items-center gap-2 text-blue-950 font-semibold w-fit border border-gray-300 px-4 py-2 rounded-md">
+//                 <MdStars /> Top Locations
+//             </div>
+//         </div>
+//     </div>
+// </div>

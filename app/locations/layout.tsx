@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Montserrat, Oswald } from "next/font/google";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import "@/app/globals.css";
+import Breadcrumbs from "../components/Breadcrumbs";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -36,6 +37,9 @@ export default function RootLayout({
                 className={`${geistSans.variable} ${geistMono.variable} ${oswald.variable} antialiased`}
             >
                 <Navbar />
+
+                <Breadcrumbs/>
+
                 {children}
                 <Footer />
             </body>

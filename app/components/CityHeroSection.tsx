@@ -8,17 +8,22 @@ import { CiChat1 } from 'react-icons/ci'
 import { FaStar } from 'react-icons/fa'
 import { IoIosArrowDown } from 'react-icons/io'
 import { IoCallOutline } from 'react-icons/io5'
-import imagee from '../../../../public/alabamaImage.webp'
+import imagee from '@/public/alabamaImage.webp'
 import { useParams } from 'next/navigation'
 
 interface HeroSectionProps {
     cities: string[];
+    state: string;
     description: string;
 }
 
-function CityHeroSection({ cities, description }: HeroSectionProps) {
+function CityHeroSection({ cities, description, state }: HeroSectionProps) {
 
     const params = useParams();
+    const city = params.city;
+    const states = params.state;
+    console.log("Params in CityHeroSection:", params);
+    console.log("City in CityHeroSection:", states);
 
     return (
         <div className='w-full xl:w-[75%] mx-auto mt-6 '>
@@ -112,7 +117,7 @@ function CityHeroSection({ cities, description }: HeroSectionProps) {
                     cities.map((city, index) => (
                         index <= 9 &&
                         <div key={index}>
-                            <Link href={`/locations/${params.state}/${city.toLowerCase().replace(/\s+/g, '-')}`} className="text-blue-600 text-xl font-semibold hover:underline">
+                            <Link href={`/locations/${params.state}/${city}`} className="text-blue-600 text-xl font-semibold hover:underline">
                                 {city}
                             </Link>
                         </div>
@@ -120,12 +125,16 @@ function CityHeroSection({ cities, description }: HeroSectionProps) {
                 }
             </div>
 
+            <div>
+                
+            </div>
+
             <div className='grid grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 space-y-4 lg:space-y-0 gap-8 pb-20'>
                 {
                     cities.map((city, index) => (
                         index > 9 &&
                         <div key={index}>
-                            <Link href={`/locations/${params.state}/${city.toLowerCase().replace(/\s+/g, '-')}`} className="text-blue-600 text-xl font-semibold hover:underline">
+                            <Link href={`/locations/${params.state}/${city}`} className="text-blue-600 text-xl font-semibold hover:underline">
                                 {city}
                             </Link>
                         </div>

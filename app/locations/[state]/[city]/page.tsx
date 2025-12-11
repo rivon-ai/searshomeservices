@@ -1,14 +1,16 @@
 'use client'
+import Footer from '@/app/components/Footer';
+import Navbar from '@/app/components/Navbar';
 import { useParams } from 'next/navigation'
 import React from 'react'
+import MainSection from './components/MainSection';
 
 const page = () => {
     const params = useParams();
 
     return (
         <div>
-            <p>{params.state}</p>
-            <p>{params.city}</p>
+            <MainSection cities={[]} state={params.state as string} description={''} />
         </div>
     )
 }

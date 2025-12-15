@@ -1,18 +1,13 @@
-'use client'
 import Footer from '@/app/components/Footer';
 import Navbar from '@/app/components/Navbar';
-import { useParams } from 'next/navigation'
 import React from 'react'
-import MainSection from './components/MainSection';
+import MainSection from './components/CityMainSection';
 
-const page = () => {
-    const params = useParams();
+export default function page() {
 
     return (
         <div>
-            <MainSection cities={[]} state={params.state as string} description={''} />
+            <MainSection cities={[]}  description={''} />
         </div>
     )
 }
-
-export default page

@@ -1,4 +1,6 @@
 "use client"
+
+
 import { Button } from '@/components/ui/button'
 import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuItem } from '@radix-ui/react-dropdown-menu'
 import Image from 'next/image'
@@ -23,7 +25,6 @@ import {
 
 interface HeroSectionProps {
     cities: string[];
-    state: string;
     description: string;
 }
 
@@ -83,7 +84,7 @@ const locations = [
     }
 ]
 
-function MainSection({ cities, description, state }: HeroSectionProps) {
+function MainSection({ cities, description }: HeroSectionProps) {
 
     const params = useParams();
     const city = params.city;
@@ -223,7 +224,7 @@ function MainSection({ cities, description, state }: HeroSectionProps) {
                             </p>
 
                             <Link
-                                href={`/locations/${state}/${city}/sears-appliance-repair`}
+                                href={`/locations/${params.state}/${city}/sears-appliance-repair`}
                                 className="cursor-pointer border border-blue-900 text-blue-700 hover:bg-gray-50 font-semibold px-6 py-2 rounded-md"
                             >
                                 Read More
@@ -247,7 +248,7 @@ function MainSection({ cities, description, state }: HeroSectionProps) {
                                 <Link
                                     key={index}
                                     className="border border-gray-300 max-w-xs rounded-lg p-6 hover:shadow-[0_0_10px_rgba(0,0,0,0.25)] transition-shadow duration-300 bg-white relative"
-                                    href={`/locations/${state}/${params.city}/sears-appliance-repair/${location.address.toLowerCase().replace(/,/g, "").replace(/\s+/g, "-").replace(/--+/g, "-").replace(/^-+|-+$/g, "")}`}
+                                    href={`/locations/${params.state}/${params.city}/sears-appliance-repair/${location.address.toLowerCase().replace(/,/g, "").replace(/\s+/g, "-").replace(/--+/g, "-").replace(/^-+|-+$/g, "")}`}
                                 >
                                     {/* Top Location Badge */}
                                     {location.isTopLocation && (
@@ -337,7 +338,6 @@ function MainSection({ cities, description, state }: HeroSectionProps) {
                     </Carousel>
                 </div>
             </div>
-
 
         </div >
     )

@@ -1,10 +1,19 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono,Montserrat } from "next/font/google";
-import "./globals.css";
+import { Geist, Geist_Mono, Montserrat, Oswald } from "next/font/google";
+import Navbar from "@/app/components/Navbar";
+import Footer from "@/app/components/Footer";
+import "@/app/globals.css";
+import Breadcrumbs from "@/app/components/Breadcrumbs";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+});
+
+const oswald = Oswald({
+  variable: "--font-oswald",
+  subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
 });
 
 const montserrat = Montserrat({
@@ -31,9 +40,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${montserrat.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${oswald.variable} ${montserrat.variable} antialiased`}
       >
-          {children}
+        <Navbar />
+
+        <Breadcrumbs />
+
+        {children}
+        <Footer />
       </body>
     </html>
   );

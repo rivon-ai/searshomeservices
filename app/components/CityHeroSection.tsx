@@ -1,4 +1,6 @@
 "use client"
+
+
 import { Button } from '@/components/ui/button'
 import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuItem } from '@radix-ui/react-dropdown-menu'
 import Image from 'next/image'
@@ -13,17 +15,16 @@ import { useParams } from 'next/navigation'
 
 interface HeroSectionProps {
     cities: string[];
-    state: string;
     description: string;
 }
 
-function CityHeroSection({ cities, description, state }: HeroSectionProps) {
+function CityHeroSection({ cities, description }: HeroSectionProps) {
 
     const params = useParams();
     const city = params.city;
-    const states = params.state;
+    const state = params.state;
     console.log("Params in CityHeroSection:", params);
-    console.log("City in CityHeroSection:", states);
+    console.log("City in CityHeroSection:", state);
 
     return (
         <div className='w-full xl:w-[75%] mx-auto mt-6 '>

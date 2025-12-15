@@ -124,3 +124,10 @@
 body{
   font-family: var(--font-montserrat), sans-serif;
 }
+h3, h1, .oswald-font {
+  font-family: var(--font-oswald), sans-serif;
+}
+
+h2 {
+  font-family: var(--font-montserrat), sans-serif;
+}

@@ -1,9 +1,7 @@
-'use client'
 import CityHeroSection from '@/app/components/CityHeroSection';
 import Footer from '@/app/components/Footer';
 import Navbar from '@/app/components/Navbar';
 import Link from 'next/link';
-import { useParams } from 'next/navigation'
 import React from 'react'
 
 const cities = [
@@ -192,16 +190,13 @@ const cities = [
 ]
 
 const description = "We provide home appliance repair and HVAC system services throughout all of the top cities in Indiana! Whether you're looking for expert appliance repair, need to have your HVAC system fixed, or simply scheduling a maintenance call, Sears Home Services has expert technicians in your city."
-const page = () => {
-  const params = useParams();
-  console.log(params);
+export default function page() {
 
   return (
     <div>
       {/* <Link href={`${params.state}/anniston`}>{params.state}</Link> */}
-      <CityHeroSection cities={cities} state={params.state as string} description={description}/>
+      <CityHeroSection cities={cities} description={description}/>
     </div>
   )
 }
 
-export default page

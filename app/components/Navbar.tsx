@@ -31,14 +31,14 @@ export default function Navbar() {
       <div className="w-full max-w-[1400px] mx-auto flex items-center justify-between">
 
         {/* Logo */}
-        <div className="w-fit shrink-0">
+        <div className={`w-fit shrink-0 `}>
           <Image
             src="https://www.searshomeservices.com/static/icons/general/shs-logo.svg"
             alt="Sears Home Services Logo"
-            width={scrolled ? 0 : 160}
-            height={scrolled ? 0 : 80}
+            width={scrolled ? 110 : 160}
+            height={scrolled ? 0 : 0}
             priority
-            className={`h-auto w-auto ${scrolled? "bg-white" : ""}`}
+            className={`h-auto w-auto `}
           />
         </div>
 

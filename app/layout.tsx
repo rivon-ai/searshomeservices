@@ -4,6 +4,8 @@ import Navbar from "@/app/components/Navbar";
 import Footer from "@/app/components/Footer";
 import "@/app/globals.css";
 import Breadcrumbs from "@/app/components/Breadcrumbs";
+import SearsHeader from "./components/SearsHeader";
+import FooterTwo from "./components/FooterTwo";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -42,12 +44,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${oswald.variable} ${montserrat.variable} antialiased`}
       >
-        <Navbar />
+        <SearsHeader />
 
         <Breadcrumbs />
 
         {children}
-        <Footer />
+        <FooterTwo />
       </body>
     </html>
   );

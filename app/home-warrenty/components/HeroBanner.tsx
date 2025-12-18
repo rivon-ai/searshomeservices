@@ -44,7 +44,7 @@ export default function HeroBanner({ heroBannerData }: HeroBannerSectionProps) {
                     </p>
 
                     {/* CTA Button */}
-                    <button className="bg-teal-400 hover:bg-teal-500 text-gray-900 font-bold text-base sm:text-lg px-8 py-3 rounded-full transition-colors duration-300 mb-8">
+                    <button className="bg-linear-to-r from-[#76FFA3] to-[#48FFFF] hover:bg-teal-500 text-teal-800 font-bold text-base sm:text-lg px-8 py-3 rounded-full transition-colors duration-300 mb-8">
                         {heroBannerData.ctaText}
                     </button>
 

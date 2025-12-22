@@ -1,0 +1,113 @@
+{
+  "Payne": {
+    "slug": "payne",
+    "icon": "@/public/symptom-center/payne-SVG.svg",
+    "appliances": [
+      { "name": "Central Air", "slug": "central-air" },
+      { "name": "Gas Furnace", "slug": "furnace" }
+    ]
+  },
+  "ICP": {
+    "slug": "icp",
+    "icon": "@/public/symptom-center/ICP.svg",
+    "appliances": [
+      { "name": "Central Air", "slug": "central-air" },
+      { "name": "Gas Furnace", "slug": "furnace" }
+    ]
+  },
+  "Heil": {
+    "slug": "heil",
+    "icon": "@/public/symptom-center/Heil.svg",
+    "appliances": [
+      { "name": "Central Air", "slug": "central-air" },
+      { "name": "Gas Furnace", "slug": "furnace" }
+    ]
+  },
+  "Carrier": {
+    "slug": "carrier",
+    "icon": "@/public/symptom-center/Carrier.svg",
+    "appliances": [
+      { "name": "Central Air", "slug": "central-air" },
+      { "name": "Gas Furnace", "slug": "furnace" }
+    ]
+  },
+  "Comfortmaker": {
+    "slug": "comfortmaker",
+    "icon": "@/public/symptom-center/Comfortmaker.svg",
+    "appliances": [
+      { "name": "Central Air", "slug": "central-air" },
+      { "name": "Gas Furnace", "slug": "furnace" }
+    ]
+  },
+  "Ruud": {
+    "slug": "ruud",
+    "icon": "@/public/symptom-center/Ruud.svg",
+    "appliances": [
+      { "name": "Central Air", "slug": "central-air" },
+      { "name": "Gas Furnace", "slug": "furnace" }
+    ]
+  },
+  "York": {
+    "slug": "york",
+    "icon": "@/public/symptom-center/York.svg",
+    "appliances": [
+      { "name": "Central Air", "slug": "central-air" },
+      { "name": "Gas Furnace", "slug": "furnace" }
+    ]
+  },
+  "Goodman": {
+    "slug": "goodman",
+    "icon": "@/public/symptom-center/Goodman.svg",
+    "appliances": [
+      { "name": "Central Air", "slug": "central-air" },
+      { "name": "Gas Furnace", "slug": "furnace" }
+    ]
+  },
+  "Kenmore": {
+    "slug": "kenmore",
+    "icon": "@/public/symptom-center/Kenmore.svg",
+    "appliances": [
+      { "name": "Central Air", "slug": "central-air" },
+      { "name": "Gas Furnace", "slug": "furnace" },
+      { "name": "Refrigerator", "slug": "refrigerator" },
+      { "name": "Dishwasher", "slug": "dishwasher" },
+      { "name": "Dryer", "slug": "dryer" },
+      { "name": "Washer", "slug": "washer" },
+      { "name": "Freezer", "slug": "freezer" },
+      { "name": "Microwave", "slug": "microwave" },
+      { "name": "Range", "slug": "range" },
+      { "name": "Oven", "slug": "oven" }
+    ]
+  },
+  "LG": {
+    "slug": "lg",
+    "icon": "@/public/symptom-center/LG.svg",
+    "appliances": [
+      { "name": "Refrigerator", "slug": "refrigerator" },
+      { "name": "Washer", "slug": "washer" },
+      { "name": "Freezer", "slug": "freezer" },
+      { "name": "Dishwasher", "slug": "dishwasher" },
+      { "name": "Microwave", "slug": "microwave" },
+      { "name": "Dryer", "slug": "dryer" },
+      { "name": "Cooktop", "slug": "cooktop" },
+      { "name": "Oven", "slug": "oven" },
+      { "name": "Range", "slug": "range" },
+      { "name": "Washer Dryer Combo", "slug": "washer-dryer-combo" }
+    ]
+  },
+  "Samsung": {
+    "slug": "samsung",
+    "icon": "@/public/symptom-center/Samsung.svg",
+    "appliances": [
+      { "name": "Dryer", "slug": "dryer" },
+      { "name": "Refrigerator", "slug": "refrigerator" },
+      { "name": "Microwave", "slug": "microwave" },
+      { "name": "Washer", "slug": "washer" },
+      { "name": "Dishwasher", "slug": "dishwasher" },
+      { "name": "Oven", "slug": "oven" },
+      { "name": "Freezer", "slug": "freezer" },
+      { "name": "Range", "slug": "range" },
+      { "name": "Cooktop", "slug": "cooktop" }
+    ]
+  }
+}

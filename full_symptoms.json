@@ -1,0 +1,55 @@
+[
+  {
+    "brand": "Carrier",
+    "appliances": [
+      {
+        "name": "Central Air",
+        "icon": "ico-central-air.svg",
+        "symptoms": [
+          {
+            "title": "Not working",
+            "description": "When your Carrier central air conditioner won’t turn on or isn’t cooling, check for power problems, a failed capacitor, or a clogged condensate drain. This guide covers quick, safe troubleshooting steps and explains when to call Sears Home Services for expert central AC repair.",
+            "testid": "brandApplianceSymptomSelector_symptom_0",
+            "url": "/symptom/carrier-central-air-not-working"
+          },
+          {
+            "title": "Not cooling",
+            "description": "Learn the most common causes of a Carrier central air conditioner not cooling—including dirty filters, thermostat issues, and capacitor failures—and get easy, safe troubleshooting steps. Also understand other cooling problems like clogged condensate drains and low refrigerant levels.",
+            "testid": "brandApplianceSymptomSelector_symptom_1",
+            "url": "/symptom/carrier-central-air-not-cooling"
+          },
+          {
+            "title": "Blowing warm air",
+            "description": "Learn the most common causes of your Carrier central air conditioner blowing warm air—including dirty filters, thermostat issues, and capacitor failures—and get easy, safe troubleshooting steps. Also understand other cooling problems like clogged condensate drains and low refrigerant levels.",
+            "testid": "brandApplianceSymptomSelector_symptom_2",
+            "url": "/symptom/carrier-central-air-blowing-warm-air"
+          }
+        ]
+      },
+      {
+        "name": "Gas Furnace",
+        "icon": "ico-furnace-gas.svg",
+        "symptoms": [
+          {
+            "title": "Not-heating",
+            "description": "Is your Carrier furnace not heating? Learn three quick DIY checks—thermostat, ignition, and power—and see when it’s time to call Sears Home Services for fast, professional Carrier furnace repair.",
+            "testid": "brandApplianceSymptomSelector_symptom_0",
+            "url": "/symptom/carrier-gas-furnace-not-heating"
+          },
+          {
+            "title": "Not working",
+            "description": "If your Carrier furnace isn’t working, the problem could be as simple as a power or gas supply issue. This guide from Sears Home Services explains the top three causes—a turned-off furnace cut-off switch, a tripped circuit breaker, or a gas supply problem—and what you can check before calling for repair.",
+            "testid": "brandApplianceSymptomSelector_symptom_1",
+            "url": "/symptom/carrier-gas-furnace-not-working"
+          },
+          {
+            "title": "Blowing-cold-air",
+            "description": "When your Carrier furnace is blowing cold air instead of heat, it could be a dirty air filter, a failed safety switch or a bad igniter. Learn what might be wrong and how Sears Home Services can repair your Carrier furnace fast.",
+            "testid": "brandApplianceSymptomSelector_symptom_2",
+            "url": "/symptom/carrier-gas-furnace-blowing-cold-air"
+          }
+        ]
+      }
+    ]
+  }
+]

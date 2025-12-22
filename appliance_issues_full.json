@@ -1,0 +1,686 @@
+[
+  {
+    "appliance": "Central Air",
+    "issues": [
+      {
+        "title": "Not working",
+        "description": "When your Kenmore central air conditioner won’t turn on or isn’t cooling, check for power problems, a failed capacitor, or a clogged condensate drain. This guide covers quick, safe troubleshooting steps and explains when to call Sears Home Services for expert central AC repair.",
+        "url": "/symptom/kenmore-central-air-not-working",
+        "slug": "not-working"
+      },
+      {
+        "title": "Not cooling",
+        "description": "Learn the most common causes of a Kenmore central air conditioner not cooling—including dirty filters, thermostat issues, and capacitor failures—and get easy, safe troubleshooting steps. Also understand other cooling problems like clogged condensate drains and low refrigerant levels.",
+        "url": "/symptom/kenmore-central-air-not-cooling",
+        "slug": "not-cooling"
+      },
+      {
+        "title": "Blowing warm air",
+        "description": "Learn the most common causes of your Kenmore central air conditioner blowing warm air—including dirty filters, thermostat issues, and capacitor failures—and get easy, safe troubleshooting steps. Also understand other cooling problems like clogged condensate drains and low refrigerant levels.",
+        "url": "/symptom/kenmore-central-air-blowing-warm-air",
+        "slug": "blowing-warm-air"
+      }
+    ]
+  },
+  {
+    "appliance": "Gas Furnace",
+    "issues": [
+      {
+        "title": "Not heating",
+        "description": "Is your Kenmore furnace not heating? Learn three quick DIY checks—thermostat, ignition, and power—and see when it’s time to call Sears Home Services for fast, professional Kenmore furnace repair.",
+        "url": "/symptom/kenmore-gas-furnace-not-heating",
+        "slug": "not-heating"
+      },
+      {
+        "title": "Not working",
+        "description": "If your Kenmore furnace isn’t working, the problem could be as simple as a power or gas supply issue. This guide from Sears Home Services explains the top three causes—a turned-off furnace cut-off switch, a tripped circuit breaker, or a gas supply problem—and what you can check before calling for repair.",
+        "url": "/symptom/kenmore-gas-furnace-not-working",
+        "slug": "not-working"
+      },
+      {
+        "title": "Blowing cold air",
+        "description": "When your Kenmore furnace is blowing cold air instead of heat, it could be a dirty air filter, a failed safety switch or a bad igniter. Learn what might be wrong and how Sears Home Services can repair your Kenmore furnace fast.",
+        "url": "/symptom/kenmore-gas-furnace-blowing-cold-air",
+        "slug": "blowing-cold-air"
+      }
+    ]
+  },
+  {
+    "appliance": "Refrigerator",
+    "issues": [
+      {
+        "title": "Noisy",
+        "description": "The most common reasons your Kenmore refrigerator is noisy are a faulty ice maker assembly, defective electronic control board or a locked compressor.",
+        "url": "/symptom/kenmore-refrigerator-noisy",
+        "slug": "noisy"
+      },
+      {
+        "title": "Fan not working",
+        "description": "The most common reasons your Kenmore refrigerator fan is not working are a defective electronic control board, damaged evaporator or a locked compressor.",
+        "url": "/symptom/kenmore-refrigerator-fan-not-working",
+        "slug": "fan-not-working"
+      },
+      {
+        "title": "Stopped working",
+        "description": "The most common reasons your Kenmore refrigerator stopped working are a locked compressor, damaged evaporator or a defective electronic control board.",
+        "url": "/symptom/kenmore-refrigerator-stopped-working",
+        "slug": "stopped-working"
+      },
+      {
+        "title": "Coldspot model not working",
+        "description": "The most common reasons your Kenmore refrigerator Coldspot model is not working are a bad temperature control thermostat, a failed compressor start relay, or a defective electronic control board.",
+        "url": "/symptom/kenmore-refrigerator-coldspot-model-not-working",
+        "slug": "coldspot-model-not-working"
+      },
+      {
+        "title": "Door not closing",
+        "description": "The most common reasons your Kenmore refrigerator door is not closing are a damaged door, defective electronic control board or a dead power supply board.",
+        "url": "/symptom/kenmore-refrigerator-door-not-closing",
+        "slug": "door-not-closing"
+      },
+      {
+        "title": "Dripping water inside",
+        "description": "The most common reasons your Kenmore refrigerator is dripping water inside are a clogged defrost drain, a defective water valve, or a cracked dispenser water tubing.",
+        "url": "/symptom/kenmore-refrigerator-dripping-water-inside",
+        "slug": "dripping-water-inside"
+      },
+      {
+        "title": "Leaking water",
+        "description": "The most common reasons your Kenmore refrigerator is leaking water are a clogged defrost drain, cracked dispenser water tubing or a damaged evaporator.",
+        "url": "/symptom/kenmore-refrigerator-leaking-water",
+        "slug": "leaking-water"
+      },
+      {
+        "title": "Not cooling",
+        "description": "The most common reasons your Kenmore refrigerator is not cooling are a locked compressor, defective electronic control board or a damaged evaporator.",
+        "url": "/symptom/kenmore-refrigerator-not-cooling",
+        "slug": "not-cooling"
+      },
+      {
+        "title": "Compressor not running",
+        "description": "The most common reasons your Kenmore refrigerator compressor is not running are a locked compressor, defective electronic control board or a damaged evaporator.",
+        "url": "/symptom/kenmore-refrigerator-compressor-not-running",
+        "slug": "compressor-not-running"
+      },
+      {
+        "title": "No water",
+        "description": "The most common reasons your Kenmore refrigerator has no water are an old water filter, malfunctioning dispenser or a locked compressor.",
+        "url": "/symptom/kenmore-refrigerator-no-water",
+        "slug": "no-water"
+      },
+      {
+        "title": "Not freezing",
+        "description": "The most common reasons your Kenmore refrigerator is not freezing are a locked compressor, a damaged evaporator, or a defective PCB.",
+        "url": "/symptom/kenmore-refrigerator-not-freezing",
+        "slug": "not-freezing"
+      },
+      {
+        "title": "Ice maker not working",
+        "description": "The most common reasons your Kenmore refrigerator icemaker is not working are a faulty icemaker assembly, a seized compressor, or a damaged evaporator.",
+        "url": "/symptom/kenmore-refrigerator-ice-maker-not-working",
+        "slug": "ice-maker-not-working"
+      },
+      {
+        "title": "Water dispenser not working",
+        "description": "The most common reasons your Kenmore refrigerator water dispenser is not working are a locked compressor, old water filter or a malfunctioning dispenser.",
+        "url": "/symptom/kenmore-refrigerator-water-dispenser-not-working",
+        "slug": "water-dispenser-not-working"
+      },
+      {
+        "title": "Light not working",
+        "description": "The most common reasons your Kenmore refrigerator light is not working are a defective electronic control board, dead power supply board or an inoperative user interface.",
+        "url": "/symptom/kenmore-refrigerator-light-not-working",
+        "slug": "light-not-working"
+      }
+    ]
+  },
+  {
+    "appliance": "Dishwasher",
+    "issues": [
+      {
+        "title": "Not washing",
+        "description": "The most common reasons your Kenmore dishwasher is not washing are a faulty pump and motor assembly, defective electronic control board or a clogged spray arm.",
+        "url": "/symptom/kenmore-dishwasher-not-washing",
+        "slug": "not-washing"
+      },
+      {
+        "title": "Won't start cycle",
+        "description": "The most common reasons your Kenmore dishwasher won't start a cycle are a defective electronic control board, damaged power supply board or a failed door switch.",
+        "url": "/symptom/kenmore-dishwasher-won-t-start-cycle",
+        "slug": "wont-start-cycle"
+      },
+      {
+        "title": "Not starting",
+        "description": "The most common reasons your Kenmore dishwasher is not starting are a defective electronic control board, damaged user interface control or a stripped wire connector.",
+        "url": "/symptom/kenmore-dishwasher-not-starting",
+        "slug": "not-starting"
+      },
+      {
+        "title": "Not heating",
+        "description": "The most common reasons your Kenmore dishwasher is not heating are a defective electronic control board, faulty pump and motor assembly or a damaged user interface control.",
+        "url": "/symptom/kenmore-dishwasher-not-heating",
+        "slug": "not-heating"
+      },
+      {
+        "title": "Won't drain",
+        "description": "The most common reasons your Kenmore dishwasher won't drain are a failed drain pump, faulty pump and motor assembly or a cracked drain hose.",
+        "url": "/symptom/kenmore-dishwasher-won-t-drain",
+        "slug": "wont-drain"
+      },
+      {
+        "title": "Not draining",
+        "description": "The most common reasons your Kenmore dishwasher is not draining are a failed drain pump, cracked drain hose or a defective electronic control board.",
+        "url": "/symptom/kenmore-dishwasher-not-draining",
+        "slug": "not-draining"
+      },
+      {
+        "title": "Burning smell",
+        "description": "The most common reasons your Kenmore dishwasher has a burning smell are a defective electronic control board, damaged user interface control or a faulty pump and motor assembly.",
+        "url": "/symptom/kenmore-dishwasher-burning-smell",
+        "slug": "burning-smell"
+      },
+      {
+        "title": "Leaking from bottom",
+        "description": "The most common reasons your Kenmore dishwasher is leaking from the bottom are a faulty pump and motor assembly, clogged water valve or a failed drain pump.",
+        "url": "/symptom/kenmore-dishwasher-leaking-from-bottom",
+        "slug": "leaking-from-bottom"
+      },
+      {
+        "title": "Leaking",
+        "description": "The most common reasons your Kenmore dishwasher is leaking are a faulty pump and motor assembly, defective electronic control board or a worn door seal.",
+        "url": "/symptom/kenmore-dishwasher-leaking",
+        "slug": "leaking"
+      },
+      {
+        "title": "Noisy",
+        "description": "The most common reasons your Kenmore dishwasher is noisy are a defective electronic control board, damaged user interface control or a faulty pump and motor assembly.",
+        "url": "/symptom/kenmore-dishwasher-noisy",
+        "slug": "noisy"
+      },
+      {
+        "title": "Not drying",
+        "description": "The most common reasons your Kenmore dishwasher is not drying are a broken heating element, defective electronic control board or a stripped wire connector.",
+        "url": "/symptom/kenmore-dishwasher-not-drying",
+        "slug": "not-drying"
+      },
+      {
+        "title": "Not filling",
+        "description": "The most common reasons your Kenmore dishwasher is not filling are a defective electronic control board, faulty pump and motor assembly or a damaged user interface control.",
+        "url": "/symptom/kenmore-dishwasher-not-filling",
+        "slug": "not-filling"
+      },
+      {
+        "title": "No power",
+        "description": "The most common reasons your Kenmore dishwasher has no power are a defective electronic control board, damaged user interface control or a damaged power supply board.",
+        "url": "/symptom/kenmore-dishwasher-no-power",
+        "slug": "no-power"
+      },
+      {
+        "title": "No water",
+        "description": "The most common reasons your Kenmore dishwasher has no water are a broken detergent dispenser, defective electronic control board or a clogged water valve.",
+        "url": "/symptom/kenmore-dishwasher-no-water",
+        "slug": "no-water"
+      },
+      {
+        "title": "Not spinning",
+        "description": "The most common reasons your Kenmore dishwasher is not spinning are a defective electronic control board, damaged user interface control or a faulty pump and motor assembly.",
+        "url": "/symptom/kenmore-dishwasher-not-spinning",
+        "slug": "not-spinning"
+      },
+      {
+        "title": "Not turning on",
+        "description": "The most common reasons your Kenmore dishwasher is not turning on are a defective electronic control board, damaged user interface control or a damaged power supply board.",
+        "url": "/symptom/kenmore-dishwasher-not-turning-on",
+        "slug": "not-turning-on"
+      },
+      {
+        "title": "Not working",
+        "description": "The most common reasons your Kenmore dishwasher is not working are a defective electronic control board, damaged user interface control or a stripped wire connector.",
+        "url": "/symptom/kenmore-dishwasher-not-working",
+        "slug": "not-working"
+      },
+      {
+        "title": "Door not closing",
+        "description": "The most common reasons your Kenmore dishwasher door is not closing are a broken door spring, damaged door hinge or a broken door latch assembly.",
+        "url": "/symptom/kenmore-dishwasher-door-not-closing",
+        "slug": "door-not-closing"
+      }
+    ]
+  },
+  {
+    "appliance": "Dryer",
+    "issues": [
+      {
+        "title": "No heat",
+        "description": "The most common reasons your Kenmore dryer has no heat are an open heating element, failed thermal cut-off fuse or a faulty thermal fuse.",
+        "url": "/symptom/kenmore-dryer-no-heat",
+        "slug": "no-heat"
+      },
+      {
+        "title": "Drum roller replacement",
+        "description": "The most common reasons your Kenmore dryer needs drum roller replacement are a worn drum support roller, broken drum belt or a worn drum bearing.",
+        "url": "/symptom/kenmore-dryer-drum-roller-replacement",
+        "slug": "drum-roller-replacement"
+      },
+      {
+        "title": "Stopped working",
+        "description": "The most common reasons your Kenmore dryer stopped working are an open heating element, faulty thermal fuse or a worn drum bearing.",
+        "url": "/symptom/kenmore-dryer-stopped-working",
+        "slug": "stopped-working"
+      },
+      {
+        "title": "Burning smell",
+        "description": "The most common reasons your Kenmore dryer has a burning smell are an open heating element, broken idler assembly or a worn drum bearing.",
+        "url": "/symptom/kenmore-dryer-burning-smell",
+        "slug": "burning-smell"
+      },
+      {
+        "title": "Noisy",
+        "description": "The most common reasons your Kenmore dryer is noisy are a worn drum support roller, damaged blower wheel or a broken drum belt.",
+        "url": "/symptom/kenmore-dryer-noisy",
+        "slug": "noisy"
+      },
+      {
+        "title": "Not drying",
+        "description": "The most common reasons your Kenmore dryer is not drying are a clogged vent tube, open heating element or a bad wire connector.",
+        "url": "/symptom/kenmore-dryer-not-drying",
+        "slug": "not-drying"
+      },
+      {
+        "title": "Not heating",
+        "description": "The most common reasons your Kenmore dryer is not heating are an open heating element, failed thermal cut-off fuse or a faulty thermal fuse.",
+        "url": "/symptom/kenmore-dryer-not-heating",
+        "slug": "not-heating"
+      },
+      {
+        "title": "Light not working",
+        "description": "The most common reasons your Kenmore dryer light is not working are a faulty thermal fuse, defective power supply board or a failed door switch.",
+        "url": "/symptom/kenmore-dryer-light-not-working",
+        "slug": "light-not-working"
+      },
+      {
+        "title": "No power",
+        "description": "The most common reasons your Kenmore dryer has no power are a defective electronic control board, defective power supply board or an open heating element.",
+        "url": "/symptom/kenmore-dryer-no-power",
+        "slug": "no-power"
+      },
+      {
+        "title": "Not spinning",
+        "description": "The most common reasons your Kenmore dryer is not spinning are a broken drum belt, open heating element or a worn drum bearing.",
+        "url": "/symptom/kenmore-dryer-not-spinning",
+        "slug": "not-spinning"
+      },
+      {
+        "title": "Not turning on",
+        "description": "The most common reasons your Kenmore dryer is not turning on are a defective electronic control board, defective power supply board or an open heating element.",
+        "url": "/symptom/kenmore-dryer-not-turning-on",
+        "slug": "not-turning-on"
+      },
+      {
+        "title": "Not working",
+        "description": "The most common reasons your Kenmore dryer is not working are a defective timer, failed door switch or a broken drum belt.",
+        "url": "/symptom/kenmore-dryer-not-working",
+        "slug": "not-working"
+      },
+      {
+        "title": "Not starting",
+        "description": "The most common reasons your Kenmore dryer is not starting are a faulty thermal fuse, failed door switch or a broken drum belt.",
+        "url": "/symptom/kenmore-dryer-not-starting",
+        "slug": "not-starting"
+      },
+      {
+        "title": "Won't turn off",
+        "description": "The most common reasons your Kenmore dryer won't turn off are an open heating element, defective electronic control board or a failed thermistor.",
+        "url": "/symptom/kenmore-dryer-won-t-turn-off",
+        "slug": "wont-turn-off"
+      }
+    ]
+  },
+  {
+    "appliance": "Washer",
+    "issues": [
+      {
+        "title": "Not washing",
+        "description": "The most common reasons your Kenmore dishwasher is not washing are a faulty pump and motor assembly, defective electronic control board or a clogged spray arm.",
+        "url": "/symptom/kenmore-dishwasher-not-washing",
+        "slug": "not-washing"
+      },
+      {
+        "title": "Won't start cycle",
+        "description": "The most common reasons your Kenmore dishwasher won't start a cycle are a defective electronic control board, damaged power supply board or a failed door switch.",
+        "url": "/symptom/kenmore-dishwasher-won-t-start-cycle",
+        "slug": "wont-start-cycle"
+      },
+      {
+        "title": "Not starting",
+        "description": "The most common reasons your Kenmore dishwasher is not starting are a defective electronic control board, damaged user interface control or a stripped wire connector.",
+        "url": "/symptom/kenmore-dishwasher-not-starting",
+        "slug": "not-starting"
+      },
+      {
+        "title": "Not heating",
+        "description": "The most common reasons your Kenmore dishwasher is not heating are a defective electronic control board, faulty pump and motor assembly or a damaged user interface control.",
+        "url": "/symptom/kenmore-dishwasher-not-heating",
+        "slug": "not-heating"
+      },
+      {
+        "title": "Won't drain",
+        "description": "The most common reasons your Kenmore dishwasher won't drain are a failed drain pump, faulty pump and motor assembly or a cracked drain hose.",
+        "url": "/symptom/kenmore-dishwasher-won-t-drain",
+        "slug": "wont-drain"
+      },
+      {
+        "title": "Not draining",
+        "description": "The most common reasons your Kenmore dishwasher is not draining are a failed drain pump, cracked drain hose or a defective electronic control board.",
+        "url": "/symptom/kenmore-dishwasher-not-draining",
+        "slug": "not-draining"
+      },
+      {
+        "title": "Burning smell",
+        "description": "The most common reasons your Kenmore dishwasher has a burning smell are a defective electronic control board, damaged user interface control or a faulty pump and motor assembly.",
+        "url": "/symptom/kenmore-dishwasher-burning-smell",
+        "slug": "burning-smell"
+      },
+      {
+        "title": "Leaking from bottom",
+        "description": "The most common reasons your Kenmore dishwasher is leaking from the bottom are a faulty pump and motor assembly, clogged water valve or a failed drain pump.",
+        "url": "/symptom/kenmore-dishwasher-leaking-from-bottom",
+        "slug": "leaking-from-bottom"
+      },
+      {
+        "title": "Leaking",
+        "description": "The most common reasons your Kenmore dishwasher is leaking are a faulty pump and motor assembly, defective electronic control board or a worn door seal.",
+        "url": "/symptom/kenmore-dishwasher-leaking",
+        "slug": "leaking"
+      },
+      {
+        "title": "Noisy",
+        "description": "The most common reasons your Kenmore dishwasher is noisy are a defective electronic control board, damaged user interface control or a faulty pump and motor assembly.",
+        "url": "/symptom/kenmore-dishwasher-noisy",
+        "slug": "noisy"
+      },
+      {
+        "title": "Not drying",
+        "description": "The most common reasons your Kenmore dishwasher is not drying are a broken heating element, defective electronic control board or a stripped wire connector.",
+        "url": "/symptom/kenmore-dishwasher-not-drying",
+        "slug": "not-drying"
+      },
+      {
+        "title": "Not filling",
+        "description": "The most common reasons your Kenmore dishwasher is not filling are a defective electronic control board, faulty pump and motor assembly or a damaged user interface control.",
+        "url": "/symptom/kenmore-dishwasher-not-filling",
+        "slug": "not-filling"
+      },
+      {
+        "title": "No power",
+        "description": "The most common reasons your Kenmore dishwasher has no power are a defective electronic control board, damaged user interface control or a damaged power supply board.",
+        "url": "/symptom/kenmore-dishwasher-no-power",
+        "slug": "no-power"
+      },
+      {
+        "title": "No water",
+        "description": "The most common reasons your Kenmore dishwasher has no water are a broken detergent dispenser, defective electronic control board or a clogged water valve.",
+        "url": "/symptom/kenmore-dishwasher-no-water",
+        "slug": "no-water"
+      },
+      {
+        "title": "Not spinning",
+        "description": "The most common reasons your Kenmore dishwasher is not spinning are a defective electronic control board, damaged user interface control or a faulty pump and motor assembly.",
+        "url": "/symptom/kenmore-dishwasher-not-spinning",
+        "slug": "not-spinning"
+      },
+      {
+        "title": "Not turning on",
+        "description": "The most common reasons your Kenmore dishwasher is not turning on are a defective electronic control board, damaged user interface control or a damaged power supply board.",
+        "url": "/symptom/kenmore-dishwasher-not-turning-on",
+        "slug": "not-turning-on"
+      },
+      {
+        "title": "Not working",
+        "description": "The most common reasons your Kenmore dishwasher is not working are a defective electronic control board, damaged user interface control or a stripped wire connector.",
+        "url": "/symptom/kenmore-dishwasher-not-working",
+        "slug": "not-working"
+      },
+      {
+        "title": "Door not closing",
+        "description": "The most common reasons your Kenmore dishwasher door is not closing are a broken door spring, damaged door hinge or a broken door latch assembly.",
+        "url": "/symptom/kenmore-dishwasher-door-not-closing",
+        "slug": "door-not-closing"
+      }
+    ]
+  },
+  {
+    "appliance": "Freezer",
+    "issues": [
+      {
+        "title": "Compressor not running",
+        "description": "The most common reasons your Kenmore freezer compressor is not running are a failed compressor, malfunctioning electronic control board or a bad evaporator.",
+        "url": "/symptom/kenmore-freezer-compressor-not-running",
+        "slug": "compressor-not-running"
+      },
+      {
+        "title": "Leaking water",
+        "description": "The most common reasons your Kenmore freezer is leaking water are a clogged drain tube, cracked water tubing or a bad evaporator.",
+        "url": "/symptom/kenmore-freezer-leaking-water",
+        "slug": "leaking-water"
+      },
+      {
+        "title": "Not cooling",
+        "description": "The most common reasons your Kenmore freezer is not cooling are a failed compressor, malfunctioning electronic control board or a bad evaporator.",
+        "url": "/symptom/kenmore-freezer-not-cooling",
+        "slug": "not-cooling"
+      },
+      {
+        "title": "Not freezing",
+        "description": "The most common reasons your Kenmore freezer is not freezing are a bad temperature control thermostat, a failed compressor start relay, or a locked compressor.",
+        "url": "/symptom/kenmore-freezer-not-freezing",
+        "slug": "not-freezing"
+      },
+      {
+        "title": "Not working",
+        "description": "The most common reasons your Kenmore freezer is not working are a failed compressor, malfunctioning electronic control board or a faulty condenser fan motor.",
+        "url": "/symptom/kenmore-freezer-not-working",
+        "slug": "not-working"
+      },
+      {
+        "title": "Door not closing",
+        "description": "The most common reasons your Kenmore freezer door is not closing are a bent door hinge, malfunctioning electronic control board or a bad power supply board.",
+        "url": "/symptom/kenmore-freezer-door-not-closing",
+        "slug": "door-not-closing"
+      },
+      {
+        "title": "Fan not working",
+        "description": "The most common reasons your Kenmore freezer fan is not working are a failed compressor, malfunctioning electronic control board or a bad evaporator.",
+        "url": "/symptom/kenmore-freezer-fan-not-working",
+        "slug": "fan-not-working"
+      },
+      {
+        "title": "Light not working",
+        "description": "The most common reasons your Kenmore freezer light is not working are a malfunctioning electronic control board, broken LED light assembly or a bad power supply board.",
+        "url": "/symptom/kenmore-freezer-light-not-working",
+        "slug": "light-not-working"
+      },
+      {
+        "title": "Won't make ice",
+        "description": "The most common reasons your Kenmore freezer won't make ice are a failed compressor, old water filter or a faulty dispenser.",
+        "url": "/symptom/kenmore-freezer-won-t-make-ice",
+        "slug": "wont-make-ice"
+      }
+    ]
+  },
+  {
+    "appliance": "Microwave",
+    "issues": [
+      {
+        "title": "Not heating",
+        "description": "The most common reasons your Kenmore microwave is not heating are a bad thermostat, malfunctioning electronic control board or a broken switch.",
+        "url": "/symptom/kenmore-microwave-not-heating",
+        "slug": "not-heating"
+      },
+      {
+        "title": "No power",
+        "description": "The most common reasons your Kenmore microwave has no power are a bad thermostat, malfunctioning electronic control board or a broken switch.",
+        "url": "/symptom/kenmore-microwave-no-power",
+        "slug": "no-power"
+      },
+      {
+        "title": "Not working",
+        "description": "The most common reasons your Kenmore microwave is not working are a bad thermostat, malfunctioning electronic control board or a broken switch.",
+        "url": "/symptom/kenmore-microwave-not-working",
+        "slug": "not-working"
+      },
+      {
+        "title": "Display not working",
+        "description": "The most common reasons your Kenmore microwave display is not working are a bad thermostat, malfunctioning electronic control board or a broken switch.",
+        "url": "/symptom/kenmore-microwave-display-not-working",
+        "slug": "display-not-working"
+      },
+      {
+        "title": "Fan not spinning",
+        "description": "The most common reasons your Kenmore microwave fan is not spinning are a bad thermostat, malfunctioning electronic control board or a failed user interface.",
+        "url": "/symptom/kenmore-microwave-fan-not-spinning",
+        "slug": "fan-not-spinning"
+      },
+      {
+        "title": "Light not working",
+        "description": "The most common reasons your Kenmore microwave light is not working are a bad thermostat, malfunctioning electronic control board or a broken switch.",
+        "url": "/symptom/kenmore-microwave-light-not-working",
+        "slug": "light-not-working"
+      },
+      {
+        "title": "Not spinning",
+        "description": "The most common reasons your Kenmore microwave is not spinning are a bad thermostat, malfunctioning electronic control board or a broken switch.",
+        "url": "/symptom/kenmore-microwave-not-spinning",
+        "slug": "not-spinning"
+      },
+      {
+        "title": "Won't turn off",
+        "description": "The most common reasons your Kenmore microwave won't turn off are a malfunctioning electronic control board, bad thermostat or a broken switch.",
+        "url": "/symptom/kenmore-microwave-won-t-turn-off",
+        "slug": "wont-turn-off"
+      },
+      {
+        "title": "Not turning on",
+        "description": "The most common reasons your Kenmore microwave is not turning on are a bad thermostat, malfunctioning electronic control board or a broken switch.",
+        "url": "/symptom/kenmore-microwave-not-turning-on",
+        "slug": "not-turning-on"
+      }
+    ]
+  },
+  {
+    "appliance": "Oven",
+    "issues": [
+      {
+        "title": "Broiler not working",
+        "description": "The most common reasons your Kenmore oven broiler is not working are a bad control thermostat, defective electronic control board or a cracked igniter.",
+        "url": "/symptom/kenmore-oven-broiler-not-working",
+        "slug": "broiler-not-working"
+      },
+      {
+        "title": "Burner not working",
+        "description": "The most common reasons your Kenmore oven burner is not working are a bad control thermostat, cracked igniter or a bad burner assembly.",
+        "url": "/symptom/kenmore-oven-burner-not-working",
+        "slug": "burner-not-working"
+      },
+      {
+        "title": "Display not working",
+        "description": "The most common reasons your Kenmore oven display is not working are a defective electronic control board, defective control panel or a dead power supply.",
+        "url": "/symptom/kenmore-oven-display-not-working",
+        "slug": "display-not-working"
+      },
+      {
+        "title": "Element not working",
+        "description": "The most common reasons your Kenmore oven element is not working are a bad control thermostat, cracked igniter or a broken bake element.",
+        "url": "/symptom/kenmore-oven-element-not-working",
+        "slug": "element-not-working"
+      },
+      {
+        "title": "No power",
+        "description": "The most common reasons your Kenmore oven has no power are a defective electronic control board, defective control panel or a bad control thermostat.",
+        "url": "/symptom/kenmore-oven-no-power",
+        "slug": "no-power"
+      },
+      {
+        "title": "Not heating",
+        "description": "The most common reasons your Kenmore oven is not heating are a cracked igniter, defective electronic control board or a broken bake element.",
+        "url": "/symptom/kenmore-oven-not-heating",
+        "slug": "not-heating"
+      },
+      {
+        "title": "Not working",
+        "description": "The most common reasons your Kenmore oven is not working are a defective electronic control board, cracked igniter or a bad control thermostat.",
+        "url": "/symptom/kenmore-oven-not-working",
+        "slug": "not-working"
+      },
+      {
+        "title": "Light not working",
+        "description": "The most common reasons your Kenmore oven light is not working are a defective electronic control board, defective control panel or a dead power supply.",
+        "url": "/symptom/kenmore-oven-light-not-working",
+        "slug": "light-not-working"
+      },
+      {
+        "title": "Won't light",
+        "description": "The most common reasons your Kenmore oven won't light are a defective electronic control board, defective control panel or a cracked igniter.",
+        "url": "/symptom/kenmore-oven-won-t-light",
+        "slug": "wont-light"
+      },
+      {
+        "title": "Won't turn off",
+        "description": "The most common reasons your Kenmore oven won't turn off are a defective electronic control board, dead power supply or a bad control thermostat.",
+        "url": "/symptom/kenmore-oven-won-t-turn-off",
+        "slug": "wont-turn-off"
+      }
+    ]
+  },
+  {
+    "appliance": "Range",
+    "issues": [
+      {
+        "title": "Burner not working",
+        "description": "The most common reasons your Kenmore range burner is not working are a bad switch, faulty igniter or a cracked ceramic glass top.",
+        "url": "/symptom/kenmore-range-burner-not-working",
+        "slug": "burner-not-working"
+      },
+      {
+        "title": "Not heating",
+        "description": "The most common reasons your Kenmore range is not heating are a faulty igniter, inoperative electronic control board or a broken bake element.",
+        "url": "/symptom/kenmore-range-not-heating",
+        "slug": "not-heating"
+      },
+      {
+        "title": "Hood fan not working",
+        "description": "The most common reasons your Kenmore range hood fan is not working are a defective fan switch, failed light switch or an inoperative electronic control board.",
+        "url": "/symptom/kenmore-range-hood-fan-not-working",
+        "slug": "hood-fan-not-working"
+      },
+      {
+        "title": "Display not working",
+        "description": "The most common reasons your Kenmore range display is not working are an inoperative electronic control board, inopertive control panel or a dead power supply board.",
+        "url": "/symptom/kenmore-range-display-not-working",
+        "slug": "display-not-working"
+      }
+    ]
+  },
+  {
+    "appliance": "Cooktop",
+    "issues": [
+      {
+        "title": "Burner not working",
+        "description": "The most common reasons your GE cooktop burner is not working are a cracked igniter switch, broken igniter or a cracked main top.",
+        "url": "/symptom/ge-cooktop-burner-not-working",
+        "slug": "burner-not-working"
+      }
+    ]
+  },
+  {
+    "appliance": "Washer Dryer Combo",
+    "issues": [
+      {
+        "title": "Not draining",
+        "description": "The most common reasons your LG washer/dryer combo is not draining are a broken motor, a malfunctioning PCB, or a cracked drain hose.",
+        "url": "/symptom/lg-washer-dryer-combo-not-draining",
+        "slug": "not-draining"
+      }
+    ]
+  }
+]

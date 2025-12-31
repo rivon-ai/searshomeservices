@@ -38,7 +38,7 @@ import Gladiator from '@/public/symptom-center/gladiator-SVG.svg'
 import KenmorePro from '@/public/symptom-center/kenmore-pro-SVG.svg'
 import Tappan from '@/public/symptom-center/tappan-SVG.svg'
 
-export const brandIcons: { [key: string]: React.FunctionComponent<React.SVGProps<SVGSVGElement>> } = {
+export const brandIcons: Record<string, any> = {
     Payne,
     ICP,
     Heil,

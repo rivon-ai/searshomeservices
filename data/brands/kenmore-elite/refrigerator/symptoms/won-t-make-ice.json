@@ -1,0 +1,1380 @@
+[
+    {
+        "brand": "kenmore",
+        "appliance": "elite",
+        "symptom": "refrigerator won t make ice",
+        "url": "https://www.searshomeservices.com/symptom/kenmore-elite-refrigerator-won-t-make-ice",
+        "title": "Kenmore Elite refrigerator won't make ice",
+        "description": "",
+        "full_content": [
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{'hidden': ''}",
+                "order": 0
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{'hidden': ''}",
+                "order": 1
+            },
+            {
+                "tag": "a",
+                "content": "Skip to main content",
+                "attributes": "{'href': '#main-content', 'class': ['skip-link']}",
+                "order": 2
+            },
+            {
+                "tag": "body",
+                "content": "$",
+                "attributes": "{'style': 'overflow: auto;'}",
+                "order": 3
+            },
+            {
+                "tag": "body",
+                "content": "/$",
+                "attributes": "{'style': 'overflow: auto;'}",
+                "order": 4
+            },
+            {
+                "tag": "span",
+                "content": "Sears Logo",
+                "attributes": "{'class': ['sr-only']}",
+                "order": 5
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Header Sears Logo | Src: /static/icons/general/shs-logo.svg",
+                "attributes": "{'alt': 'Header Sears Logo', 'loading': 'lazy', 'width': '95', 'height': '40', 'decoding': 'async', 'data-nimg': '1', 'class': ['h-10'], 'style': 'color:transparent', 'src': '/static/icons/general/shs-logo.svg'}",
+                "order": 6
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Hamburger menu | Src: /static/icons/general/menu-button-closed.svg",
+                "attributes": "{'alt': 'Hamburger menu', 'loading': 'lazy', 'width': '24', 'height': '24', 'decoding': 'async', 'data-nimg': '1', 'class': ['h-10', 'w-10', 'text-blue-250'], 'style': 'color:transparent', 'src': '/static/icons/general/menu-button-closed.svg'}",
+                "order": 7
+            },
+            {
+                "tag": "h1",
+                "content": "Kenmore Elite refrigerator won't make ice",
+                "attributes": "{'data-testid': 'repair_symptom_page_title', 'data-metric-id': 'repair_symptom_page_title', 'class': ['text-5xl', 'text-left', 'text-blue-300', 'leading-10', 'mt-1']}",
+                "order": 8
+            },
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{'class': ['mb-4', 'md:mb-[1.1875rem]']}",
+                "order": 9
+            },
+            {
+                "tag": "h2",
+                "content": "Common reasons your Kenmore Elite refrigerator won\u2019t make ice",
+                "attributes": "{'class': ['mt-4', 'font-semibold', 'mb-1', 'text-3xl', 'md:text-4xl', 'leading-8', 'text-blue-300'], 'node': '[object Object]'}",
+                "order": 10
+            },
+            {
+                "tag": "p",
+                "content": "The most common reasons your Kenmore Elite refrigerator won't make ice are a locked compressor, old water filter or a malfunctioning dispenser.",
+                "attributes": "{'class': ['text-xl', 'text-gray-500', 'font-normal', 'mt-1', 'mb-[1.125rem]', 'min-h-18', 'md:min-h-0', 'md:max-w-[55.813rem]'], 'node': '[object Object]'}",
+                "order": 11
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{'class': ['mb-4', 'md:mb-[1.1875rem]']}",
+                "order": 12
+            },
+            {
+                "tag": "span",
+                "content": "43% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 13
+            },
+            {
+                "tag": "span",
+                "content": "Compressor",
+                "attributes": "{'data-testid': 'percent_chart_0', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 14
+            },
+            {
+                "tag": "span",
+                "content": "33% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 15
+            },
+            {
+                "tag": "span",
+                "content": "Water Filter",
+                "attributes": "{'data-testid': 'percent_chart_1', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 16
+            },
+            {
+                "tag": "span",
+                "content": "5% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 17
+            },
+            {
+                "tag": "span",
+                "content": "Dispenser",
+                "attributes": "{'data-testid': 'percent_chart_2', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 18
+            },
+            {
+                "tag": "span",
+                "content": "19% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 19
+            },
+            {
+                "tag": "span",
+                "content": "Something else",
+                "attributes": "{'data-testid': 'percent_chart_3', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 20
+            },
+            {
+                "tag": "h4",
+                "content": "Schedule your refrigerator repair now!",
+                "attributes": "{'data-testid': 'conversion_component_title', 'data-metric-id': 'conversion_component_title', 'class': ['mt-0', 'text-4xl', 'text-blue-300', 'mb-0']}",
+                "order": 21
+            },
+            {
+                "tag": "p",
+                "content": "We can help! Our service technicians have repaired over",
+                "attributes": "{'class': ['text-xl', 'font-normal', 'text-gray-500', 'leading-8']}",
+                "order": 22
+            },
+            {
+                "tag": "b",
+                "content": "250,000",
+                "attributes": "{}",
+                "order": 23
+            },
+            {
+                "tag": "p",
+                "content": "Kenmore Elite refrigerators. We can fix yours no matter where you bought it.",
+                "attributes": "{'class': ['text-xl', 'font-normal', 'text-gray-500', 'leading-8']}",
+                "order": 24
+            },
+            {
+                "tag": "span",
+                "content": "Call",
+                "attributes": "{'class': ['mr-2', 'ml-3', 'text-gray-500']}",
+                "order": 25
+            },
+            {
+                "tag": "a",
+                "content": "(646) 440-2692",
+                "attributes": "{'class': ['font-semibold', 'text-xl', 'text-blue-100', 'no-underline'], 'data-testid': 'cs_description_phone_link', 'data-metric-id': 'cs_description_phone_link', 'href': 'tel:+1-646-440-2692'}",
+                "order": 26
+            },
+            {
+                "tag": "span",
+                "content": "or schedule online now.",
+                "attributes": "{'class': ['ml-1', 'text-gray-500']}",
+                "order": 27
+            },
+            {
+                "tag": "span",
+                "content": "Chat",
+                "attributes": "{'class': ['ml-[0.75rem]', 'mr-1']}",
+                "order": 28
+            },
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{'class': ['w-full', 'mt-0', 'flex', 'flex-col', 'gap-6', 'lg:w-[53.55%]', 'lg:mt-4']}",
+                "order": 29
+            },
+            {
+                "tag": "button",
+                "content": "Refrigerator",
+                "attributes": "{'aria-label': 'Select Product for Refrigerator', 'data-testid': 'repair_symptom_page_conversion_component_v1_select_product', 'data-metric-id': 'repair_symptom_page_conversion_component_v1_select_product', 'data-metric-value': 'Refrigerator', 'class': ['relative', 'text-left', 'block', 'w-full', 'bg-white', 'border-2', 'text-blue-400', 'border', 'overflow-hidden', 'whitespace-nowrap', 'pl-4', 'pr-10', 'py-2', 'text-md', 'font-medium', 'h-12', 'rounded-lg'], 'id': 'headlessui-listbox-button-_R_3dd8jrav5ubsnpb_', 'type': 'button', 'aria-haspopup': 'listbox', 'aria-expanded': 'false', 'data-headlessui-state': '', 'name': 'products'}",
+                "order": 30
+            },
+            {
+                "tag": "button",
+                "content": "Kenmore Elite",
+                "attributes": "{'aria-label': 'Select Brand for Kenmore Elite', 'data-testid': 'repair_symptom_page_conversion_component_v1_select_brand', 'data-metric-id': 'repair_symptom_page_conversion_component_v1_select_brand', 'data-metric-value': 'Kenmore Elite', 'name': 'brands', 'class': ['relative', 'text-left', 'block', 'w-full', 'bg-white', 'border-2', 'text-blue-400', 'border', 'overflow-hidden', 'whitespace-nowrap', 'pl-4', 'pr-10', 'py-2', 'text-md', 'font-medium', 'h-12', 'rounded-lg'], 'id': 'headlessui-listbox-button-_r_5_', 'type': 'button', 'aria-haspopup': 'listbox', 'aria-expanded': 'false', 'data-headlessui-state': ''}",
+                "order": 31
+            },
+            {
+                "tag": "button",
+                "content": "Schedule Now",
+                "attributes": "{'type': 'button', 'class': ['cursor-pointer', 'bg-yellow', 'text-blue-200', 'hover:bg-yellow-100', 'focus:outline-yellow-200', 'focus:outline-4', 'disabled:bg-gray-200', 'disabled:text-gray-500', 'px-6', 'rounded-lg', 'w-full', 'text-xl', 'py-3.5', 'font-semibold', 'mt-3', 'shadow-scheduler', '!hover:no-underline'], 'data-testid': 'repair_symptom_page_conversion_component_v1_repair_schedule_now_button', 'data-metric-id': 'repair_symptom_page_conversion_component_v1_repair_schedule_now_button', 'data-metric-value': 'Schedule Now'}",
+                "order": 32
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{'class': ['w-full', 'mt-0', 'flex', 'flex-col', 'gap-6', 'lg:w-[53.55%]', 'lg:mt-4']}",
+                "order": 33
+            },
+            {
+                "tag": "h2",
+                "content": "Most common repairs needed to fix a Kenmore Elite refrigerator",
+                "attributes": "{'class': ['text-3xl', 'md:text-4xl', 'text-blue-300', 'leading-8'], 'node': '[object Object]'}",
+                "order": 34
+            },
+            {
+                "tag": "h4",
+                "content": "Compressor Replacement",
+                "attributes": "{'class': ['text-2xl', 'text-blue-300', 'font-semibold', 'my-2', 'leading-8', 'h-[78px]'], 'node': '[object Object]'}",
+                "order": 35
+            },
+            {
+                "tag": "p",
+                "content": "A locked refrigerator compressor can exhibit several symptoms indicative of a malfunction. The most noticeable sign is a lack of cooling in the refrigerator compartment, leading to elevated temperatures and the potential for food spoilage. The freezer may also fail to maintain the desired freezing temperatures, resulting in no ice production from the ice maker or dispenser. Additionally, you'll observe that the compressor is unusually silent or fails to produce its typical humming sound during operation. In some cases, the compressor may attempt to start but fail, resulting in repeated clicking noises. The inability of the compressor to circulate refrigerant properly can affect the defrosting process, leading to ice buildup in the freezer. Furthermore, a faulty compressor could send a sudden influx of melting frost to the drain line, causing it to back up, preventing adequate draining, and potentially causing water leaks.",
+                "attributes": "{'class': ['mb-6', 'text-xl', 'leading-6', 'text-blue-400'], 'node': '[object Object]'}",
+                "order": 36
+            },
+            {
+                "tag": "a",
+                "content": "Troubleshooting compressor problems in refrigerators",
+                "attributes": "{'class': ['font-medium', 'hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-sm', 'leading-6'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_blank', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searspartsdirect.com/diy/article/troubleshooting-compressor-problems-in-refrigerators-video'}",
+                "order": 37
+            },
+            {
+                "tag": "h4",
+                "content": "Water Filter Replacement",
+                "attributes": "{'class': ['text-2xl', 'text-blue-300', 'font-semibold', 'my-2', 'leading-8', 'h-[78px]'], 'node': '[object Object]'}",
+                "order": 38
+            },
+            {
+                "tag": "p",
+                "content": "Using an old water filter in a refrigerator can lead to a reduction in water to the ice maker and water dispenser. The filter's capacity to effectively remove impurities diminishes over time, causing a decrease in the water flow rate. You may also notice a decline in the quality of the water and ice dispensed. An old water filter may no longer effectively remove contaminants, leading to a potential change in taste or odor of the dispensed water. This can be particularly noticeable if the filter has been in use beyond its recommended lifespan, typically 6 months.",
+                "attributes": "{'class': ['mb-6', 'text-xl', 'leading-6', 'text-blue-400'], 'node': '[object Object]'}",
+                "order": 39
+            },
+            {
+                "tag": "a",
+                "content": "Water filter finder tool",
+                "attributes": "{'class': ['font-medium', 'hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-sm', 'leading-6'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_blank', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searspartsdirect.com/buying-guide/water-filter-finder'}",
+                "order": 40
+            },
+            {
+                "tag": "h4",
+                "content": "Dispenser Replacement",
+                "attributes": "{'class': ['text-2xl', 'text-blue-300', 'font-semibold', 'my-2', 'leading-8', 'h-[78px]'], 'node': '[object Object]'}",
+                "order": 41
+            },
+            {
+                "tag": "p",
+                "content": "When a refrigerator dispenser malfunctions, it can lead to various issues including the dispenser's failure to dispense water or ice, regardless of user input. This malfunction may stem from problems with the dispenser water supply, dispenser controls, or mechanical components within the dispenser assembly. There may be slow or insufficient water flow, inconsistent ice dispensing, or even complete non-functionality. A malfunctioning dispenser may also leak, causing water to pool around the dispenser area or even inside the refrigerator. For a thorough diagnosis and resolution of these issues, it is advisable to have a Sears Home Services professional address the situation.",
+                "attributes": "{'class': ['mb-6', 'text-xl', 'leading-6', 'text-blue-400'], 'node': '[object Object]'}",
+                "order": 42
+            },
+            {
+                "tag": "a",
+                "content": "How to dissasemble a refrigerator dispenser",
+                "attributes": "{'class': ['font-medium', 'hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-sm', 'leading-6'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_blank', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searspartsdirect.com/diy/article/how-to-disassemble-a-kenmore-refrigerator-dispenser'}",
+                "order": 43
+            },
+            {
+                "tag": "h2",
+                "content": "What to expect when you experience a Kenmore Elite refrigerator won't make ice issue",
+                "attributes": "{'node': '[object Object]', 'class': ['text-4xl', 'font-semibold', 'text-blue-300', 'mb-5', 'leading-8']}",
+                "order": 44
+            },
+            {
+                "tag": "h3",
+                "content": "How is the won't make ice problem fixed?",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 45
+            },
+            {
+                "tag": "p",
+                "content": "Correcting most won't make ice problems usually involves replacing the compressor, water filter or dispenser. However, there are many potential causes, so a thorough diagnosis is key to fixing the problem. An accurate diagnosis is essential to understanding how much the repair will be.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 46
+            },
+            {
+                "tag": "h3",
+                "content": "Sears Home Services recommendations for a refrigerator that won't make ice",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 47
+            },
+            {
+                "tag": "p",
+                "content": "When the refrigerator won't make ice it can be for many reasons. To avoid replacing unneeded parts we recommend having a Sears Home Services professional perform diagnostic tests to identify the root cause of the problem. Our technicians are experienced at diagnosing all types of refrigerator failures.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 48
+            },
+            {
+                "tag": "h3",
+                "content": "What to look out for with a refrigerator won\u2019t make ice diagnosis",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 49
+            },
+            {
+                "tag": "p",
+                "content": "Diagnosing modern appliances without proper knowledge and training can be difficult. Without using proper diagnostic techniques, fixing your refrigerator problem will only be achieved through changing parts on a hunch. Appliances, especially in the last 10 years, have become extremely advanced, and many models have electronic parts that are difficult to test. DIY repairs on the latest appliance models are becoming increasingly difficult.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 50
+            },
+            {
+                "tag": "h2",
+                "content": "Why is my Kenmore Elite refrigerator not making ice?",
+                "attributes": "{'node': '[object Object]', 'class': ['text-4xl', 'font-semibold', 'text-blue-300', 'mb-5', 'leading-8']}",
+                "order": 51
+            },
+            {
+                "tag": "p",
+                "content": "An ice maker can stop working for a variety of reasons. Ice makers receive water through a small water supply line that runs from the refrigerator to a water pipe, funnel, or a water filter.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 52
+            },
+            {
+                "tag": "p",
+                "content": "When your ice maker isn't working, the fix is sometimes fairly simple.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 53
+            },
+            {
+                "tag": "p",
+                "content": "Always unplug your refrigerator and shut off the water supply before troubleshooting.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 54
+            },
+            {
+                "tag": "h3",
+                "content": "Common Ice Maker Problems",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 55
+            },
+            {
+                "tag": "p",
+                "content": "Several problems can interfere with making ice properly or dispensing ice. The ice maker or dispenser could be jammed or broken, a dirty water filter or kinked water line could be blocking water flow or the water inlet valve could be clogged or faulty.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 56
+            },
+            {
+                "tag": "p",
+                "content": "Here are the most common ice maker problems.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 57
+            },
+            {
+                "tag": "h3",
+                "content": "Blocked Dispenser",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 58
+            },
+            {
+                "tag": "p",
+                "content": "You won\u2019t get any ice through the dispenser in your fridge door when ice cubes are jammed up in the chute. When you press the ice dispenser lever and no ice drops, check the dispenser chute for a clog.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 59
+            },
+            {
+                "tag": "p",
+                "content": "Clearing the clog could fix the ice supply problem.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 60
+            },
+            {
+                "tag": "h3",
+                "content": "Clogged Water Filter",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 61
+            },
+            {
+                "tag": "p",
+                "content": "Sediment can eventually build up in",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 62
+            },
+            {
+                "tag": "a",
+                "content": "water filter",
+                "attributes": "{'class': ['hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-xl', 'leading-6', 'font-normal'], 'data-metric-id': '', 'data-metric-value': 'water filter', 'target': '_self', 'style': 'color:blue.7', 'node': '[object Object]', 'href': '/blog/water-filters-everything-you-need-to-know'}",
+                "order": 63
+            },
+            {
+                "tag": "p",
+                "content": "when you don\u2019t change it every 6 months to a year. Eventually, the sediment in an unchanged water filter can restrict water flow going to the ice maker.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 64
+            },
+            {
+                "tag": "p",
+                "content": "Replace the fridge water filter every 6 months or yearly according to the guidelines for your refrigerator. This will prevent a clogged water filter from preventing the ice maker from getting water.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 65
+            },
+            {
+                "tag": "h3",
+                "content": "Thermostat Set Too Low",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 66
+            },
+            {
+                "tag": "p",
+                "content": "When the thermostat for the freezer is set too low, the ice maker module may not detect that ice cubes are frozen. The ice maker won\u2019t cycle and produce ice if temperature isn\u2019t low enough in the freezer.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 67
+            },
+            {
+                "tag": "p",
+                "content": "If the thermostat is set to keep the freezer at too low of a temperature, then the water supply line going to the ice maker can freeze and the ice maker mold won\u2019t fill with water.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 68
+            },
+            {
+                "tag": "p",
+                "content": "In either case, an improper freezer temperature setting can prevent ice production. Set freezer temperature at 0 degrees F to prevent ice maker problems.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 69
+            },
+            {
+                "tag": "h3",
+                "content": "Water Line Problems",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 70
+            },
+            {
+                "tag": "p",
+                "content": "As noted above, the ice maker mold won\u2019t fill with water when its water line freezes. When you hear the ice maker cycling but it doesn\u2019t produce any ice, check for a frozen fill tube in the freezer or ice maker compartment. Defrost the frozen water line and the ice maker will likely start working.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 71
+            },
+            {
+                "tag": "h3",
+                "content": "Water Valve Issues",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 72
+            },
+            {
+                "tag": "p",
+                "content": "A broken water valve won\u2019t open to fill the ice maker mold with water to produce ice. Also, a leaky water valve will cause the ice maker to overfill and the ice maker will likely jam when attempting to eject ice cubes. A leaky water valve can also cause the water fill line to freeze. Replace the water valve when it doesn\u2019t open or shut properly.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 73
+            },
+            {
+                "tag": "p",
+                "content": "Here\u2019s a video that shows how to replace a refrigerator inlet water valve:",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 74
+            },
+            {
+                "tag": "h2",
+                "content": "How to Fix a Kenmore Elite Refrigerator Ice Maker",
+                "attributes": "{'node': '[object Object]', 'class': ['text-4xl', 'font-semibold', 'text-blue-300', 'mb-5', 'leading-8']}",
+                "order": 75
+            },
+            {
+                "tag": "p",
+                "content": "Sometimes, you can fix ice maker problems by resetting the ice maker module.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 76
+            },
+            {
+                "tag": "h3",
+                "content": "How do I Reset the Ice Maker in my Kenmore Elite Refrigerator?",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 77
+            },
+            {
+                "tag": "p",
+                "content": "You can reset the ice maker in many Kenmore Elite refrigerators by simply turning it off for a minute and then turning it back on. Refer to your fridge owner\u2019s manual for instructions on turning off the ice maker in your model.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 78
+            },
+            {
+                "tag": "p",
+                "content": "To reset the ice maker in some models, you\u2019ll need to run a test cycle. You can often do that by pressing and holding the ice cube size adjustment button for 10 seconds. Some ice makers have a separate test button that you press and hold to run a test cycle and reset the ice maker.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 79
+            },
+            {
+                "tag": "p",
+                "content": "Sometimes, you\u2019ll need to unplug the entire refrigerator for 1 minute and then plug it back in to reset all the controls including the ice maker control board.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 80
+            },
+            {
+                "tag": "p",
+                "content": "Check for DIY information on the web if none of these tips help you reset the ice maker in your fridge.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 81
+            },
+            {
+                "tag": "h3",
+                "content": "How to fix my Kenmore Elite fridge ice maker that won't fill with water?",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 82
+            },
+            {
+                "tag": "p",
+                "content": "Check refrigerator control settings to make sure the ice maker is turned on. Sometimes a DIY fix is as simple as fixing a control setting.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 83
+            },
+            {
+                "tag": "p",
+                "content": "If the ice maker is turned on, check these issues that may be preventing the ice maker from filling.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 84
+            },
+            {
+                "tag": "h3",
+                "content": "Water supply problems",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 85
+            },
+            {
+                "tag": "p",
+                "content": "Most refrigerators with ice makers also have a water dispenser. So, you can make sure the refrigerator water supply is okay by dispensing some water.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 86
+            },
+            {
+                "tag": "p",
+                "content": "If you get no water from the water dispenser or your fridge doesn\u2019t have a water dispenser, check the water supply going to your fridge.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 87
+            },
+            {
+                "tag": "p",
+                "content": "Make sure that the refrigerator water supply cut-off valve is open. If it\u2019s shut, open the cut-off valve to restore the water supply to the fridge and ice maker.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 88
+            },
+            {
+                "tag": "p",
+                "content": "If you found the water supply cut-off valve open, check for water flow coming from the water supply line going to your refrigerator. Shut off the water valve and disconnect the water line from the back of the fridge. Place the end of water line in a bucket and briefly open the cut-off valve. If water flows from the end of the water supply line, then you know that your fridge is getting water through the water line.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 89
+            },
+            {
+                "tag": "p",
+                "content": "If you see no water coming the refrigerator water supply line, have a plumber fix the water supply going to your fridge.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 90
+            },
+            {
+                "tag": "p",
+                "content": "When you know that your fridge is getting water through the supply line because the water dispenser works, one of the following problems could be preventing the ice maker from filling.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 91
+            },
+            {
+                "tag": "h3",
+                "content": "Frozen fill tube",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 92
+            },
+            {
+                "tag": "p",
+                "content": "The # 1 cause of ice maker fill problems involves the freezing of water in the fill tube for the ice maker. Defrosting that fill tube typically fixes an ice maker fill problem. To do that, you can use one of these tactics:",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 93
+            },
+            {
+                "tag": "li",
+                "content": "Squeeze the fill tube to break up the ice clog. If you can easily reach the ice maker fill tube and it\u2019s made of flexible plastic, squeeze the fill tube with your fingers to break up the ice plug. You may feel the ice crunching as you squeeze the tube. If you\u2019re able to break up the ice, then the ice maker may work properly.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 94
+            },
+            {
+                "tag": "li",
+                "content": "Use a hair dryer to defrost the ice maker fill tube. When you can easily access the fill tube, blow a hair dryer on the fill tube. Use the low heat setting on the hair dryer to avoid melting or damaging any ice maker or refrigerator components. The ice maker may fill properly after you defrost the fill tube in this manner.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 95
+            },
+            {
+                "tag": "li",
+                "content": "Turn the ice maker off for a day. For some French door fridges, turning the ice maker off for 24 hours may allow the fill tube to defrost without even touching it. If the ice maker resumes production after you turn it back on, then you\u2019ve fixed the problem.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 96
+            },
+            {
+                "tag": "p",
+                "content": "As a last resort, you could defrost a frozen ice maker fill tube by safely storing food and unplugging the refrigerator for 8 hours. After restoring power, the ice maker should fill with water because the freeze plug in the ice maker fill tube will be gone.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 97
+            },
+            {
+                "tag": "p",
+                "content": "When the fill tube continues to freezer in your refrigerator, there\u2019s a possibility that you\u2019ll need to",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 98
+            },
+            {
+                "tag": "a",
+                "content": "schedule a repair appointment",
+                "attributes": "{'class': ['hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-xl', 'leading-6', 'font-normal'], 'data-metric-id': '', 'data-metric-value': 'schedule a repair appointment', 'target': '_self', 'style': 'color:blue.7', 'node': '[object Object]', 'href': '/repair/refrigerator-repair-service'}",
+                "order": 99
+            },
+            {
+                "tag": "p",
+                "content": "to get the problem permanently fixed.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 100
+            },
+            {
+                "tag": "h3",
+                "content": "How to fix a Kenmore Elite refrigerator ice maker that won't cycle",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 101
+            },
+            {
+                "tag": "p",
+                "content": "When your ice maker seems to be completely dead, you may be able to fix the problem by rebooting the electronic control boards that govern the ice maker. Unplug the refrigerator or shut off the house circuit breaker for the fridge. Wait 5 minutes then restore power and see if ice production resumes. Although this trick doesn\u2019t always work, it\u2019s a simple fix that easy to try.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 102
+            },
+            {
+                "tag": "p",
+                "content": "You may also be able to reset the ice maker by turning it off for 5 minutes using the control described in your owner\u2019s manual then turning the ice maker back on.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 103
+            },
+            {
+                "tag": "p",
+                "content": "If that doesn\u2019t fix the problem, then you can try to reset the ice maker as described above.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 104
+            },
+            {
+                "tag": "span",
+                "content": "Schedule Now",
+                "attributes": "{}",
+                "order": 105
+            },
+            {
+                "tag": "h2",
+                "content": "What our customers say about us",
+                "attributes": "{'class': ['text-blue-300', 'md:text-4xl-plus', 'my-2', 'tracking-wide', 'font-montserrat', 'text-4xl', 'font-semibold', 'leading-8']}",
+                "order": 106
+            },
+            {
+                "tag": "p",
+                "content": "With more than 1.3 Million 5 Star Reviews, you don't have to take our word for it",
+                "attributes": "{'class': ['font-normal', 'text-gray-500', 'text-md', 'lg:text-xl', 'mb-4', 'lg:mb-[18px]', 'px-4']}",
+                "order": 107
+            },
+            {
+                "tag": "p",
+                "content": "Jake is a great person.",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'truncate', 'font-semibold', 'text-blue-300', 'mt-2', 'mb-1'], 'title': 'Jake is a great person.'}",
+                "order": 108
+            },
+            {
+                "tag": "p",
+                "content": "He did a great job, the problem is with the refrigerator.",
+                "attributes": "{'class': ['text-md', 'leading-6', 'font-normal', 'text-gray-500', 'line-clamp-5', 'mb-1', 'lg:mb-4'], 'title': 'He did a great job, the problem is with the refrigerator.'}",
+                "order": 109
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: User Profile | Src: /static/icons/general/user-profile.svg",
+                "attributes": "{'alt': 'User Profile', 'loading': 'lazy', 'width': '47', 'height': '47', 'decoding': 'async', 'data-nimg': '1', 'class': ['w-12', 'h-12', 'rounded-full', 'object-cover'], 'style': 'color:transparent', 'src': '/static/icons/general/user-profile.svg'}",
+                "order": 110
+            },
+            {
+                "tag": "p",
+                "content": "Nancy V, Meridian, ID",
+                "attributes": "{'class': ['text-gray-500', 'text-xs', 'md:text-sm', 'font-normal', 'italic', 'uppercase']}",
+                "order": 111
+            },
+            {
+                "tag": "p",
+                "content": "Great job",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'truncate', 'font-semibold', 'text-blue-300', 'mt-2', 'mb-1'], 'title': 'Great job'}",
+                "order": 112
+            },
+            {
+                "tag": "p",
+                "content": "Robert did a great job and was kind and courteous. He cleaned up everything. I would highly recommend using him.",
+                "attributes": "{'class': ['text-md', 'leading-6', 'font-normal', 'text-gray-500', 'line-clamp-5', 'mb-1', 'lg:mb-4'], 'title': 'Robert did a great job and was kind and courteous. He cleaned up everything. I would highly recommend using him.'}",
+                "order": 113
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: User Profile | Src: /static/icons/general/user-profile.svg",
+                "attributes": "{'alt': 'User Profile', 'loading': 'lazy', 'width': '47', 'height': '47', 'decoding': 'async', 'data-nimg': '1', 'class': ['w-12', 'h-12', 'rounded-full', 'object-cover'], 'style': 'color:transparent', 'src': '/static/icons/general/user-profile.svg'}",
+                "order": 114
+            },
+            {
+                "tag": "p",
+                "content": "Karen K, Mount Laurel, NJ",
+                "attributes": "{'class': ['text-gray-500', 'text-xs', 'md:text-sm', 'font-normal', 'italic', 'uppercase']}",
+                "order": 115
+            },
+            {
+                "tag": "p",
+                "content": "Service appointment",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'truncate', 'font-semibold', 'text-blue-300', 'mt-2', 'mb-1'], 'title': 'Service appointment'}",
+                "order": 116
+            },
+            {
+                "tag": "p",
+                "content": "Joe was very professional and knowledgeable technician who quickly found and fixed the problem.  I would recommend for service again",
+                "attributes": "{'class': ['text-md', 'leading-6', 'font-normal', 'text-gray-500', 'line-clamp-5', 'mb-1', 'lg:mb-4'], 'title': 'Joe was very professional and knowledgeable technician who quickly found and fixed the problem.  I would recommend for service again'}",
+                "order": 117
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: User Profile | Src: /static/icons/general/user-profile.svg",
+                "attributes": "{'alt': 'User Profile', 'loading': 'lazy', 'width': '47', 'height': '47', 'decoding': 'async', 'data-nimg': '1', 'class': ['w-12', 'h-12', 'rounded-full', 'object-cover'], 'style': 'color:transparent', 'src': '/static/icons/general/user-profile.svg'}",
+                "order": 118
+            },
+            {
+                "tag": "p",
+                "content": "Tim R, Schaghticoke, NY",
+                "attributes": "{'class': ['text-gray-500', 'text-xs', 'md:text-sm', 'font-normal', 'italic', 'uppercase']}",
+                "order": 119
+            },
+            {
+                "tag": "h2",
+                "content": "Frequently Asked Questions",
+                "attributes": "{'id': 'faq-heading-symptom-kenmore-elite-refrigerator-won-t-make-ice', 'class': ['text-4xl', 'lg:text-4xl-plus', 'font-semibold', 'text-blue-300', 'leading-9', 'pb-2', 'lg:mb-8']}",
+                "order": 120
+            },
+            {
+                "tag": "div",
+                "content": "Why isn\u2019t my Kenmore Elite refrigerator making ice?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 121
+            },
+            {
+                "tag": "div",
+                "content": "Common causes include a faulty water inlet valve, blocked water line, or defective ice maker.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 122
+            },
+            {
+                "tag": "div",
+                "content": "How can I fix my Kenmore Elite refrigerator if it\u2019s not making ice?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 123
+            },
+            {
+                "tag": "div",
+                "content": "Check the water inlet valve, inspect the water line for clogs, and test the ice maker.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 124
+            },
+            {
+                "tag": "div",
+                "content": "Could a blocked water line prevent my Kenmore Elite refrigerator from making ice?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 125
+            },
+            {
+                "tag": "div",
+                "content": "Yes, if the water line is blocked, it can stop water from reaching the ice maker.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 126
+            },
+            {
+                "tag": "div",
+                "content": "What should I do if my Kenmore Elite refrigerator isn\u2019t making ice?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 127
+            },
+            {
+                "tag": "div",
+                "content": "Check the water inlet valve, inspect the water line, and test the ice maker.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 128
+            },
+            {
+                "tag": "h2",
+                "content": "Repair Refrigerator Resources",
+                "attributes": "{'class': ['text-blue-300', 'text-5xl', 'mb-12', 'md:px-0']}",
+                "order": 129
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Sears Technician fixing a Maytag fridge problem | Src: https://www.searshomeservices.com/cftassets/7pBOWa8xi3hQevI5QY6Gis/206b0cf1ac00c9bf1ec6f8fb5219b4e7/fixing-maytag-fridge-problem.png?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': 'Sears Technician fixing a Maytag fridge problem', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/7pBOWa8xi3hQevI5QY6Gis/206b0cf1ac00c9bf1ec6f8fb5219b4e7/fixing-maytag-fridge-problem.png?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/7pBOWa8xi3hQevI5QY6Gis/206b0cf1ac00c9bf1ec6f8fb5219b4e7/fixing-maytag-fridge-problem.png?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/7pBOWa8xi3hQevI5QY6Gis/206b0cf1ac00c9bf1ec6f8fb5219b4e7/fixing-maytag-fridge-problem.png?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/7pBOWa8xi3hQevI5QY6Gis/206b0cf1ac00c9bf1ec6f8fb5219b4e7/fixing-maytag-fridge-problem.png?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/7pBOWa8xi3hQevI5QY6Gis/206b0cf1ac00c9bf1ec6f8fb5219b4e7/fixing-maytag-fridge-problem.png?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/7pBOWa8xi3hQevI5QY6Gis/206b0cf1ac00c9bf1ec6f8fb5219b4e7/fixing-maytag-fridge-problem.png?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/7pBOWa8xi3hQevI5QY6Gis/206b0cf1ac00c9bf1ec6f8fb5219b4e7/fixing-maytag-fridge-problem.png?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/7pBOWa8xi3hQevI5QY6Gis/206b0cf1ac00c9bf1ec6f8fb5219b4e7/fixing-maytag-fridge-problem.png?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/7pBOWa8xi3hQevI5QY6Gis/206b0cf1ac00c9bf1ec6f8fb5219b4e7/fixing-maytag-fridge-problem.png?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/7pBOWa8xi3hQevI5QY6Gis/206b0cf1ac00c9bf1ec6f8fb5219b4e7/fixing-maytag-fridge-problem.png?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/7pBOWa8xi3hQevI5QY6Gis/206b0cf1ac00c9bf1ec6f8fb5219b4e7/fixing-maytag-fridge-problem.png?w=3840&q=90&fm=webp'}",
+                "order": 130
+            },
+            {
+                "tag": "p",
+                "content": "Fixing Maytag Fridge Problems",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 131
+            },
+            {
+                "tag": "span",
+                "content": "8 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 132
+            },
+            {
+                "tag": "span",
+                "content": "Dec. 22",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 133
+            },
+            {
+                "tag": "p",
+                "content": "Get expert tips to fix 6 common Maytag fridge problems in 2025. Don't let your fridge break down, learn how to resolve these issues today!",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 134
+            },
+            {
+                "tag": "a",
+                "content": "Refrigerator",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_refrigerator_blog_meta_data_0_product_link', 'data-metric-id': 'repair_symptom_page_refrigerator_blog_meta_data_0_product_link', 'data-metric-value': 'Refrigerator', 'target': '_self', 'href': '/blog/repair/refrigerator-resources'}",
+                "order": 135
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: homeowner discussing whether it's worth repairing a refrigerator with a Sears Technician | Src: https://www.searshomeservices.com/cftassets/67rf6KeE3Za9tbSzCMWd9g/5a1609b65509f3086c43260b40b6a2ea/is-it-worth-repairing-a-refrigerator.png?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': \"homeowner discussing whether it's worth repairing a refrigerator with a Sears Technician\", 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/67rf6KeE3Za9tbSzCMWd9g/5a1609b65509f3086c43260b40b6a2ea/is-it-worth-repairing-a-refrigerator.png?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/67rf6KeE3Za9tbSzCMWd9g/5a1609b65509f3086c43260b40b6a2ea/is-it-worth-repairing-a-refrigerator.png?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/67rf6KeE3Za9tbSzCMWd9g/5a1609b65509f3086c43260b40b6a2ea/is-it-worth-repairing-a-refrigerator.png?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/67rf6KeE3Za9tbSzCMWd9g/5a1609b65509f3086c43260b40b6a2ea/is-it-worth-repairing-a-refrigerator.png?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/67rf6KeE3Za9tbSzCMWd9g/5a1609b65509f3086c43260b40b6a2ea/is-it-worth-repairing-a-refrigerator.png?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/67rf6KeE3Za9tbSzCMWd9g/5a1609b65509f3086c43260b40b6a2ea/is-it-worth-repairing-a-refrigerator.png?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/67rf6KeE3Za9tbSzCMWd9g/5a1609b65509f3086c43260b40b6a2ea/is-it-worth-repairing-a-refrigerator.png?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/67rf6KeE3Za9tbSzCMWd9g/5a1609b65509f3086c43260b40b6a2ea/is-it-worth-repairing-a-refrigerator.png?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/67rf6KeE3Za9tbSzCMWd9g/5a1609b65509f3086c43260b40b6a2ea/is-it-worth-repairing-a-refrigerator.png?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/67rf6KeE3Za9tbSzCMWd9g/5a1609b65509f3086c43260b40b6a2ea/is-it-worth-repairing-a-refrigerator.png?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/67rf6KeE3Za9tbSzCMWd9g/5a1609b65509f3086c43260b40b6a2ea/is-it-worth-repairing-a-refrigerator.png?w=3840&q=90&fm=webp'}",
+                "order": 136
+            },
+            {
+                "tag": "p",
+                "content": "Is It Worth Repairing a Refrigerator?: A Comprehensive Guide",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 137
+            },
+            {
+                "tag": "span",
+                "content": "5 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 138
+            },
+            {
+                "tag": "span",
+                "content": "Dec. 22",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 139
+            },
+            {
+                "tag": "p",
+                "content": "Is it worth repairing a refrigerator? Find out the answer and make an informed decision with help from Sears Home Services.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 140
+            },
+            {
+                "tag": "a",
+                "content": "Refrigerator",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_refrigerator_blog_meta_data_1_product_link', 'data-metric-id': 'repair_symptom_page_refrigerator_blog_meta_data_1_product_link', 'data-metric-value': 'Refrigerator', 'target': '_self', 'href': '/blog/repair/refrigerator-resources'}",
+                "order": 141
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Why is there a D in the Fridge | Src: https://www.searshomeservices.com/cftassets/3YCwiAarE1WdNFmNdqpz4s/1d15be6f9c6c82492793794f85d4b781/Why_Is_There_a_-D-_in_Fridge_but_Not_in_Refrigerator.webp?w=3840&q=90",
+                "attributes": "{'alt': 'Why is there a D in the Fridge', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/3YCwiAarE1WdNFmNdqpz4s/1d15be6f9c6c82492793794f85d4b781/Why_Is_There_a_-D-_in_Fridge_but_Not_in_Refrigerator.webp?w=256&q=90 256w, https://www.searshomeservices.com/cftassets/3YCwiAarE1WdNFmNdqpz4s/1d15be6f9c6c82492793794f85d4b781/Why_Is_There_a_-D-_in_Fridge_but_Not_in_Refrigerator.webp?w=384&q=90 384w, https://www.searshomeservices.com/cftassets/3YCwiAarE1WdNFmNdqpz4s/1d15be6f9c6c82492793794f85d4b781/Why_Is_There_a_-D-_in_Fridge_but_Not_in_Refrigerator.webp?w=640&q=90 640w, https://www.searshomeservices.com/cftassets/3YCwiAarE1WdNFmNdqpz4s/1d15be6f9c6c82492793794f85d4b781/Why_Is_There_a_-D-_in_Fridge_but_Not_in_Refrigerator.webp?w=750&q=90 750w, https://www.searshomeservices.com/cftassets/3YCwiAarE1WdNFmNdqpz4s/1d15be6f9c6c82492793794f85d4b781/Why_Is_There_a_-D-_in_Fridge_but_Not_in_Refrigerator.webp?w=828&q=90 828w, https://www.searshomeservices.com/cftassets/3YCwiAarE1WdNFmNdqpz4s/1d15be6f9c6c82492793794f85d4b781/Why_Is_There_a_-D-_in_Fridge_but_Not_in_Refrigerator.webp?w=1080&q=90 1080w, https://www.searshomeservices.com/cftassets/3YCwiAarE1WdNFmNdqpz4s/1d15be6f9c6c82492793794f85d4b781/Why_Is_There_a_-D-_in_Fridge_but_Not_in_Refrigerator.webp?w=1200&q=90 1200w, https://www.searshomeservices.com/cftassets/3YCwiAarE1WdNFmNdqpz4s/1d15be6f9c6c82492793794f85d4b781/Why_Is_There_a_-D-_in_Fridge_but_Not_in_Refrigerator.webp?w=1920&q=90 1920w, https://www.searshomeservices.com/cftassets/3YCwiAarE1WdNFmNdqpz4s/1d15be6f9c6c82492793794f85d4b781/Why_Is_There_a_-D-_in_Fridge_but_Not_in_Refrigerator.webp?w=2048&q=90 2048w, https://www.searshomeservices.com/cftassets/3YCwiAarE1WdNFmNdqpz4s/1d15be6f9c6c82492793794f85d4b781/Why_Is_There_a_-D-_in_Fridge_but_Not_in_Refrigerator.webp?w=3840&q=90 3840w', 'src': 'https://www.searshomeservices.com/cftassets/3YCwiAarE1WdNFmNdqpz4s/1d15be6f9c6c82492793794f85d4b781/Why_Is_There_a_-D-_in_Fridge_but_Not_in_Refrigerator.webp?w=3840&q=90'}",
+                "order": 142
+            },
+            {
+                "tag": "p",
+                "content": "Why Is There a \"D\" in \"Fridge\" but Not in \"Refrigerator\"?",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 143
+            },
+            {
+                "tag": "span",
+                "content": "3 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 144
+            },
+            {
+                "tag": "span",
+                "content": "Dec. 22",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 145
+            },
+            {
+                "tag": "p",
+                "content": "Curious why there's a \"d\" in \"fridge\" but not in \"refrigerator\"? Discover the reason, plus key fridge care and disposal tips.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 146
+            },
+            {
+                "tag": "a",
+                "content": "Refrigerator",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_refrigerator_blog_meta_data_2_product_link', 'data-metric-id': 'repair_symptom_page_refrigerator_blog_meta_data_2_product_link', 'data-metric-value': 'Refrigerator', 'target': '_self', 'href': '/blog/repair/refrigerator-resources'}",
+                "order": 147
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Title image for blog article \"How Does a Refrigerator Ice Maker Work?\" | Src: https://www.searshomeservices.com/cftassets/7k22sqFkecIDGDG13wry3D/33ceed6d48d6567c02a2261dfa70cb95/how-does-a-refrigerator-ice-maker-work.png?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': 'Title image for blog article \"How Does a Refrigerator Ice Maker Work?\"', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/7k22sqFkecIDGDG13wry3D/33ceed6d48d6567c02a2261dfa70cb95/how-does-a-refrigerator-ice-maker-work.png?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/7k22sqFkecIDGDG13wry3D/33ceed6d48d6567c02a2261dfa70cb95/how-does-a-refrigerator-ice-maker-work.png?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/7k22sqFkecIDGDG13wry3D/33ceed6d48d6567c02a2261dfa70cb95/how-does-a-refrigerator-ice-maker-work.png?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/7k22sqFkecIDGDG13wry3D/33ceed6d48d6567c02a2261dfa70cb95/how-does-a-refrigerator-ice-maker-work.png?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/7k22sqFkecIDGDG13wry3D/33ceed6d48d6567c02a2261dfa70cb95/how-does-a-refrigerator-ice-maker-work.png?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/7k22sqFkecIDGDG13wry3D/33ceed6d48d6567c02a2261dfa70cb95/how-does-a-refrigerator-ice-maker-work.png?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/7k22sqFkecIDGDG13wry3D/33ceed6d48d6567c02a2261dfa70cb95/how-does-a-refrigerator-ice-maker-work.png?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/7k22sqFkecIDGDG13wry3D/33ceed6d48d6567c02a2261dfa70cb95/how-does-a-refrigerator-ice-maker-work.png?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/7k22sqFkecIDGDG13wry3D/33ceed6d48d6567c02a2261dfa70cb95/how-does-a-refrigerator-ice-maker-work.png?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/7k22sqFkecIDGDG13wry3D/33ceed6d48d6567c02a2261dfa70cb95/how-does-a-refrigerator-ice-maker-work.png?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/7k22sqFkecIDGDG13wry3D/33ceed6d48d6567c02a2261dfa70cb95/how-does-a-refrigerator-ice-maker-work.png?w=3840&q=90&fm=webp'}",
+                "order": 148
+            },
+            {
+                "tag": "p",
+                "content": "How Does a Refrigerator Ice Maker Work?",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 149
+            },
+            {
+                "tag": "span",
+                "content": "9 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 150
+            },
+            {
+                "tag": "span",
+                "content": "Dec. 19",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 151
+            },
+            {
+                "tag": "p",
+                "content": "Learn how a refrigerator ice maker works and how to keep it in top shape.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 152
+            },
+            {
+                "tag": "a",
+                "content": "Refrigerator",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_refrigerator_blog_meta_data_3_product_link', 'data-metric-id': 'repair_symptom_page_refrigerator_blog_meta_data_3_product_link', 'data-metric-value': 'Refrigerator', 'target': '_self', 'href': '/blog/repair/refrigerator-resources'}",
+                "order": 153
+            },
+            {
+                "tag": "a",
+                "content": "Appliance 101",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_refrigerator_blog_meta_data_3_secondary_category_link', 'data-metric-id': 'repair_symptom_page_refrigerator_blog_meta_data_3_secondary_category_link', 'data-metric-value': 'Refrigerator', 'target': '_self', 'href': '/blog/repair/appliance-101-resources'}",
+                "order": 154
+            },
+            {
+                "tag": "h3",
+                "content": "Glossary Terms",
+                "attributes": "{'class': ['text-blue-300', 'mb-0', 'text-4xl']}",
+                "order": 155
+            },
+            {
+                "tag": "span",
+                "content": "What is a Compressor?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 156
+            },
+            {
+                "tag": "p",
+                "content": "A compressor is a mechanical device that increases the pressure of a gas by reducing its volume, essential in various systems including refrigerators, air conditioners, and HVAC units for cooling and refrigeration processes.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 157
+            },
+            {
+                "tag": "span",
+                "content": "What is a Condenser?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 158
+            },
+            {
+                "tag": "p",
+                "content": "A condenser is a component of HVAC and refrigeration systems, responsible for releasing absorbed heat from the refrigerant into the outside air or a water line, thus facilitating the cooling process.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 159
+            },
+            {
+                "tag": "span",
+                "content": "What is a Dual Ice Maker?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 160
+            },
+            {
+                "tag": "p",
+                "content": "A dual ice maker is a feature in some refrigerators that includes two separate ice makers: one in the fridge compartment and another in the freezer section. This setup doubles the appliance's ice-making capacity.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 161
+            },
+            {
+                "tag": "span",
+                "content": "What is a French-Door Refrigerator?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 162
+            },
+            {
+                "tag": "p",
+                "content": "A French-door refrigerator features two doors that open side-by-side on the top section for the refrigerator compartment, with a bottom freezer drawer, combining style, efficiency, and easy access to both refrigerated and frozen goods.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 163
+            },
+            {
+                "tag": "h2",
+                "content": "Additional possible Kenmore Elite refrigerator symptoms you may experience",
+                "attributes": "{'class': ['text-blue-300', 'mb-0', 'leading-8', 'text-4xl']}",
+                "order": 164
+            },
+            {
+                "tag": "span",
+                "content": "Kenmore Elite refrigerator stopped working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 165
+            },
+            {
+                "tag": "span",
+                "content": "Kenmore Elite refrigerator leaks water",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 166
+            },
+            {
+                "tag": "span",
+                "content": "Kenmore Elite refrigerator leaking water",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 167
+            },
+            {
+                "tag": "span",
+                "content": "Kenmore Elite refrigerator light not working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 168
+            },
+            {
+                "tag": "span",
+                "content": "Kenmore Elite refrigerator not cooling",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 169
+            },
+            {
+                "tag": "span",
+                "content": "Kenmore Elite refrigerator not working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 170
+            },
+            {
+                "tag": "span",
+                "content": "Kenmore Elite refrigerator ice maker not working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 171
+            },
+            {
+                "tag": "span",
+                "content": "Kenmore Elite refrigerator water dispenser not working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 172
+            },
+            {
+                "tag": "h2",
+                "content": "These refrigerator brands may also experience won't make ice",
+                "attributes": "{'class': ['text-blue-300', 'mb-0', 'leading-8', 'text-4xl']}",
+                "order": 173
+            },
+            {
+                "tag": "span",
+                "content": "Whirlpool refrigerator won't make ice",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 174
+            },
+            {
+                "tag": "span",
+                "content": "Bosch refrigerator won't make ice",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 175
+            },
+            {
+                "tag": "span",
+                "content": "Electrolux refrigerator won't make ice",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 176
+            },
+            {
+                "tag": "span",
+                "content": "Amana refrigerator won't make ice",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 177
+            },
+            {
+                "tag": "span",
+                "content": "LG refrigerator won't make ice",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 178
+            },
+            {
+                "tag": "span",
+                "content": "KitchenAid refrigerator won't make ice",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 179
+            },
+            {
+                "tag": "span",
+                "content": "Maytag refrigerator won't make ice",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 180
+            },
+            {
+                "tag": "span",
+                "content": "Samsung refrigerator won't make ice",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 181
+            },
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{}",
+                "order": 182
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{}",
+                "order": 183
+            },
+            {
+                "tag": "div",
+                "content": "PC Header",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 184
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: shs-logo | Src: https://cdn.cookielaw.org/logos/cc9a8230-03c2-46ab-afe1-51ced9dc71c0/9ff49619-d07c-4183-9296-1ab182541af7/37067ed8-3732-4c57-8be8-5c334ab22954/logo-png.png",
+                "attributes": "{'alt': 'shs-logo', 'src': 'https://cdn.cookielaw.org/logos/cc9a8230-03c2-46ab-afe1-51ced9dc71c0/9ff49619-d07c-4183-9296-1ab182541af7/37067ed8-3732-4c57-8be8-5c334ab22954/logo-png.png'}",
+                "order": 185
+            },
+            {
+                "tag": "span",
+                "content": "Your Opt Out Preference Signal is Honored",
+                "attributes": "{}",
+                "order": 186
+            },
+            {
+                "tag": "h2",
+                "content": "Notice of Right to Opt Out of Sale/Sharing",
+                "attributes": "{'id': 'ot-pc-title'}",
+                "order": 187
+            },
+            {
+                "tag": "div",
+                "content": "This website uses cookies and other tracking technologies (\u201cCookies\u201d) to serve targeted ads, enhance user experience, and to analyze user activity. Some Cookies may collect personal information that is used in a way that is considered a \u201cSale\u201d, \u201cSharing\u201d, or \u201cTargeted Advertising\u201d as those terms are defined under various state privacy laws. To opt out of Cookie based Sales, Sharing, and Targeted Advertising, please follow the instructions below. To opt out of non-Cookie based Sales, Sharing, and Targeted Advertising, please visit our webform",
+                "attributes": "{'id': 'ot-pc-desc'}",
+                "order": 188
+            },
+            {
+                "tag": "a",
+                "content": "here",
+                "attributes": "{'href': 'https://privacyportal.onetrust.com/webform/cc9a8230-03c2-46ab-afe1-51ced9dc71c0/8af6e60f-4a08-4da4-bc67-c757487f400f', 'target': '_blank', 'rel': ['noopener', 'noreferrer'], 'style': 'color:#3860BE; text-decoration:underline; display:inline;'}",
+                "order": 189
+            },
+            {
+                "tag": "div",
+                "content": ". Please visit our Privacy Policy linked below, including the State Specific Disclosures section for more information about your rights and our privacy practices.",
+                "attributes": "{'id': 'ot-pc-desc'}",
+                "order": 190
+            },
+            {
+                "tag": "a",
+                "content": "Privacy Policy",
+                "attributes": "{'href': 'https://www.searshomeservices.com/privacy#california-residents', 'class': ['privacy-notice-link'], 'rel': ['noopener'], 'target': '_blank', 'aria-label': 'More information about your privacy, opens in a new tab'}",
+                "order": 191
+            },
+            {
+                "tag": "section",
+                "content": "Non Accordion Group",
+                "attributes": "{'class': ['ot-sdk-row', 'ot-cat-grp']}",
+                "order": 192
+            },
+            {
+                "tag": "section",
+                "content": "Accordion Group section starts",
+                "attributes": "{'class': ['ot-sdk-row', 'ot-cat-grp']}",
+                "order": 193
+            },
+            {
+                "tag": "section",
+                "content": "Accordion Group section ends",
+                "attributes": "{'class': ['ot-sdk-row', 'ot-cat-grp']}",
+                "order": 194
+            },
+            {
+                "tag": "span",
+                "content": "Selling, Sharing, Targeted Advertising",
+                "attributes": "{'style': 'font-weight:bold;font-size:18px'}",
+                "order": 195
+            },
+            {
+                "tag": "span",
+                "content": "Selling, Sharing, Targeted Advertising",
+                "attributes": "{'style': 'font-weight:bold;font-size:18px'}",
+                "order": 196
+            },
+            {
+                "tag": "div",
+                "content": "You can move the toggle above to the left to opt out of Cookie-based Sales, Sharing, and Targeted Advertising. Please note that your opt-out choice is specific to this website, browser, and device. If you access other Transformco websites, you will need to make your election for each. Also, if you clear your Cookies on this browser or use another browser or device, you may need to opt out again on this website.",
+                "attributes": "{'role': 'note', 'style': 'font-size:13.008px; color:#696969; margin:0 0 25px;'}",
+                "order": 197
+            },
+            {
+                "tag": "div",
+                "content": "Please note: Opting out may affect our ability to personalize your experience on this website, though we may use Cookies that do not include Sales, Sharing, or Targeted Advertising. You may still receive non-personalized advertisements on other sites or personalized ads that may be based on information processed before you opted out.",
+                "attributes": "{'role': 'note', 'style': 'font-size:13.008px; color:#696969; margin:0 0 25px;'}",
+                "order": 198
+            },
+            {
+                "tag": "div",
+                "content": "This website recognizes the Global Privacy Control (\u201cGPC\u201d), which is designed to recognize certain browser-based opt-out preference signals. We will process the GPC signal as a request to opt out. To process your request through GPC, you must use a browser or browser extension that supports the signal and turn it on for each browser and device you use.",
+                "attributes": "{'role': 'note', 'style': 'font-size:13.008px; color:#696969; margin:0 0 25px;'}",
+                "order": 199
+            },
+            {
+                "tag": "h3",
+                "content": "Cookie List",
+                "attributes": "{}",
+                "order": 200
+            },
+            {
+                "tag": "button",
+                "content": "Clear",
+                "attributes": "{'id': 'clear-filters-handler'}",
+                "order": 201
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 202
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 203
+            },
+            {
+                "tag": "button",
+                "content": "Apply",
+                "attributes": "{'id': 'filter-apply-handler'}",
+                "order": 204
+            },
+            {
+                "tag": "button",
+                "content": "Cancel",
+                "attributes": "{'id': 'filter-cancel-handler'}",
+                "order": 205
+            },
+            {
+                "tag": "span",
+                "content": "Consent",
+                "attributes": "{'class': ['ot-consent-hdr']}",
+                "order": 206
+            },
+            {
+                "tag": "span",
+                "content": "Leg.Interest",
+                "attributes": "{'class': ['ot-li-hdr']}",
+                "order": 207
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 208
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 209
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 210
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 211
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 212
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 213
+            },
+            {
+                "tag": "div",
+                "content": "Footer buttons and logo",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 214
+            },
+            {
+                "tag": "button",
+                "content": "Confirm My Choices",
+                "attributes": "{'class': ['save-preference-btn-handler', 'onetrust-close-btn-handler', 'ot-button-order-2']}",
+                "order": 215
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Powered by Onetrust | Src: https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+                "attributes": "{'alt': 'Powered by Onetrust', 'src': 'https://cdn.cookielaw.org/logos/static/powered_by_logo.svg', 'title': 'Powered by OneTrust Opens in a new Tab'}",
+                "order": 216
+            },
+            {
+                "tag": "div",
+                "content": "Cookie subgroup container",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 217
+            },
+            {
+                "tag": "div",
+                "content": "Vendor list link",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 218
+            },
+            {
+                "tag": "div",
+                "content": "Cookie lost link",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 219
+            },
+            {
+                "tag": "div",
+                "content": "Toggle HTML element",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 220
+            },
+            {
+                "tag": "div",
+                "content": "Checkbox HTML",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 221
+            },
+            {
+                "tag": "div",
+                "content": "Arrow SVG element",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 222
+            },
+            {
+                "tag": "div",
+                "content": "plus minus",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 223
+            },
+            {
+                "tag": "div",
+                "content": "Accordion basic element",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 224
+            },
+            {
+                "tag": "div",
+                "content": "Vendor Service container and item template",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 225
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt:  | Src: https://bat.bing.com/action/0?ti=5105802&Ver=2&mid=40215126-2933-48ec-b09e-fb94bafd1bf7&bo=1&sid=4ec75c50e18711f08976a50b2a7244ab&vid=4ec89690e18711f082a5bf40115c3806&vids=0&msclkid=N&uach=pv%3D&pi=918639831&lg=en-GB&sw=800&sh=600&sc=24&nwd=1&tl=Kenmore%20Elite%20refrigerator%20won't%20make%20ice%3F%20Discover%20solutions%20%26%20repairs%20today!&p=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Fkenmore-elite-refrigerator-won-t-make-ice&r=&lt=1056&evt=pageLoad&sv=2&cdb=AQET&rn=464234",
+                "attributes": "{'id': 'batBeacon11645557001', 'width': '0', 'height': '0', 'alt': '', 'src': \"https://bat.bing.com/action/0?ti=5105802&Ver=2&mid=40215126-2933-48ec-b09e-fb94bafd1bf7&bo=1&sid=4ec75c50e18711f08976a50b2a7244ab&vid=4ec89690e18711f082a5bf40115c3806&vids=0&msclkid=N&uach=pv%3D&pi=918639831&lg=en-GB&sw=800&sh=600&sc=24&nwd=1&tl=Kenmore%20Elite%20refrigerator%20won't%20make%20ice%3F%20Discover%20solutions%20%26%20repairs%20today!&p=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Fkenmore-elite-refrigerator-won-t-make-ice&r=&lt=1056&evt=pageLoad&sv=2&cdb=AQET&rn=464234\", 'style': 'width: 0px; height: 0px; display: none; visibility: hidden;'}",
+                "order": 226
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt:  | Src: https://lantern.roeye.com/track.php?fingerprint=35ee1ab8-44bf-4fd9-b4b9-a151e2f0f8a9&referrer=&landingpage=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Fkenmore-elite-refrigerator-won-t-make-ice&useragent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36&site=searshomeservices.com",
+                "attributes": "{'src': 'https://lantern.roeye.com/track.php?fingerprint=35ee1ab8-44bf-4fd9-b4b9-a151e2f0f8a9&referrer=&landingpage=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Fkenmore-elite-refrigerator-won-t-make-ice&useragent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36&site=searshomeservices.com', 'alt': '', 'aria-hidden': 'true', 'border': '0', 'height': '0', 'width': '0', 'style': 'position: absolute; visibility: hidden; display: none;'}",
+                "order": 227
+            }
+        ]
+    }
+]

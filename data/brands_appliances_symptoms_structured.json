@@ -1,0 +1,2781 @@
+[
+    {
+        "brand":  "admiral",
+        "appliances":  [
+                           {
+                               "appliance":  "dryer",
+                               "symptoms":  [
+                                                "no-heat",
+                                                "no-power",
+                                                "not-drying",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven",
+                               "symptoms":  [
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "washer",
+                               "symptoms":  [
+                                                "leaking-from-bottom",
+                                                "not-agitating",
+                                                "not-draining",
+                                                "not-spinning"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "amana",
+        "appliances":  [
+                           {
+                               "appliance":  "dishwasher",
+                               "symptoms":  [
+                                                "leaking",
+                                                "no-water",
+                                                "not-draining",
+                                                "not-drying",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-washing",
+                                                "not-working",
+                                                "won-t-drain",
+                                                "won-t-start-cycle"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dryer",
+                               "symptoms":  [
+                                                "burning-smell",
+                                                "drum-roller-replacement",
+                                                "no-heat",
+                                                "no-power",
+                                                "not-drying",
+                                                "not-heating",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "stopped-working",
+                                                "won-t-heat-up",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "freezer",
+                               "symptoms":  [
+                                                "leaking-water",
+                                                "light-not-working",
+                                                "not-cooling",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "microwave",
+                               "symptoms":  [
+                                                "light-not-working",
+                                                "no-power",
+                                                "not-heating"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven",
+                               "symptoms":  [
+                                                "display-not-working",
+                                                "not-heating",
+                                                "not-working",
+                                                "won-t-light",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "washer",
+                               "symptoms":  [
+                                                "leaking-water-from-bottom",
+                                                "lid-lock-not-working",
+                                                "not-agitating",
+                                                "not-draining",
+                                                "not-filling",
+                                                "not-spinning",
+                                                "not-turning-on",
+                                                "not-washing",
+                                                "not-working",
+                                                "wont-drain-or-spin"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "bosch",
+        "appliances":  [
+                           {
+                               "appliance":  "dishwasher",
+                               "symptoms":  [
+                                                "burning-smell",
+                                                "dispenser-not-working",
+                                                "display-not-working",
+                                                "door-not-closing",
+                                                "leaking-from-bottom",
+                                                "leaking",
+                                                "no-heat",
+                                                "no-power",
+                                                "no-water",
+                                                "noisy",
+                                                "not-draining",
+                                                "not-drying",
+                                                "not-filling",
+                                                "not-heating",
+                                                "not-powering-on",
+                                                "not-pumping-out-water",
+                                                "not-rinsing-properly",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-washing",
+                                                "not-working",
+                                                "rinse-aid-leaking",
+                                                "water-at-bottom",
+                                                "won-t-drain",
+                                                "won-t-start-cycle",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dryer",
+                               "symptoms":  [
+                                                "drum-roller-replacement",
+                                                "leaking-water",
+                                                "no-heat",
+                                                "not-draining",
+                                                "not-drying",
+                                                "not-heating",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "freezer",
+                               "symptoms":  [
+                                                "door-not-closing",
+                                                "fan-not-working",
+                                                "not-cooling",
+                                                "not-making-ice",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "microwave",
+                               "symptoms":  [
+                                                "display-not-working",
+                                                "light-not-working",
+                                                "no-power",
+                                                "not-heating",
+                                                "not-spinning",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven",
+                               "symptoms":  [
+                                                "broiler-not-working",
+                                                "display-not-working",
+                                                "door-not-closing",
+                                                "fan-not-working",
+                                                "light-not-working",
+                                                "no-power",
+                                                "noisy",
+                                                "not-heating",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "washer",
+                               "symptoms":  [
+                                                "not-draining",
+                                                "not-spinning"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "carrier",
+        "appliances":  [
+                           {
+                               "appliance":  "central",
+                               "symptoms":  [
+                                                "air-blowing-warm-air",
+                                                "air-not-cooling",
+                                                "air-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "gas",
+                               "symptoms":  [
+                                                "furnace-blowing-cold-air",
+                                                "furnace-not-heating",
+                                                "furnace-not-working"
+                                            ]
+                           }
+                       ]
+    },
+
+    {
+        "brand":  "comfortmaker",
+        "appliances":  [
+                           {
+                               "appliance":  "central",
+                               "symptoms":  [
+                                                "air-blowing-warm-air",
+                                                "air-not-cooling",
+                                                "air-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "gas",
+                               "symptoms":  [
+                                                "furnace-blowing-cold-air",
+                                                "furnace-not-heating",
+                                                "furnace-not-working"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "crosley",
+        "appliances":  [
+                           {
+                               "appliance":  "dishwasher",
+                               "symptoms":  [
+                                                "not-draining"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dryer",
+                               "symptoms":  [
+                                                "not-drying",
+                                                "not-heating",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "stopped-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven",
+                               "symptoms":  [
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "washer",
+                               "symptoms":  [
+                                                "not-draining",
+                                                "not-spinning"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "electrolux",
+        "appliances":  [
+                           {
+                               "appliance":  "dishwasher",
+                               "symptoms":  [
+                                                "display-not-working",
+                                                "door-not-closing",
+                                                "leaking",
+                                                "not-draining",
+                                                "not-drying",
+                                                "not-filling",
+                                                "not-heating",
+                                                "not-starting",
+                                                "not-washing",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dryer",
+                               "symptoms":  [
+                                                "burning-smell",
+                                                "display-not-working",
+                                                "leaking-water",
+                                                "light-not-working",
+                                                "no-power",
+                                                "noisy",
+                                                "not-drying",
+                                                "not-heating",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "stopped-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "freezer",
+                               "symptoms":  [
+                                                "drawer-problem",
+                                                "leaking-water",
+                                                "not-cooling",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "microwave",
+                               "symptoms":  [
+                                                "display-not-working",
+                                                "not-heating",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven",
+                               "symptoms":  [
+                                                "display-not-working",
+                                                "door-not-closing",
+                                                "fan-not-working",
+                                                "light-not-working",
+                                                "no-power",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "won-t-heat-up",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "washer",
+                               "symptoms":  [
+                                                "no-water",
+                                                "not-draining",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-working"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "estate",
+        "appliances":  [
+                           {
+                               "appliance":  "dishwasher",
+                               "symptoms":  [
+                                                "not-draining",
+                                                "not-starting"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dryer",
+                               "symptoms":  [
+                                                "not-drying",
+                                                "not-heating",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven",
+                               "symptoms":  [
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "washer",
+                               "symptoms":  [
+                                                "leaking-from-bottom",
+                                                "not-agitating",
+                                                "not-draining",
+                                                "not-spinning"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "fisher-\u0026-paykel",
+        "appliances":  [
+                           {
+                               "appliance":  "dishwasher",
+                               "symptoms":  [
+                                                "leaking",
+                                                "no-power",
+                                                "not-draining",
+                                                "not-starting"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dryer",
+                               "symptoms":  [
+                                                "not-drying",
+                                                "not-heating",
+                                                "not-spinning",
+                                                "stopped-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "freezer",
+                               "symptoms":  [
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven",
+                               "symptoms":  [
+                                                "not-heating",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "washer",
+                               "symptoms":  [
+                                                "no-power",
+                                                "not-draining",
+                                                "not-spinning"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "frigidaire",
+        "appliances":  [
+                           {
+                               "appliance":  "cooktop",
+                               "symptoms":  [
+                                                "burner-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dishwasher",
+                               "symptoms":  [
+                                                "burning-smell",
+                                                "display-not-working",
+                                                "door-not-closing",
+                                                "latch-not-working",
+                                                "leaking-from-bottom",
+                                                "leaking",
+                                                "no-power",
+                                                "no-water",
+                                                "noisy",
+                                                "not-draining",
+                                                "not-drying",
+                                                "not-filling",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-washing",
+                                                "not-working",
+                                                "won-t-drain",
+                                                "won-t-start-cycle",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dryer",
+                               "symptoms":  [
+                                                "burning-smell",
+                                                "drum-roller-replacement",
+                                                "no-heat",
+                                                "not-drying",
+                                                "not-heating",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "freezer",
+                               "symptoms":  [
+                                                "compressor-not-running",
+                                                "display-not-working",
+                                                "door-not-closing",
+                                                "fan-not-working",
+                                                "gallery-model-not-freezing",
+                                                "leaking-water",
+                                                "light-not-working",
+                                                "not-cooling",
+                                                "not-running",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "professional-series-not-making-ice"
+                                            ]
+                           },
+                           {
+                               "appliance":  "microwave",
+                               "symptoms":  [
+                                                "burning-smell",
+                                                "display-not-working",
+                                                "door-not-closing",
+                                                "fan-not-spinning",
+                                                "light-not-working",
+                                                "no-power",
+                                                "not-heating",
+                                                "not-spinning",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "stopped-working",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven",
+                               "symptoms":  [
+                                                "broiler-not-working",
+                                                "display-not-working",
+                                                "door-not-closing",
+                                                "element-not-working",
+                                                "fan-not-working",
+                                                "fan-wont-turn-off",
+                                                "light-not-working",
+                                                "not-heating",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "won-t-light",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "washer",
+                               "symptoms":  [
+                                                "leaking-from-bottom",
+                                                "no-water",
+                                                "not-agitating",
+                                                "not-draining",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-washing",
+                                                "not-working"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "ge",
+        "appliances":  [
+                           {
+                               "appliance":  "broiler",
+                               "symptoms":  [
+                                                "broiler-not-working",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "burner",
+                               "symptoms":  [
+                                                "burner-not-working",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "cooktop-burner",
+                               "symptoms":  [
+                                                "burner-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dishwasher",
+                               "symptoms":  [
+                                                "blinking-lights",
+                                                "burning-smell",
+                                                "clogged",
+                                                "detergent-not-dispensing",
+                                                "display-not-working",
+                                                "drain-clogged",
+                                                "leaking-from-bottom",
+                                                "leaking",
+                                                "no-heat",
+                                                "no-power",
+                                                "no-water",
+                                                "noisy",
+                                                "not-dispensing",
+                                                "not-draining",
+                                                "not-drying",
+                                                "not-filling",
+                                                "not-getting-water",
+                                                "not-heating",
+                                                "not-powering-on",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-washing",
+                                                "not-working",
+                                                "start-button-blinking",
+                                                "start-button-flashing-and-beeping",
+                                                "start-light-blinking",
+                                                "won-t-drain",
+                                                "won-t-start-cycle",
+                                                "won-t-turn-off",
+                                                "wont-power-on",
+                                                "wont-turn-on-no-lights"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dishwasher-detergent",
+                               "symptoms":  [
+                                                "detergent-not-dispensing"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dishwasher-dishes",
+                               "symptoms":  [
+                                                "dishes-not-clean"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dishwasher-door",
+                               "symptoms":  [
+                                                "door-not-closing"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dishwasher-heated-dry",
+                               "symptoms":  [
+                                                "heated-dry-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dishwasher-lights-flashing-and-will",
+                               "symptoms":  [
+                                                "lights-flashing-and-will-not-start"
+                                            ]
+                           },
+                           {
+                               "appliance":  "display",
+                               "symptoms":  [
+                                                "display-not-working",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dryer",
+                               "symptoms":  [
+                                                "burning-smell",
+                                                "drum-roller-replacement",
+                                                "hot-but-takes-long-time-to-dry",
+                                                "makes-noise-when-tumbling",
+                                                "no-heat",
+                                                "no-power",
+                                                "noisy",
+                                                "not-drying",
+                                                "not-heating",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "stopped-working",
+                                                "won-t-heat-up",
+                                                "won-t-turn-off",
+                                                "wont-get-hot"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dryer-buttons",
+                               "symptoms":  [
+                                                "buttons-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dryer-dial",
+                               "symptoms":  [
+                                                "dial-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dryer-light",
+                               "symptoms":  [
+                                                "light-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dryer-timer-knob",
+                               "symptoms":  [
+                                                "timer-knob-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "freezer",
+                               "symptoms":  [
+                                                "fan-not-working",
+                                                "leaking-water",
+                                                "not-cooling",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "freezer-door",
+                               "symptoms":  [
+                                                "door-not-closing"
+                                            ]
+                           },
+                           {
+                               "appliance":  "freezer-ice-maker",
+                               "symptoms":  [
+                                                "ice-maker-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "freezer-light",
+                               "symptoms":  [
+                                                "light-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "hood",
+                               "symptoms":  [
+                                                "fan-not-working-but-light-is",
+                                                "fan-not-working",
+                                                "hood-fan-not-working",
+                                                "hood-won-t-turn-off",
+                                                "wont-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "hood-light",
+                               "symptoms":  [
+                                                "hood-light-not-working",
+                                                "light-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "hood-lights",
+                               "symptoms":  [
+                                                "lights-not-working-but-fan-is"
+                                            ]
+                           },
+                           {
+                               "appliance":  "microwave",
+                               "symptoms":  [
+                                                "burning-smell",
+                                                "display-flickering",
+                                                "display-not-working",
+                                                "fan-not-spinning",
+                                                "no-power",
+                                                "no-sound",
+                                                "not-heating",
+                                                "not-spinning",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "stopped-working",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "microwave-buttons",
+                               "symptoms":  [
+                                                "buttons-stopped-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "microwave-door",
+                               "symptoms":  [
+                                                "door-not-closing"
+                                            ]
+                           },
+                           {
+                               "appliance":  "microwave-light",
+                               "symptoms":  [
+                                                "light-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven",
+                               "symptoms":  [
+                                                "display-not-working",
+                                                "fan-not-working",
+                                                "not-heating",
+                                                "not-working",
+                                                "oven-not-working",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven-broiler",
+                               "symptoms":  [
+                                                "broiler-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven-burner",
+                               "symptoms":  [
+                                                "burner-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven-element",
+                               "symptoms":  [
+                                                "element-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven-light",
+                               "symptoms":  [
+                                                "light-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven-steam",
+                               "symptoms":  [
+                                                "steam-clean-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "range",
+                               "symptoms":  [
+                                                "clicking",
+                                                "display-not-working",
+                                                "heating",
+                                                "not-heating",
+                                                "not-working",
+                                                "turn-off",
+                                                "won-t-turn-off",
+                                                "working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "range-burner",
+                               "symptoms":  [
+                                                "burner-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "refrigerator",
+                               "symptoms":  [
+                                                "",
+                                                "auto-fill-water-pitcher-not-working",
+                                                "broken-shelf",
+                                                "but-freezer-not-freezing",
+                                                "buttons-not-working",
+                                                "cold-freezer-too-warm",
+                                                "coldspot-model-not-working",
+                                                "compressor-not-running",
+                                                "cooling",
+                                                "dispenser-not-working",
+                                                "display-not-working",
+                                                "door-not-closing",
+                                                "draining",
+                                                "drawer-problem",
+                                                "dripping-water-inside",
+                                                "fan-not-working",
+                                                "freezer-not-freezing-but-fridge-is-cold",
+                                                "freezer-not-working",
+                                                "freezer-works-but-not-fridge",
+                                                "from-bottom",
+                                                "gallery-ice-maker-not-working",
+                                                "ice-dispenser-not-working",
+                                                "ice-maker-leaking-water",
+                                                "ice-maker-leaking",
+                                                "ice-maker-not-dispensing-ice",
+                                                "ice-maker-not-dispensing",
+                                                "ice-maker-not-dumping-ice-into-bin",
+                                                "ice-maker-not-dumping-ice",
+                                                "ice-maker-not-filling-with-water",
+                                                "ice-maker-not-getting-water",
+                                                "ice-maker-not-making-ice-but-water-works",
+                                                "ice-maker-not-working",
+                                                "ice-maker-reset-not-working",
+                                                "ice-maker-rest-button-not-working",
+                                                "ice-maker-stopped-working",
+                                                "ice-maker-wont-come-out",
+                                                "leaking-from-bottom",
+                                                "leaking-water",
+                                                "leaking",
+                                                "leaks-water",
+                                                "light-blinking-and-not-cooling",
+                                                "light-not-working",
+                                                "new-model-not-making-ice",
+                                                "no-power",
+                                                "no-water",
+                                                "noisy",
+                                                "not-closing",
+                                                "not-cooling",
+                                                "not-dispensing-ice",
+                                                "not-draining",
+                                                "not-freezing",
+                                                "not-make-ice",
+                                                "not-making-ice-but-water-works",
+                                                "not-running",
+                                                "not-turning-on",
+                                                "not-working-but-fridge-is-fine",
+                                                "not-working-but-fridge-is",
+                                                "not-working",
+                                                "paykel-refrigerator-display-not-working",
+                                                "paykel-refrigerator-leaking-water",
+                                                "paykel-refrigerator-not-cooling",
+                                                "paykel-refrigerator-water-dispenser-not-working",
+                                                "power",
+                                                "problem",
+                                                "refrigerator-compressor-not-running",
+                                                "refrigerator-leaking-water",
+                                                "refrigerator-not-cooling",
+                                                "refrigerator-not-freezing",
+                                                "refrigerator-not-working",
+                                                "shelf",
+                                                "side-by-side-model-ice-maker-not-working",
+                                                "smell",
+                                                "stopped-making-ice",
+                                                "stopped-working",
+                                                "turn-on-when-plugged-in",
+                                                "turning-on",
+                                                "water-dispenser-not-working",
+                                                "water-filter-leaking",
+                                                "water-filter-not-working",
+                                                "water-not-cold",
+                                                "water-not-coming-out",
+                                                "water-not-working",
+                                                "water",
+                                                "won-t-make-ice",
+                                                "working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "refrigerator-bottom-freezer-model",
+                               "symptoms":  [
+                                                "bottom-freezer-model-not-making-ice"
+                                            ]
+                           },
+                           {
+                               "appliance":  "refrigerator-compressor",
+                               "symptoms":  [
+                                                "compressor-not-running"
+                                            ]
+                           },
+                           {
+                               "appliance":  "refrigerator-door",
+                               "symptoms":  [
+                                                "door-not-closing"
+                                            ]
+                           },
+                           {
+                               "appliance":  "refrigerator-freezer",
+                               "symptoms":  [
+                                                "freezer-not-working-but-fridge-is-fine"
+                                            ]
+                           },
+                           {
+                               "appliance":  "refrigerator-french-door-model",
+                               "symptoms":  [
+                                                "french-door-model-not-making-ice"
+                                            ]
+                           },
+                           {
+                               "appliance":  "refrigerator-ice-maker",
+                               "symptoms":  [
+                                                "ice-maker-not-making-ice"
+                                            ]
+                           },
+                           {
+                               "appliance":  "refrigerator-light",
+                               "symptoms":  [
+                                                "light-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "refrigerator-water-dispenser",
+                               "symptoms":  [
+                                                "water-dispenser-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "touchpad",
+                               "symptoms":  [
+                                                "touchpad-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "washer",
+                               "symptoms":  [
+                                                "leaking-from-bottom",
+                                                "no-power",
+                                                "noisy",
+                                                "not-agitating",
+                                                "not-draining",
+                                                "not-filling",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-washing",
+                                                "not-working",
+                                                "won-t-start-cycle"
+                                            ]
+                           },
+                           {
+                               "appliance":  "washer-buttons",
+                               "symptoms":  [
+                                                "buttons-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "washer-deep-fill",
+                               "symptoms":  [
+                                                "deep-fill-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "washer-door",
+                               "symptoms":  [
+                                                "door-not-locking"
+                                            ]
+                           },
+                           {
+                               "appliance":  "washer-drain-and-spin-cycle",
+                               "symptoms":  [
+                                                "drain-and-spin-cycle-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "washer-lid",
+                               "symptoms":  [
+                                                "lid-wont-lock"
+                                            ]
+                           },
+                           {
+                               "appliance":  "washer-smart-dispense",
+                               "symptoms":  [
+                                                "smart-dispense-not-working"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "ge-cafe",
+        "appliances":  [
+                           {
+                               "appliance":  "dishwasher",
+                               "symptoms":  [
+                                                "display-not-working",
+                                                "no-power",
+                                                "no-water",
+                                                "not-draining",
+                                                "not-drying",
+                                                "not-starting",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "freezer",
+                               "symptoms":  [
+                                                "not-cooling",
+                                                "not-freezing"
+                                            ]
+                           },
+                           {
+                               "appliance":  "microwave",
+                               "symptoms":  [
+                                                "not-heating",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven",
+                               "symptoms":  [
+                                                "display-not-working",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven-light",
+                               "symptoms":  [
+                                                "light-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "refrigerator",
+                               "symptoms":  [
+                                                "display-not-working",
+                                                "leaking-water",
+                                                "noisy",
+                                                "not-cooling",
+                                                "not-making-ice"
+                                            ]
+                           },
+                           {
+                               "appliance":  "refrigerator-water-dispenser",
+                               "symptoms":  [
+                                                "water-dispenser-not-working"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "ge-monogram",
+        "appliances":  [
+                           {
+                               "appliance":  "dishwasher",
+                               "symptoms":  [
+                                                "leaking",
+                                                "no-power",
+                                                "not-draining",
+                                                "not-drying"
+                                            ]
+                           },
+                           {
+                               "appliance":  "freezer",
+                               "symptoms":  [
+                                                "leaking-water",
+                                                "not-cooling",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "microwave",
+                               "symptoms":  [
+                                                "not-heating",
+                                                "stopped-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven",
+                               "symptoms":  [
+                                                "display-not-working",
+                                                "not-heating"
+                                            ]
+                           },
+                           {
+                               "appliance":  "refrigerator",
+                               "symptoms":  [
+                                                "leaking-water",
+                                                "not-cooling"
+                                            ]
+                           },
+                           {
+                               "appliance":  "refrigerator-compressor",
+                               "symptoms":  [
+                                                "compressor-not-running"
+                                            ]
+                           },
+                           {
+                               "appliance":  "refrigerator-door",
+                               "symptoms":  [
+                                                "door-not-closing"
+                                            ]
+                           },
+                           {
+                               "appliance":  "refrigerator-light",
+                               "symptoms":  [
+                                                "light-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "refrigerator-water-dispenser",
+                               "symptoms":  [
+                                                "water-dispenser-not-working"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "ge-profile",
+        "appliances":  [
+                           {
+                               "appliance":  "cooktop-burner",
+                               "symptoms":  [
+                                                "burner-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dishwasher",
+                               "symptoms":  [
+                                                "leaking",
+                                                "no-power",
+                                                "no-water",
+                                                "not-draining",
+                                                "not-drying",
+                                                "not-filling",
+                                                "not-heating",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-washing",
+                                                "not-working",
+                                                "won-t-drain"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dishwasher-door",
+                               "symptoms":  [
+                                                "door-not-closing"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dryer",
+                               "symptoms":  [
+                                                "not-drying",
+                                                "not-heating",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on"
+                                            ]
+                           },
+                           {
+                               "appliance":  "freezer",
+                               "symptoms":  [
+                                                "leaking-water",
+                                                "not-cooling",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "freezer-door",
+                               "symptoms":  [
+                                                "door-not-closing"
+                                            ]
+                           },
+                           {
+                               "appliance":  "microwave",
+                               "symptoms":  [
+                                                "display-not-working",
+                                                "no-power",
+                                                "not-heating",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "microwave-light",
+                               "symptoms":  [
+                                                "light-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven",
+                               "symptoms":  [
+                                                "display-not-working",
+                                                "fan-not-working",
+                                                "no-power",
+                                                "not-heating",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "won-t-heat-up",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven-broiler",
+                               "symptoms":  [
+                                                "broiler-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven-door",
+                               "symptoms":  [
+                                                "door-not-closing"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven-light",
+                               "symptoms":  [
+                                                "light-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "refrigerator",
+                               "symptoms":  [
+                                                "burning-smell",
+                                                "display-not-working",
+                                                "fan-not-working",
+                                                "leaking-water",
+                                                "no-water",
+                                                "noisy",
+                                                "not-cooling",
+                                                "not-freezing"
+                                            ]
+                           },
+                           {
+                               "appliance":  "refrigerator-compressor",
+                               "symptoms":  [
+                                                "compressor-not-running"
+                                            ]
+                           },
+                           {
+                               "appliance":  "refrigerator-door",
+                               "symptoms":  [
+                                                "door-not-closing"
+                                            ]
+                           },
+                           {
+                               "appliance":  "refrigerator-ice-dispenser",
+                               "symptoms":  [
+                                                "ice-dispenser-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "refrigerator-ice-maker",
+                               "symptoms":  [
+                                                "ice-maker-not-making-ice"
+                                            ]
+                           },
+                           {
+                               "appliance":  "refrigerator-light",
+                               "symptoms":  [
+                                                "light-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "refrigerator-water-dispenser",
+                               "symptoms":  [
+                                                "water-dispenser-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "washer",
+                               "symptoms":  [
+                                                "leaking-from-bottom",
+                                                "not-agitating",
+                                                "not-draining",
+                                                "not-spinning",
+                                                "not-starting"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "goodman",
+        "appliances":  [
+                           {
+                               "appliance":  "central",
+                               "symptoms":  [
+                                                "air-blowing-warm-air",
+                                                "air-not-cooling",
+                                                "air-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "gas",
+                               "symptoms":  [
+                                                "furnace-blowing-cold-air",
+                                                "furnace-not-heating",
+                                                "furnace-not-working"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "haier",
+        "appliances":  [
+                           {
+                               "appliance":  "dishwasher",
+                               "symptoms":  [
+                                                "leaking",
+                                                "no-power",
+                                                "not-draining",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dryer",
+                               "symptoms":  [
+                                                "not-heating",
+                                                "not-spinning",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "freezer",
+                               "symptoms":  [
+                                                "compressor-not-running",
+                                                "leaking-water",
+                                                "light-not-working",
+                                                "not-cooling",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "microwave",
+                               "symptoms":  [
+                                                "not-heating"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven",
+                               "symptoms":  [
+                                                "not-heating",
+                                                "not-turning-on"
+                                            ]
+                           },
+                           {
+                               "appliance":  "washer",
+                               "symptoms":  [
+                                                "leaking-water",
+                                                "not-agitating",
+                                                "not-draining",
+                                                "not-spinning"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "heil",
+        "appliances":  [
+                           {
+                               "appliance":  "central",
+                               "symptoms":  [
+                                                "air-blowing-warm-air",
+                                                "air-not-cooling",
+                                                "air-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "gas",
+                               "symptoms":  [
+                                                "furnace-blowing-cold-air",
+                                                "furnace-not-heating",
+                                                "furnace-not-working"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "hotpoint",
+        "appliances":  [
+                           {
+                               "appliance":  "dishwasher",
+                               "symptoms":  [
+                                                "burning-smell",
+                                                "door-not-closing",
+                                                "leaking",
+                                                "no-water",
+                                                "not-drying",
+                                                "not-filling",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-washing",
+                                                "not-working",
+                                                "won-t-drain",
+                                                "won-t-start-cycle",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dryer",
+                               "symptoms":  [
+                                                "no-heat",
+                                                "not-drying",
+                                                "not-heating",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "freezer",
+                               "symptoms":  [
+                                                "fan-not-working",
+                                                "leaking-water",
+                                                "not-cooling"
+                                            ]
+                           },
+                           {
+                               "appliance":  "microwave",
+                               "symptoms":  [
+                                                "no-power",
+                                                "not-heating"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven",
+                               "symptoms":  [
+                                                "display-not-working",
+                                                "door-not-closing",
+                                                "fan-not-working",
+                                                "light-not-working",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "won-t-heat-up",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "washer",
+                               "symptoms":  [
+                                                "not-agitating",
+                                                "not-draining",
+                                                "not-filling",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-washing",
+                                                "not-working",
+                                                "won-t-start-cycle",
+                                                "wont-spin-or-drain"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "icp",
+        "appliances":  [
+                           {
+                               "appliance":  "central",
+                               "symptoms":  [
+                                                "air-blowing-warm-air",
+                                                "air-not-cooling",
+                                                "air-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "gas",
+                               "symptoms":  [
+                                                "furnace-blowing-cold-air",
+                                                "furnace-not-heating",
+                                                "furnace-not-working"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "jennair",
+        "appliances":  [
+                           {
+                               "appliance":  "cooktop",
+                               "symptoms":  [
+                                                "burner-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dishwasher",
+                               "symptoms":  [
+                                                "leaking",
+                                                "no-power",
+                                                "no-water",
+                                                "not-draining",
+                                                "not-drying",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-washing"
+                                            ]
+                           },
+                           {
+                               "appliance":  "freezer",
+                               "symptoms":  [
+                                                "leaking-water",
+                                                "light-not-working",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "microwave",
+                               "symptoms":  [
+                                                "display-not-working",
+                                                "no-power",
+                                                "not-heating",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven",
+                               "symptoms":  [
+                                                "broiler-not-working",
+                                                "display-not-working",
+                                                "door-not-closing",
+                                                "no-power",
+                                                "not-heating",
+                                                "not-working",
+                                                "won-t-turn-off"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "kenmore",
+        "appliances":  [
+                           {
+                               "appliance":  "central",
+                               "symptoms":  [
+                                                "air-blowing-warm-air",
+                                                "air-not-cooling",
+                                                "air-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dishwasher",
+                               "symptoms":  [
+                                                "burning-smell",
+                                                "door-not-closing",
+                                                "leaking-from-bottom",
+                                                "leaking",
+                                                "no-power",
+                                                "no-water",
+                                                "noisy",
+                                                "not-draining",
+                                                "not-drying",
+                                                "not-filling",
+                                                "not-heating",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-washing",
+                                                "not-working",
+                                                "won-t-drain",
+                                                "won-t-start-cycle"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dryer",
+                               "symptoms":  [
+                                                "burning-smell",
+                                                "drum-roller-replacement",
+                                                "light-not-working",
+                                                "no-heat",
+                                                "no-power",
+                                                "noisy",
+                                                "not-drying",
+                                                "not-heating",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "stopped-working",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "freezer",
+                               "symptoms":  [
+                                                "compressor-not-running",
+                                                "door-not-closing",
+                                                "fan-not-working",
+                                                "leaking-water",
+                                                "light-not-working",
+                                                "not-cooling",
+                                                "not-freezing",
+                                                "not-working",
+                                                "won-t-make-ice"
+                                            ]
+                           },
+                           {
+                               "appliance":  "gas",
+                               "symptoms":  [
+                                                "furnace-blowing-cold-air",
+                                                "furnace-not-heating",
+                                                "furnace-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "microwave",
+                               "symptoms":  [
+                                                "display-not-working",
+                                                "fan-not-spinning",
+                                                "light-not-working",
+                                                "no-power",
+                                                "not-heating",
+                                                "not-spinning",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven",
+                               "symptoms":  [
+                                                "broiler-not-working",
+                                                "burner-not-working",
+                                                "display-not-working",
+                                                "element-not-working",
+                                                "light-not-working",
+                                                "no-power",
+                                                "not-heating",
+                                                "not-working",
+                                                "won-t-light",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "washer",
+                               "symptoms":  [
+                                                "leaking-from-bottom",
+                                                "no-power",
+                                                "not-agitating",
+                                                "not-draining",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "won-t-drain"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "kenmore-elite",
+        "appliances":  [
+                           {
+                               "appliance":  "dishwasher",
+                               "symptoms":  [
+                                                "leaking-from-bottom",
+                                                "leaking",
+                                                "no-power",
+                                                "no-water",
+                                                "noisy",
+                                                "not-draining",
+                                                "not-drying",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-washing",
+                                                "not-working",
+                                                "won-t-drain",
+                                                "won-t-start-cycle"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dryer",
+                               "symptoms":  [
+                                                "burning-smell",
+                                                "drum-roller-replacement",
+                                                "leaking-water",
+                                                "no-heat",
+                                                "no-power",
+                                                "not-drying",
+                                                "not-heating",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "stopped-working",
+                                                "won-t-heat-up",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "freezer",
+                               "symptoms":  [
+                                                "display-not-working",
+                                                "fan-not-working",
+                                                "leaking-water",
+                                                "not-cooling",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "freezer-light",
+                               "symptoms":  [
+                                                "light-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "microwave",
+                               "symptoms":  [
+                                                "no-power",
+                                                "not-heating",
+                                                "not-working",
+                                                "stopped-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven",
+                               "symptoms":  [
+                                                "not-heating",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "range-hood-light",
+                               "symptoms":  [
+                                                "hood-light-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "refrigerator",
+                               "symptoms":  [
+                                                "leaking-water",
+                                                "leaks-water",
+                                                "not-cooling",
+                                                "not-working",
+                                                "stopped-working",
+                                                "won-t-make-ice"
+                                            ]
+                           },
+                           {
+                               "appliance":  "refrigerator-ice-maker",
+                               "symptoms":  [
+                                                "ice-maker-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "refrigerator-light",
+                               "symptoms":  [
+                                                "light-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "refrigerator-water-dispenser",
+                               "symptoms":  [
+                                                "water-dispenser-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "washer",
+                               "symptoms":  [
+                                                "leaking-from-bottom",
+                                                "leaking",
+                                                "no-power",
+                                                "not-draining",
+                                                "not-spinning",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "won-t-drain"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "kenmore-pro",
+        "appliances":  [
+                           {
+                               "appliance":  "refrigerator",
+                               "symptoms":  [
+                                                "not-cooling"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "kitchenaid",
+        "appliances":  [
+                           {
+                               "appliance":  "cooktop",
+                               "symptoms":  [
+                                                "not-turning-on",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dishwasher",
+                               "symptoms":  [
+                                                "burning-smell",
+                                                "buttons-not-working",
+                                                "display-not-working",
+                                                "door-not-closing",
+                                                "leaking-from-bottom",
+                                                "leaking",
+                                                "leaks-water",
+                                                "light-not-working",
+                                                "no-power",
+                                                "no-water",
+                                                "noisy",
+                                                "not-draining",
+                                                "not-drying",
+                                                "not-filling",
+                                                "not-heating",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-washing",
+                                                "not-working",
+                                                "won-t-drain",
+                                                "won-t-start-cycle",
+                                                "won-t-wash",
+                                                "wont-turn-on-no-lights"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dryer",
+                               "symptoms":  [
+                                                "no-heat",
+                                                "not-drying",
+                                                "not-heating",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "freezer",
+                               "symptoms":  [
+                                                "door-not-closing",
+                                                "drawer-problem",
+                                                "leaking-water",
+                                                "leaking",
+                                                "light-not-working",
+                                                "not-cooling",
+                                                "not-freezing",
+                                                "not-making-ice",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "microwave",
+                               "symptoms":  [
+                                                "display-not-working",
+                                                "fan-not-spinning",
+                                                "light-not-working",
+                                                "no-power",
+                                                "not-heating",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "stopped-working",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven",
+                               "symptoms":  [
+                                                "broiler-not-working",
+                                                "display-not-working",
+                                                "element-not-working",
+                                                "fan-not-working",
+                                                "light-not-working",
+                                                "no-power",
+                                                "not-heating",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "stopped-working",
+                                                "won-t-heat-up",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "washer",
+                               "symptoms":  [
+                                                "not-draining",
+                                                "not-spinning"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "lennox",
+        "appliances":  [
+                           {
+                               "appliance":  "central",
+                               "symptoms":  [
+                                                "air-blowing-warm-air",
+                                                "air-not-cooling",
+                                                "air-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "gas",
+                               "symptoms":  [
+                                                "furnace-blowing-cold-air",
+                                                "furnace-not-heating",
+                                                "furnace-not-working"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "lg",
+        "appliances":  [
+                           {
+                               "appliance":  "cooktop",
+                               "symptoms":  [
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dishwasher",
+                               "symptoms":  [
+                                                "burning-smell",
+                                                "display-not-working",
+                                                "door-not-closing",
+                                                "leaking-from-bottom",
+                                                "leaking",
+                                                "no-power",
+                                                "no-water",
+                                                "noisy",
+                                                "not-draining",
+                                                "not-drying",
+                                                "not-heating",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-washing",
+                                                "not-working",
+                                                "won-t-drain",
+                                                "won-t-start-cycle",
+                                                "won-t-turn-off",
+                                                "wont-power-on"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dryer",
+                               "symptoms":  [
+                                                "burning-smell",
+                                                "clean-filter-light-wont-turn-off",
+                                                "display-not-working",
+                                                "drum-roller-replacement",
+                                                "leaking-from-bottom",
+                                                "leaking-water",
+                                                "leaking",
+                                                "light-not-working",
+                                                "makes-noise-when-tumbling",
+                                                "no-heat",
+                                                "no-power",
+                                                "no-sound",
+                                                "noisy",
+                                                "not-drying-clothes-properly",
+                                                "not-drying",
+                                                "not-heating",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "sensor-not-working",
+                                                "stopped-working",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "freezer",
+                               "symptoms":  [
+                                                "door-not-closing",
+                                                "fan-not-working",
+                                                "is-not-freezing",
+                                                "leaking-water",
+                                                "light-not-working",
+                                                "not-cold-enough",
+                                                "not-cooling",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "microwave",
+                               "symptoms":  [
+                                                "burning-smell",
+                                                "display-not-working",
+                                                "fan-not-spinning",
+                                                "light-not-working",
+                                                "no-heat",
+                                                "no-power",
+                                                "not-heating",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "stopped-working",
+                                                "won-t-heat-up",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven",
+                               "symptoms":  [
+                                                "broiler-not-working",
+                                                "burner-not-working",
+                                                "display-not-working",
+                                                "fan-not-working",
+                                                "no-power",
+                                                "not-heating",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "stopped-working",
+                                                "won-t-heat-up",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "washer",
+                               "symptoms":  [
+                                                "chime-not-working",
+                                                "display-not-working",
+                                                "dryer-combo-not-draining",
+                                                "leaking-from-bottom",
+                                                "no-power",
+                                                "no-water",
+                                                "not-draining",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-washing",
+                                                "not-working",
+                                                "start-button-not-responding",
+                                                "top-load-model-not-filling-with-water",
+                                                "vibrates",
+                                                "water-not-covering-clothes",
+                                                "won-t-drain",
+                                                "won-t-start-cycle"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "magic chef",
+        "appliances":  [
+                           {
+                               "appliance":  "dishwasher",
+                               "symptoms":  [
+                                                "not-draining"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dryer",
+                               "symptoms":  [
+                                                "not-drying",
+                                                "not-heating",
+                                                "not-spinning",
+                                                "not-turning-on",
+                                                "stopped-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "freezer",
+                               "symptoms":  [
+                                                "compressor-not-running",
+                                                "not-cooling",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "microwave",
+                               "symptoms":  [
+                                                "no-power",
+                                                "not-heating",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "stopped-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven",
+                               "symptoms":  [
+                                                "display-not-working",
+                                                "element-not-working",
+                                                "not-heating",
+                                                "not-working",
+                                                "won-t-light"
+                                            ]
+                           },
+                           {
+                               "appliance":  "washer",
+                               "symptoms":  [
+                                                "not-draining",
+                                                "not-spinning"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "maytag",
+        "appliances":  [
+                           {
+                               "appliance":  "dishwasher",
+                               "symptoms":  [
+                                                "burning-smell",
+                                                "door-not-closing",
+                                                "leaking-from-bottom",
+                                                "leaking",
+                                                "no-power",
+                                                "no-water",
+                                                "noisy",
+                                                "not-draining",
+                                                "not-drying",
+                                                "not-filling",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-washing",
+                                                "not-working",
+                                                "start-button-not-working",
+                                                "will-not-power-on",
+                                                "won-t-drain"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dryer",
+                               "symptoms":  [
+                                                "burning-smell",
+                                                "display-not-working",
+                                                "door-not-closing",
+                                                "drum-not-turning",
+                                                "drum-roller-replacement",
+                                                "leaking-water",
+                                                "light-not-working",
+                                                "makes-noise-when-tumbling",
+                                                "no-heat",
+                                                "no-power",
+                                                "noisy",
+                                                "not-draining",
+                                                "not-drying",
+                                                "not-heating",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "stopped-working",
+                                                "vibrates",
+                                                "won-t-heat-up",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "freezer",
+                               "symptoms":  [
+                                                "door-not-closing",
+                                                "leaking-water",
+                                                "leaking",
+                                                "light-not-working",
+                                                "not-cooling",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "microwave",
+                               "symptoms":  [
+                                                "display-not-working",
+                                                "light-not-working",
+                                                "no-heat",
+                                                "no-power",
+                                                "not-heating",
+                                                "not-working",
+                                                "stopped-working",
+                                                "won-t-heat-up"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven",
+                               "symptoms":  [
+                                                "broiler-not-working",
+                                                "display-not-working",
+                                                "door-not-closing",
+                                                "element-not-working",
+                                                "not-heating",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "stopped-working",
+                                                "won-t-light",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "washer",
+                               "symptoms":  [
+                                                "leaking-from-bottom",
+                                                "no-power",
+                                                "noisy",
+                                                "not-agitating",
+                                                "not-filling",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "won-t-drain",
+                                                "won-t-start-cycle",
+                                                "wont-stop-spinning"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "payne",
+        "appliances":  [
+                           {
+                               "appliance":  "central",
+                               "symptoms":  [
+                                                "air-blowing-warm-air",
+                                                "air-not-cooling"
+                                            ]
+                           },
+                           {
+                               "appliance":  "gas",
+                               "symptoms":  [
+                                                "furnace-blowing-cold-air",
+                                                "furnace-not-heating",
+                                                "furnace-not-working"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "rheem",
+        "appliances":  [
+                           {
+                               "appliance":  "central",
+                               "symptoms":  [
+                                                "air-blowing-warm-air",
+                                                "air-not-cooling",
+                                                "air-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "gas",
+                               "symptoms":  [
+                                                "furnace-blowing-cold-air",
+                                                "furnace-not-heating",
+                                                "furnace-not-working"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "roper",
+        "appliances":  [
+                           {
+                               "appliance":  "dishwasher",
+                               "symptoms":  [
+                                                "not-draining"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dryer",
+                               "symptoms":  [
+                                                "no-heat",
+                                                "not-drying",
+                                                "not-heating",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "stopped-working",
+                                                "won-t-heat-up"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven",
+                               "symptoms":  [
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "washer",
+                               "symptoms":  [
+                                                "leaking-from-bottom",
+                                                "not-agitating",
+                                                "not-draining",
+                                                "not-filling",
+                                                "not-spinning",
+                                                "not-washing",
+                                                "not-working"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "ruud",
+        "appliances":  [
+                           {
+                               "appliance":  "central",
+                               "symptoms":  [
+                                                "air-blowing-warm-air",
+                                                "air-not-cooling",
+                                                "air-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "gas",
+                               "symptoms":  [
+                                                "furnace-blowing-cold-air",
+                                                "furnace-not-heating",
+                                                "furnace-not-working"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "samsung",
+        "appliances":  [
+                           {
+                               "appliance":  "cooktop",
+                               "symptoms":  [
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dishwasher",
+                               "symptoms":  [
+                                                "burning-smell",
+                                                "display-not-working",
+                                                "door-not-closing",
+                                                "leaking-from-bottom",
+                                                "leaking",
+                                                "no-power",
+                                                "no-water",
+                                                "noisy",
+                                                "not-draining",
+                                                "not-drying",
+                                                "not-filling",
+                                                "not-heating",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-washing",
+                                                "not-working",
+                                                "top-rack-not-cleaning",
+                                                "won-t-drain",
+                                                "won-t-start-cycle",
+                                                "won-t-turn-off",
+                                                "wont-power-on"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dryer",
+                               "symptoms":  [
+                                                "blowing-cold-air",
+                                                "burning-smell",
+                                                "display-not-working",
+                                                "door-not-closing",
+                                                "drum-roller-replacement",
+                                                "isn-t-heating",
+                                                "keeps-running",
+                                                "keeps-stopping",
+                                                "leaking-water",
+                                                "light-not-working",
+                                                "makes-noise-when-tumbling",
+                                                "no-heat",
+                                                "no-power",
+                                                "noisy",
+                                                "not-cooling-down",
+                                                "not-draining",
+                                                "not-drying",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "sensor-dry-not-working",
+                                                "stopped-working",
+                                                "stops-early",
+                                                "taking-a-long-time-to-dry",
+                                                "won-t-heat-up",
+                                                "won-t-start-cycle",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "freezer",
+                               "symptoms":  [
+                                                "display-not-working",
+                                                "door-not-closing",
+                                                "fan-not-working",
+                                                "is-not-freezing",
+                                                "leaking-water",
+                                                "light-not-working",
+                                                "not-cold-enough",
+                                                "not-cooling",
+                                                "not-working",
+                                                "won-t-make-ice"
+                                            ]
+                           },
+                           {
+                               "appliance":  "microwave",
+                               "symptoms":  [
+                                                "burning-smell",
+                                                "display-not-working",
+                                                "door-not-closing",
+                                                "fan-not-spinning",
+                                                "light-not-working",
+                                                "no-heat",
+                                                "no-power",
+                                                "noisy",
+                                                "not-heating",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "stopped-working",
+                                                "won-t-heat-up",
+                                                "won-t-turn-off",
+                                                "wont-close"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven",
+                               "symptoms":  [
+                                                "broiler-not-working",
+                                                "burner-not-working",
+                                                "display-not-working",
+                                                "door-not-closing",
+                                                "fan-not-spinning",
+                                                "fan-not-working",
+                                                "light-not-working",
+                                                "not-heating",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "stopped-working",
+                                                "won-t-heat-up",
+                                                "won-t-light",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "washer",
+                               "symptoms":  [
+                                                "leaking-from-bottom",
+                                                "loud-spin-cycle",
+                                                "no-power",
+                                                "noisy",
+                                                "not-draining",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "shakes",
+                                                "top-loader-not-filling-with-water",
+                                                "vibrates",
+                                                "won-t-drain",
+                                                "won-t-start-cycle"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "speed queen",
+        "appliances":  [
+                           {
+                               "appliance":  "dryer",
+                               "symptoms":  [
+                                                "drum-roller-replacement",
+                                                "light-not-working",
+                                                "no-heat",
+                                                "not-drying",
+                                                "not-heating",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "washer",
+                               "symptoms":  [
+                                                "noisy",
+                                                "not-agitating",
+                                                "not-draining",
+                                                "not-spinning",
+                                                "not-starting"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "tappan",
+        "appliances":  [
+                           {
+                               "appliance":  "dishwasher",
+                               "symptoms":  [
+                                                "not-draining",
+                                                "won-t-drain"
+                                            ]
+                           },
+                           {
+                               "appliance":  "microwave",
+                               "symptoms":  [
+                                                "not-heating"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven",
+                               "symptoms":  [
+                                                "not-heating",
+                                                "not-working",
+                                                "won-t-light"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "trane",
+        "appliances":  [
+                           {
+                               "appliance":  "central",
+                               "symptoms":  [
+                                                "air-blowing-warm-air",
+                                                "air-not-cooling",
+                                                "air-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "gas",
+                               "symptoms":  [
+                                                "furnace-blowing-cold-air",
+                                                "furnace-not-heating",
+                                                "furnace-not-working"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "whirlpool",
+        "appliances":  [
+                           {
+                               "appliance":  "cooktop",
+                               "symptoms":  [
+                                                "burner-not-working",
+                                                "not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dishwasher",
+                               "symptoms":  [
+                                                "burning-smell",
+                                                "dispenser-not-working",
+                                                "display-not-working",
+                                                "door-not-closing",
+                                                "fills-with-water-then-stops",
+                                                "gold-series-not-cleaning",
+                                                "leaking-from-bottom",
+                                                "leaking-water",
+                                                "leaking",
+                                                "no-heat",
+                                                "no-power",
+                                                "no-water",
+                                                "noisy",
+                                                "not-draining-properly",
+                                                "not-draining",
+                                                "not-drying",
+                                                "not-filling",
+                                                "not-heating",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-washing",
+                                                "not-working",
+                                                "will-not-spray-water",
+                                                "won-t-drain",
+                                                "won-t-start-cycle",
+                                                "won-t-wash"
+                                            ]
+                           },
+                           {
+                               "appliance":  "dryer",
+                               "symptoms":  [
+                                                "burning-smell",
+                                                "display-not-working",
+                                                "door-not-closing",
+                                                "drum-roller-replacement",
+                                                "duet-model-not-running",
+                                                "isn-t-heating",
+                                                "leaking-water",
+                                                "light-not-working",
+                                                "no-heat",
+                                                "no-power",
+                                                "noisy",
+                                                "not-drying-clothes-properly",
+                                                "not-drying",
+                                                "not-heating",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-tumbling",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "start-button-not-working",
+                                                "stopped-working",
+                                                "takes-3-cycles-to-dry",
+                                                "will-not-come-on",
+                                                "won-t-heat-up",
+                                                "won-t-start-cycle",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "freezer",
+                               "symptoms":  [
+                                                "clicking",
+                                                "door-not-closing",
+                                                "fan-not-working",
+                                                "leaking-water",
+                                                "leaking",
+                                                "light-not-working",
+                                                "not-cooling",
+                                                "not-working",
+                                                "won-t-make-ice"
+                                            ]
+                           },
+                           {
+                               "appliance":  "microwave",
+                               "symptoms":  [
+                                                "display-not-working",
+                                                "door-not-closing",
+                                                "fan-not-spinning",
+                                                "light-not-working",
+                                                "light-wont-turn-on",
+                                                "no-heat",
+                                                "no-power",
+                                                "no-sound",
+                                                "not-heating",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "stopped-working",
+                                                "won-t-heat-up",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "oven",
+                               "symptoms":  [
+                                                "broiler-not-working",
+                                                "burner-not-working",
+                                                "display-not-working",
+                                                "door-not-closing",
+                                                "element-not-working",
+                                                "fan-not-working",
+                                                "gas-model-not-igniting",
+                                                "igniter-not-working",
+                                                "light-not-working",
+                                                "no-power",
+                                                "not-heating-past-100",
+                                                "not-heating",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "stopped-working",
+                                                "won-t-heat-up",
+                                                "won-t-light",
+                                                "won-t-turn-off"
+                                            ]
+                           },
+                           {
+                               "appliance":  "washer",
+                               "symptoms":  [
+                                                "burning-smell",
+                                                "cold-water-not-working",
+                                                "control-lock-wont-turn-off",
+                                                "leaking-from-bottom",
+                                                "making-loud-banging-noise-on-spin-cycle",
+                                                "no-power",
+                                                "no-water",
+                                                "noisy",
+                                                "not-agitating",
+                                                "not-draining",
+                                                "not-filling",
+                                                "not-finishing-the-cycle",
+                                                "not-rinsing",
+                                                "not-sensing",
+                                                "not-spinning",
+                                                "not-starting",
+                                                "not-turning-on",
+                                                "not-working",
+                                                "rinse-cycle-not-working",
+                                                "vibrates",
+                                                "won-t-start-cycle",
+                                                "won-t-turn-off",
+                                                "wont-spin-or-drain",
+                                                "wont-stop-filling"
+                                            ]
+                           }
+                       ]
+    },
+    {
+        "brand":  "york",
+        "appliances":  [
+                           {
+                               "appliance":  "central",
+                               "symptoms":  [
+                                                "air-blowing-warm-air",
+                                                "air-not-cooling",
+                                                "air-not-working"
+                                            ]
+                           },
+                           {
+                               "appliance":  "gas",
+                               "symptoms":  [
+                                                "furnace-blowing-cold-air",
+                                                "furnace-not-heating",
+                                                "furnace-not-working"
+                                            ]
+                           }
+                       ]
+    }
+]

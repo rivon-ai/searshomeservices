@@ -1,0 +1,1452 @@
+[
+    {
+        "brand": "ge",
+        "appliance": "washer",
+        "symptom": "not filling",
+        "url": "https://www.searshomeservices.com/symptom/ge-washer-not-filling",
+        "title": "GE washer not filling",
+        "description": "",
+        "full_content": [
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{'hidden': ''}",
+                "order": 0
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{'hidden': ''}",
+                "order": 1
+            },
+            {
+                "tag": "a",
+                "content": "Skip to main content",
+                "attributes": "{'href': '#main-content', 'class': ['skip-link']}",
+                "order": 2
+            },
+            {
+                "tag": "body",
+                "content": "$",
+                "attributes": "{'style': 'overflow: auto;'}",
+                "order": 3
+            },
+            {
+                "tag": "body",
+                "content": "/$",
+                "attributes": "{'style': 'overflow: auto;'}",
+                "order": 4
+            },
+            {
+                "tag": "span",
+                "content": "Sears Logo",
+                "attributes": "{'class': ['sr-only']}",
+                "order": 5
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Header Sears Logo | Src: /static/icons/general/shs-logo.svg",
+                "attributes": "{'alt': 'Header Sears Logo', 'loading': 'lazy', 'width': '95', 'height': '40', 'decoding': 'async', 'data-nimg': '1', 'class': ['h-10'], 'style': 'color:transparent', 'src': '/static/icons/general/shs-logo.svg'}",
+                "order": 6
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Hamburger menu | Src: /static/icons/general/menu-button-closed.svg",
+                "attributes": "{'alt': 'Hamburger menu', 'loading': 'lazy', 'width': '24', 'height': '24', 'decoding': 'async', 'data-nimg': '1', 'class': ['h-10', 'w-10', 'text-blue-250'], 'style': 'color:transparent', 'src': '/static/icons/general/menu-button-closed.svg'}",
+                "order": 7
+            },
+            {
+                "tag": "h1",
+                "content": "GE washer not filling",
+                "attributes": "{'data-testid': 'repair_symptom_page_title', 'data-metric-id': 'repair_symptom_page_title', 'class': ['text-5xl', 'text-left', 'text-blue-300', 'leading-10', 'mt-1']}",
+                "order": 8
+            },
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{'class': ['mb-4', 'md:mb-[1.1875rem]']}",
+                "order": 9
+            },
+            {
+                "tag": "h2",
+                "content": "Common reasons your GE washer is not filling",
+                "attributes": "{'class': ['mt-4', 'font-semibold', 'mb-1', 'text-3xl', 'md:text-4xl', 'leading-8', 'text-blue-300'], 'node': '[object Object]'}",
+                "order": 10
+            },
+            {
+                "tag": "p",
+                "content": "The most common reasons your GE washer is not filling are a clogged water valve assembly, malfunctioning electronic control board or a bad water level pressure switch.",
+                "attributes": "{'class': ['text-xl', 'text-gray-500', 'font-normal', 'mt-1', 'mb-[1.125rem]', 'min-h-18', 'md:min-h-0', 'md:max-w-[55.813rem]'], 'node': '[object Object]'}",
+                "order": 11
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{'class': ['mb-4', 'md:mb-[1.1875rem]']}",
+                "order": 12
+            },
+            {
+                "tag": "span",
+                "content": "51% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 13
+            },
+            {
+                "tag": "span",
+                "content": "Water Valve Assembly",
+                "attributes": "{'data-testid': 'percent_chart_0', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 14
+            },
+            {
+                "tag": "span",
+                "content": "10% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 15
+            },
+            {
+                "tag": "span",
+                "content": "Electronic Control Board",
+                "attributes": "{'data-testid': 'percent_chart_1', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 16
+            },
+            {
+                "tag": "span",
+                "content": "7% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 17
+            },
+            {
+                "tag": "span",
+                "content": "Water Level Pressure Switch",
+                "attributes": "{'data-testid': 'percent_chart_2', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 18
+            },
+            {
+                "tag": "span",
+                "content": "32% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 19
+            },
+            {
+                "tag": "span",
+                "content": "Something else",
+                "attributes": "{'data-testid': 'percent_chart_3', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 20
+            },
+            {
+                "tag": "h4",
+                "content": "Schedule your washer repair now!",
+                "attributes": "{'data-testid': 'conversion_component_title', 'data-metric-id': 'conversion_component_title', 'class': ['mt-0', 'text-4xl', 'text-blue-300', 'mb-0']}",
+                "order": 21
+            },
+            {
+                "tag": "p",
+                "content": "We can help! Our service technicians have repaired over",
+                "attributes": "{'class': ['text-xl', 'font-normal', 'text-gray-500', 'leading-8']}",
+                "order": 22
+            },
+            {
+                "tag": "b",
+                "content": "200,000",
+                "attributes": "{}",
+                "order": 23
+            },
+            {
+                "tag": "p",
+                "content": "GE washers. We can fix yours no matter where you bought it.",
+                "attributes": "{'class': ['text-xl', 'font-normal', 'text-gray-500', 'leading-8']}",
+                "order": 24
+            },
+            {
+                "tag": "span",
+                "content": "Call",
+                "attributes": "{'class': ['mr-2', 'ml-3', 'text-gray-500']}",
+                "order": 25
+            },
+            {
+                "tag": "a",
+                "content": "(646) 440-2692",
+                "attributes": "{'class': ['font-semibold', 'text-xl', 'text-blue-100', 'no-underline'], 'data-testid': 'cs_description_phone_link', 'data-metric-id': 'cs_description_phone_link', 'href': 'tel:+1-646-440-2692'}",
+                "order": 26
+            },
+            {
+                "tag": "span",
+                "content": "or schedule online now.",
+                "attributes": "{'class': ['ml-1', 'text-gray-500']}",
+                "order": 27
+            },
+            {
+                "tag": "span",
+                "content": "Chat",
+                "attributes": "{'class': ['ml-[0.75rem]', 'mr-1']}",
+                "order": 28
+            },
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{'class': ['w-full', 'mt-0', 'flex', 'flex-col', 'gap-6', 'lg:w-[53.55%]', 'lg:mt-4']}",
+                "order": 29
+            },
+            {
+                "tag": "button",
+                "content": "Washer",
+                "attributes": "{'aria-label': 'Select Product for Washer', 'data-testid': 'repair_symptom_page_conversion_component_v1_select_product', 'data-metric-id': 'repair_symptom_page_conversion_component_v1_select_product', 'data-metric-value': 'Washer', 'class': ['relative', 'text-left', 'block', 'w-full', 'bg-white', 'border-2', 'text-blue-400', 'border', 'overflow-hidden', 'whitespace-nowrap', 'pl-4', 'pr-10', 'py-2', 'text-md', 'font-medium', 'h-12', 'rounded-lg'], 'id': 'headlessui-listbox-button-_R_3dd8jrav5ubsnpb_', 'type': 'button', 'aria-haspopup': 'listbox', 'aria-expanded': 'false', 'data-headlessui-state': '', 'name': 'products'}",
+                "order": 30
+            },
+            {
+                "tag": "button",
+                "content": "GE",
+                "attributes": "{'aria-label': 'Select Brand for GE', 'data-testid': 'repair_symptom_page_conversion_component_v1_select_brand', 'data-metric-id': 'repair_symptom_page_conversion_component_v1_select_brand', 'data-metric-value': 'GE', 'name': 'brands', 'class': ['relative', 'text-left', 'block', 'w-full', 'bg-white', 'border-2', 'text-blue-400', 'border', 'overflow-hidden', 'whitespace-nowrap', 'pl-4', 'pr-10', 'py-2', 'text-md', 'font-medium', 'h-12', 'rounded-lg'], 'id': 'headlessui-listbox-button-_r_5_', 'type': 'button', 'aria-haspopup': 'listbox', 'aria-expanded': 'false', 'data-headlessui-state': ''}",
+                "order": 31
+            },
+            {
+                "tag": "button",
+                "content": "Schedule Now",
+                "attributes": "{'type': 'button', 'class': ['cursor-pointer', 'bg-yellow', 'text-blue-200', 'hover:bg-yellow-100', 'focus:outline-yellow-200', 'focus:outline-4', 'disabled:bg-gray-200', 'disabled:text-gray-500', 'px-6', 'rounded-lg', 'w-full', 'text-xl', 'py-3.5', 'font-semibold', 'mt-3', 'shadow-scheduler', '!hover:no-underline'], 'data-testid': 'repair_symptom_page_conversion_component_v1_repair_schedule_now_button', 'data-metric-id': 'repair_symptom_page_conversion_component_v1_repair_schedule_now_button', 'data-metric-value': 'Schedule Now'}",
+                "order": 32
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{'class': ['w-full', 'mt-0', 'flex', 'flex-col', 'gap-6', 'lg:w-[53.55%]', 'lg:mt-4']}",
+                "order": 33
+            },
+            {
+                "tag": "h2",
+                "content": "Most common repairs needed to fix a GE washer",
+                "attributes": "{'class': ['text-3xl', 'md:text-4xl', 'text-blue-300', 'leading-8'], 'node': '[object Object]'}",
+                "order": 34
+            },
+            {
+                "tag": "h4",
+                "content": "Water Valve Assembly Replacement",
+                "attributes": "{'class': ['text-2xl', 'text-blue-300', 'font-semibold', 'my-2', 'leading-8', 'h-[78px]'], 'node': '[object Object]'}",
+                "order": 35
+            },
+            {
+                "tag": "p",
+                "content": "The water valve assembly controls water flow into the washer. A clogged water valve inlet screen will prevent the wash tub from filling with hot water, cold water or both. Electrical failures in the valve may also prevent the valve from opening to allow water into the tub. The valve connects your home\u2019s water supply to the washer. A faulty valve may begin leaking into the tub or around the connections to the water supply hoses. If you suspect a faulty water valve assembly, have a Sears Home Services professional inspect the washer and replace the valve if needed.",
+                "attributes": "{'class': ['mb-6', 'text-xl', 'leading-6', 'text-blue-400'], 'node': '[object Object]'}",
+                "order": 36
+            },
+            {
+                "tag": "a",
+                "content": "How to replace the water valve assembly on a washer",
+                "attributes": "{'class': ['font-medium', 'hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-sm', 'leading-6'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_blank', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searspartsdirect.com/diy/repair-guide/how-to-replace-a-water-inlet-valve-on-a-vertical-modular-top-load-washer'}",
+                "order": 37
+            },
+            {
+                "tag": "h4",
+                "content": "Electronic Control Board Replacement",
+                "attributes": "{'class': ['text-2xl', 'text-blue-300', 'font-semibold', 'my-2', 'leading-8', 'h-[78px]'], 'node': '[object Object]'}",
+                "order": 38
+            },
+            {
+                "tag": "p",
+                "content": "A malfunctioning electronic control board can lead to various failures in a washer. This is because the board serves as the brain of the washer, controlling crucial components such as the water valve, drive motor, drain pump, and cycles. If the electronic control board fails, the washer may not power up or display the cycle status. Additionally, it might fail to fill, agitate, spin, or drain. In some cases, a shorted board may emit a burning smell.",
+                "attributes": "{'class': ['mb-6', 'text-xl', 'leading-6', 'text-blue-400'], 'node': '[object Object]'}",
+                "order": 39
+            },
+            {
+                "tag": "a",
+                "content": "How to replace the electronic control board in a washer",
+                "attributes": "{'class': ['font-medium', 'hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-sm', 'leading-6'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_blank', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searspartsdirect.com/diy/repair-guide/how-to-replace-the-electronic-control-board-on-a-top-load-washer'}",
+                "order": 40
+            },
+            {
+                "tag": "h4",
+                "content": "Water Level Pressure Switch Replacement",
+                "attributes": "{'class': ['text-2xl', 'text-blue-300', 'font-semibold', 'my-2', 'leading-8', 'h-[78px]'], 'node': '[object Object]'}",
+                "order": 41
+            },
+            {
+                "tag": "p",
+                "content": "If the water-level pressure switch in a washer is bad, it loses its ability to sense, control, and maintain the water level in the outer wash tub. This failure may result in the washer not filling or overfilling with water. The pressure switch operates using an air tube attached to the bottom of the tub, which senses the water level. As the wash tub fills, air pressure in the tube pushes up on a diaphragm inside the water-level pressure switch. A post attached to the diaphragm opens and closes electrical contacts within the switch's body, thereby controlling the water fill and shutting off the water when the washer is full. If any components of the water-level pressure switch fail, have a Sears Home Services repair technician replace the switch.",
+                "attributes": "{'class': ['mb-6', 'text-xl', 'leading-6', 'text-blue-400'], 'node': '[object Object]'}",
+                "order": 42
+            },
+            {
+                "tag": "a",
+                "content": "Why won't my washing machine fill?",
+                "attributes": "{'class': ['font-medium', 'hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-sm', 'leading-6'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_blank', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searspartsdirect.com/diy/symptom/washer-repair/1234598/won-t-fill/wash010'}",
+                "order": 43
+            },
+            {
+                "tag": "h2",
+                "content": "What to expect when you experience a GE washer not filling issue",
+                "attributes": "{'node': '[object Object]', 'class': ['text-4xl', 'font-semibold', 'text-blue-300', 'mb-5', 'leading-8']}",
+                "order": 44
+            },
+            {
+                "tag": "h3",
+                "content": "How is the not filling problem fixed?",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 45
+            },
+            {
+                "tag": "p",
+                "content": "Correcting most not filling problems usually involves replacing the water valve assembly, electronic control board or water level pressure switch. However, there are many potential causes, so a thorough diagnosis is key to fixing the problem. An accurate diagnosis is essential to understanding how much the repair will be.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 46
+            },
+            {
+                "tag": "p",
+                "content": "Search for",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 47
+            },
+            {
+                "tag": "a",
+                "content": "GE washer repair near me",
+                "attributes": "{'class': ['hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-xl', 'leading-6', 'font-normal'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_self', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searshomeservices.com/repair/ge/washer'}",
+                "order": 48
+            },
+            {
+                "tag": "p",
+                "content": "and you'll find Sears Home Services in your neighborhood and ready to fix your washing machine.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 49
+            },
+            {
+                "tag": "h3",
+                "content": "Sears Home Services recommendations for a washer that is not filling",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 50
+            },
+            {
+                "tag": "p",
+                "content": "When the washer is not filling it can be for many reasons. To avoid replacing unneeded parts we recommend having a Sears Home Services professional perform diagnostic tests to identify the root cause of the problem. Our technicians are experienced at diagnosing all types of washer failures.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 51
+            },
+            {
+                "tag": "h3",
+                "content": "What to look out for with a washer not filling diagnosis",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 52
+            },
+            {
+                "tag": "p",
+                "content": "Diagnosing modern appliances without proper knowledge and training can be difficult. Without using proper diagnostic techniques, fixing your washer problem will only be achieved through changing parts on a hunch. Appliances, especially in the last 10 years, have become extremely advanced, and many models have electronic parts that are difficult to test. DIY repairs on the latest appliance models are becoming increasingly difficult.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 53
+            },
+            {
+                "tag": "h2",
+                "content": "GE Washer Won\u2019t Fill Troubleshooting",
+                "attributes": "{'node': '[object Object]', 'class': ['text-4xl', 'font-semibold', 'text-blue-300', 'mb-5', 'leading-8']}",
+                "order": 54
+            },
+            {
+                "tag": "p",
+                "content": "When your GE washer won\u2019t fill, check to make sure that the lid is shut on a top loader or the front load washer door is closed fully. Most GE washers won\u2019t start the cycle and begin filling if the door or lid is open. If the door or lid is shut but the control doesn\u2019t accurately detect the lid or door position, you\u2019ll likely need to have the washer serviced by a technician. Schedule washer repair service and we\u2019ll send a Sears Home Services technician to your home to fix the problem.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 55
+            },
+            {
+                "tag": "p",
+                "content": "The next thing to check when your GE washer won\u2019t fill is the water supply faucets behind the washing machine. Make sure that those water supply faucets are fully open. If you find them shut, open the faucets to supply water to your GE washer and it should start filling.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 56
+            },
+            {
+                "tag": "p",
+                "content": "If you suspect a problem with the water supply going to your washer, shut off the water supply valves and disconnect the fill hoses from the back of the washing machine. Place the ends of the fill hoses in a bucket and briefly open the water supply valves to check water flow through the fill hoses. If you have no water supply going to the washer, have a plumber fix the washer water supply.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 57
+            },
+            {
+                "tag": "p",
+                "content": "If these basic troubleshooting tips don\u2019t help you find and resolve the problem with your GE washer that won\u2019t fill, schedule washer repair service and we\u2019ll fix the fill problem for you.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 58
+            },
+            {
+                "tag": "h2",
+                "content": "Why is my GE Washer Not Filling All the Way?",
+                "attributes": "{'node': '[object Object]', 'class': ['text-4xl', 'font-semibold', 'text-blue-300', 'mb-5', 'leading-8']}",
+                "order": 59
+            },
+            {
+                "tag": "p",
+                "content": "If you have an HE (high-efficiency) GE washer not filling all the way, you may not be used to the lower water level that the washer uses if your previous washer was a conventional deep fill model. Even if you use the deep fill option on a GE HE washer, the control will only add about 3 more gallons of water.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 60
+            },
+            {
+                "tag": "p",
+                "content": "For a front-load washer, you\u2019ll barely be able to see the water in the bottom of the washer because the HE front loader uses very little water to clean clothes.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 61
+            },
+            {
+                "tag": "p",
+                "content": "Becoming accustomed to the water fill levels in HE washers takes time many people. The HE washers will still clean clothes effectively using much less water than a conventional top-load washer. Just don\u2019t overload an HE washer and use HE detergent to avoid excessive suds. Also, you\u2019ll typically only need about a tablespoon of HE detergent to clean most loads in an HE washer.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 62
+            },
+            {
+                "tag": "p",
+                "content": "If you have a conventional deep fill GE washer not filling all the way, a problem with the water level pressure switch is often the cause of the problem. Schedule washer repair service to have a Sears Home Services technician visit your home and fix the fill problem.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 63
+            },
+            {
+                "tag": "h2",
+                "content": "Why isn't my GE washing machine filling up with water?",
+                "attributes": "{'node': '[object Object]', 'class': ['text-4xl', 'font-semibold', 'text-blue-300', 'mb-5', 'leading-8']}",
+                "order": 64
+            },
+            {
+                "tag": "p",
+                "content": "Watch this video and get DIY troubleshooting tips to discover if the problem is your washing machine water valves, a kink in the water hose or some type of clog.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 65
+            },
+            {
+                "tag": "h3",
+                "content": "1. Check that the lid is completely closed.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 66
+            },
+            {
+                "tag": "p",
+                "content": "Washing machines have a safety switch that prevents the washer from operating if the lid is open. If you\u2019re washer isn\u2019t filling with water, make sure the lid is completely closed.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 67
+            },
+            {
+                "tag": "p",
+                "content": "If it is closed, check to see if the strike on the lid is broken, preventing it from making contact with the lid switch. If the strike is broken, it should be replaced.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 68
+            },
+            {
+                "tag": "h3",
+                "content": "2. Make sure the hot and cold water supplies are on.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 69
+            },
+            {
+                "tag": "p",
+                "content": "It may seem obvious, but it\u2019s possible the water supply faucet handles aren\u2019t on. Ensure both the hot and cold water faucets are in the \u201con\u201d position. You may want to move them to \u201coff\u201d and then to \u201con\u201d again.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 70
+            },
+            {
+                "tag": "h3",
+                "content": "3. See if the fill hoses are kinked.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 71
+            },
+            {
+                "tag": "p",
+                "content": "Check the hoses that lead from water supply to the back of the machine and make sure they\u2019re not kinked. If you do find a kink, reposition the hose to remove the kink, and make sure the hoses remain in a position that prevents kinking again.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 72
+            },
+            {
+                "tag": "h3",
+                "content": "4. Check if the water inlet screens are clogged.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 73
+            },
+            {
+                "tag": "p",
+                "content": "Sometimes the screens on the water inlet valve become clogged with mineral buildup. Remove the water fill hoses from the inlet valve and use a soft cloth to clean the screens. Don\u2019t remove the screens \u2014 this could possibly cause flooding. If the screens are clogged and you can\u2019t get them clean, the water valve should be replaced.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 74
+            },
+            {
+                "tag": "p",
+                "content": "After checking the screens, reinstall the hoses and turn the water back on. Make sure there aren\u2019t any leaks.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 75
+            },
+            {
+                "tag": "h2",
+                "content": "Advanced Troubleshooting and Repair Tips",
+                "attributes": "{'node': '[object Object]', 'class': ['text-4xl', 'font-semibold', 'text-blue-300', 'mb-5', 'leading-8']}",
+                "order": 76
+            },
+            {
+                "tag": "p",
+                "content": "If your washing machine fails to fill with water after basic troubleshooting, there might be underlying issues that warrant repair. One possible culprit could be a faulty water inlet valve. Over time, these valves can become clogged with debris, preventing the free flow of water. A malfunctioning valve requires replacement.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 77
+            },
+            {
+                "tag": "p",
+                "content": "A faulty pressure switch could also cause the washer not fill. The pressure switch monitors the water level in the machine and sends signals to start or stop the filling process. A malfunctioning pressure switch might incorrectly signal that the desired water level has been reached, causing the machine to not fill properly.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 78
+            },
+            {
+                "tag": "p",
+                "content": "Another potential source of the issue could be a malfunctioning control board or timer. If these components fail to communicate the appropriate signals, the washing cycle may not fill or may start to fill but with not enough water to perform a wash cycle.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 79
+            },
+            {
+                "tag": "p",
+                "content": "A blockage or obstruction within the machine's internal hoses or filters could restrict water flow. Sediment buildup or foreign objects might impede the passage of water, necessitating a thorough cleaning or replacement of affected components. In such cases, seeking professional repair services can help diagnose and rectify the underlying problems, ensuring your washing machine resumes its normal functionality.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 80
+            },
+            {
+                "tag": "p",
+                "content": "Here's an advanced DIY troubleshooting video that shows how to systematically check all issues that can prevent a common top-load washer from filling.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 81
+            },
+            {
+                "tag": "h3",
+                "content": "Check Water Flow",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 82
+            },
+            {
+                "tag": "p",
+                "content": "Check for water flow through the fill hoses by unplugging the washer, turning off the faucets and disconnecting the hoses from the back of the washer. Hold each hose end over a bucket and briefly turn on the faucet. If you don't have any water coming out, check for a clog in the hoses. If the hoses are okay, you could have a problem with your house water supply.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 83
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: mixing-valve-part-image | Src: //www.searshomeservices.com/cftassets/13GpMlSdepthP0WyDrXVrY/6f30146b055c7d5e8fad80af0e01ba48/washer-water-mixing-valve-image.png?w=3840&q=80&fm=webp",
+                "attributes": "{'alt': 'mixing-valve-part-image', 'title': '', 'variant': 'rounded', 'node': '[object Object]', 'loading': 'lazy', 'width': '578', 'height': '450', 'decoding': 'async', 'data-nimg': '1', 'class': ['rounded-md', 'w-full'], 'style': 'color:transparent', 'sizes': '(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw', 'srcset': '//www.searshomeservices.com/cftassets/13GpMlSdepthP0WyDrXVrY/6f30146b055c7d5e8fad80af0e01ba48/washer-water-mixing-valve-image.png?w=256&q=80&fm=webp 256w, //www.searshomeservices.com/cftassets/13GpMlSdepthP0WyDrXVrY/6f30146b055c7d5e8fad80af0e01ba48/washer-water-mixing-valve-image.png?w=384&q=80&fm=webp 384w, //www.searshomeservices.com/cftassets/13GpMlSdepthP0WyDrXVrY/6f30146b055c7d5e8fad80af0e01ba48/washer-water-mixing-valve-image.png?w=640&q=80&fm=webp 640w, //www.searshomeservices.com/cftassets/13GpMlSdepthP0WyDrXVrY/6f30146b055c7d5e8fad80af0e01ba48/washer-water-mixing-valve-image.png?w=750&q=80&fm=webp 750w, //www.searshomeservices.com/cftassets/13GpMlSdepthP0WyDrXVrY/6f30146b055c7d5e8fad80af0e01ba48/washer-water-mixing-valve-image.png?w=828&q=80&fm=webp 828w, //www.searshomeservices.com/cftassets/13GpMlSdepthP0WyDrXVrY/6f30146b055c7d5e8fad80af0e01ba48/washer-water-mixing-valve-image.png?w=1080&q=80&fm=webp 1080w, //www.searshomeservices.com/cftassets/13GpMlSdepthP0WyDrXVrY/6f30146b055c7d5e8fad80af0e01ba48/washer-water-mixing-valve-image.png?w=1200&q=80&fm=webp 1200w, //www.searshomeservices.com/cftassets/13GpMlSdepthP0WyDrXVrY/6f30146b055c7d5e8fad80af0e01ba48/washer-water-mixing-valve-image.png?w=1920&q=80&fm=webp 1920w, //www.searshomeservices.com/cftassets/13GpMlSdepthP0WyDrXVrY/6f30146b055c7d5e8fad80af0e01ba48/washer-water-mixing-valve-image.png?w=2048&q=80&fm=webp 2048w, //www.searshomeservices.com/cftassets/13GpMlSdepthP0WyDrXVrY/6f30146b055c7d5e8fad80af0e01ba48/washer-water-mixing-valve-image.png?w=3840&q=80&fm=webp 3840w', 'src': '//www.searshomeservices.com/cftassets/13GpMlSdepthP0WyDrXVrY/6f30146b055c7d5e8fad80af0e01ba48/washer-water-mixing-valve-image.png?w=3840&q=80&fm=webp'}",
+                "order": 84
+            },
+            {
+                "tag": "h3",
+                "content": "Is water inlet valve working?",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 85
+            },
+            {
+                "tag": "p",
+                "content": "Check for continuity through the entire electrical circuit with a multimeter. This will tell us if the cold-water valve is getting the current it needs to open. For safety, always unplug your washer before checking continuity. Shut off the water supply. Pull the plastic end caps off the sides of the control console. Remove the screws at the base of the control console. Pull the control console slightly forward and then swing it up and over the top of the back panel. Unplug the wire harness from the lid switch on the washer's top panel. Release the clips that secure the cabinet to the washer's back panel. Using a slot screwdriver, pry the clips forward to release them. Lift the back of the cabinet and slide it forward to remove it from the washer frame.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 86
+            },
+            {
+                "tag": "p",
+                "content": "Set your multimeter to check resistance. Place one meter probe on the right prong of the power cord and the other on the yellow and red wire connected to the cold water valve. You should see near 0 ohms of resistance, which indicates that you have a clear path for voltage to the cold water valve in the rinse portion of the cycle. Next, check the other side of the circuit. Put your leads on the white wire and the left prong of the outlet cord. You should have continuity through the neutral side of the circuit as well. If you had continuity on both sides of the circuit, then the cold water valve is apparently getting voltage but not opening to allow water flow, meaning you\u2019ll need to replace your water inlet valve.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 87
+            },
+            {
+                "tag": "h3",
+                "content": "Check for Broken Wires",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 88
+            },
+            {
+                "tag": "p",
+                "content": "If you didn\u2019t have continuity on either wire\u2014on this meter that\u2019s a \u201c1\u201d in the far left corner\u2014then do more checks to find the break in the circuit. If the white wire didn\u2019t have continuity, you\u2019ll need to check each section of wiring until you find the break and repair any broken wires that you find. This video has more information about repairing wires.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 89
+            },
+            {
+                "tag": "h3",
+                "content": "Check the Pressure Switch",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 90
+            },
+            {
+                "tag": "p",
+                "content": "If the water inlet valve isn\u2019t the problem, the next thing to check is the water level pressure switch. If the yellow/red wire didn't have continuity, check from the power cord to the pressure switch. Place one meter lead on the right prong of the power cord and the other on the pink wire on the water level pressure switch. If you measure no continuity, check between the violet and pink wires on the pressure switch. If you measure no continuity there, then the break must be in the pressure switch. This video will show you how to replace your pressure switch:",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 91
+            },
+            {
+                "tag": "a",
+                "content": "How to Replace the Water Level Pressure Switch in a Top-Load Washer",
+                "attributes": "{'class': ['hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-xl', 'leading-6', 'font-normal'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_blank', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searspartsdirect.com/diy/repair-guide/how-to-replace-the-water-level-pressure-switch-on-a-direct-drive-top-load-washer'}",
+                "order": 92
+            },
+            {
+                "tag": "p",
+                "content": ".",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 93
+            },
+            {
+                "tag": "h3",
+                "content": "Test for a Bad Timer or Wiring Failure",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 94
+            },
+            {
+                "tag": "p",
+                "content": "Now, if you measured continuity between the violet and pink wires, the problem is either the timer or a wiring failure in the circuit. Check for continuity on the violet wire between the timer and the water level pressure switch. If there's no continuity on the violet wire then that wire will need to be repaired. If there is continuity on the violet wire, check between the violet wire and the black wire on the timer. If you measure no continuity, you\u2019ll need to replace the timer because it's not allowing voltage through the circuit. This video will show you how:",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 95
+            },
+            {
+                "tag": "a",
+                "content": "How to replace the timer in a top-load washer",
+                "attributes": "{'class': ['hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-xl', 'leading-6', 'font-normal'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_blank', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searspartsdirect.com/diy/repair-guide/how-to-replace-the-timer-in-a-direct-drive-top-load-washer'}",
+                "order": 96
+            },
+            {
+                "tag": "p",
+                "content": ".",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 97
+            },
+            {
+                "tag": "p",
+                "content": "If you\u2019ve got continuity through the timer, then you must have a break in wiring harness between the timer and the power cord. Find and repair that break.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 98
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Sears Home Services Laundry Technician Maintaining the Washer | Src: //www.searshomeservices.com/cftassets/5esdLdsuJ2yt98gCFMqJdG/bd86f6a3008a740979cbef39f42131b3/Sears_Home_Services_Laundry_Technician_Maintaining_the_Washer.png?w=3840&q=80&fm=webp",
+                "attributes": "{'alt': 'Sears Home Services Laundry Technician Maintaining the Washer', 'title': '', 'variant': 'rounded', 'node': '[object Object]', 'loading': 'lazy', 'width': '578', 'height': '450', 'decoding': 'async', 'data-nimg': '1', 'class': ['rounded-md', 'w-full'], 'style': 'color:transparent', 'sizes': '(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw', 'srcset': '//www.searshomeservices.com/cftassets/5esdLdsuJ2yt98gCFMqJdG/bd86f6a3008a740979cbef39f42131b3/Sears_Home_Services_Laundry_Technician_Maintaining_the_Washer.png?w=256&q=80&fm=webp 256w, //www.searshomeservices.com/cftassets/5esdLdsuJ2yt98gCFMqJdG/bd86f6a3008a740979cbef39f42131b3/Sears_Home_Services_Laundry_Technician_Maintaining_the_Washer.png?w=384&q=80&fm=webp 384w, //www.searshomeservices.com/cftassets/5esdLdsuJ2yt98gCFMqJdG/bd86f6a3008a740979cbef39f42131b3/Sears_Home_Services_Laundry_Technician_Maintaining_the_Washer.png?w=640&q=80&fm=webp 640w, //www.searshomeservices.com/cftassets/5esdLdsuJ2yt98gCFMqJdG/bd86f6a3008a740979cbef39f42131b3/Sears_Home_Services_Laundry_Technician_Maintaining_the_Washer.png?w=750&q=80&fm=webp 750w, //www.searshomeservices.com/cftassets/5esdLdsuJ2yt98gCFMqJdG/bd86f6a3008a740979cbef39f42131b3/Sears_Home_Services_Laundry_Technician_Maintaining_the_Washer.png?w=828&q=80&fm=webp 828w, //www.searshomeservices.com/cftassets/5esdLdsuJ2yt98gCFMqJdG/bd86f6a3008a740979cbef39f42131b3/Sears_Home_Services_Laundry_Technician_Maintaining_the_Washer.png?w=1080&q=80&fm=webp 1080w, //www.searshomeservices.com/cftassets/5esdLdsuJ2yt98gCFMqJdG/bd86f6a3008a740979cbef39f42131b3/Sears_Home_Services_Laundry_Technician_Maintaining_the_Washer.png?w=1200&q=80&fm=webp 1200w, //www.searshomeservices.com/cftassets/5esdLdsuJ2yt98gCFMqJdG/bd86f6a3008a740979cbef39f42131b3/Sears_Home_Services_Laundry_Technician_Maintaining_the_Washer.png?w=1920&q=80&fm=webp 1920w, //www.searshomeservices.com/cftassets/5esdLdsuJ2yt98gCFMqJdG/bd86f6a3008a740979cbef39f42131b3/Sears_Home_Services_Laundry_Technician_Maintaining_the_Washer.png?w=2048&q=80&fm=webp 2048w, //www.searshomeservices.com/cftassets/5esdLdsuJ2yt98gCFMqJdG/bd86f6a3008a740979cbef39f42131b3/Sears_Home_Services_Laundry_Technician_Maintaining_the_Washer.png?w=3840&q=80&fm=webp 3840w', 'src': '//www.searshomeservices.com/cftassets/5esdLdsuJ2yt98gCFMqJdG/bd86f6a3008a740979cbef39f42131b3/Sears_Home_Services_Laundry_Technician_Maintaining_the_Washer.png?w=3840&q=80&fm=webp'}",
+                "order": 99
+            },
+            {
+                "tag": "h2",
+                "content": "Let the Washing Machine Experts at Sears Home Services Repair Your Washer",
+                "attributes": "{'node': '[object Object]', 'class': ['text-4xl', 'font-semibold', 'text-blue-300', 'mb-5', 'leading-8']}",
+                "order": 100
+            },
+            {
+                "tag": "p",
+                "content": "If you've gotten this far in the troubleshooting and haven't found and fixed the cause of the filling problem, it's likely time to have a professional fix your washing machine.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 101
+            },
+            {
+                "tag": "p",
+                "content": "Sears Home Services stands ready to provide trusted expertise to address even the most complex",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 102
+            },
+            {
+                "tag": "a",
+                "content": "washing machine issues",
+                "attributes": "{'class': ['hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-xl', 'leading-6', 'font-normal'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_self', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searshomeservices.com/blog/8-simple-tips-for-fixing-a-washer-that-wont-start'}",
+                "order": 103
+            },
+            {
+                "tag": "p",
+                "content": ". With a team of skilled technicians experienced in diagnosing and repairing a wide range of appliance problems, we\u2019ll have your washer working again fast.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 104
+            },
+            {
+                "tag": "a",
+                "content": "Schedule a service appointment",
+                "attributes": "{'class': ['hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-xl', 'leading-6', 'font-normal'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_self', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searshomeservices.com/repair/washer-repair-service'}",
+                "order": 105
+            },
+            {
+                "tag": "p",
+                "content": "with a washer repair expert today.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 106
+            },
+            {
+                "tag": "p",
+                "content": "If your GE washer runs empty, clothes never receive proper suds or rinsing. A faulty inlet valve or pressure sensor usually stops the water flow. Rather than incomplete washing, let a",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 107
+            },
+            {
+                "tag": "a",
+                "content": "washing machine service near me",
+                "attributes": "{'class': ['hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-xl', 'leading-6', 'font-normal'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_self', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searshomeservices.com/repair/washer-repair-service'}",
+                "order": 108
+            },
+            {
+                "tag": "p",
+                "content": "address the issue. Adequate water levels keep each load thoroughly cleansed.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 109
+            },
+            {
+                "tag": "span",
+                "content": "Schedule Now",
+                "attributes": "{}",
+                "order": 110
+            },
+            {
+                "tag": "h2",
+                "content": "What our customers say about us",
+                "attributes": "{'class': ['text-blue-300', 'md:text-4xl-plus', 'my-2', 'tracking-wide', 'font-montserrat', 'text-4xl', 'font-semibold', 'leading-8']}",
+                "order": 111
+            },
+            {
+                "tag": "p",
+                "content": "With more than 1.3 Million 5 Star Reviews, you don't have to take our word for it",
+                "attributes": "{'class': ['font-normal', 'text-gray-500', 'text-md', 'lg:text-xl', 'mb-4', 'lg:mb-[18px]', 'px-4']}",
+                "order": 112
+            },
+            {
+                "tag": "p",
+                "content": "Thanks",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'truncate', 'font-semibold', 'text-blue-300', 'mt-2', 'mb-1'], 'title': 'Thanks'}",
+                "order": 113
+            },
+            {
+                "tag": "p",
+                "content": "Thanks for your expert analysis of the problem that caused the flooding of my home .I was scared the first few times I used the machine , but all is working great.",
+                "attributes": "{'class': ['text-md', 'leading-6', 'font-normal', 'text-gray-500', 'line-clamp-5', 'mb-1', 'lg:mb-4'], 'title': 'Thanks for your expert analysis of the problem that caused the flooding of my home .I was scared the first few times I used the machine , but all is working great.'}",
+                "order": 114
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: User Profile | Src: /static/icons/general/user-profile.svg",
+                "attributes": "{'alt': 'User Profile', 'loading': 'lazy', 'width': '47', 'height': '47', 'decoding': 'async', 'data-nimg': '1', 'class': ['w-12', 'h-12', 'rounded-full', 'object-cover'], 'style': 'color:transparent', 'src': '/static/icons/general/user-profile.svg'}",
+                "order": 115
+            },
+            {
+                "tag": "p",
+                "content": "Frank U, Coconut Creek, FL",
+                "attributes": "{'class': ['text-gray-500', 'text-xs', 'md:text-sm', 'font-normal', 'italic', 'uppercase']}",
+                "order": 116
+            },
+            {
+                "tag": "p",
+                "content": "Excellent service.",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'truncate', 'font-semibold', 'text-blue-300', 'mt-2', 'mb-1'], 'title': 'Excellent service.'}",
+                "order": 117
+            },
+            {
+                "tag": "p",
+                "content": "Pleasant person to work with. He explains things to you.",
+                "attributes": "{'class': ['text-md', 'leading-6', 'font-normal', 'text-gray-500', 'line-clamp-5', 'mb-1', 'lg:mb-4'], 'title': 'Pleasant person to work with. He explains things to you.'}",
+                "order": 118
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: User Profile | Src: /static/icons/general/user-profile.svg",
+                "attributes": "{'alt': 'User Profile', 'loading': 'lazy', 'width': '47', 'height': '47', 'decoding': 'async', 'data-nimg': '1', 'class': ['w-12', 'h-12', 'rounded-full', 'object-cover'], 'style': 'color:transparent', 'src': '/static/icons/general/user-profile.svg'}",
+                "order": 119
+            },
+            {
+                "tag": "p",
+                "content": "Jacklyn J, Bessemer, AL",
+                "attributes": "{'class': ['text-gray-500', 'text-xs', 'md:text-sm', 'font-normal', 'italic', 'uppercase']}",
+                "order": 120
+            },
+            {
+                "tag": "p",
+                "content": "Very Professional",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'truncate', 'font-semibold', 'text-blue-300', 'mt-2', 'mb-1'], 'title': 'Very Professional'}",
+                "order": 121
+            },
+            {
+                "tag": "p",
+                "content": "Very professional, thoughtful and knowledgeable I would highly recommend him.",
+                "attributes": "{'class': ['text-md', 'leading-6', 'font-normal', 'text-gray-500', 'line-clamp-5', 'mb-1', 'lg:mb-4'], 'title': 'Very professional, thoughtful and knowledgeable I would highly recommend him.'}",
+                "order": 122
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: User Profile | Src: /static/icons/general/user-profile.svg",
+                "attributes": "{'alt': 'User Profile', 'loading': 'lazy', 'width': '47', 'height': '47', 'decoding': 'async', 'data-nimg': '1', 'class': ['w-12', 'h-12', 'rounded-full', 'object-cover'], 'style': 'color:transparent', 'src': '/static/icons/general/user-profile.svg'}",
+                "order": 123
+            },
+            {
+                "tag": "p",
+                "content": "Marilyn W, Covington, LA",
+                "attributes": "{'class': ['text-gray-500', 'text-xs', 'md:text-sm', 'font-normal', 'italic', 'uppercase']}",
+                "order": 124
+            },
+            {
+                "tag": "h2",
+                "content": "Frequently Asked Questions",
+                "attributes": "{'id': 'faq-heading-symptom-ge-washer-not-filling', 'class': ['text-4xl', 'lg:text-4xl-plus', 'font-semibold', 'text-blue-300', 'leading-9', 'pb-2', 'lg:mb-8']}",
+                "order": 125
+            },
+            {
+                "tag": "div",
+                "content": "Why isn\u2019t my GE washer filling with water?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 126
+            },
+            {
+                "tag": "div",
+                "content": "A clogged water inlet valve screen, faulty pressure switch, or bad inlet water valve could prevent the washer from filling.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 127
+            },
+            {
+                "tag": "div",
+                "content": "How can I test the water inlet valve?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 128
+            },
+            {
+                "tag": "div",
+                "content": "Disconnect the washer from the water supply, remove the valve, and test for continuity with a multimeter. Check for deposits and debris in the inlet screen that can block water flow.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 129
+            },
+            {
+                "tag": "div",
+                "content": "Could a faulty pressure switch cause the washer not to fill?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 130
+            },
+            {
+                "tag": "div",
+                "content": "Yes, if the pressure switch isn\u2019t detecting the water level, it may not signal the washer to fill with water.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 131
+            },
+            {
+                "tag": "div",
+                "content": "What should I do if the valve and switch seem fine?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 132
+            },
+            {
+                "tag": "div",
+                "content": "Inspect the hoses for blockages and ensure the water supply is turned on and providing adequate pressure.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 133
+            },
+            {
+                "tag": "h2",
+                "content": "Repair Washer Resources",
+                "attributes": "{'class': ['text-blue-300', 'text-5xl', 'mb-12', 'md:px-0']}",
+                "order": 134
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Homeowner discovering her washing machine leaking water and calling for washer repair service | Src: https://www.searshomeservices.com/cftassets/5gc1VULAZ3gI1rJirX6L2t/0625d5791c66817b3eb449c4dbff6206/how-to-fix-a-leaking-washing-machine.png?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': 'Homeowner discovering her washing machine leaking water and calling for washer repair service', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/5gc1VULAZ3gI1rJirX6L2t/0625d5791c66817b3eb449c4dbff6206/how-to-fix-a-leaking-washing-machine.png?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/5gc1VULAZ3gI1rJirX6L2t/0625d5791c66817b3eb449c4dbff6206/how-to-fix-a-leaking-washing-machine.png?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/5gc1VULAZ3gI1rJirX6L2t/0625d5791c66817b3eb449c4dbff6206/how-to-fix-a-leaking-washing-machine.png?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/5gc1VULAZ3gI1rJirX6L2t/0625d5791c66817b3eb449c4dbff6206/how-to-fix-a-leaking-washing-machine.png?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/5gc1VULAZ3gI1rJirX6L2t/0625d5791c66817b3eb449c4dbff6206/how-to-fix-a-leaking-washing-machine.png?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/5gc1VULAZ3gI1rJirX6L2t/0625d5791c66817b3eb449c4dbff6206/how-to-fix-a-leaking-washing-machine.png?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/5gc1VULAZ3gI1rJirX6L2t/0625d5791c66817b3eb449c4dbff6206/how-to-fix-a-leaking-washing-machine.png?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/5gc1VULAZ3gI1rJirX6L2t/0625d5791c66817b3eb449c4dbff6206/how-to-fix-a-leaking-washing-machine.png?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/5gc1VULAZ3gI1rJirX6L2t/0625d5791c66817b3eb449c4dbff6206/how-to-fix-a-leaking-washing-machine.png?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/5gc1VULAZ3gI1rJirX6L2t/0625d5791c66817b3eb449c4dbff6206/how-to-fix-a-leaking-washing-machine.png?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/5gc1VULAZ3gI1rJirX6L2t/0625d5791c66817b3eb449c4dbff6206/how-to-fix-a-leaking-washing-machine.png?w=3840&q=90&fm=webp'}",
+                "order": 135
+            },
+            {
+                "tag": "p",
+                "content": "Why Is My Washing Machine Leaking?: Expert Repair Help",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 136
+            },
+            {
+                "tag": "span",
+                "content": "7 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 137
+            },
+            {
+                "tag": "span",
+                "content": "Dec. 23",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 138
+            },
+            {
+                "tag": "p",
+                "content": "Find out why your washing machine is leaking and learn the troubleshooting step and repair tactics to fix the problem causing the leak.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 139
+            },
+            {
+                "tag": "a",
+                "content": "Washer",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_washer_blog_meta_data_0_product_link', 'data-metric-id': 'repair_symptom_page_washer_blog_meta_data_0_product_link', 'data-metric-value': 'Washer', 'target': '_self', 'href': '/blog/repair/washer-resources'}",
+                "order": 140
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: a homeowner checking a washer repair after replacing the pressure switch after learning how a pressure switch works in a washer | Src: https://www.searshomeservices.com/cftassets/75ZYDp22vNZllPRIItbSF8/32e94ed745141df4d30de5dcc08e444d/how-does-a-pressure-switch-work-image.png?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': 'a homeowner checking a washer repair after replacing the pressure switch after learning how a pressure switch works in a washer', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/75ZYDp22vNZllPRIItbSF8/32e94ed745141df4d30de5dcc08e444d/how-does-a-pressure-switch-work-image.png?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/75ZYDp22vNZllPRIItbSF8/32e94ed745141df4d30de5dcc08e444d/how-does-a-pressure-switch-work-image.png?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/75ZYDp22vNZllPRIItbSF8/32e94ed745141df4d30de5dcc08e444d/how-does-a-pressure-switch-work-image.png?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/75ZYDp22vNZllPRIItbSF8/32e94ed745141df4d30de5dcc08e444d/how-does-a-pressure-switch-work-image.png?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/75ZYDp22vNZllPRIItbSF8/32e94ed745141df4d30de5dcc08e444d/how-does-a-pressure-switch-work-image.png?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/75ZYDp22vNZllPRIItbSF8/32e94ed745141df4d30de5dcc08e444d/how-does-a-pressure-switch-work-image.png?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/75ZYDp22vNZllPRIItbSF8/32e94ed745141df4d30de5dcc08e444d/how-does-a-pressure-switch-work-image.png?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/75ZYDp22vNZllPRIItbSF8/32e94ed745141df4d30de5dcc08e444d/how-does-a-pressure-switch-work-image.png?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/75ZYDp22vNZllPRIItbSF8/32e94ed745141df4d30de5dcc08e444d/how-does-a-pressure-switch-work-image.png?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/75ZYDp22vNZllPRIItbSF8/32e94ed745141df4d30de5dcc08e444d/how-does-a-pressure-switch-work-image.png?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/75ZYDp22vNZllPRIItbSF8/32e94ed745141df4d30de5dcc08e444d/how-does-a-pressure-switch-work-image.png?w=3840&q=90&fm=webp'}",
+                "order": 141
+            },
+            {
+                "tag": "p",
+                "content": "How Does a Pressure Switch Work?: A Practical Explanation",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 142
+            },
+            {
+                "tag": "span",
+                "content": "8 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 143
+            },
+            {
+                "tag": "span",
+                "content": "Dec. 22",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 144
+            },
+            {
+                "tag": "p",
+                "content": "Learn how a pressure switch works in a washing machine to control water fill level.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 145
+            },
+            {
+                "tag": "a",
+                "content": "Washer",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_washer_blog_meta_data_1_product_link', 'data-metric-id': 'repair_symptom_page_washer_blog_meta_data_1_product_link', 'data-metric-value': 'Washer', 'target': '_self', 'href': '/blog/repair/washer-resources'}",
+                "order": 146
+            },
+            {
+                "tag": "a",
+                "content": "Appliance 101",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_washer_blog_meta_data_1_secondary_category_link', 'data-metric-id': 'repair_symptom_page_washer_blog_meta_data_1_secondary_category_link', 'data-metric-value': 'Washer', 'target': '_self', 'href': '/blog/repair/appliance-101-resources'}",
+                "order": 147
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Image showing a top load washer for a blog article on top-loading washing machine tips and tricks | Src: https://www.searshomeservices.com/cftassets/34Y7BS7UhiIYeq8tJTNkES/08b62df6271d2b7e22ad800cc34c96ba/top-load-washing-machine-image.png?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': 'Image showing a top load washer for a blog article on top-loading washing machine tips and tricks', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/34Y7BS7UhiIYeq8tJTNkES/08b62df6271d2b7e22ad800cc34c96ba/top-load-washing-machine-image.png?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/34Y7BS7UhiIYeq8tJTNkES/08b62df6271d2b7e22ad800cc34c96ba/top-load-washing-machine-image.png?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/34Y7BS7UhiIYeq8tJTNkES/08b62df6271d2b7e22ad800cc34c96ba/top-load-washing-machine-image.png?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/34Y7BS7UhiIYeq8tJTNkES/08b62df6271d2b7e22ad800cc34c96ba/top-load-washing-machine-image.png?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/34Y7BS7UhiIYeq8tJTNkES/08b62df6271d2b7e22ad800cc34c96ba/top-load-washing-machine-image.png?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/34Y7BS7UhiIYeq8tJTNkES/08b62df6271d2b7e22ad800cc34c96ba/top-load-washing-machine-image.png?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/34Y7BS7UhiIYeq8tJTNkES/08b62df6271d2b7e22ad800cc34c96ba/top-load-washing-machine-image.png?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/34Y7BS7UhiIYeq8tJTNkES/08b62df6271d2b7e22ad800cc34c96ba/top-load-washing-machine-image.png?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/34Y7BS7UhiIYeq8tJTNkES/08b62df6271d2b7e22ad800cc34c96ba/top-load-washing-machine-image.png?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/34Y7BS7UhiIYeq8tJTNkES/08b62df6271d2b7e22ad800cc34c96ba/top-load-washing-machine-image.png?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/34Y7BS7UhiIYeq8tJTNkES/08b62df6271d2b7e22ad800cc34c96ba/top-load-washing-machine-image.png?w=3840&q=90&fm=webp'}",
+                "order": 148
+            },
+            {
+                "tag": "p",
+                "content": "Top-Loading Washer Troubleshooting Tips",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 149
+            },
+            {
+                "tag": "span",
+                "content": "5 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 150
+            },
+            {
+                "tag": "span",
+                "content": "Dec. 18",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 151
+            },
+            {
+                "tag": "p",
+                "content": "Is your top-loading washer acting up? Discover troubleshooting tips for common issues like water leaks, excessive vibrations, failure to fill with water, detergent residue, and startup problems.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 152
+            },
+            {
+                "tag": "a",
+                "content": "Washer",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_washer_blog_meta_data_2_product_link', 'data-metric-id': 'repair_symptom_page_washer_blog_meta_data_2_product_link', 'data-metric-value': 'Washer', 'target': '_self', 'href': '/blog/repair/washer-resources'}",
+                "order": 153
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: washer mixing valve image for blog article \"How Does a Mixing Valve Work?\" | Src: https://www.searshomeservices.com/cftassets/0i8bT1ABwq1JRdBbgExkL/3b9abffd4a5216d41e7d11a1e535cc77/washer-mixing-valve.png?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': 'washer mixing valve image for blog article \"How Does a Mixing Valve Work?\"', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/0i8bT1ABwq1JRdBbgExkL/3b9abffd4a5216d41e7d11a1e535cc77/washer-mixing-valve.png?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/0i8bT1ABwq1JRdBbgExkL/3b9abffd4a5216d41e7d11a1e535cc77/washer-mixing-valve.png?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/0i8bT1ABwq1JRdBbgExkL/3b9abffd4a5216d41e7d11a1e535cc77/washer-mixing-valve.png?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/0i8bT1ABwq1JRdBbgExkL/3b9abffd4a5216d41e7d11a1e535cc77/washer-mixing-valve.png?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/0i8bT1ABwq1JRdBbgExkL/3b9abffd4a5216d41e7d11a1e535cc77/washer-mixing-valve.png?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/0i8bT1ABwq1JRdBbgExkL/3b9abffd4a5216d41e7d11a1e535cc77/washer-mixing-valve.png?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/0i8bT1ABwq1JRdBbgExkL/3b9abffd4a5216d41e7d11a1e535cc77/washer-mixing-valve.png?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/0i8bT1ABwq1JRdBbgExkL/3b9abffd4a5216d41e7d11a1e535cc77/washer-mixing-valve.png?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/0i8bT1ABwq1JRdBbgExkL/3b9abffd4a5216d41e7d11a1e535cc77/washer-mixing-valve.png?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/0i8bT1ABwq1JRdBbgExkL/3b9abffd4a5216d41e7d11a1e535cc77/washer-mixing-valve.png?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/0i8bT1ABwq1JRdBbgExkL/3b9abffd4a5216d41e7d11a1e535cc77/washer-mixing-valve.png?w=3840&q=90&fm=webp'}",
+                "order": 154
+            },
+            {
+                "tag": "p",
+                "content": "How Does a Mixing Valve Work?",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 155
+            },
+            {
+                "tag": "span",
+                "content": "6 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 156
+            },
+            {
+                "tag": "span",
+                "content": "Dec. 17",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 157
+            },
+            {
+                "tag": "p",
+                "content": "Learn how a mixing valve works to control water temperature in a washer.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 158
+            },
+            {
+                "tag": "a",
+                "content": "Washer",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_washer_blog_meta_data_3_product_link', 'data-metric-id': 'repair_symptom_page_washer_blog_meta_data_3_product_link', 'data-metric-value': 'Washer', 'target': '_self', 'href': '/blog/repair/washer-resources'}",
+                "order": 159
+            },
+            {
+                "tag": "a",
+                "content": "Appliance 101",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_washer_blog_meta_data_3_secondary_category_link', 'data-metric-id': 'repair_symptom_page_washer_blog_meta_data_3_secondary_category_link', 'data-metric-value': 'Washer', 'target': '_self', 'href': '/blog/repair/appliance-101-resources'}",
+                "order": 160
+            },
+            {
+                "tag": "h3",
+                "content": "Glossary Terms",
+                "attributes": "{'class': ['text-blue-300', 'mb-0', 'text-4xl']}",
+                "order": 161
+            },
+            {
+                "tag": "span",
+                "content": "What is the drum of the washing machine?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 162
+            },
+            {
+                "tag": "p",
+                "content": "The drum is the core part of the washer that holds your laundry and enables the cleaning process through rotation, agitation, and rinsing.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 163
+            },
+            {
+                "tag": "span",
+                "content": "What is Hard Water?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 164
+            },
+            {
+                "tag": "p",
+                "content": "Hard water is water that contains high levels of dissolved minerals, particularly calcium and magnesium. It contrasts with soft water, which has lower concentrations of these minerals.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 165
+            },
+            {
+                "tag": "span",
+                "content": "What is a Washing Machine Pedestal?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 166
+            },
+            {
+                "tag": "p",
+                "content": "A washing machine pedestal is a platform that raises the washer off the ground, providing easier access to the appliances and often includes additional storage space such as drawers.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 167
+            },
+            {
+                "tag": "span",
+                "content": "What is a Washer Tub?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 168
+            },
+            {
+                "tag": "p",
+                "content": "A washer tub is the interior part of a washing machine where clothes are placed for washing, typically made of stainless steel, plastic, or porcelain-coated metal, designed to hold water and withstand the agitation or spinning during the wash cycle.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 169
+            },
+            {
+                "tag": "h2",
+                "content": "Additional possible GE washer symptoms you may experience",
+                "attributes": "{'class': ['text-blue-300', 'mb-0', 'leading-8', 'text-4xl']}",
+                "order": 170
+            },
+            {
+                "tag": "span",
+                "content": "GE washer won't start cycle",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 171
+            },
+            {
+                "tag": "span",
+                "content": "GE washer leaking from bottom",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 172
+            },
+            {
+                "tag": "span",
+                "content": "GE washer buttons not working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 173
+            },
+            {
+                "tag": "span",
+                "content": "GE washer noisy",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 174
+            },
+            {
+                "tag": "span",
+                "content": "GE washer not agitating",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 175
+            },
+            {
+                "tag": "span",
+                "content": "GE washer no power",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 176
+            },
+            {
+                "tag": "span",
+                "content": "GE washer not working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 177
+            },
+            {
+                "tag": "span",
+                "content": "GE washer not draining",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 178
+            },
+            {
+                "tag": "span",
+                "content": "GE washer not spinning",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 179
+            },
+            {
+                "tag": "span",
+                "content": "GE washer not starting",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 180
+            },
+            {
+                "tag": "span",
+                "content": "GE washer not washing",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 181
+            },
+            {
+                "tag": "span",
+                "content": "GE washer smart dispense not working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 182
+            },
+            {
+                "tag": "span",
+                "content": "GE washer deep fill not working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 183
+            },
+            {
+                "tag": "span",
+                "content": "GE washer door not locking",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 184
+            },
+            {
+                "tag": "span",
+                "content": "GE washer drain and spin cycle not working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 185
+            },
+            {
+                "tag": "span",
+                "content": "GE washer not turning on",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 186
+            },
+            {
+                "tag": "span",
+                "content": "GE washer lid won't lock",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 187
+            },
+            {
+                "tag": "h2",
+                "content": "These washer brands may also experience not filling",
+                "attributes": "{'class': ['text-blue-300', 'mb-0', 'leading-8', 'text-4xl']}",
+                "order": 188
+            },
+            {
+                "tag": "span",
+                "content": "Amana washer not filling",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 189
+            },
+            {
+                "tag": "span",
+                "content": "Hotpoint washer not filling",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 190
+            },
+            {
+                "tag": "span",
+                "content": "Maytag washer not filling",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 191
+            },
+            {
+                "tag": "span",
+                "content": "Roper washer not filling",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 192
+            },
+            {
+                "tag": "span",
+                "content": "Whirlpool washer not filling",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 193
+            },
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{}",
+                "order": 194
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{}",
+                "order": 195
+            },
+            {
+                "tag": "div",
+                "content": "PC Header",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 196
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: shs-logo | Src: https://cdn.cookielaw.org/logos/cc9a8230-03c2-46ab-afe1-51ced9dc71c0/9ff49619-d07c-4183-9296-1ab182541af7/37067ed8-3732-4c57-8be8-5c334ab22954/logo-png.png",
+                "attributes": "{'alt': 'shs-logo', 'src': 'https://cdn.cookielaw.org/logos/cc9a8230-03c2-46ab-afe1-51ced9dc71c0/9ff49619-d07c-4183-9296-1ab182541af7/37067ed8-3732-4c57-8be8-5c334ab22954/logo-png.png'}",
+                "order": 197
+            },
+            {
+                "tag": "span",
+                "content": "Your Opt Out Preference Signal is Honored",
+                "attributes": "{}",
+                "order": 198
+            },
+            {
+                "tag": "h2",
+                "content": "Notice of Right to Opt Out of Sale/Sharing",
+                "attributes": "{'id': 'ot-pc-title'}",
+                "order": 199
+            },
+            {
+                "tag": "div",
+                "content": "This website uses cookies and other tracking technologies (\u201cCookies\u201d) to serve targeted ads, enhance user experience, and to analyze user activity. Some Cookies may collect personal information that is used in a way that is considered a \u201cSale\u201d, \u201cSharing\u201d, or \u201cTargeted Advertising\u201d as those terms are defined under various state privacy laws. To opt out of Cookie based Sales, Sharing, and Targeted Advertising, please follow the instructions below. To opt out of non-Cookie based Sales, Sharing, and Targeted Advertising, please visit our webform",
+                "attributes": "{'id': 'ot-pc-desc'}",
+                "order": 200
+            },
+            {
+                "tag": "a",
+                "content": "here",
+                "attributes": "{'href': 'https://privacyportal.onetrust.com/webform/cc9a8230-03c2-46ab-afe1-51ced9dc71c0/8af6e60f-4a08-4da4-bc67-c757487f400f', 'target': '_blank', 'rel': ['noopener', 'noreferrer'], 'style': 'color:#3860BE; text-decoration:underline; display:inline;'}",
+                "order": 201
+            },
+            {
+                "tag": "div",
+                "content": ". Please visit our Privacy Policy linked below, including the State Specific Disclosures section for more information about your rights and our privacy practices.",
+                "attributes": "{'id': 'ot-pc-desc'}",
+                "order": 202
+            },
+            {
+                "tag": "a",
+                "content": "Privacy Policy",
+                "attributes": "{'href': 'https://www.searshomeservices.com/privacy#california-residents', 'class': ['privacy-notice-link'], 'rel': ['noopener'], 'target': '_blank', 'aria-label': 'More information about your privacy, opens in a new tab'}",
+                "order": 203
+            },
+            {
+                "tag": "section",
+                "content": "Non Accordion Group",
+                "attributes": "{'class': ['ot-sdk-row', 'ot-cat-grp']}",
+                "order": 204
+            },
+            {
+                "tag": "section",
+                "content": "Accordion Group section starts",
+                "attributes": "{'class': ['ot-sdk-row', 'ot-cat-grp']}",
+                "order": 205
+            },
+            {
+                "tag": "section",
+                "content": "Accordion Group section ends",
+                "attributes": "{'class': ['ot-sdk-row', 'ot-cat-grp']}",
+                "order": 206
+            },
+            {
+                "tag": "span",
+                "content": "Selling, Sharing, Targeted Advertising",
+                "attributes": "{'style': 'font-weight:bold;font-size:18px'}",
+                "order": 207
+            },
+            {
+                "tag": "span",
+                "content": "Selling, Sharing, Targeted Advertising",
+                "attributes": "{'style': 'font-weight:bold;font-size:18px'}",
+                "order": 208
+            },
+            {
+                "tag": "div",
+                "content": "You can move the toggle above to the left to opt out of Cookie-based Sales, Sharing, and Targeted Advertising. Please note that your opt-out choice is specific to this website, browser, and device. If you access other Transformco websites, you will need to make your election for each. Also, if you clear your Cookies on this browser or use another browser or device, you may need to opt out again on this website.",
+                "attributes": "{'role': 'note', 'style': 'font-size:13.008px; color:#696969; margin:0 0 25px;'}",
+                "order": 209
+            },
+            {
+                "tag": "div",
+                "content": "Please note: Opting out may affect our ability to personalize your experience on this website, though we may use Cookies that do not include Sales, Sharing, or Targeted Advertising. You may still receive non-personalized advertisements on other sites or personalized ads that may be based on information processed before you opted out.",
+                "attributes": "{'role': 'note', 'style': 'font-size:13.008px; color:#696969; margin:0 0 25px;'}",
+                "order": 210
+            },
+            {
+                "tag": "div",
+                "content": "This website recognizes the Global Privacy Control (\u201cGPC\u201d), which is designed to recognize certain browser-based opt-out preference signals. We will process the GPC signal as a request to opt out. To process your request through GPC, you must use a browser or browser extension that supports the signal and turn it on for each browser and device you use.",
+                "attributes": "{'role': 'note', 'style': 'font-size:13.008px; color:#696969; margin:0 0 25px;'}",
+                "order": 211
+            },
+            {
+                "tag": "h3",
+                "content": "Cookie List",
+                "attributes": "{}",
+                "order": 212
+            },
+            {
+                "tag": "button",
+                "content": "Clear",
+                "attributes": "{'id': 'clear-filters-handler'}",
+                "order": 213
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 214
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 215
+            },
+            {
+                "tag": "button",
+                "content": "Apply",
+                "attributes": "{'id': 'filter-apply-handler'}",
+                "order": 216
+            },
+            {
+                "tag": "button",
+                "content": "Cancel",
+                "attributes": "{'id': 'filter-cancel-handler'}",
+                "order": 217
+            },
+            {
+                "tag": "span",
+                "content": "Consent",
+                "attributes": "{'class': ['ot-consent-hdr']}",
+                "order": 218
+            },
+            {
+                "tag": "span",
+                "content": "Leg.Interest",
+                "attributes": "{'class': ['ot-li-hdr']}",
+                "order": 219
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 220
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 221
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 222
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 223
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 224
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 225
+            },
+            {
+                "tag": "div",
+                "content": "Footer buttons and logo",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 226
+            },
+            {
+                "tag": "button",
+                "content": "Confirm My Choices",
+                "attributes": "{'class': ['save-preference-btn-handler', 'onetrust-close-btn-handler', 'ot-button-order-2']}",
+                "order": 227
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Powered by Onetrust | Src: https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+                "attributes": "{'alt': 'Powered by Onetrust', 'src': 'https://cdn.cookielaw.org/logos/static/powered_by_logo.svg', 'title': 'Powered by OneTrust Opens in a new Tab'}",
+                "order": 228
+            },
+            {
+                "tag": "div",
+                "content": "Cookie subgroup container",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 229
+            },
+            {
+                "tag": "div",
+                "content": "Vendor list link",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 230
+            },
+            {
+                "tag": "div",
+                "content": "Cookie lost link",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 231
+            },
+            {
+                "tag": "div",
+                "content": "Toggle HTML element",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 232
+            },
+            {
+                "tag": "div",
+                "content": "Checkbox HTML",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 233
+            },
+            {
+                "tag": "div",
+                "content": "Arrow SVG element",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 234
+            },
+            {
+                "tag": "div",
+                "content": "plus minus",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 235
+            },
+            {
+                "tag": "div",
+                "content": "Accordion basic element",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 236
+            },
+            {
+                "tag": "div",
+                "content": "Vendor Service container and item template",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 237
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt:  | Src: https://bat.bing.com/action/0?ti=5105802&Ver=2&mid=9fe009df-82f8-4011-ba29-d2bd3bac3c36&bo=1&sid=567f1670e18411f088279dfbb56478ac&vid=567f44a0e18411f087b3c7285e0a1b13&vids=0&msclkid=N&uach=pv%3D&pi=918639831&lg=en-GB&sw=800&sh=600&sc=24&nwd=1&tl=GE%20washer%20not%20filling%3F%20Discover%20solutions%20%26%20repairs%20now!&p=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Fge-washer-not-filling&r=&lt=937&evt=pageLoad&sv=2&cdb=AQET&rn=221778",
+                "attributes": "{'id': 'batBeacon702794088452', 'width': '0', 'height': '0', 'alt': '', 'src': 'https://bat.bing.com/action/0?ti=5105802&Ver=2&mid=9fe009df-82f8-4011-ba29-d2bd3bac3c36&bo=1&sid=567f1670e18411f088279dfbb56478ac&vid=567f44a0e18411f087b3c7285e0a1b13&vids=0&msclkid=N&uach=pv%3D&pi=918639831&lg=en-GB&sw=800&sh=600&sc=24&nwd=1&tl=GE%20washer%20not%20filling%3F%20Discover%20solutions%20%26%20repairs%20now!&p=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Fge-washer-not-filling&r=&lt=937&evt=pageLoad&sv=2&cdb=AQET&rn=221778', 'style': 'width: 0px; height: 0px; display: none; visibility: hidden;'}",
+                "order": 238
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt:  | Src: https://lantern.roeye.com/track.php?fingerprint=4ca5217e-6fa8-49b5-a29c-afb7428829be&referrer=&landingpage=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Fge-washer-not-filling&useragent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36&site=searshomeservices.com",
+                "attributes": "{'src': 'https://lantern.roeye.com/track.php?fingerprint=4ca5217e-6fa8-49b5-a29c-afb7428829be&referrer=&landingpage=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Fge-washer-not-filling&useragent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36&site=searshomeservices.com', 'alt': '', 'aria-hidden': 'true', 'border': '0', 'height': '0', 'width': '0', 'style': 'position: absolute; visibility: hidden; display: none;'}",
+                "order": 239
+            }
+        ]
+    }
+]

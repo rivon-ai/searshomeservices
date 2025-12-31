@@ -1,9 +1,22 @@
+"use client"
+
+
 import Image from 'next/image'
-import React from 'react'
+import React, { useState } from 'react'
 import heroImage from '@/public/symptom-center/heroImage.webp'
 import { CheckCircle } from 'lucide-react'
+import applianceIssues from '@/data/appliance_issues_full.json'
 
 export default function HeaderSection() {
+
+    const [issues , setIssues] = useState(0)
+
+    const totalIssue = applianceIssues.reduce((count, acc) => {
+        return count + acc.issues.length
+    }, 0)
+    
+    console.log(totalIssue)
+
     return (
         <div>
             {/* header-section */}

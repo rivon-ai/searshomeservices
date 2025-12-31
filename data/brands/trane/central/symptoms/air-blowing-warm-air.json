@@ -1,0 +1,1290 @@
+[
+    {
+        "brand": "trane",
+        "appliance": "central",
+        "symptom": "air blowing warm air",
+        "url": "https://www.searshomeservices.com/symptom/trane-central-air-blowing-warm-air",
+        "title": "Trane Central Air Conditioner Blowing Warm Air",
+        "description": "",
+        "full_content": [
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{'hidden': ''}",
+                "order": 0
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{'hidden': ''}",
+                "order": 1
+            },
+            {
+                "tag": "a",
+                "content": "Skip to main content",
+                "attributes": "{'href': '#main-content', 'class': ['skip-link']}",
+                "order": 2
+            },
+            {
+                "tag": "body",
+                "content": "$",
+                "attributes": "{'style': 'overflow: auto;'}",
+                "order": 3
+            },
+            {
+                "tag": "body",
+                "content": "/$",
+                "attributes": "{'style': 'overflow: auto;'}",
+                "order": 4
+            },
+            {
+                "tag": "span",
+                "content": "Sears Logo",
+                "attributes": "{'class': ['sr-only']}",
+                "order": 5
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Header Sears Logo | Src: /static/icons/general/shs-logo.svg",
+                "attributes": "{'alt': 'Header Sears Logo', 'loading': 'lazy', 'width': '95', 'height': '40', 'decoding': 'async', 'data-nimg': '1', 'class': ['h-10'], 'style': 'color:transparent', 'src': '/static/icons/general/shs-logo.svg'}",
+                "order": 6
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Hamburger menu | Src: /static/icons/general/menu-button-closed.svg",
+                "attributes": "{'alt': 'Hamburger menu', 'loading': 'lazy', 'width': '24', 'height': '24', 'decoding': 'async', 'data-nimg': '1', 'class': ['h-10', 'w-10', 'text-blue-250'], 'style': 'color:transparent', 'src': '/static/icons/general/menu-button-closed.svg'}",
+                "order": 7
+            },
+            {
+                "tag": "h1",
+                "content": "Trane Central Air Conditioner Blowing Warm Air",
+                "attributes": "{'data-testid': 'repair_symptom_page_title', 'data-metric-id': 'repair_symptom_page_title', 'class': ['text-5xl', 'text-left', 'text-blue-300', 'leading-10', 'mt-1']}",
+                "order": 8
+            },
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{'class': ['mb-4', 'md:mb-[1.1875rem]']}",
+                "order": 9
+            },
+            {
+                "tag": "h2",
+                "content": "Common reasons for your Trane central AC blowing warm air",
+                "attributes": "{'class': ['mt-4', 'font-semibold', 'mb-1', 'text-3xl', 'md:text-4xl', 'leading-8', 'text-blue-300'], 'node': '[object Object]'}",
+                "order": 10
+            },
+            {
+                "tag": "p",
+                "content": "The most common reasons for your Trane central air conditioner blowing warm air are a dirty air filter, thermostat problems, or a bad capacitor.",
+                "attributes": "{'class': ['text-xl', 'text-gray-500', 'font-normal', 'mt-1', 'mb-[1.125rem]', 'min-h-18', 'md:min-h-0', 'md:max-w-[55.813rem]'], 'node': '[object Object]'}",
+                "order": 11
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{'class': ['mb-4', 'md:mb-[1.1875rem]']}",
+                "order": 12
+            },
+            {
+                "tag": "span",
+                "content": "32% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 13
+            },
+            {
+                "tag": "span",
+                "content": "Dirty Air Filter",
+                "attributes": "{'data-testid': 'percent_chart_0', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 14
+            },
+            {
+                "tag": "span",
+                "content": "27% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 15
+            },
+            {
+                "tag": "span",
+                "content": "Thermostat Problem",
+                "attributes": "{'data-testid': 'percent_chart_1', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 16
+            },
+            {
+                "tag": "span",
+                "content": "23% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 17
+            },
+            {
+                "tag": "span",
+                "content": "Bad Capacitor",
+                "attributes": "{'data-testid': 'percent_chart_2', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 18
+            },
+            {
+                "tag": "span",
+                "content": "18% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 19
+            },
+            {
+                "tag": "span",
+                "content": "Something else",
+                "attributes": "{'data-testid': 'percent_chart_3', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 20
+            },
+            {
+                "tag": "h4",
+                "content": "Schedule your Trane central air conditioner repair now!",
+                "attributes": "{'data-testid': 'conversion_component_title', 'data-metric-id': 'conversion_component_title', 'class': ['mt-0', 'text-4xl', 'text-blue-300', 'mb-0']}",
+                "order": 21
+            },
+            {
+                "tag": "p",
+                "content": "We can help! Our certified technicians repair all models of Trane central air conditioners. We can fix yours no matter where you bought it.",
+                "attributes": "{'class': ['text-xl', 'font-normal', 'text-gray-500', 'leading-8']}",
+                "order": 22
+            },
+            {
+                "tag": "span",
+                "content": "Call",
+                "attributes": "{'class': ['mr-2', 'ml-3', 'text-gray-500']}",
+                "order": 23
+            },
+            {
+                "tag": "a",
+                "content": "(802) 613-1926",
+                "attributes": "{'class': ['font-semibold', 'text-xl', 'text-blue-100', 'no-underline'], 'data-testid': 'cs_description_phone_link', 'data-metric-id': 'cs_description_phone_link', 'href': 'tel:+1-802-613-1926'}",
+                "order": 24
+            },
+            {
+                "tag": "span",
+                "content": "or schedule online now.",
+                "attributes": "{'class': ['ml-1', 'text-gray-500']}",
+                "order": 25
+            },
+            {
+                "tag": "span",
+                "content": "Chat",
+                "attributes": "{'class': ['ml-[0.75rem]', 'mr-1']}",
+                "order": 26
+            },
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{'class': ['w-full', 'mt-0', 'flex', 'flex-col', 'gap-6', 'lg:w-[53.55%]', 'lg:mt-4']}",
+                "order": 27
+            },
+            {
+                "tag": "button",
+                "content": "Central Air Conditioner",
+                "attributes": "{'aria-label': 'Select Product for Central Air Conditioner', 'data-testid': 'repair_symptom_page_conversion_component_v1_select_product', 'data-metric-id': 'repair_symptom_page_conversion_component_v1_select_product', 'data-metric-value': 'Central Air Conditioner', 'class': ['relative', 'text-left', 'block', 'w-full', 'bg-white', 'border-2', 'text-blue-400', 'border', 'overflow-hidden', 'whitespace-nowrap', 'pl-4', 'pr-10', 'py-2', 'text-md', 'font-medium', 'h-12', 'rounded-lg'], 'id': 'headlessui-listbox-button-_R_1mmkjrav5ubsnpb_', 'type': 'button', 'aria-haspopup': 'listbox', 'aria-expanded': 'false', 'data-headlessui-state': '', 'name': 'products'}",
+                "order": 28
+            },
+            {
+                "tag": "button",
+                "content": "Schedule Now",
+                "attributes": "{'type': 'button', 'class': ['cursor-pointer', 'bg-yellow', 'text-blue-200', 'hover:bg-yellow-100', 'focus:outline-yellow-200', 'focus:outline-4', 'disabled:bg-gray-200', 'disabled:text-gray-500', 'px-6', 'rounded-lg', 'w-full', 'text-xl', 'py-3.5', 'font-semibold', 'mt-3', 'shadow-scheduler', '!hover:no-underline'], 'data-testid': 'repair_symptom_page_conversion_component_v1_repair_schedule_now_button', 'data-metric-id': 'repair_symptom_page_conversion_component_v1_repair_schedule_now_button', 'data-metric-value': 'Schedule Now'}",
+                "order": 29
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{'class': ['w-full', 'mt-0', 'flex', 'flex-col', 'gap-6', 'lg:w-[53.55%]', 'lg:mt-4']}",
+                "order": 30
+            },
+            {
+                "tag": "h2",
+                "content": "Trane Central Air Conditioner Blowing Warm Air \u2014 Troubleshooting & Repair Advice",
+                "attributes": "{'node': '[object Object]', 'class': ['text-4xl', 'font-semibold', 'text-blue-300', 'mb-5', 'leading-8']}",
+                "order": 31
+            },
+            {
+                "tag": "p",
+                "content": "When your Trane air conditioner is blowing warm air, the problem is often something simple. A dirty air filter, a thermostat issue, or a failed capacitor can shut down the unit\u2019s cooling. Here\u2019s how each issue causes your central AC to blow warm air and what you can safely check yourself before calling a technician.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 32
+            },
+            {
+                "tag": "h3",
+                "content": "1. Dirty Air Filter",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 33
+            },
+            {
+                "tag": "p",
+                "content": "A clogged air filter restricts airflow, causing the evaporator coil to freeze and the system to lose cooling capacity. Sometimes the AC will run constantly but blow warm air.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 34
+            },
+            {
+                "tag": "h4",
+                "content": "How to check and troubleshoot it",
+                "attributes": "{}",
+                "order": 35
+            },
+            {
+                "tag": "strong",
+                "content": "Turn off the system",
+                "attributes": "{'node': '[object Object]', 'class': ['font-bold', 'text-xl']}",
+                "order": 36
+            },
+            {
+                "tag": "li",
+                "content": "at the thermostat.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 37
+            },
+            {
+                "tag": "li",
+                "content": "Locate the filter (usually in the return air grille or furnace cabinet).",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 38
+            },
+            {
+                "tag": "li",
+                "content": "Pull the filter out and inspect it. If it looks dusty or matted, it\u2019s overdue for replacement.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 39
+            },
+            {
+                "tag": "li",
+                "content": "Replace the AC filter with the same size and rating.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 40
+            },
+            {
+                "tag": "li",
+                "content": "Restart the system and give it 15\u201320 minutes to stabilize.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 41
+            },
+            {
+                "tag": "p",
+                "content": "If the old filter was heavily clogged, it may take a few hours for the evaporator coil to thaw and cooling to return. If cooling doesn\u2019t resume, you may need to",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 42
+            },
+            {
+                "tag": "a",
+                "content": "schedule HVAC repair service",
+                "attributes": "{'class': ['hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-xl', 'leading-6', 'font-normal'], 'data-metric-id': '', 'data-metric-value': 'schedule HVAC repair service', 'target': '_self', 'style': 'color:blue.7', 'node': '[object Object]', 'href': '/repair/hvac-repair-service'}",
+                "order": 43
+            },
+            {
+                "tag": "p",
+                "content": ".",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 44
+            },
+            {
+                "tag": "h3",
+                "content": "2. Thermostat Problems",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 45
+            },
+            {
+                "tag": "p",
+                "content": "Incorrect settings, low batteries, or wiring issues can cause the AC system to blow warm air.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 46
+            },
+            {
+                "tag": "h4",
+                "content": "How to check and troubleshoot it",
+                "attributes": "{}",
+                "order": 47
+            },
+            {
+                "tag": "li",
+                "content": "Make sure the thermostat is set to Cool and the temperature is set several degrees lower than the room.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 48
+            },
+            {
+                "tag": "li",
+                "content": "Replace thermostat batteries if the display is dim, unresponsive, or blank.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 49
+            },
+            {
+                "tag": "li",
+                "content": "Check that Fan is set to Auto, not On\u2014otherwise warm air may blow constantly.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 50
+            },
+            {
+                "tag": "li",
+                "content": "Confirm that no one changed the schedule or turned on energy-saving modes that delay cooling.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 51
+            },
+            {
+                "tag": "p",
+                "content": "If the thermostat doesn\u2019t respond after fresh batteries and proper settings, the internal electronics or wiring may be failing. Schedule AC repair service.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 52
+            },
+            {
+                "tag": "h3",
+                "content": "3. Bad Capacitor",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 53
+            },
+            {
+                "tag": "p",
+                "content": "Your AC has capacitors that help the compressor and condenser fan motor start. When a capacitor fails, the outdoor unit may hum but not start, or it may start and shut off quickly.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 54
+            },
+            {
+                "tag": "h4",
+                "content": "How to spot the signs",
+                "attributes": "{}",
+                "order": 55
+            },
+            {
+                "tag": "li",
+                "content": "Outdoor fan isn\u2019t spinning",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 56
+            },
+            {
+                "tag": "li",
+                "content": "AC turns on but blows warm air",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 57
+            },
+            {
+                "tag": "li",
+                "content": "A faint humming sound comes from the outdoor unit",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 58
+            },
+            {
+                "tag": "h4",
+                "content": "Safe troubleshooting you can do",
+                "attributes": "{}",
+                "order": 59
+            },
+            {
+                "tag": "p",
+                "content": "Capacitors store electricity even when the power is off.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 60
+            },
+            {
+                "tag": "strong",
+                "content": "Do not open the outdoor unit or touch the capacitor.",
+                "attributes": "{'node': '[object Object]', 'class': ['font-bold', 'text-xl']}",
+                "order": 61
+            },
+            {
+                "tag": "p",
+                "content": "However, you",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 62
+            },
+            {
+                "tag": "em",
+                "content": "can",
+                "attributes": "{}",
+                "order": 63
+            },
+            {
+                "tag": "p",
+                "content": "do one safe check:",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 64
+            },
+            {
+                "tag": "strong",
+                "content": "Turn off power",
+                "attributes": "{'node': '[object Object]', 'class': ['font-bold', 'text-xl']}",
+                "order": 65
+            },
+            {
+                "tag": "li",
+                "content": "to the outdoor unit at the disconnect box or house circuit breaker.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 66
+            },
+            {
+                "tag": "li",
+                "content": "Look through the grille to see if the fan blades are obstructed or if debris is preventing the fan from turning. Clear any debris that you find if safely possible.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 67
+            },
+            {
+                "tag": "li",
+                "content": "Restore power and restart the central AC system.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 68
+            },
+            {
+                "tag": "p",
+                "content": "If the fan still won\u2019t run or the unit only hums, a technician likely needs to replace the capacitor.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 69
+            },
+            {
+                "tag": "h2",
+                "content": "Other Problems That Can Cause Your Trane AC to Blow Warm Air",
+                "attributes": "{'node': '[object Object]', 'class': ['text-4xl', 'font-semibold', 'text-blue-300', 'mb-5', 'leading-8']}",
+                "order": 70
+            },
+            {
+                "tag": "h3",
+                "content": "Clogged Condensate Drain & Tripped Float Switch",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 71
+            },
+            {
+                "tag": "p",
+                "content": "Most Trane central AC systems have a safety float switch that shuts off cooling when the condensate drain line backs up. This prevents water damage but also stops the AC from running or cooling.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 72
+            },
+            {
+                "tag": "h4",
+                "content": "Signs of a clogged drain",
+                "attributes": "{}",
+                "order": 73
+            },
+            {
+                "tag": "li",
+                "content": "AC won\u2019t run at all",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 74
+            },
+            {
+                "tag": "li",
+                "content": "Water dripping from under the air handler",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 75
+            },
+            {
+                "tag": "li",
+                "content": "Unit blowing warm air with no error codes",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 76
+            },
+            {
+                "tag": "h4",
+                "content": "Basic troubleshooting",
+                "attributes": "{}",
+                "order": 77
+            },
+            {
+                "tag": "p",
+                "content": "When you see water dripping below the inside unit and no water coming through the AC condensate drain hose outside you house, the drain line is likely clogged.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 78
+            },
+            {
+                "tag": "p",
+                "content": "If you have a wet/dry shop vac, you can try vacuuming the drain line outside at the termination point. You may need to use a plumber\u2019s snake to clear the drain line if it\u2019s severely clogged.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 79
+            },
+            {
+                "tag": "p",
+                "content": "View this troubleshooting video for more tips on clearing a clogged AC drain line and keeping it clear:",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 80
+            },
+            {
+                "tag": "p",
+                "content": "If the drain pan below the evaporator keeps filling and won\u2019t drain, professional HVAC service is needed.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 81
+            },
+            {
+                "tag": "h2",
+                "content": "No or Low Refrigerant in the Sealed System",
+                "attributes": "{'node': '[object Object]', 'class': ['text-4xl', 'font-semibold', 'text-blue-300', 'mb-5', 'leading-8']}",
+                "order": 82
+            },
+            {
+                "tag": "p",
+                "content": "If the system has no or low refrigerant because of a leak in the sealed system, the evaporator coil can\u2019t absorb heat properly. Cooling capacity disappears and the system might run continuously.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 83
+            },
+            {
+                "tag": "h4",
+                "content": "Signs of no or low refrigerant",
+                "attributes": "{}",
+                "order": 84
+            },
+            {
+                "tag": "li",
+                "content": "Warm air coming from vents",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 85
+            },
+            {
+                "tag": "li",
+                "content": "Unusual noises at the indoor or outdoor unit",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 86
+            },
+            {
+                "tag": "li",
+                "content": "Ice on the refrigerant lines or evaporator coil",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 87
+            },
+            {
+                "tag": "p",
+                "content": "Refrigerant issues require a licensed technician because the system must be leak-tested, repaired, and recharged.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 88
+            },
+            {
+                "tag": "h3",
+                "content": "Failed Compressor or Fan Motor",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 89
+            },
+            {
+                "tag": "p",
+                "content": "If the outdoor unit isn\u2019t running or is unusually loud, a failed motor or compressor could be the cause. These require professional diagnosis and repair.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 90
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: hvac-repair-by-sears-home-services | Src: //www.searshomeservices.com/cftassets/5ujhyoGN3ieigsYkl4PuLc/b078312e983da3fbce1a033242312fb6/sears-hvac-tech-performing-repair-service.png?w=3840&q=80&fm=webp",
+                "attributes": "{'alt': 'hvac-repair-by-sears-home-services', 'title': '', 'variant': 'rounded', 'node': '[object Object]', 'loading': 'lazy', 'width': '578', 'height': '450', 'decoding': 'async', 'data-nimg': '1', 'class': ['rounded-md', 'w-full'], 'style': 'color:transparent', 'sizes': '(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw', 'srcset': '//www.searshomeservices.com/cftassets/5ujhyoGN3ieigsYkl4PuLc/b078312e983da3fbce1a033242312fb6/sears-hvac-tech-performing-repair-service.png?w=256&q=80&fm=webp 256w, //www.searshomeservices.com/cftassets/5ujhyoGN3ieigsYkl4PuLc/b078312e983da3fbce1a033242312fb6/sears-hvac-tech-performing-repair-service.png?w=384&q=80&fm=webp 384w, //www.searshomeservices.com/cftassets/5ujhyoGN3ieigsYkl4PuLc/b078312e983da3fbce1a033242312fb6/sears-hvac-tech-performing-repair-service.png?w=640&q=80&fm=webp 640w, //www.searshomeservices.com/cftassets/5ujhyoGN3ieigsYkl4PuLc/b078312e983da3fbce1a033242312fb6/sears-hvac-tech-performing-repair-service.png?w=750&q=80&fm=webp 750w, //www.searshomeservices.com/cftassets/5ujhyoGN3ieigsYkl4PuLc/b078312e983da3fbce1a033242312fb6/sears-hvac-tech-performing-repair-service.png?w=828&q=80&fm=webp 828w, //www.searshomeservices.com/cftassets/5ujhyoGN3ieigsYkl4PuLc/b078312e983da3fbce1a033242312fb6/sears-hvac-tech-performing-repair-service.png?w=1080&q=80&fm=webp 1080w, //www.searshomeservices.com/cftassets/5ujhyoGN3ieigsYkl4PuLc/b078312e983da3fbce1a033242312fb6/sears-hvac-tech-performing-repair-service.png?w=1200&q=80&fm=webp 1200w, //www.searshomeservices.com/cftassets/5ujhyoGN3ieigsYkl4PuLc/b078312e983da3fbce1a033242312fb6/sears-hvac-tech-performing-repair-service.png?w=1920&q=80&fm=webp 1920w, //www.searshomeservices.com/cftassets/5ujhyoGN3ieigsYkl4PuLc/b078312e983da3fbce1a033242312fb6/sears-hvac-tech-performing-repair-service.png?w=2048&q=80&fm=webp 2048w, //www.searshomeservices.com/cftassets/5ujhyoGN3ieigsYkl4PuLc/b078312e983da3fbce1a033242312fb6/sears-hvac-tech-performing-repair-service.png?w=3840&q=80&fm=webp 3840w', 'src': '//www.searshomeservices.com/cftassets/5ujhyoGN3ieigsYkl4PuLc/b078312e983da3fbce1a033242312fb6/sears-hvac-tech-performing-repair-service.png?w=3840&q=80&fm=webp'}",
+                "order": 91
+            },
+            {
+                "tag": "h2",
+                "content": "Schedule Trane Air Conditioning Repair Service Now",
+                "attributes": "{'node': '[object Object]', 'class': ['text-4xl', 'font-semibold', 'text-blue-300', 'mb-5', 'leading-8']}",
+                "order": 92
+            },
+            {
+                "tag": "p",
+                "content": "When you're unable to resolve the Trane AC blowing warm air problem on your own, schedule",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 93
+            },
+            {
+                "tag": "a",
+                "content": "air conditioning repair",
+                "attributes": "{'class': ['hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-xl', 'leading-6', 'font-normal'], 'data-metric-id': '', 'data-metric-value': 'air conditioning repair', 'target': '_self', 'style': 'color:blue.7', 'node': '[object Object]', 'href': '/repair/hvac/central-air-conditioner-repair-service'}",
+                "order": 94
+            },
+            {
+                "tag": "p",
+                "content": "service online or call us at",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 95
+            },
+            {
+                "tag": "strong",
+                "content": "1-800-469-4663",
+                "attributes": "{'node': '[object Object]', 'class': ['font-bold', 'text-xl']}",
+                "order": 96
+            },
+            {
+                "tag": "p",
+                "content": "to set up an AC repair appointment.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 97
+            },
+            {
+                "tag": "span",
+                "content": "Schedule Now",
+                "attributes": "{}",
+                "order": 98
+            },
+            {
+                "tag": "h2",
+                "content": "Trane Central Air repair is quick and easy",
+                "attributes": "{'class': ['text-left', 'text-4xl', 'lg:text-4xl-plus', 'font-normal', 'leading-9', 'text-blue-300', 'uppercase']}",
+                "order": 99
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: flexible scheduling icon | Src: https://www.searshomeservices.com/cftassets/20YlcrVFvE4nR2RRDAMB3M/4b0d7d4717dc5b5d121fc1158b0f6524/ico-Calendar_Icon_RGB.svg?w=96&q=90",
+                "attributes": "{'alt': 'flexible scheduling icon', 'title': '', 'loading': 'lazy', 'width': '40', 'height': '40', 'decoding': 'async', 'data-nimg': '1', 'class': ['w-[55px]', 'h-[55px]'], 'style': 'color:transparent', 'srcset': 'https://www.searshomeservices.com/cftassets/20YlcrVFvE4nR2RRDAMB3M/4b0d7d4717dc5b5d121fc1158b0f6524/ico-Calendar_Icon_RGB.svg?w=48&q=90 1x, https://www.searshomeservices.com/cftassets/20YlcrVFvE4nR2RRDAMB3M/4b0d7d4717dc5b5d121fc1158b0f6524/ico-Calendar_Icon_RGB.svg?w=96&q=90 2x', 'src': 'https://www.searshomeservices.com/cftassets/20YlcrVFvE4nR2RRDAMB3M/4b0d7d4717dc5b5d121fc1158b0f6524/ico-Calendar_Icon_RGB.svg?w=96&q=90'}",
+                "order": 100
+            },
+            {
+                "tag": "h3",
+                "content": "EASY SCHEDULING",
+                "attributes": "{'data-metric-id': 'repair_symptom_page_2_basic_list_basic_list_card_title', 'data-metric-value': 'EASY SCHEDULING', 'class': ['text-blue-300', 'uppercase', 'text-lg-plus', 'md:text-xl', 'font-medium', 'leading-8', 'text-center', 'md:text-left']}",
+                "order": 101
+            },
+            {
+                "tag": "p",
+                "content": "Book online in less than a minute.",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-normal', 'leading-6', 'font-montserrat', 'text-center', 'md:text-left']}",
+                "order": 102
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: appointment updates icon | Src: https://www.searshomeservices.com/cftassets/6FP9f20o6OvqKrMTBRanq3/cdc63cc4f5300e6eaa8a3d4e98fe8fa6/ico-Chat-Standby__1_.svg?w=96&q=90",
+                "attributes": "{'alt': 'appointment updates icon', 'title': '', 'loading': 'lazy', 'width': '40', 'height': '40', 'decoding': 'async', 'data-nimg': '1', 'class': ['w-[55px]', 'h-[55px]'], 'style': 'color:transparent', 'srcset': 'https://www.searshomeservices.com/cftassets/6FP9f20o6OvqKrMTBRanq3/cdc63cc4f5300e6eaa8a3d4e98fe8fa6/ico-Chat-Standby__1_.svg?w=48&q=90 1x, https://www.searshomeservices.com/cftassets/6FP9f20o6OvqKrMTBRanq3/cdc63cc4f5300e6eaa8a3d4e98fe8fa6/ico-Chat-Standby__1_.svg?w=96&q=90 2x', 'src': 'https://www.searshomeservices.com/cftassets/6FP9f20o6OvqKrMTBRanq3/cdc63cc4f5300e6eaa8a3d4e98fe8fa6/ico-Chat-Standby__1_.svg?w=96&q=90'}",
+                "order": 103
+            },
+            {
+                "tag": "h3",
+                "content": "DIAGNOSTIC FEE",
+                "attributes": "{'data-metric-id': 'repair_symptom_page_2_basic_list_basic_list_card_title', 'data-metric-value': 'DIAGNOSTIC FEE', 'class': ['text-blue-300', 'uppercase', 'text-lg-plus', 'md:text-xl', 'font-medium', 'leading-8', 'text-center', 'md:text-left']}",
+                "order": 104
+            },
+            {
+                "tag": "p",
+                "content": "Apply your diagnostic fee to the costs of repair.",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-normal', 'leading-6', 'font-montserrat', 'text-center', 'md:text-left']}",
+                "order": 105
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: service feature protection plans icon | Src: https://www.searshomeservices.com/cftassets/7xuzEYTr4K517SMUru3DY0/4cc7da6979f0276176e874ef65288ad5/ico-home-warranty.svg?w=96&q=90",
+                "attributes": "{'alt': 'service feature protection plans icon', 'title': '', 'loading': 'lazy', 'width': '40', 'height': '40', 'decoding': 'async', 'data-nimg': '1', 'class': ['w-[55px]', 'h-[55px]'], 'style': 'color:transparent', 'srcset': 'https://www.searshomeservices.com/cftassets/7xuzEYTr4K517SMUru3DY0/4cc7da6979f0276176e874ef65288ad5/ico-home-warranty.svg?w=48&q=90 1x, https://www.searshomeservices.com/cftassets/7xuzEYTr4K517SMUru3DY0/4cc7da6979f0276176e874ef65288ad5/ico-home-warranty.svg?w=96&q=90 2x', 'src': 'https://www.searshomeservices.com/cftassets/7xuzEYTr4K517SMUru3DY0/4cc7da6979f0276176e874ef65288ad5/ico-home-warranty.svg?w=96&q=90'}",
+                "order": 106
+            },
+            {
+                "tag": "h3",
+                "content": "PROTECTION PLANS",
+                "attributes": "{'data-metric-id': 'repair_symptom_page_2_basic_list_basic_list_card_title', 'data-metric-value': 'PROTECTION PLANS', 'class': ['text-blue-300', 'uppercase', 'text-lg-plus', 'md:text-xl', 'font-medium', 'leading-8', 'text-center', 'md:text-left']}",
+                "order": 107
+            },
+            {
+                "tag": "p",
+                "content": "Save up to $150 on your repair if you enroll in a home warranty.",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-normal', 'leading-6', 'font-montserrat', 'text-center', 'md:text-left']}",
+                "order": 108
+            },
+            {
+                "tag": "h2",
+                "content": "Frequently Asked Questions",
+                "attributes": "{'id': 'faq-heading-symptom-trane-central-air-blowing-warm-air', 'class': ['text-4xl', 'lg:text-4xl-plus', 'font-semibold', 'text-blue-300', 'leading-9', 'pb-2', 'lg:mb-8']}",
+                "order": 109
+            },
+            {
+                "tag": "div",
+                "content": "Why is my Trane central AC blowing warm air even though it\u2019s running?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 110
+            },
+            {
+                "tag": "div",
+                "content": "When your Trane AC is running but pushing warm air, it usually means the system isn\u2019t able to cool the air as it passes through. Common causes include a dirty air filter restricting airflow and freezing the evaporator coil, thermostat settings or power issues, or a failed capacitor that prevents the outdoor unit from starting properly. If the outdoor unit isn\u2019t running, the indoor blower may still circulate air\u2014just not cooled air.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 111
+            },
+            {
+                "tag": "div",
+                "content": "How do I know if a dirty air filter is the problem?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 112
+            },
+            {
+                "tag": "div",
+                "content": "A dirty filter often causes weak airflow, longer run times, and sometimes warm air from vents. You can check by turning off the system, sliding out the filter, and inspecting it. If it looks dusty, gray, or matted, replace it with the same size and rating. After restarting the system, cooling may take 15\u201320 minutes to stabilize, and if the coil was frozen, it can take a few hours to thaw fully.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 113
+            },
+            {
+                "tag": "div",
+                "content": "What thermostat issues can cause warm air blowing from my Trane central AC, and what can I fix myself?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 114
+            },
+            {
+                "tag": "div",
+                "content": "Thermostat problems are often simple:\n\nMake sure it\u2019s set to Cool and the temp is lower than room temperature.\n\nReplace batteries if the screen is dim or blank.\n\nSet the fan to Auto, not On, so it doesn\u2019t blow air constantly when cooling isn\u2019t active.\n\nDouble-check schedules or energy-saving modes that may delay cooling.\n\nIf the thermostat still doesn\u2019t respond after these steps, it may have failing electronics or wiring and should be inspected by a technician.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 115
+            },
+            {
+                "tag": "div",
+                "content": "When should I stop troubleshooting and call for professional AC repair?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 116
+            },
+            {
+                "tag": "div",
+                "content": "Call for service if:\n\n\nYou replaced the filter and confirmed thermostat settings but still get warm air.\n\n\nThe outdoor unit hums, won\u2019t start, or the fan isn\u2019t spinning (possible bad capacitor).\n\n\nYou see ice on refrigerant lines/coils or suspect low refrigerant.\n\n\nWater is collecting under the indoor unit or the drain line is clogged and the float switch has shut cooling down.\n\n\nThe outdoor unit is unusually loud or not running at all (possible compressor or fan motor failure).\nThese issues usually require licensed diagnosis and repair to restore safe, reliable cooling.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 117
+            },
+            {
+                "tag": "h2",
+                "content": "Repair HVAC Resources",
+                "attributes": "{'class': ['text-blue-300', 'text-5xl', 'mb-12', 'md:px-0']}",
+                "order": 118
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: replacing a gas furnace with a heat pump with HEEHRA rebates | Src: https://www.searshomeservices.com/cftassets/75NhhIDuSQmgDgRGvzf4HX/00b3d9dccbe60c466f39554729e5bf5e/replacing-a-furnace-with-a-heat-pump.png?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': 'replacing a gas furnace with a heat pump with HEEHRA rebates', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/75NhhIDuSQmgDgRGvzf4HX/00b3d9dccbe60c466f39554729e5bf5e/replacing-a-furnace-with-a-heat-pump.png?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/75NhhIDuSQmgDgRGvzf4HX/00b3d9dccbe60c466f39554729e5bf5e/replacing-a-furnace-with-a-heat-pump.png?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/75NhhIDuSQmgDgRGvzf4HX/00b3d9dccbe60c466f39554729e5bf5e/replacing-a-furnace-with-a-heat-pump.png?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/75NhhIDuSQmgDgRGvzf4HX/00b3d9dccbe60c466f39554729e5bf5e/replacing-a-furnace-with-a-heat-pump.png?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/75NhhIDuSQmgDgRGvzf4HX/00b3d9dccbe60c466f39554729e5bf5e/replacing-a-furnace-with-a-heat-pump.png?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/75NhhIDuSQmgDgRGvzf4HX/00b3d9dccbe60c466f39554729e5bf5e/replacing-a-furnace-with-a-heat-pump.png?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/75NhhIDuSQmgDgRGvzf4HX/00b3d9dccbe60c466f39554729e5bf5e/replacing-a-furnace-with-a-heat-pump.png?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/75NhhIDuSQmgDgRGvzf4HX/00b3d9dccbe60c466f39554729e5bf5e/replacing-a-furnace-with-a-heat-pump.png?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/75NhhIDuSQmgDgRGvzf4HX/00b3d9dccbe60c466f39554729e5bf5e/replacing-a-furnace-with-a-heat-pump.png?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/75NhhIDuSQmgDgRGvzf4HX/00b3d9dccbe60c466f39554729e5bf5e/replacing-a-furnace-with-a-heat-pump.png?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/75NhhIDuSQmgDgRGvzf4HX/00b3d9dccbe60c466f39554729e5bf5e/replacing-a-furnace-with-a-heat-pump.png?w=3840&q=90&fm=webp'}",
+                "order": 119
+            },
+            {
+                "tag": "p",
+                "content": "Should I Switch My Gas Furnace to an Electric Heat Pump?",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 120
+            },
+            {
+                "tag": "span",
+                "content": "8 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 121
+            },
+            {
+                "tag": "span",
+                "content": "Dec. 23",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 122
+            },
+            {
+                "tag": "p",
+                "content": "When you\u2019re facing a gas furnace replacement, consider the advantages of replacing your system with an energy-efficient electric heat pump.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 123
+            },
+            {
+                "tag": "a",
+                "content": "HVAC",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_hvac_blog_meta_data_0_product_link', 'data-metric-id': 'repair_symptom_page_hvac_blog_meta_data_0_product_link', 'data-metric-value': 'HVAC', 'target': '_self', 'href': '/blog/repair/hvac-resources'}",
+                "order": 124
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Furnace in need of replacement | Src: https://www.searshomeservices.com/cftassets/3M8rzVtNMOqkBnyRBhANJ4/e58ba4eb90e766dce74ccef6d4eb64d6/how-much-does-a-new-furnace-cost.png?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': 'Furnace in need of replacement', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/3M8rzVtNMOqkBnyRBhANJ4/e58ba4eb90e766dce74ccef6d4eb64d6/how-much-does-a-new-furnace-cost.png?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/3M8rzVtNMOqkBnyRBhANJ4/e58ba4eb90e766dce74ccef6d4eb64d6/how-much-does-a-new-furnace-cost.png?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/3M8rzVtNMOqkBnyRBhANJ4/e58ba4eb90e766dce74ccef6d4eb64d6/how-much-does-a-new-furnace-cost.png?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/3M8rzVtNMOqkBnyRBhANJ4/e58ba4eb90e766dce74ccef6d4eb64d6/how-much-does-a-new-furnace-cost.png?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/3M8rzVtNMOqkBnyRBhANJ4/e58ba4eb90e766dce74ccef6d4eb64d6/how-much-does-a-new-furnace-cost.png?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/3M8rzVtNMOqkBnyRBhANJ4/e58ba4eb90e766dce74ccef6d4eb64d6/how-much-does-a-new-furnace-cost.png?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/3M8rzVtNMOqkBnyRBhANJ4/e58ba4eb90e766dce74ccef6d4eb64d6/how-much-does-a-new-furnace-cost.png?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/3M8rzVtNMOqkBnyRBhANJ4/e58ba4eb90e766dce74ccef6d4eb64d6/how-much-does-a-new-furnace-cost.png?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/3M8rzVtNMOqkBnyRBhANJ4/e58ba4eb90e766dce74ccef6d4eb64d6/how-much-does-a-new-furnace-cost.png?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/3M8rzVtNMOqkBnyRBhANJ4/e58ba4eb90e766dce74ccef6d4eb64d6/how-much-does-a-new-furnace-cost.png?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/3M8rzVtNMOqkBnyRBhANJ4/e58ba4eb90e766dce74ccef6d4eb64d6/how-much-does-a-new-furnace-cost.png?w=3840&q=90&fm=webp'}",
+                "order": 125
+            },
+            {
+                "tag": "p",
+                "content": "How Much Does a New Gas Furnace Cost?",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 126
+            },
+            {
+                "tag": "span",
+                "content": "8 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 127
+            },
+            {
+                "tag": "span",
+                "content": "Dec. 23",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 128
+            },
+            {
+                "tag": "p",
+                "content": "Throughout the coldest months of the year, you need a well-functioning heating system to keep your household comfortable until warmer weather arrives.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 129
+            },
+            {
+                "tag": "a",
+                "content": "HVAC",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_hvac_blog_meta_data_1_product_link', 'data-metric-id': 'repair_symptom_page_hvac_blog_meta_data_1_product_link', 'data-metric-value': 'HVAC', 'target': '_self', 'href': '/blog/repair/hvac-resources'}",
+                "order": 130
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Image of an outside unit for a heat pump for blog article What Is a Heat Pump? | Src: https://www.searshomeservices.com/cftassets/6Skovfy4aeeLIlFiTLQmqF/db21c020b6c6e33267f5305bb7d76710/what-is-a-heat-pump.png?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': 'Image of an outside unit for a heat pump for blog article What Is a Heat Pump?', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/6Skovfy4aeeLIlFiTLQmqF/db21c020b6c6e33267f5305bb7d76710/what-is-a-heat-pump.png?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/6Skovfy4aeeLIlFiTLQmqF/db21c020b6c6e33267f5305bb7d76710/what-is-a-heat-pump.png?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/6Skovfy4aeeLIlFiTLQmqF/db21c020b6c6e33267f5305bb7d76710/what-is-a-heat-pump.png?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/6Skovfy4aeeLIlFiTLQmqF/db21c020b6c6e33267f5305bb7d76710/what-is-a-heat-pump.png?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/6Skovfy4aeeLIlFiTLQmqF/db21c020b6c6e33267f5305bb7d76710/what-is-a-heat-pump.png?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/6Skovfy4aeeLIlFiTLQmqF/db21c020b6c6e33267f5305bb7d76710/what-is-a-heat-pump.png?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/6Skovfy4aeeLIlFiTLQmqF/db21c020b6c6e33267f5305bb7d76710/what-is-a-heat-pump.png?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/6Skovfy4aeeLIlFiTLQmqF/db21c020b6c6e33267f5305bb7d76710/what-is-a-heat-pump.png?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/6Skovfy4aeeLIlFiTLQmqF/db21c020b6c6e33267f5305bb7d76710/what-is-a-heat-pump.png?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/6Skovfy4aeeLIlFiTLQmqF/db21c020b6c6e33267f5305bb7d76710/what-is-a-heat-pump.png?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/6Skovfy4aeeLIlFiTLQmqF/db21c020b6c6e33267f5305bb7d76710/what-is-a-heat-pump.png?w=3840&q=90&fm=webp'}",
+                "order": 131
+            },
+            {
+                "tag": "p",
+                "content": "What Is a Heat Pump?",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 132
+            },
+            {
+                "tag": "span",
+                "content": "5 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 133
+            },
+            {
+                "tag": "span",
+                "content": "Dec. 23",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 134
+            },
+            {
+                "tag": "p",
+                "content": "Discover what a heat pump is and how it can benefit your home. Get expert advice and installation services from Sears Home Services.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 135
+            },
+            {
+                "tag": "a",
+                "content": "HVAC",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_hvac_blog_meta_data_2_product_link', 'data-metric-id': 'repair_symptom_page_hvac_blog_meta_data_2_product_link', 'data-metric-value': 'HVAC', 'target': '_self', 'href': '/blog/repair/hvac-resources'}",
+                "order": 136
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Find the right sized air conditioner for your home | Src: https://www.searshomeservices.com/cftassets/32UrXJoiCIENj0vrduumgO/a7a55615e3f3da6fe1cec6e511d32d2c/getting-the-right-size-of-ac.png?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': 'Find the right sized air conditioner for your home', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/32UrXJoiCIENj0vrduumgO/a7a55615e3f3da6fe1cec6e511d32d2c/getting-the-right-size-of-ac.png?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/32UrXJoiCIENj0vrduumgO/a7a55615e3f3da6fe1cec6e511d32d2c/getting-the-right-size-of-ac.png?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/32UrXJoiCIENj0vrduumgO/a7a55615e3f3da6fe1cec6e511d32d2c/getting-the-right-size-of-ac.png?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/32UrXJoiCIENj0vrduumgO/a7a55615e3f3da6fe1cec6e511d32d2c/getting-the-right-size-of-ac.png?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/32UrXJoiCIENj0vrduumgO/a7a55615e3f3da6fe1cec6e511d32d2c/getting-the-right-size-of-ac.png?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/32UrXJoiCIENj0vrduumgO/a7a55615e3f3da6fe1cec6e511d32d2c/getting-the-right-size-of-ac.png?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/32UrXJoiCIENj0vrduumgO/a7a55615e3f3da6fe1cec6e511d32d2c/getting-the-right-size-of-ac.png?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/32UrXJoiCIENj0vrduumgO/a7a55615e3f3da6fe1cec6e511d32d2c/getting-the-right-size-of-ac.png?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/32UrXJoiCIENj0vrduumgO/a7a55615e3f3da6fe1cec6e511d32d2c/getting-the-right-size-of-ac.png?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/32UrXJoiCIENj0vrduumgO/a7a55615e3f3da6fe1cec6e511d32d2c/getting-the-right-size-of-ac.png?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/32UrXJoiCIENj0vrduumgO/a7a55615e3f3da6fe1cec6e511d32d2c/getting-the-right-size-of-ac.png?w=3840&q=90&fm=webp'}",
+                "order": 137
+            },
+            {
+                "tag": "p",
+                "content": "Central Air Conditioning Sizing: Getting the Right AC for Your Home",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 138
+            },
+            {
+                "tag": "span",
+                "content": "8 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 139
+            },
+            {
+                "tag": "span",
+                "content": "Dec. 22",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 140
+            },
+            {
+                "tag": "p",
+                "content": "Struggling with high electricity bills? Discover how the right AC size can improve energy efficiency and keep your home comfortable all year round.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 141
+            },
+            {
+                "tag": "a",
+                "content": "HVAC",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_hvac_blog_meta_data_3_product_link', 'data-metric-id': 'repair_symptom_page_hvac_blog_meta_data_3_product_link', 'data-metric-value': 'HVAC', 'target': '_self', 'href': '/blog/repair/hvac-resources'}",
+                "order": 142
+            },
+            {
+                "tag": "h3",
+                "content": "Glossary Terms",
+                "attributes": "{'class': ['text-blue-300', 'mb-0', 'text-4xl']}",
+                "order": 143
+            },
+            {
+                "tag": "span",
+                "content": "What is a 608 Certification?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 144
+            },
+            {
+                "tag": "p",
+                "content": "The 608 Certification, mandated by the Environmental Protection Agency (EPA), is required for HVAC technicians to legally handle refrigerants. It ensures technicians understand refrigerant types, environmental impact, and proper handling techniques.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 145
+            },
+            {
+                "tag": "span",
+                "content": "What is a Compressor?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 146
+            },
+            {
+                "tag": "p",
+                "content": "A compressor is a mechanical device that increases the pressure of a gas by reducing its volume, essential in various systems including refrigerators, air conditioners, and HVAC units for cooling and refrigeration processes.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 147
+            },
+            {
+                "tag": "span",
+                "content": "What is a Condenser?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 148
+            },
+            {
+                "tag": "p",
+                "content": "A condenser is a component of HVAC and refrigeration systems, responsible for releasing absorbed heat from the refrigerant into the outside air or a water line, thus facilitating the cooling process.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 149
+            },
+            {
+                "tag": "span",
+                "content": "What is a Capacitor in an AC Unit?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 150
+            },
+            {
+                "tag": "p",
+                "content": "A capacitor in an AC unit is an electrical component that stores and releases electrical energy to help start the motor and stabilize the voltage during operation.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 151
+            },
+            {
+                "tag": "h2",
+                "content": "Additional possible Trane central air symptoms you may experience",
+                "attributes": "{'class': ['text-blue-300', 'mb-0', 'leading-8', 'text-4xl']}",
+                "order": 152
+            },
+            {
+                "tag": "span",
+                "content": "Trane central air not working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 153
+            },
+            {
+                "tag": "span",
+                "content": "Trane central air not cooling",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 154
+            },
+            {
+                "tag": "h2",
+                "content": "These central air brands may also experience blowing warm air",
+                "attributes": "{'class': ['text-blue-300', 'mb-0', 'leading-8', 'text-4xl']}",
+                "order": 155
+            },
+            {
+                "tag": "span",
+                "content": "Payne central air blowing warm air",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 156
+            },
+            {
+                "tag": "span",
+                "content": "ICP central air blowing warm air",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 157
+            },
+            {
+                "tag": "span",
+                "content": "Heil central air blowing warm air",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 158
+            },
+            {
+                "tag": "span",
+                "content": "Carrier central air blowing warm air",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 159
+            },
+            {
+                "tag": "span",
+                "content": "Comfortmaker central air blowing warm air",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 160
+            },
+            {
+                "tag": "span",
+                "content": "Ruud central air blowing warm air",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 161
+            },
+            {
+                "tag": "span",
+                "content": "York central air blowing warm air",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 162
+            },
+            {
+                "tag": "span",
+                "content": "Goodman central air blowing warm air",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 163
+            },
+            {
+                "tag": "span",
+                "content": "Kenmore central air blowing warm air",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 164
+            },
+            {
+                "tag": "span",
+                "content": "Rheem central air blowing warm air",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 165
+            },
+            {
+                "tag": "span",
+                "content": "Lennox central air blowing warm air",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 166
+            },
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{}",
+                "order": 167
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{}",
+                "order": 168
+            },
+            {
+                "tag": "div",
+                "content": "PC Header",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 169
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: shs-logo | Src: https://cdn.cookielaw.org/logos/cc9a8230-03c2-46ab-afe1-51ced9dc71c0/9ff49619-d07c-4183-9296-1ab182541af7/37067ed8-3732-4c57-8be8-5c334ab22954/logo-png.png",
+                "attributes": "{'alt': 'shs-logo', 'src': 'https://cdn.cookielaw.org/logos/cc9a8230-03c2-46ab-afe1-51ced9dc71c0/9ff49619-d07c-4183-9296-1ab182541af7/37067ed8-3732-4c57-8be8-5c334ab22954/logo-png.png'}",
+                "order": 170
+            },
+            {
+                "tag": "span",
+                "content": "Your Opt Out Preference Signal is Honored",
+                "attributes": "{}",
+                "order": 171
+            },
+            {
+                "tag": "h2",
+                "content": "Notice of Right to Opt Out of Sale/Sharing",
+                "attributes": "{'id': 'ot-pc-title'}",
+                "order": 172
+            },
+            {
+                "tag": "div",
+                "content": "This website uses cookies and other tracking technologies (\u201cCookies\u201d) to serve targeted ads, enhance user experience, and to analyze user activity. Some Cookies may collect personal information that is used in a way that is considered a \u201cSale\u201d, \u201cSharing\u201d, or \u201cTargeted Advertising\u201d as those terms are defined under various state privacy laws. To opt out of Cookie based Sales, Sharing, and Targeted Advertising, please follow the instructions below. To opt out of non-Cookie based Sales, Sharing, and Targeted Advertising, please visit our webform",
+                "attributes": "{'id': 'ot-pc-desc'}",
+                "order": 173
+            },
+            {
+                "tag": "a",
+                "content": "here",
+                "attributes": "{'href': 'https://privacyportal.onetrust.com/webform/cc9a8230-03c2-46ab-afe1-51ced9dc71c0/8af6e60f-4a08-4da4-bc67-c757487f400f', 'target': '_blank', 'rel': ['noopener', 'noreferrer'], 'style': 'color:#3860BE; text-decoration:underline; display:inline;'}",
+                "order": 174
+            },
+            {
+                "tag": "div",
+                "content": ". Please visit our Privacy Policy linked below, including the State Specific Disclosures section for more information about your rights and our privacy practices.",
+                "attributes": "{'id': 'ot-pc-desc'}",
+                "order": 175
+            },
+            {
+                "tag": "a",
+                "content": "Privacy Policy",
+                "attributes": "{'href': 'https://www.searshomeservices.com/privacy#california-residents', 'class': ['privacy-notice-link'], 'rel': ['noopener'], 'target': '_blank', 'aria-label': 'More information about your privacy, opens in a new tab'}",
+                "order": 176
+            },
+            {
+                "tag": "section",
+                "content": "Non Accordion Group",
+                "attributes": "{'class': ['ot-sdk-row', 'ot-cat-grp']}",
+                "order": 177
+            },
+            {
+                "tag": "section",
+                "content": "Accordion Group section starts",
+                "attributes": "{'class': ['ot-sdk-row', 'ot-cat-grp']}",
+                "order": 178
+            },
+            {
+                "tag": "section",
+                "content": "Accordion Group section ends",
+                "attributes": "{'class': ['ot-sdk-row', 'ot-cat-grp']}",
+                "order": 179
+            },
+            {
+                "tag": "span",
+                "content": "Selling, Sharing, Targeted Advertising",
+                "attributes": "{'style': 'font-weight:bold;font-size:18px'}",
+                "order": 180
+            },
+            {
+                "tag": "span",
+                "content": "Selling, Sharing, Targeted Advertising",
+                "attributes": "{'style': 'font-weight:bold;font-size:18px'}",
+                "order": 181
+            },
+            {
+                "tag": "div",
+                "content": "You can move the toggle above to the left to opt out of Cookie-based Sales, Sharing, and Targeted Advertising. Please note that your opt-out choice is specific to this website, browser, and device. If you access other Transformco websites, you will need to make your election for each. Also, if you clear your Cookies on this browser or use another browser or device, you may need to opt out again on this website.",
+                "attributes": "{'role': 'note', 'style': 'font-size:13.008px; color:#696969; margin:0 0 25px;'}",
+                "order": 182
+            },
+            {
+                "tag": "div",
+                "content": "Please note: Opting out may affect our ability to personalize your experience on this website, though we may use Cookies that do not include Sales, Sharing, or Targeted Advertising. You may still receive non-personalized advertisements on other sites or personalized ads that may be based on information processed before you opted out.",
+                "attributes": "{'role': 'note', 'style': 'font-size:13.008px; color:#696969; margin:0 0 25px;'}",
+                "order": 183
+            },
+            {
+                "tag": "div",
+                "content": "This website recognizes the Global Privacy Control (\u201cGPC\u201d), which is designed to recognize certain browser-based opt-out preference signals. We will process the GPC signal as a request to opt out. To process your request through GPC, you must use a browser or browser extension that supports the signal and turn it on for each browser and device you use.",
+                "attributes": "{'role': 'note', 'style': 'font-size:13.008px; color:#696969; margin:0 0 25px;'}",
+                "order": 184
+            },
+            {
+                "tag": "h3",
+                "content": "Cookie List",
+                "attributes": "{}",
+                "order": 185
+            },
+            {
+                "tag": "button",
+                "content": "Clear",
+                "attributes": "{'id': 'clear-filters-handler'}",
+                "order": 186
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 187
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 188
+            },
+            {
+                "tag": "button",
+                "content": "Apply",
+                "attributes": "{'id': 'filter-apply-handler'}",
+                "order": 189
+            },
+            {
+                "tag": "button",
+                "content": "Cancel",
+                "attributes": "{'id': 'filter-cancel-handler'}",
+                "order": 190
+            },
+            {
+                "tag": "span",
+                "content": "Consent",
+                "attributes": "{'class': ['ot-consent-hdr']}",
+                "order": 191
+            },
+            {
+                "tag": "span",
+                "content": "Leg.Interest",
+                "attributes": "{'class': ['ot-li-hdr']}",
+                "order": 192
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 193
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 194
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 195
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 196
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 197
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 198
+            },
+            {
+                "tag": "div",
+                "content": "Footer buttons and logo",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 199
+            },
+            {
+                "tag": "button",
+                "content": "Confirm My Choices",
+                "attributes": "{'class': ['save-preference-btn-handler', 'onetrust-close-btn-handler', 'ot-button-order-2']}",
+                "order": 200
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Powered by Onetrust | Src: https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+                "attributes": "{'alt': 'Powered by Onetrust', 'src': 'https://cdn.cookielaw.org/logos/static/powered_by_logo.svg', 'title': 'Powered by OneTrust Opens in a new Tab'}",
+                "order": 201
+            },
+            {
+                "tag": "div",
+                "content": "Cookie subgroup container",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 202
+            },
+            {
+                "tag": "div",
+                "content": "Vendor list link",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 203
+            },
+            {
+                "tag": "div",
+                "content": "Cookie lost link",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 204
+            },
+            {
+                "tag": "div",
+                "content": "Toggle HTML element",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 205
+            },
+            {
+                "tag": "div",
+                "content": "Checkbox HTML",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 206
+            },
+            {
+                "tag": "div",
+                "content": "Arrow SVG element",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 207
+            },
+            {
+                "tag": "div",
+                "content": "plus minus",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 208
+            },
+            {
+                "tag": "div",
+                "content": "Accordion basic element",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 209
+            },
+            {
+                "tag": "div",
+                "content": "Vendor Service container and item template",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 210
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt:  | Src: https://bat.bing.com/action/0?ti=5105802&Ver=2&mid=0df0cb45-47a8-49b1-b42f-9c45e87126f3&bo=1&sid=133d5be0e18f11f0b72ab195c04852c8&vid=133e1820e18f11f090a82f62659fd901&vids=0&msclkid=N&uach=pv%3D&pi=918639831&lg=en-GB&sw=800&sh=600&sc=24&nwd=1&tl=Trane%20Air%20Conditioner%20Blowing%20Warm%20Air%3A%20Common%20Causes%20%26%20Easy%20Troubleshooting&p=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Ftrane-central-air-blowing-warm-air&r=&lt=1110&evt=pageLoad&sv=2&cdb=AQET&rn=520829",
+                "attributes": "{'id': 'batBeacon232118981983', 'width': '0', 'height': '0', 'alt': '', 'src': 'https://bat.bing.com/action/0?ti=5105802&Ver=2&mid=0df0cb45-47a8-49b1-b42f-9c45e87126f3&bo=1&sid=133d5be0e18f11f0b72ab195c04852c8&vid=133e1820e18f11f090a82f62659fd901&vids=0&msclkid=N&uach=pv%3D&pi=918639831&lg=en-GB&sw=800&sh=600&sc=24&nwd=1&tl=Trane%20Air%20Conditioner%20Blowing%20Warm%20Air%3A%20Common%20Causes%20%26%20Easy%20Troubleshooting&p=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Ftrane-central-air-blowing-warm-air&r=&lt=1110&evt=pageLoad&sv=2&cdb=AQET&rn=520829', 'style': 'width: 0px; height: 0px; display: none; visibility: hidden;'}",
+                "order": 211
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt:  | Src: https://lantern.roeye.com/track.php?fingerprint=1756346f-04a8-4a6e-bf99-f86d059e725c&referrer=&landingpage=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Ftrane-central-air-blowing-warm-air&useragent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36&site=searshomeservices.com",
+                "attributes": "{'src': 'https://lantern.roeye.com/track.php?fingerprint=1756346f-04a8-4a6e-bf99-f86d059e725c&referrer=&landingpage=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Ftrane-central-air-blowing-warm-air&useragent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36&site=searshomeservices.com', 'alt': '', 'aria-hidden': 'true', 'border': '0', 'height': '0', 'width': '0', 'style': 'position: absolute; visibility: hidden; display: none;'}",
+                "order": 212
+            }
+        ]
+    }
+]

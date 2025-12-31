@@ -1,0 +1,1644 @@
+[
+    {
+        "brand": "maytag",
+        "appliance": "dryer",
+        "symptom": "not starting",
+        "url": "https://www.searshomeservices.com/symptom/maytag-dryer-not-starting",
+        "title": "Maytag dryer not starting",
+        "description": "",
+        "full_content": [
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{'hidden': ''}",
+                "order": 0
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{'hidden': ''}",
+                "order": 1
+            },
+            {
+                "tag": "a",
+                "content": "Skip to main content",
+                "attributes": "{'href': '#main-content', 'class': ['skip-link']}",
+                "order": 2
+            },
+            {
+                "tag": "body",
+                "content": "$",
+                "attributes": "{'style': 'overflow: auto;'}",
+                "order": 3
+            },
+            {
+                "tag": "body",
+                "content": "/$",
+                "attributes": "{'style': 'overflow: auto;'}",
+                "order": 4
+            },
+            {
+                "tag": "span",
+                "content": "Sears Logo",
+                "attributes": "{'class': ['sr-only']}",
+                "order": 5
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Header Sears Logo | Src: /static/icons/general/shs-logo.svg",
+                "attributes": "{'alt': 'Header Sears Logo', 'loading': 'lazy', 'width': '95', 'height': '40', 'decoding': 'async', 'data-nimg': '1', 'class': ['h-10'], 'style': 'color:transparent', 'src': '/static/icons/general/shs-logo.svg'}",
+                "order": 6
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Hamburger menu | Src: /static/icons/general/menu-button-closed.svg",
+                "attributes": "{'alt': 'Hamburger menu', 'loading': 'lazy', 'width': '24', 'height': '24', 'decoding': 'async', 'data-nimg': '1', 'class': ['h-10', 'w-10', 'text-blue-250'], 'style': 'color:transparent', 'src': '/static/icons/general/menu-button-closed.svg'}",
+                "order": 7
+            },
+            {
+                "tag": "h1",
+                "content": "Maytag dryer not starting",
+                "attributes": "{'data-testid': 'repair_symptom_page_title', 'data-metric-id': 'repair_symptom_page_title', 'class': ['text-5xl', 'text-left', 'text-blue-300', 'leading-10', 'mt-1']}",
+                "order": 8
+            },
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{'class': ['mb-4', 'md:mb-[1.1875rem]']}",
+                "order": 9
+            },
+            {
+                "tag": "h2",
+                "content": "Common reasons your Maytag dryer is not starting",
+                "attributes": "{'class': ['mt-4', 'font-semibold', 'mb-1', 'text-3xl', 'md:text-4xl', 'leading-8', 'text-blue-300'], 'node': '[object Object]'}",
+                "order": 10
+            },
+            {
+                "tag": "p",
+                "content": "The most common reasons your Maytag dryer is not starting are a faulty thermal fuse, failed door switch or a broken drum belt.",
+                "attributes": "{'class': ['text-xl', 'text-gray-500', 'font-normal', 'mt-1', 'mb-[1.125rem]', 'min-h-18', 'md:min-h-0', 'md:max-w-[55.813rem]'], 'node': '[object Object]'}",
+                "order": 11
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{'class': ['mb-4', 'md:mb-[1.1875rem]']}",
+                "order": 12
+            },
+            {
+                "tag": "span",
+                "content": "56% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 13
+            },
+            {
+                "tag": "span",
+                "content": "Thermal Fuse",
+                "attributes": "{'data-testid': 'percent_chart_0', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 14
+            },
+            {
+                "tag": "span",
+                "content": "13% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 15
+            },
+            {
+                "tag": "span",
+                "content": "Door Switch",
+                "attributes": "{'data-testid': 'percent_chart_1', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 16
+            },
+            {
+                "tag": "span",
+                "content": "11% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 17
+            },
+            {
+                "tag": "span",
+                "content": "Drum Belt",
+                "attributes": "{'data-testid': 'percent_chart_2', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 18
+            },
+            {
+                "tag": "span",
+                "content": "20% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 19
+            },
+            {
+                "tag": "span",
+                "content": "Something else",
+                "attributes": "{'data-testid': 'percent_chart_3', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 20
+            },
+            {
+                "tag": "h4",
+                "content": "Schedule your dryer repair now!",
+                "attributes": "{'data-testid': 'conversion_component_title', 'data-metric-id': 'conversion_component_title', 'class': ['mt-0', 'text-4xl', 'text-blue-300', 'mb-0']}",
+                "order": 21
+            },
+            {
+                "tag": "p",
+                "content": "We can help! Our service technicians have repaired over",
+                "attributes": "{'class': ['text-xl', 'font-normal', 'text-gray-500', 'leading-8']}",
+                "order": 22
+            },
+            {
+                "tag": "b",
+                "content": "100,000",
+                "attributes": "{}",
+                "order": 23
+            },
+            {
+                "tag": "p",
+                "content": "Maytag dryers. We can fix yours no matter where you bought it.",
+                "attributes": "{'class': ['text-xl', 'font-normal', 'text-gray-500', 'leading-8']}",
+                "order": 24
+            },
+            {
+                "tag": "span",
+                "content": "Call",
+                "attributes": "{'class': ['mr-2', 'ml-3', 'text-gray-500']}",
+                "order": 25
+            },
+            {
+                "tag": "a",
+                "content": "(646) 440-2692",
+                "attributes": "{'class': ['font-semibold', 'text-xl', 'text-blue-100', 'no-underline'], 'data-testid': 'cs_description_phone_link', 'data-metric-id': 'cs_description_phone_link', 'href': 'tel:+1-646-440-2692'}",
+                "order": 26
+            },
+            {
+                "tag": "span",
+                "content": "or schedule online now.",
+                "attributes": "{'class': ['ml-1', 'text-gray-500']}",
+                "order": 27
+            },
+            {
+                "tag": "span",
+                "content": "Chat",
+                "attributes": "{'class': ['ml-[0.75rem]', 'mr-1']}",
+                "order": 28
+            },
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{'class': ['w-full', 'mt-0', 'flex', 'flex-col', 'gap-6', 'lg:w-[53.55%]', 'lg:mt-4']}",
+                "order": 29
+            },
+            {
+                "tag": "button",
+                "content": "Dryer - Electric",
+                "attributes": "{'aria-label': 'Select Product for Dryer - Electric', 'data-testid': 'repair_symptom_page_conversion_component_v1_select_product', 'data-metric-id': 'repair_symptom_page_conversion_component_v1_select_product', 'data-metric-value': 'Dryer - Electric', 'class': ['relative', 'text-left', 'block', 'w-full', 'bg-white', 'border-2', 'text-blue-400', 'border', 'overflow-hidden', 'whitespace-nowrap', 'pl-4', 'pr-10', 'py-2', 'text-md', 'font-medium', 'h-12', 'rounded-lg'], 'id': 'headlessui-listbox-button-_R_3dd8jrav5ubsnpb_', 'type': 'button', 'aria-haspopup': 'listbox', 'aria-expanded': 'false', 'data-headlessui-state': '', 'name': 'products'}",
+                "order": 30
+            },
+            {
+                "tag": "button",
+                "content": "Maytag",
+                "attributes": "{'aria-label': 'Select Brand for Maytag', 'data-testid': 'repair_symptom_page_conversion_component_v1_select_brand', 'data-metric-id': 'repair_symptom_page_conversion_component_v1_select_brand', 'data-metric-value': 'Maytag', 'name': 'brands', 'class': ['relative', 'text-left', 'block', 'w-full', 'bg-white', 'border-2', 'text-blue-400', 'border', 'overflow-hidden', 'whitespace-nowrap', 'pl-4', 'pr-10', 'py-2', 'text-md', 'font-medium', 'h-12', 'rounded-lg'], 'id': 'headlessui-listbox-button-_r_5_', 'type': 'button', 'aria-haspopup': 'listbox', 'aria-expanded': 'false', 'data-headlessui-state': ''}",
+                "order": 31
+            },
+            {
+                "tag": "button",
+                "content": "Schedule Now",
+                "attributes": "{'type': 'button', 'class': ['cursor-pointer', 'bg-yellow', 'text-blue-200', 'hover:bg-yellow-100', 'focus:outline-yellow-200', 'focus:outline-4', 'disabled:bg-gray-200', 'disabled:text-gray-500', 'px-6', 'rounded-lg', 'w-full', 'text-xl', 'py-3.5', 'font-semibold', 'mt-3', 'shadow-scheduler', '!hover:no-underline'], 'data-testid': 'repair_symptom_page_conversion_component_v1_repair_schedule_now_button', 'data-metric-id': 'repair_symptom_page_conversion_component_v1_repair_schedule_now_button', 'data-metric-value': 'Schedule Now'}",
+                "order": 32
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{'class': ['w-full', 'mt-0', 'flex', 'flex-col', 'gap-6', 'lg:w-[53.55%]', 'lg:mt-4']}",
+                "order": 33
+            },
+            {
+                "tag": "h2",
+                "content": "Most common repairs needed to fix a Maytag dryer",
+                "attributes": "{'class': ['text-3xl', 'md:text-4xl', 'text-blue-300', 'leading-8'], 'node': '[object Object]'}",
+                "order": 34
+            },
+            {
+                "tag": "h4",
+                "content": "Thermal Fuse Replacement",
+                "attributes": "{'class': ['text-2xl', 'text-blue-300', 'font-semibold', 'my-2', 'leading-8', 'h-[78px]'], 'node': '[object Object]'}",
+                "order": 35
+            },
+            {
+                "tag": "p",
+                "content": "A faulty or blown thermal fuse can keep the dryer from starting. The thermal fuse is a safety device mounted on the blower housing that trips when the dryer overheats. The thermal fuse in most electric dryers prevents the motor from running. In some gas dryers, a blown thermal fuse will also prevent the motor from running. A clogged exhaust vent system often causes the dryer to overheat and the thermal fuse to blow. When the dryer won\u2019t run, have a Sears Home Services Technician visit your home and fix the dryer. The technician will replace the thermal fuse if it\u2019s blown.",
+                "attributes": "{'class': ['mb-6', 'text-xl', 'leading-6', 'text-blue-400'], 'node': '[object Object]'}",
+                "order": 36
+            },
+            {
+                "tag": "a",
+                "content": "How to replace a thermal fuse in an electric dryer",
+                "attributes": "{'class': ['font-medium', 'hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-sm', 'leading-6'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_blank', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searspartsdirect.com/diy/repair-guide/how-to-replace-a-thermal-fuse-in-an-electric-dryer'}",
+                "order": 37
+            },
+            {
+                "tag": "h4",
+                "content": "Door Switch Replacement",
+                "attributes": "{'class': ['text-2xl', 'text-blue-300', 'font-semibold', 'my-2', 'leading-8', 'h-[78px]'], 'node': '[object Object]'}",
+                "order": 38
+            },
+            {
+                "tag": "p",
+                "content": "If your dryer is not starting, a failed door switch could be causing the problem. The door switch detects when the dryer door is shut. A failed door switch won\u2019t sense whether the door is closed properly. The dryer won\u2019t start even through the door is closed when the door switch is bad. Have a Sears Home Services Technician check your dryer when it won\u2019t start. The technician will replace the door switch if it is defective.",
+                "attributes": "{'class': ['mb-6', 'text-xl', 'leading-6', 'text-blue-400'], 'node': '[object Object]'}",
+                "order": 39
+            },
+            {
+                "tag": "a",
+                "content": "How to replace a dryer door switch",
+                "attributes": "{'class': ['font-medium', 'hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-sm', 'leading-6'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_blank', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searspartsdirect.com/diy/repair-guide/how-to-replace-a-dryer-door-switch'}",
+                "order": 40
+            },
+            {
+                "tag": "h4",
+                "content": "Drum Belt Replacement",
+                "attributes": "{'class': ['text-2xl', 'text-blue-300', 'font-semibold', 'my-2', 'leading-8', 'h-[78px]'], 'node': '[object Object]'}",
+                "order": 41
+            },
+            {
+                "tag": "p",
+                "content": "When your dryer won\u2019t start a cycle, a broken drum belt could be causing the problem. The drum belt wraps around the dryer drum and connects to the drive motor pulley. The drive motor rotates the belt to spin the drum. Over time, the drum belt becomes worn and can break. A switch on the idler pulley prevents the motor from starting when it senses that the drive belt is broken. When the dryer won\u2019t start, have a Sears Home Services Technician check your dryer and replace the drum belt if it\u2019s broken.",
+                "attributes": "{'class': ['mb-6', 'text-xl', 'leading-6', 'text-blue-400'], 'node': '[object Object]'}",
+                "order": 42
+            },
+            {
+                "tag": "a",
+                "content": "How to replace a dryer drum belt",
+                "attributes": "{'class': ['font-medium', 'hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-sm', 'leading-6'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_blank', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searspartsdirect.com/diy/repair-guide/how-to-replace-a-dryer-drive-belt'}",
+                "order": 43
+            },
+            {
+                "tag": "h2",
+                "content": "How to Fix a Maytag Dryer that Won\u2019t Start",
+                "attributes": "{'node': '[object Object]', 'class': ['text-4xl', 'font-semibold', 'text-blue-300', 'mb-5', 'leading-8']}",
+                "order": 44
+            },
+            {
+                "tag": "p",
+                "content": "Several issues can prevent your Maytag dryer from starting, including a faulty door switch, a broken start switch, a broken drive belt or power supply problems.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 45
+            },
+            {
+                "tag": "p",
+                "content": "Troubleshooting steps differ for gas and electric dryers so we\u2019ll cover advice for these types of Maytag dryers separately.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 46
+            },
+            {
+                "tag": "h3",
+                "content": "Maytag Electric Dryer Won\u2019t Start",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 47
+            },
+            {
+                "tag": "p",
+                "content": "Failures such as a blown thermal fuse, a bad door switch, a broken start switch or a drive system issue can prevent your Maytag electric dryer from starting.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 48
+            },
+            {
+                "tag": "p",
+                "content": "This video shows how to troubleshoot a starting problem with your dryer:",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 49
+            },
+            {
+                "tag": "h3",
+                "content": "Check for Power",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 50
+            },
+            {
+                "tag": "p",
+                "content": "If you have a Maytag dryer with a timer, open the dryer door and check if the light inside the dryer turns on. If it doesn\u2019t turn on, it's likely that the dryer has no power.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 51
+            },
+            {
+                "tag": "p",
+                "content": "Check your power cord and the house circuit breaker. Try resetting the breaker to make sure it\u2019s not tripped.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 52
+            },
+            {
+                "tag": "p",
+                "content": "If your electric dryer won't start but the light is on or the control panel works, then the dryer is getting power and we'll need to check other issues.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 53
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: clothes-dryer-door-switch-image | Src: //www.searshomeservices.com/cftassets/4QwJorCCcY7TjwvQP6SDPD/c681e7ab0f12a89fa62bd664ab55a022/clothes-dryer-door-switch.png?w=3840&q=80&fm=webp",
+                "attributes": "{'alt': 'clothes-dryer-door-switch-image', 'title': '', 'variant': 'rounded', 'node': '[object Object]', 'loading': 'lazy', 'width': '578', 'height': '450', 'decoding': 'async', 'data-nimg': '1', 'class': ['rounded-md', 'w-full'], 'style': 'color:transparent', 'sizes': '(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw', 'srcset': '//www.searshomeservices.com/cftassets/4QwJorCCcY7TjwvQP6SDPD/c681e7ab0f12a89fa62bd664ab55a022/clothes-dryer-door-switch.png?w=256&q=80&fm=webp 256w, //www.searshomeservices.com/cftassets/4QwJorCCcY7TjwvQP6SDPD/c681e7ab0f12a89fa62bd664ab55a022/clothes-dryer-door-switch.png?w=384&q=80&fm=webp 384w, //www.searshomeservices.com/cftassets/4QwJorCCcY7TjwvQP6SDPD/c681e7ab0f12a89fa62bd664ab55a022/clothes-dryer-door-switch.png?w=640&q=80&fm=webp 640w, //www.searshomeservices.com/cftassets/4QwJorCCcY7TjwvQP6SDPD/c681e7ab0f12a89fa62bd664ab55a022/clothes-dryer-door-switch.png?w=750&q=80&fm=webp 750w, //www.searshomeservices.com/cftassets/4QwJorCCcY7TjwvQP6SDPD/c681e7ab0f12a89fa62bd664ab55a022/clothes-dryer-door-switch.png?w=828&q=80&fm=webp 828w, //www.searshomeservices.com/cftassets/4QwJorCCcY7TjwvQP6SDPD/c681e7ab0f12a89fa62bd664ab55a022/clothes-dryer-door-switch.png?w=1080&q=80&fm=webp 1080w, //www.searshomeservices.com/cftassets/4QwJorCCcY7TjwvQP6SDPD/c681e7ab0f12a89fa62bd664ab55a022/clothes-dryer-door-switch.png?w=1200&q=80&fm=webp 1200w, //www.searshomeservices.com/cftassets/4QwJorCCcY7TjwvQP6SDPD/c681e7ab0f12a89fa62bd664ab55a022/clothes-dryer-door-switch.png?w=1920&q=80&fm=webp 1920w, //www.searshomeservices.com/cftassets/4QwJorCCcY7TjwvQP6SDPD/c681e7ab0f12a89fa62bd664ab55a022/clothes-dryer-door-switch.png?w=2048&q=80&fm=webp 2048w, //www.searshomeservices.com/cftassets/4QwJorCCcY7TjwvQP6SDPD/c681e7ab0f12a89fa62bd664ab55a022/clothes-dryer-door-switch.png?w=3840&q=80&fm=webp 3840w', 'src': '//www.searshomeservices.com/cftassets/4QwJorCCcY7TjwvQP6SDPD/c681e7ab0f12a89fa62bd664ab55a022/clothes-dryer-door-switch.png?w=3840&q=80&fm=webp'}",
+                "order": 54
+            },
+            {
+                "tag": "h3",
+                "content": "Test the Door Switch",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 55
+            },
+            {
+                "tag": "p",
+                "content": "With the door open, press in on the door switch and see if the drum light turns off. If the drum light stays on, it\u2019s likely that the door switch has failed. Replacing the door switch will likely fix the starting problem.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 56
+            },
+            {
+                "tag": "p",
+                "content": "Here\u2019s a video that shows how to replace a dryer door switch:",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 57
+            },
+            {
+                "tag": "p",
+                "content": "Be sure to",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 58
+            },
+            {
+                "tag": "strong",
+                "content": "unplug the dryer",
+                "attributes": "{'node': '[object Object]', 'class': ['font-bold', 'text-xl']}",
+                "order": 59
+            },
+            {
+                "tag": "p",
+                "content": "before beginning this repair.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 60
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: clothes-dryer-thermal-fuse | Src: //www.searshomeservices.com/cftassets/6LIFKI8ELZQu42Isr8TgDo/e254a7ca33ebe6cd6dae0a629ecfba71/clothes-dryer-thermal-fuse.png?w=3840&q=80&fm=webp",
+                "attributes": "{'alt': 'clothes-dryer-thermal-fuse', 'title': '', 'variant': 'rounded', 'node': '[object Object]', 'loading': 'lazy', 'width': '578', 'height': '450', 'decoding': 'async', 'data-nimg': '1', 'class': ['rounded-md', 'w-full'], 'style': 'color:transparent', 'sizes': '(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw', 'srcset': '//www.searshomeservices.com/cftassets/6LIFKI8ELZQu42Isr8TgDo/e254a7ca33ebe6cd6dae0a629ecfba71/clothes-dryer-thermal-fuse.png?w=256&q=80&fm=webp 256w, //www.searshomeservices.com/cftassets/6LIFKI8ELZQu42Isr8TgDo/e254a7ca33ebe6cd6dae0a629ecfba71/clothes-dryer-thermal-fuse.png?w=384&q=80&fm=webp 384w, //www.searshomeservices.com/cftassets/6LIFKI8ELZQu42Isr8TgDo/e254a7ca33ebe6cd6dae0a629ecfba71/clothes-dryer-thermal-fuse.png?w=640&q=80&fm=webp 640w, //www.searshomeservices.com/cftassets/6LIFKI8ELZQu42Isr8TgDo/e254a7ca33ebe6cd6dae0a629ecfba71/clothes-dryer-thermal-fuse.png?w=750&q=80&fm=webp 750w, //www.searshomeservices.com/cftassets/6LIFKI8ELZQu42Isr8TgDo/e254a7ca33ebe6cd6dae0a629ecfba71/clothes-dryer-thermal-fuse.png?w=828&q=80&fm=webp 828w, //www.searshomeservices.com/cftassets/6LIFKI8ELZQu42Isr8TgDo/e254a7ca33ebe6cd6dae0a629ecfba71/clothes-dryer-thermal-fuse.png?w=1080&q=80&fm=webp 1080w, //www.searshomeservices.com/cftassets/6LIFKI8ELZQu42Isr8TgDo/e254a7ca33ebe6cd6dae0a629ecfba71/clothes-dryer-thermal-fuse.png?w=1200&q=80&fm=webp 1200w, //www.searshomeservices.com/cftassets/6LIFKI8ELZQu42Isr8TgDo/e254a7ca33ebe6cd6dae0a629ecfba71/clothes-dryer-thermal-fuse.png?w=1920&q=80&fm=webp 1920w, //www.searshomeservices.com/cftassets/6LIFKI8ELZQu42Isr8TgDo/e254a7ca33ebe6cd6dae0a629ecfba71/clothes-dryer-thermal-fuse.png?w=2048&q=80&fm=webp 2048w, //www.searshomeservices.com/cftassets/6LIFKI8ELZQu42Isr8TgDo/e254a7ca33ebe6cd6dae0a629ecfba71/clothes-dryer-thermal-fuse.png?w=3840&q=80&fm=webp 3840w', 'src': '//www.searshomeservices.com/cftassets/6LIFKI8ELZQu42Isr8TgDo/e254a7ca33ebe6cd6dae0a629ecfba71/clothes-dryer-thermal-fuse.png?w=3840&q=80&fm=webp'}",
+                "order": 61
+            },
+            {
+                "tag": "h3",
+                "content": "Check the thermal fuse",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 62
+            },
+            {
+                "tag": "p",
+                "content": "The thermal fuse in an electric dryer will prevent the dryer from starting and running.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 63
+            },
+            {
+                "tag": "p",
+                "content": "To test the thermal fuse, follow these steps:",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 64
+            },
+            {
+                "tag": "li",
+                "content": "Unplug the dryer to disconnect electrical power.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 65
+            },
+            {
+                "tag": "li",
+                "content": "Access the thermal fuse. For a Maytag dryer with a timer, remove the rear panel mounting screws and pull off the back panel. For some Maytag dryers, you\u2019ll need to remove the front panel to access the thermal fuse.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 66
+            },
+            {
+                "tag": "li",
+                "content": "Unplug the wires from the thermal fuse.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 67
+            },
+            {
+                "tag": "li",
+                "content": "Use a multimeter to measure the resistance between the spades on the thermal fuse.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 68
+            },
+            {
+                "tag": "p",
+                "content": "You should measure near 0 ohms of resistance through the thermal fuse. If you measure no continuity, then replace the thermal fuse.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 69
+            },
+            {
+                "tag": "p",
+                "content": "If you\u2019re unsure how to access and test the thermal fuse in your Maytag dryer, schedule",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 70
+            },
+            {
+                "tag": "a",
+                "content": "dryer repair",
+                "attributes": "{'class': ['hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-xl', 'leading-6', 'font-normal'], 'data-metric-id': '', 'data-metric-value': 'dryer repair', 'target': '_self', 'style': 'color:blue.7', 'node': '[object Object]', 'href': '/repair/dryer-repair-service'}",
+                "order": 71
+            },
+            {
+                "tag": "p",
+                "content": "service to have a Sears Home Services technician check the thermal fuse and replace it if it\u2019s blown.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 72
+            },
+            {
+                "tag": "p",
+                "content": "Here\u2019s something to keep in mind. More often than not, if you blew a thermal fuse, it\u2019s because your exhaust vent is clogged with lint. Before you hook your dryer back up, check your vent and clean it out with a lint brush.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 73
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: clothes-dryer-push-to-start-switch | Src: //www.searshomeservices.com/cftassets/xxNESJ7Xee9Eh2BnFgu58/15d374ac299efdbf41171056d0eca457/clothes-dryer-push-to-start-switch.png?w=3840&q=80&fm=webp",
+                "attributes": "{'alt': 'clothes-dryer-push-to-start-switch', 'title': '', 'variant': 'rounded', 'node': '[object Object]', 'loading': 'lazy', 'width': '578', 'height': '450', 'decoding': 'async', 'data-nimg': '1', 'class': ['rounded-md', 'w-full'], 'style': 'color:transparent', 'sizes': '(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw', 'srcset': '//www.searshomeservices.com/cftassets/xxNESJ7Xee9Eh2BnFgu58/15d374ac299efdbf41171056d0eca457/clothes-dryer-push-to-start-switch.png?w=256&q=80&fm=webp 256w, //www.searshomeservices.com/cftassets/xxNESJ7Xee9Eh2BnFgu58/15d374ac299efdbf41171056d0eca457/clothes-dryer-push-to-start-switch.png?w=384&q=80&fm=webp 384w, //www.searshomeservices.com/cftassets/xxNESJ7Xee9Eh2BnFgu58/15d374ac299efdbf41171056d0eca457/clothes-dryer-push-to-start-switch.png?w=640&q=80&fm=webp 640w, //www.searshomeservices.com/cftassets/xxNESJ7Xee9Eh2BnFgu58/15d374ac299efdbf41171056d0eca457/clothes-dryer-push-to-start-switch.png?w=750&q=80&fm=webp 750w, //www.searshomeservices.com/cftassets/xxNESJ7Xee9Eh2BnFgu58/15d374ac299efdbf41171056d0eca457/clothes-dryer-push-to-start-switch.png?w=828&q=80&fm=webp 828w, //www.searshomeservices.com/cftassets/xxNESJ7Xee9Eh2BnFgu58/15d374ac299efdbf41171056d0eca457/clothes-dryer-push-to-start-switch.png?w=1080&q=80&fm=webp 1080w, //www.searshomeservices.com/cftassets/xxNESJ7Xee9Eh2BnFgu58/15d374ac299efdbf41171056d0eca457/clothes-dryer-push-to-start-switch.png?w=1200&q=80&fm=webp 1200w, //www.searshomeservices.com/cftassets/xxNESJ7Xee9Eh2BnFgu58/15d374ac299efdbf41171056d0eca457/clothes-dryer-push-to-start-switch.png?w=1920&q=80&fm=webp 1920w, //www.searshomeservices.com/cftassets/xxNESJ7Xee9Eh2BnFgu58/15d374ac299efdbf41171056d0eca457/clothes-dryer-push-to-start-switch.png?w=2048&q=80&fm=webp 2048w, //www.searshomeservices.com/cftassets/xxNESJ7Xee9Eh2BnFgu58/15d374ac299efdbf41171056d0eca457/clothes-dryer-push-to-start-switch.png?w=3840&q=80&fm=webp 3840w', 'src': '//www.searshomeservices.com/cftassets/xxNESJ7Xee9Eh2BnFgu58/15d374ac299efdbf41171056d0eca457/clothes-dryer-push-to-start-switch.png?w=3840&q=80&fm=webp'}",
+                "order": 74
+            },
+            {
+                "tag": "h3",
+                "content": "Test the push-to-start switch",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 75
+            },
+            {
+                "tag": "p",
+                "content": "If your thermal fuse was okay, the next thing to check is the start switch.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 76
+            },
+            {
+                "tag": "p",
+                "content": "Reassemble the dryer and then plug it back in. Open the door and push the door switch in. While holding the door switch in, push the start switch.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 77
+            },
+            {
+                "tag": "p",
+                "content": "You should hear a click as the relay engages. Then release the door switch and you should hear a click as the relay disengages. If you heard the clicks, the start switch is probably okay.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 78
+            },
+            {
+                "tag": "p",
+                "content": "If you didn\u2019t hear the clicks, check continuity through the push-to-start switch.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 79
+            },
+            {
+                "tag": "li",
+                "content": "With the dryer",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 80
+            },
+            {
+                "tag": "strong",
+                "content": "unplugged,",
+                "attributes": "{'node': '[object Object]', 'class': ['font-bold', 'text-xl']}",
+                "order": 81
+            },
+            {
+                "tag": "li",
+                "content": "remove the console back panel.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 82
+            },
+            {
+                "tag": "li",
+                "content": "Unplug the wires from the start switch.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 83
+            },
+            {
+                "tag": "li",
+                "content": "Have someone hold the start switch in and check resistance on the spades for the light blue wires.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 84
+            },
+            {
+                "tag": "p",
+                "content": "You should measure near 0 ohms of resistance with the start button pressed in. If you measure no continuity, then you\u2019ll need to replace the push-to-start switch.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 85
+            },
+            {
+                "tag": "p",
+                "content": "If all of the components have checked out okay, then the motor windings or internal centrifugal switch could be defective. You should get a service technician to diagnose and repair the dryer at this point.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 86
+            },
+            {
+                "tag": "h3",
+                "content": "Maytag Gas Dryer Won\u2019t Start",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 87
+            },
+            {
+                "tag": "p",
+                "content": "Here\u2019s a DIY troubleshooting video to fix your Maytag gas dryer that won\u2019t start:",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 88
+            },
+            {
+                "tag": "p",
+                "content": "The process for checking the door switch and push-to-start switch for a gas dryer are the basically the same as the electric dryer troubleshooting described above.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 89
+            },
+            {
+                "tag": "p",
+                "content": "A blown thermal fuse in a Maytag gas dryer will prevent the dryer from heating but not running. You don\u2019t need to check the thermal fuse for a gas dryer not starting.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 90
+            },
+            {
+                "tag": "p",
+                "content": "If you\u2019re unable to find and fix the cause of the starting problem in your Maytag gas dryer by following these expert tips, schedule service and we\u2019ll send a Sears Home Services technician to your home to fix the dryer.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 91
+            },
+            {
+                "tag": "h2",
+                "content": "What to expect when you experience a Maytag dryer not starting issue",
+                "attributes": "{'node': '[object Object]', 'class': ['text-4xl', 'font-semibold', 'text-blue-300', 'mb-5', 'leading-8']}",
+                "order": 92
+            },
+            {
+                "tag": "h3",
+                "content": "How is the not starting problem fixed?",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 93
+            },
+            {
+                "tag": "p",
+                "content": "Correcting most not starting problems usually involves replacing the thermal fuse, door switch or drum belt. However, there are many potential causes, so a thorough diagnosis is key to fixing the problem. An accurate diagnosis is essential to understanding how much the repair will be.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 94
+            },
+            {
+                "tag": "h3",
+                "content": "Sears Home Services recommendations for a dryer that is not starting",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 95
+            },
+            {
+                "tag": "p",
+                "content": "When the dryer is not starting it can be for many reasons. To avoid replacing unneeded parts, we recommend scheduling",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 96
+            },
+            {
+                "tag": "a",
+                "content": "Maytag dryer repair",
+                "attributes": "{'class': ['hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-xl', 'leading-6', 'font-normal'], 'data-metric-id': '', 'data-metric-value': 'Maytag dryer repair', 'target': '_self', 'style': 'color:blue.7', 'node': '[object Object]', 'href': '/repair/maytag/dryer'}",
+                "order": 97
+            },
+            {
+                "tag": "p",
+                "content": "with a local Sears Home Services professional who can perform diagnostic tests to identify the root cause of the problem. Our technicians are experienced at diagnosing all types of dryer failures.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 98
+            },
+            {
+                "tag": "h3",
+                "content": "What to look out for with a dryer not starting diagnosis",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 99
+            },
+            {
+                "tag": "p",
+                "content": "Diagnosing modern appliances without proper knowledge and training can be difficult. Without using proper diagnostic techniques, fixing your dryer problem will only be achieved through changing parts on a hunch. Appliances, especially in the last 10 years, have become extremely advanced, and many models have electronic parts that are difficult to test. DIY repairs on the latest appliance models are becoming increasingly difficult.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 100
+            },
+            {
+                "tag": "h2",
+                "content": "Maytag Dryer Not Starting but has Power",
+                "attributes": "{'node': '[object Object]', 'class': ['text-4xl', 'font-semibold', 'text-blue-300', 'mb-5', 'leading-8']}",
+                "order": 101
+            },
+            {
+                "tag": "p",
+                "content": "When your Maytag dryer is not starting but has power, check the dryer door to make sure it is fully shut. Press in firmly on the door to shut if fully. If the dryer won\u2019t start with the door fully shut, test the door switch by opening the dryer door and pressing in on the door switch to see if the drum light turns off. If the drum light stays on, the door switch is likely bad. Have a dryer service technician verify the failure and replace the door switch if necessary.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 102
+            },
+            {
+                "tag": "p",
+                "content": "If the door switch is okay and you have an electric dryer, a blown thermal fuse could be preventing the drive motor from starting. A number of other problems can prevent a gas or electric Maytag dryer from starting including:",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 103
+            },
+            {
+                "tag": "li",
+                "content": "Faulty push-to-start switch.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 104
+            },
+            {
+                "tag": "li",
+                "content": "Bad drive motor.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 105
+            },
+            {
+                "tag": "li",
+                "content": "Failed operating thermostat.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 106
+            },
+            {
+                "tag": "li",
+                "content": "Defective timer.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 107
+            },
+            {
+                "tag": "li",
+                "content": "Wiring failure.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 108
+            },
+            {
+                "tag": "p",
+                "content": "Schedule dryer repair service to have a Sears Home Services technician pinpoint the cause of the failure when your Maytag dryer is not starting but has power.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 109
+            },
+            {
+                "tag": "h2",
+                "content": "Maytag Front Load Dryer Won\u2019t Start",
+                "attributes": "{'node': '[object Object]', 'class': ['text-4xl', 'font-semibold', 'text-blue-300', 'mb-5', 'leading-8']}",
+                "order": 110
+            },
+            {
+                "tag": "p",
+                "content": "A Maytag front load dryer that won\u2019t start typically has a Child Lock feature that will prevent the dryer from starting if that option is enabled.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 111
+            },
+            {
+                "tag": "p",
+                "content": "If the Controls Locked status light is on, press and hold the Cycle Signal button for three seconds. This will turn off the Child Lock feature on most Maytag front load dryer models. With the Child Lock turned off, you should be able to start the cycle.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 112
+            },
+            {
+                "tag": "p",
+                "content": "If the dryer won\u2019t start with the Child Lock feature turned off, make sure the dryer door is fully shut. Press in firmly on the dryer door to shut it fully.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 113
+            },
+            {
+                "tag": "p",
+                "content": "If your Maytag front load dryer won\u2019t start after following these basic troubleshooting tips, schedule dryer repair service to have a service technician diagnose and repair the starting failure.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 114
+            },
+            {
+                "tag": "h2",
+                "content": "Maytag Bravo XL Dryer Won\u2019t Start",
+                "attributes": "{'node': '[object Object]', 'class': ['text-4xl', 'font-semibold', 'text-blue-300', 'mb-5', 'leading-8']}",
+                "order": 115
+            },
+            {
+                "tag": "p",
+                "content": "A Maytag Bravo XL dryer that won\u2019t start may have the door slightly ajar. Press in firmly on the dryer door to shut if fully and see if the dryer starts.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 116
+            },
+            {
+                "tag": "p",
+                "content": "Sometimes, a power surge through the electrical lines will lock up the electronic control board and the Maytag Bravo XL dryer won\u2019t start. Reset the electronic control board in the dryer by unplugging the power cord for 2 minutes and then plugging it back into the electrical outlet to restore power. Press the power button and select a cycle. The dryer may start properly after resetting the control board.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 117
+            },
+            {
+                "tag": "p",
+                "content": "Check the control panel for an error code flashing in the digital display. The dryer won\u2019t start if a component failure is detected that requires service. An error code will flash F and a number followed by E and a number then the sequence will repeat. Schedule dryer repair service when you see this type of error code flashing in the control panel display.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 118
+            },
+            {
+                "tag": "h2",
+                "content": "Maytag Dryer Turns On But Won\u2019t Start",
+                "attributes": "{'node': '[object Object]', 'class': ['text-4xl', 'font-semibold', 'text-blue-300', 'mb-5', 'leading-8']}",
+                "order": 119
+            },
+            {
+                "tag": "p",
+                "content": "Make sure the door is fully shut when your Maytag dryer turns on but won\u2019t start. Press in firmly on the dryer door to shut it fully if it\u2019s slightly ajar.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 120
+            },
+            {
+                "tag": "p",
+                "content": "If your model has the Child Lock feature, check to see if the lock is enabled. Follow the directions in your owner\u2019s manual to turn off the Child Lock if you find it on. For many Maytag dryers, you\u2019ll need to press and hold the Cycle Signal button for three seconds to disable the Child Lock.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 121
+            },
+            {
+                "tag": "p",
+                "content": "If your Maytag dryer won\u2019t start after following these basic troubleshooting tips, schedule dryer repair service to have a service technician diagnose and repair the starting failure. The tech may find a defective door switch, bad electronic control board, faulty control panel or wiring failure causing the starting problem.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 122
+            },
+            {
+                "tag": "p",
+                "content": "Pressing Start on a Maytag dryer but hearing nothing commonly points to a defective door switch or fuse. Repetitive tries might worsen electrical faults. Instead, get",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 123
+            },
+            {
+                "tag": "a",
+                "content": "dryer repair near me",
+                "attributes": "{'class': ['hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-xl', 'leading-6', 'font-normal'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_self', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searshomeservices.com/repair/dryer-repair-service'}",
+                "order": 124
+            },
+            {
+                "tag": "p",
+                "content": "for direct troubleshooting. A swift fix restarts normal drying routines.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 125
+            },
+            {
+                "tag": "span",
+                "content": "Schedule Now",
+                "attributes": "{}",
+                "order": 126
+            },
+            {
+                "tag": "h2",
+                "content": "What our customers say about us",
+                "attributes": "{'class': ['text-blue-300', 'md:text-4xl-plus', 'my-2', 'tracking-wide', 'font-montserrat', 'text-4xl', 'font-semibold', 'leading-8']}",
+                "order": 127
+            },
+            {
+                "tag": "p",
+                "content": "With more than 1.3 Million 5 Star Reviews, you don't have to take our word for it",
+                "attributes": "{'class': ['font-normal', 'text-gray-500', 'text-md', 'lg:text-xl', 'mb-4', 'lg:mb-[18px]', 'px-4']}",
+                "order": 128
+            },
+            {
+                "tag": "p",
+                "content": "Excellent service from Daniel",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'truncate', 'font-semibold', 'text-blue-300', 'mt-2', 'mb-1'], 'title': 'Excellent service from Daniel'}",
+                "order": 129
+            },
+            {
+                "tag": "p",
+                "content": "Daniel provided excellent service and was very quick to perform the repair.  I have nothing good to say about the warranty program and the LACK of customer service and the inability to contact a human being to talk.",
+                "attributes": "{'class': ['text-md', 'leading-6', 'font-normal', 'text-gray-500', 'line-clamp-5', 'mb-1', 'lg:mb-4'], 'title': 'Daniel provided excellent service and was very quick to perform the repair.  I have nothing good to say about the warranty program and the LACK of customer service and the inability to contact a human being to talk.'}",
+                "order": 130
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: User Profile | Src: /static/icons/general/user-profile.svg",
+                "attributes": "{'alt': 'User Profile', 'loading': 'lazy', 'width': '47', 'height': '47', 'decoding': 'async', 'data-nimg': '1', 'class': ['w-12', 'h-12', 'rounded-full', 'object-cover'], 'style': 'color:transparent', 'src': '/static/icons/general/user-profile.svg'}",
+                "order": 131
+            },
+            {
+                "tag": "p",
+                "content": "Tammy M, Hilton, NY",
+                "attributes": "{'class': ['text-gray-500', 'text-xs', 'md:text-sm', 'font-normal', 'italic', 'uppercase']}",
+                "order": 132
+            },
+            {
+                "tag": "p",
+                "content": "Satisfied customer",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'truncate', 'font-semibold', 'text-blue-300', 'mt-2', 'mb-1'], 'title': 'Satisfied customer'}",
+                "order": 133
+            },
+            {
+                "tag": "p",
+                "content": "Excellent technician  Very thorough and detail oriented \nWould be happy to have him work on appliances again \nHe managed to find our ranch headquarters in the middle of the desert",
+                "attributes": "{'class': ['text-md', 'leading-6', 'font-normal', 'text-gray-500', 'line-clamp-5', 'mb-1', 'lg:mb-4'], 'title': 'Excellent technician  Very thorough and detail oriented \\nWould be happy to have him work on appliances again \\nHe managed to find our ranch headquarters in the middle of the desert'}",
+                "order": 134
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: User Profile | Src: /static/icons/general/user-profile.svg",
+                "attributes": "{'alt': 'User Profile', 'loading': 'lazy', 'width': '47', 'height': '47', 'decoding': 'async', 'data-nimg': '1', 'class': ['w-12', 'h-12', 'rounded-full', 'object-cover'], 'style': 'color:transparent', 'src': '/static/icons/general/user-profile.svg'}",
+                "order": 135
+            },
+            {
+                "tag": "p",
+                "content": "Rose W, Las Cruces, NM",
+                "attributes": "{'class': ['text-gray-500', 'text-xs', 'md:text-sm', 'font-normal', 'italic', 'uppercase']}",
+                "order": 136
+            },
+            {
+                "tag": "p",
+                "content": "Dryer service",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'truncate', 'font-semibold', 'text-blue-300', 'mt-2', 'mb-1'], 'title': 'Dryer service'}",
+                "order": 137
+            },
+            {
+                "tag": "p",
+                "content": "He was professional and polite. I didn't call back later that afternoon, although he replaced a thermostat the smart dry timer doesn't work as I was still having the same issue. The lady said she would email him and have him return. Never heard from anyone else.",
+                "attributes": "{'class': ['text-md', 'leading-6', 'font-normal', 'text-gray-500', 'line-clamp-5', 'mb-1', 'lg:mb-4'], 'title': \"He was professional and polite. I didn't call back later that afternoon, although he replaced a thermostat the smart dry timer doesn't work as I was still having the same issue. The lady said she would email him and have him return. Never heard from anyone else.\"}",
+                "order": 138
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: User Profile | Src: /static/icons/general/user-profile.svg",
+                "attributes": "{'alt': 'User Profile', 'loading': 'lazy', 'width': '47', 'height': '47', 'decoding': 'async', 'data-nimg': '1', 'class': ['w-12', 'h-12', 'rounded-full', 'object-cover'], 'style': 'color:transparent', 'src': '/static/icons/general/user-profile.svg'}",
+                "order": 139
+            },
+            {
+                "tag": "p",
+                "content": "Terry F, Oklahoma City, OK",
+                "attributes": "{'class': ['text-gray-500', 'text-xs', 'md:text-sm', 'font-normal', 'italic', 'uppercase']}",
+                "order": 140
+            },
+            {
+                "tag": "h2",
+                "content": "Frequently Asked Questions",
+                "attributes": "{'id': 'faq-heading-symptom-maytag-dryer-not-starting', 'class': ['text-4xl', 'lg:text-4xl-plus', 'font-semibold', 'text-blue-300', 'leading-9', 'pb-2', 'lg:mb-8']}",
+                "order": 141
+            },
+            {
+                "tag": "div",
+                "content": "Why won\u2019t my Maytag dryer start?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 142
+            },
+            {
+                "tag": "div",
+                "content": "Check if the dryer is receiving power, verify the door switch is functioning, and ensure the start button is working.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 143
+            },
+            {
+                "tag": "div",
+                "content": "Could a broken door switch prevent my Maytag dryer from starting?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 144
+            },
+            {
+                "tag": "div",
+                "content": "Yes, a broken door switch can stop the dryer from starting. Replace the door switch to restore functionality.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 145
+            },
+            {
+                "tag": "div",
+                "content": "How do I fix my Maytag dryer if it won\u2019t start?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 146
+            },
+            {
+                "tag": "div",
+                "content": "Ensure the dryer is plugged in, check the door switch, and inspect the start button or control board for issues.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 147
+            },
+            {
+                "tag": "div",
+                "content": "What causes my Maytag dryer to not start?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 148
+            },
+            {
+                "tag": "div",
+                "content": "A faulty door switch, broken start button, or control board malfunction could prevent the dryer from starting.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 149
+            },
+            {
+                "tag": "h2",
+                "content": "Repair Dryer Resources",
+                "attributes": "{'class': ['text-blue-300', 'text-5xl', 'mb-12', 'md:px-0']}",
+                "order": 150
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: homeowner hearing the dryer making a loud noise | Src: https://www.searshomeservices.com/cftassets/37lnD0mgh96nhp4korI46y/2bc1f9c54ae06a425d503ba92d5a45e2/dryer-making-loud-noise.png?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': 'homeowner hearing the dryer making a loud noise', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/37lnD0mgh96nhp4korI46y/2bc1f9c54ae06a425d503ba92d5a45e2/dryer-making-loud-noise.png?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/37lnD0mgh96nhp4korI46y/2bc1f9c54ae06a425d503ba92d5a45e2/dryer-making-loud-noise.png?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/37lnD0mgh96nhp4korI46y/2bc1f9c54ae06a425d503ba92d5a45e2/dryer-making-loud-noise.png?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/37lnD0mgh96nhp4korI46y/2bc1f9c54ae06a425d503ba92d5a45e2/dryer-making-loud-noise.png?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/37lnD0mgh96nhp4korI46y/2bc1f9c54ae06a425d503ba92d5a45e2/dryer-making-loud-noise.png?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/37lnD0mgh96nhp4korI46y/2bc1f9c54ae06a425d503ba92d5a45e2/dryer-making-loud-noise.png?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/37lnD0mgh96nhp4korI46y/2bc1f9c54ae06a425d503ba92d5a45e2/dryer-making-loud-noise.png?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/37lnD0mgh96nhp4korI46y/2bc1f9c54ae06a425d503ba92d5a45e2/dryer-making-loud-noise.png?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/37lnD0mgh96nhp4korI46y/2bc1f9c54ae06a425d503ba92d5a45e2/dryer-making-loud-noise.png?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/37lnD0mgh96nhp4korI46y/2bc1f9c54ae06a425d503ba92d5a45e2/dryer-making-loud-noise.png?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/37lnD0mgh96nhp4korI46y/2bc1f9c54ae06a425d503ba92d5a45e2/dryer-making-loud-noise.png?w=3840&q=90&fm=webp'}",
+                "order": 151
+            },
+            {
+                "tag": "p",
+                "content": "Why Is My Dryer Making a Loud Noise?",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 152
+            },
+            {
+                "tag": "span",
+                "content": "8 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 153
+            },
+            {
+                "tag": "span",
+                "content": "Dec. 22",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 154
+            },
+            {
+                "tag": "p",
+                "content": "Learn how to fix a dryer making grinding noise or other loud noises using our expert DIY tips.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 155
+            },
+            {
+                "tag": "a",
+                "content": "Dryer",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_dryer_blog_meta_data_0_product_link', 'data-metric-id': 'repair_symptom_page_dryer_blog_meta_data_0_product_link', 'data-metric-value': 'Dryer', 'target': '_self', 'href': '/blog/repair/dryer-resources'}",
+                "order": 156
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: image of steam dryer set for the steam cycle for blog article \"How Do Steam Dryers Work?\" | Src: https://www.searshomeservices.com/cftassets/59oRDgPc9cqcBjGeLZuSu/ab4c9511a721e9befefb9e5a3ed136eb/steam-dryer-setting.png?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': 'image of steam dryer set for the steam cycle for blog article \"How Do Steam Dryers Work?\"', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/59oRDgPc9cqcBjGeLZuSu/ab4c9511a721e9befefb9e5a3ed136eb/steam-dryer-setting.png?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/59oRDgPc9cqcBjGeLZuSu/ab4c9511a721e9befefb9e5a3ed136eb/steam-dryer-setting.png?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/59oRDgPc9cqcBjGeLZuSu/ab4c9511a721e9befefb9e5a3ed136eb/steam-dryer-setting.png?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/59oRDgPc9cqcBjGeLZuSu/ab4c9511a721e9befefb9e5a3ed136eb/steam-dryer-setting.png?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/59oRDgPc9cqcBjGeLZuSu/ab4c9511a721e9befefb9e5a3ed136eb/steam-dryer-setting.png?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/59oRDgPc9cqcBjGeLZuSu/ab4c9511a721e9befefb9e5a3ed136eb/steam-dryer-setting.png?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/59oRDgPc9cqcBjGeLZuSu/ab4c9511a721e9befefb9e5a3ed136eb/steam-dryer-setting.png?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/59oRDgPc9cqcBjGeLZuSu/ab4c9511a721e9befefb9e5a3ed136eb/steam-dryer-setting.png?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/59oRDgPc9cqcBjGeLZuSu/ab4c9511a721e9befefb9e5a3ed136eb/steam-dryer-setting.png?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/59oRDgPc9cqcBjGeLZuSu/ab4c9511a721e9befefb9e5a3ed136eb/steam-dryer-setting.png?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/59oRDgPc9cqcBjGeLZuSu/ab4c9511a721e9befefb9e5a3ed136eb/steam-dryer-setting.png?w=3840&q=90&fm=webp'}",
+                "order": 157
+            },
+            {
+                "tag": "p",
+                "content": "How Do Steam Dryers Work?",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 158
+            },
+            {
+                "tag": "span",
+                "content": "5 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 159
+            },
+            {
+                "tag": "span",
+                "content": "Dec. 19",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 160
+            },
+            {
+                "tag": "p",
+                "content": "Learn how steam dryers work and how to keep them working smoothly.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 161
+            },
+            {
+                "tag": "a",
+                "content": "Dryer",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_dryer_blog_meta_data_1_product_link', 'data-metric-id': 'repair_symptom_page_dryer_blog_meta_data_1_product_link', 'data-metric-value': 'Dryer', 'target': '_self', 'href': '/blog/repair/dryer-resources'}",
+                "order": 162
+            },
+            {
+                "tag": "a",
+                "content": "Appliance 101",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_dryer_blog_meta_data_1_secondary_category_link', 'data-metric-id': 'repair_symptom_page_dryer_blog_meta_data_1_secondary_category_link', 'data-metric-value': 'Dryer', 'target': '_self', 'href': '/blog/repair/appliance-101-resources'}",
+                "order": 163
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Homeowner discovering that his dryer won't start and looking for \"Reasons Why Your Dryer Won\u2019t Start\" | Src: https://www.searshomeservices.com/cftassets/7dbO9fVVlVqZFFKtmGQJYY/d8f553f74094471cf27b94ef89019c7f/top-15-reasons-why-your-dryer-wont-start.png?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': 'Homeowner discovering that his dryer won\\'t start and looking for \"Reasons Why Your Dryer Won\u2019t Start\"', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/7dbO9fVVlVqZFFKtmGQJYY/d8f553f74094471cf27b94ef89019c7f/top-15-reasons-why-your-dryer-wont-start.png?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/7dbO9fVVlVqZFFKtmGQJYY/d8f553f74094471cf27b94ef89019c7f/top-15-reasons-why-your-dryer-wont-start.png?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/7dbO9fVVlVqZFFKtmGQJYY/d8f553f74094471cf27b94ef89019c7f/top-15-reasons-why-your-dryer-wont-start.png?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/7dbO9fVVlVqZFFKtmGQJYY/d8f553f74094471cf27b94ef89019c7f/top-15-reasons-why-your-dryer-wont-start.png?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/7dbO9fVVlVqZFFKtmGQJYY/d8f553f74094471cf27b94ef89019c7f/top-15-reasons-why-your-dryer-wont-start.png?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/7dbO9fVVlVqZFFKtmGQJYY/d8f553f74094471cf27b94ef89019c7f/top-15-reasons-why-your-dryer-wont-start.png?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/7dbO9fVVlVqZFFKtmGQJYY/d8f553f74094471cf27b94ef89019c7f/top-15-reasons-why-your-dryer-wont-start.png?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/7dbO9fVVlVqZFFKtmGQJYY/d8f553f74094471cf27b94ef89019c7f/top-15-reasons-why-your-dryer-wont-start.png?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/7dbO9fVVlVqZFFKtmGQJYY/d8f553f74094471cf27b94ef89019c7f/top-15-reasons-why-your-dryer-wont-start.png?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/7dbO9fVVlVqZFFKtmGQJYY/d8f553f74094471cf27b94ef89019c7f/top-15-reasons-why-your-dryer-wont-start.png?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/7dbO9fVVlVqZFFKtmGQJYY/d8f553f74094471cf27b94ef89019c7f/top-15-reasons-why-your-dryer-wont-start.png?w=3840&q=90&fm=webp'}",
+                "order": 164
+            },
+            {
+                "tag": "p",
+                "content": "Top 15 Reasons Why Your Dryer Won't Start",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 165
+            },
+            {
+                "tag": "span",
+                "content": "9 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 166
+            },
+            {
+                "tag": "span",
+                "content": "Dec. 18",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 167
+            },
+            {
+                "tag": "p",
+                "content": "Learn about reasons why your dryer won\u2019t start and get practical solutions for fixing common dryer problems.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 168
+            },
+            {
+                "tag": "a",
+                "content": "Dryer",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_dryer_blog_meta_data_2_product_link', 'data-metric-id': 'repair_symptom_page_dryer_blog_meta_data_2_product_link', 'data-metric-value': 'Dryer', 'target': '_self', 'href': '/blog/repair/dryer-resources'}",
+                "order": 169
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Image of homeowner needing to decipher Samsung Dryer Error codes. | Src: https://www.searshomeservices.com/cftassets/39Qp3pR1sWP4jLxRJfNPiG/beeff14c028d9e0ee7a03aeb02345309/Samsung_Clothes_Dryer_Error_Codes.png?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': 'Image of homeowner needing to decipher Samsung Dryer Error codes.', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/39Qp3pR1sWP4jLxRJfNPiG/beeff14c028d9e0ee7a03aeb02345309/Samsung_Clothes_Dryer_Error_Codes.png?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/39Qp3pR1sWP4jLxRJfNPiG/beeff14c028d9e0ee7a03aeb02345309/Samsung_Clothes_Dryer_Error_Codes.png?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/39Qp3pR1sWP4jLxRJfNPiG/beeff14c028d9e0ee7a03aeb02345309/Samsung_Clothes_Dryer_Error_Codes.png?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/39Qp3pR1sWP4jLxRJfNPiG/beeff14c028d9e0ee7a03aeb02345309/Samsung_Clothes_Dryer_Error_Codes.png?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/39Qp3pR1sWP4jLxRJfNPiG/beeff14c028d9e0ee7a03aeb02345309/Samsung_Clothes_Dryer_Error_Codes.png?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/39Qp3pR1sWP4jLxRJfNPiG/beeff14c028d9e0ee7a03aeb02345309/Samsung_Clothes_Dryer_Error_Codes.png?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/39Qp3pR1sWP4jLxRJfNPiG/beeff14c028d9e0ee7a03aeb02345309/Samsung_Clothes_Dryer_Error_Codes.png?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/39Qp3pR1sWP4jLxRJfNPiG/beeff14c028d9e0ee7a03aeb02345309/Samsung_Clothes_Dryer_Error_Codes.png?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/39Qp3pR1sWP4jLxRJfNPiG/beeff14c028d9e0ee7a03aeb02345309/Samsung_Clothes_Dryer_Error_Codes.png?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/39Qp3pR1sWP4jLxRJfNPiG/beeff14c028d9e0ee7a03aeb02345309/Samsung_Clothes_Dryer_Error_Codes.png?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/39Qp3pR1sWP4jLxRJfNPiG/beeff14c028d9e0ee7a03aeb02345309/Samsung_Clothes_Dryer_Error_Codes.png?w=3840&q=90&fm=webp'}",
+                "order": 170
+            },
+            {
+                "tag": "p",
+                "content": "Deciphering Samsung Clothes Dryer Error Codes",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 171
+            },
+            {
+                "tag": "span",
+                "content": "5 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 172
+            },
+            {
+                "tag": "span",
+                "content": "Dec. 09",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 173
+            },
+            {
+                "tag": "p",
+                "content": "Find the most common Samsung clothes dryer error codes and their solutions. Get professional help from Sears Home Services.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 174
+            },
+            {
+                "tag": "a",
+                "content": "Dryer",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_dryer_blog_meta_data_3_product_link', 'data-metric-id': 'repair_symptom_page_dryer_blog_meta_data_3_product_link', 'data-metric-value': 'Dryer', 'target': '_self', 'href': '/blog/repair/dryer-resources'}",
+                "order": 175
+            },
+            {
+                "tag": "h3",
+                "content": "Glossary Terms",
+                "attributes": "{'class': ['text-blue-300', 'mb-0', 'text-4xl']}",
+                "order": 176
+            },
+            {
+                "tag": "span",
+                "content": "What is a Dryer Drum?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 177
+            },
+            {
+                "tag": "p",
+                "content": "A dryer drum is the main interior component of a clothes dryer where clothes are placed to be dried. It rotates during the drying cycle, allowing heated air to circulate through the clothes.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 178
+            },
+            {
+                "tag": "span",
+                "content": "What is a Dryer Filter?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 179
+            },
+            {
+                "tag": "p",
+                "content": "A dryer filter, commonly known as a lint filter, is a component of a clothes dryer that captures lint and other debris from clothes during the drying process, preventing them from clogging the dryer vent.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 180
+            },
+            {
+                "tag": "span",
+                "content": "What is a Dryer Pedestal?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 181
+            },
+            {
+                "tag": "p",
+                "content": "A dryer pedestal is a platform that elevates a dryer off the ground, making it easier to load and unload laundry while also providing additional storage space in some models.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 182
+            },
+            {
+                "tag": "span",
+                "content": "What is a Dryer Rack?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 183
+            },
+            {
+                "tag": "p",
+                "content": "A dryer rack is an accessory for clothes dryers that provides a stationary platform to dry items without tumbling, ideal for delicate or bulky items, or shoes that might be damaged by the usual drying cycle.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 184
+            },
+            {
+                "tag": "h2",
+                "content": "Additional possible Maytag dryer symptoms you may experience",
+                "attributes": "{'class': ['text-blue-300', 'mb-0', 'leading-8', 'text-4xl']}",
+                "order": 185
+            },
+            {
+                "tag": "span",
+                "content": "Maytag dryer no heat",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 186
+            },
+            {
+                "tag": "span",
+                "content": "Maytag dryer not heating",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 187
+            },
+            {
+                "tag": "span",
+                "content": "Maytag dryer drum roller replacement",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 188
+            },
+            {
+                "tag": "span",
+                "content": "Maytag dryer stopped working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 189
+            },
+            {
+                "tag": "span",
+                "content": "Maytag dryer makes noise when tumbling",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 190
+            },
+            {
+                "tag": "span",
+                "content": "Maytag dryer burning smell",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 191
+            },
+            {
+                "tag": "span",
+                "content": "Maytag dryer vibrates",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 192
+            },
+            {
+                "tag": "span",
+                "content": "Maytag dryer leaking water",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 193
+            },
+            {
+                "tag": "span",
+                "content": "Maytag dryer noisy",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 194
+            },
+            {
+                "tag": "span",
+                "content": "Maytag dryer not drying",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 195
+            },
+            {
+                "tag": "span",
+                "content": "Maytag dryer light not working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 196
+            },
+            {
+                "tag": "span",
+                "content": "Maytag dryer not draining",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 197
+            },
+            {
+                "tag": "span",
+                "content": "Maytag dryer drum not turning",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 198
+            },
+            {
+                "tag": "span",
+                "content": "Maytag dryer no power",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 199
+            },
+            {
+                "tag": "span",
+                "content": "Maytag dryer not spinning",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 200
+            },
+            {
+                "tag": "span",
+                "content": "Maytag dryer not working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 201
+            },
+            {
+                "tag": "span",
+                "content": "Maytag dryer display not working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 202
+            },
+            {
+                "tag": "span",
+                "content": "Maytag dryer door not closing",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 203
+            },
+            {
+                "tag": "span",
+                "content": "Maytag dryer won't heat up",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 204
+            },
+            {
+                "tag": "span",
+                "content": "Maytag dryer won't turn off",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 205
+            },
+            {
+                "tag": "span",
+                "content": "Maytag dryer not turning on",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 206
+            },
+            {
+                "tag": "h2",
+                "content": "These dryer brands may also experience not starting",
+                "attributes": "{'class': ['text-blue-300', 'mb-0', 'leading-8', 'text-4xl']}",
+                "order": 207
+            },
+            {
+                "tag": "span",
+                "content": "Samsung dryer not starting",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 208
+            },
+            {
+                "tag": "span",
+                "content": "Whirlpool dryer not starting",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 209
+            },
+            {
+                "tag": "span",
+                "content": "Kenmore Elite dryer not starting",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 210
+            },
+            {
+                "tag": "span",
+                "content": "Admiral dryer not starting",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 211
+            },
+            {
+                "tag": "span",
+                "content": "Amana dryer not starting",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 212
+            },
+            {
+                "tag": "span",
+                "content": "Frigidaire dryer not starting",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 213
+            },
+            {
+                "tag": "span",
+                "content": "GE dryer not starting",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 214
+            },
+            {
+                "tag": "span",
+                "content": "Hotpoint dryer not starting",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 215
+            },
+            {
+                "tag": "span",
+                "content": "Bosch dryer not starting",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 216
+            },
+            {
+                "tag": "span",
+                "content": "Crosley dryer not starting",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 217
+            },
+            {
+                "tag": "span",
+                "content": "Electrolux dryer not starting",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 218
+            },
+            {
+                "tag": "span",
+                "content": "Estate dryer not starting",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 219
+            },
+            {
+                "tag": "span",
+                "content": "GE Profile dryer not starting",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 220
+            },
+            {
+                "tag": "span",
+                "content": "Kenmore dryer not starting",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 221
+            },
+            {
+                "tag": "span",
+                "content": "KitchenAid dryer not starting",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 222
+            },
+            {
+                "tag": "span",
+                "content": "LG dryer not starting",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 223
+            },
+            {
+                "tag": "span",
+                "content": "Roper dryer not starting",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 224
+            },
+            {
+                "tag": "span",
+                "content": "Speed Queen dryer not starting",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 225
+            },
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{}",
+                "order": 226
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{}",
+                "order": 227
+            },
+            {
+                "tag": "div",
+                "content": "PC Header",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 228
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: shs-logo | Src: https://cdn.cookielaw.org/logos/cc9a8230-03c2-46ab-afe1-51ced9dc71c0/9ff49619-d07c-4183-9296-1ab182541af7/37067ed8-3732-4c57-8be8-5c334ab22954/logo-png.png",
+                "attributes": "{'alt': 'shs-logo', 'src': 'https://cdn.cookielaw.org/logos/cc9a8230-03c2-46ab-afe1-51ced9dc71c0/9ff49619-d07c-4183-9296-1ab182541af7/37067ed8-3732-4c57-8be8-5c334ab22954/logo-png.png'}",
+                "order": 229
+            },
+            {
+                "tag": "span",
+                "content": "Your Opt Out Preference Signal is Honored",
+                "attributes": "{}",
+                "order": 230
+            },
+            {
+                "tag": "h2",
+                "content": "Notice of Right to Opt Out of Sale/Sharing",
+                "attributes": "{'id': 'ot-pc-title'}",
+                "order": 231
+            },
+            {
+                "tag": "div",
+                "content": "This website uses cookies and other tracking technologies (\u201cCookies\u201d) to serve targeted ads, enhance user experience, and to analyze user activity. Some Cookies may collect personal information that is used in a way that is considered a \u201cSale\u201d, \u201cSharing\u201d, or \u201cTargeted Advertising\u201d as those terms are defined under various state privacy laws. To opt out of Cookie based Sales, Sharing, and Targeted Advertising, please follow the instructions below. To opt out of non-Cookie based Sales, Sharing, and Targeted Advertising, please visit our webform",
+                "attributes": "{'id': 'ot-pc-desc'}",
+                "order": 232
+            },
+            {
+                "tag": "a",
+                "content": "here",
+                "attributes": "{'href': 'https://privacyportal.onetrust.com/webform/cc9a8230-03c2-46ab-afe1-51ced9dc71c0/8af6e60f-4a08-4da4-bc67-c757487f400f', 'target': '_blank', 'rel': ['noopener', 'noreferrer'], 'style': 'color:#3860BE; text-decoration:underline; display:inline;'}",
+                "order": 233
+            },
+            {
+                "tag": "div",
+                "content": ". Please visit our Privacy Policy linked below, including the State Specific Disclosures section for more information about your rights and our privacy practices.",
+                "attributes": "{'id': 'ot-pc-desc'}",
+                "order": 234
+            },
+            {
+                "tag": "a",
+                "content": "Privacy Policy",
+                "attributes": "{'href': 'https://www.searshomeservices.com/privacy#california-residents', 'class': ['privacy-notice-link'], 'rel': ['noopener'], 'target': '_blank', 'aria-label': 'More information about your privacy, opens in a new tab'}",
+                "order": 235
+            },
+            {
+                "tag": "section",
+                "content": "Non Accordion Group",
+                "attributes": "{'class': ['ot-sdk-row', 'ot-cat-grp']}",
+                "order": 236
+            },
+            {
+                "tag": "section",
+                "content": "Accordion Group section starts",
+                "attributes": "{'class': ['ot-sdk-row', 'ot-cat-grp']}",
+                "order": 237
+            },
+            {
+                "tag": "section",
+                "content": "Accordion Group section ends",
+                "attributes": "{'class': ['ot-sdk-row', 'ot-cat-grp']}",
+                "order": 238
+            },
+            {
+                "tag": "span",
+                "content": "Selling, Sharing, Targeted Advertising",
+                "attributes": "{'style': 'font-weight:bold;font-size:18px'}",
+                "order": 239
+            },
+            {
+                "tag": "span",
+                "content": "Selling, Sharing, Targeted Advertising",
+                "attributes": "{'style': 'font-weight:bold;font-size:18px'}",
+                "order": 240
+            },
+            {
+                "tag": "div",
+                "content": "You can move the toggle above to the left to opt out of Cookie-based Sales, Sharing, and Targeted Advertising. Please note that your opt-out choice is specific to this website, browser, and device. If you access other Transformco websites, you will need to make your election for each. Also, if you clear your Cookies on this browser or use another browser or device, you may need to opt out again on this website.",
+                "attributes": "{'role': 'note', 'style': 'font-size:13.008px; color:#696969; margin:0 0 25px;'}",
+                "order": 241
+            },
+            {
+                "tag": "div",
+                "content": "Please note: Opting out may affect our ability to personalize your experience on this website, though we may use Cookies that do not include Sales, Sharing, or Targeted Advertising. You may still receive non-personalized advertisements on other sites or personalized ads that may be based on information processed before you opted out.",
+                "attributes": "{'role': 'note', 'style': 'font-size:13.008px; color:#696969; margin:0 0 25px;'}",
+                "order": 242
+            },
+            {
+                "tag": "div",
+                "content": "This website recognizes the Global Privacy Control (\u201cGPC\u201d), which is designed to recognize certain browser-based opt-out preference signals. We will process the GPC signal as a request to opt out. To process your request through GPC, you must use a browser or browser extension that supports the signal and turn it on for each browser and device you use.",
+                "attributes": "{'role': 'note', 'style': 'font-size:13.008px; color:#696969; margin:0 0 25px;'}",
+                "order": 243
+            },
+            {
+                "tag": "h3",
+                "content": "Cookie List",
+                "attributes": "{}",
+                "order": 244
+            },
+            {
+                "tag": "button",
+                "content": "Clear",
+                "attributes": "{'id': 'clear-filters-handler'}",
+                "order": 245
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 246
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 247
+            },
+            {
+                "tag": "button",
+                "content": "Apply",
+                "attributes": "{'id': 'filter-apply-handler'}",
+                "order": 248
+            },
+            {
+                "tag": "button",
+                "content": "Cancel",
+                "attributes": "{'id': 'filter-cancel-handler'}",
+                "order": 249
+            },
+            {
+                "tag": "span",
+                "content": "Consent",
+                "attributes": "{'class': ['ot-consent-hdr']}",
+                "order": 250
+            },
+            {
+                "tag": "span",
+                "content": "Leg.Interest",
+                "attributes": "{'class': ['ot-li-hdr']}",
+                "order": 251
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 252
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 253
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 254
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 255
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 256
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 257
+            },
+            {
+                "tag": "div",
+                "content": "Footer buttons and logo",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 258
+            },
+            {
+                "tag": "button",
+                "content": "Confirm My Choices",
+                "attributes": "{'class': ['save-preference-btn-handler', 'onetrust-close-btn-handler', 'ot-button-order-2']}",
+                "order": 259
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Powered by Onetrust | Src: https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+                "attributes": "{'alt': 'Powered by Onetrust', 'src': 'https://cdn.cookielaw.org/logos/static/powered_by_logo.svg', 'title': 'Powered by OneTrust Opens in a new Tab'}",
+                "order": 260
+            },
+            {
+                "tag": "div",
+                "content": "Cookie subgroup container",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 261
+            },
+            {
+                "tag": "div",
+                "content": "Vendor list link",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 262
+            },
+            {
+                "tag": "div",
+                "content": "Cookie lost link",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 263
+            },
+            {
+                "tag": "div",
+                "content": "Toggle HTML element",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 264
+            },
+            {
+                "tag": "div",
+                "content": "Checkbox HTML",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 265
+            },
+            {
+                "tag": "div",
+                "content": "Arrow SVG element",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 266
+            },
+            {
+                "tag": "div",
+                "content": "plus minus",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 267
+            },
+            {
+                "tag": "div",
+                "content": "Accordion basic element",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 268
+            },
+            {
+                "tag": "div",
+                "content": "Vendor Service container and item template",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 269
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt:  | Src: https://bat.bing.com/action/0?ti=5105802&Ver=2&mid=934948c7-cdb3-43e8-ac69-b408c9188910&bo=1&sid=d6b42420e18a11f0aadc7b884135f445&vid=d6b449a0e18a11f095e559e7d88e5d8d&vids=0&msclkid=N&uach=pv%3D&pi=918639831&lg=en-GB&sw=800&sh=600&sc=24&nwd=1&tl=Maytag%20dryer%20not%20starting%3F%20Discover%20Solutions%20%26%20Quick%20Fixes!&p=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Fmaytag-dryer-not-starting&r=&lt=1574&evt=pageLoad&sv=2&cdb=AQET&rn=845786",
+                "attributes": "{'id': 'batBeacon13646854145', 'width': '0', 'height': '0', 'alt': '', 'src': 'https://bat.bing.com/action/0?ti=5105802&Ver=2&mid=934948c7-cdb3-43e8-ac69-b408c9188910&bo=1&sid=d6b42420e18a11f0aadc7b884135f445&vid=d6b449a0e18a11f095e559e7d88e5d8d&vids=0&msclkid=N&uach=pv%3D&pi=918639831&lg=en-GB&sw=800&sh=600&sc=24&nwd=1&tl=Maytag%20dryer%20not%20starting%3F%20Discover%20Solutions%20%26%20Quick%20Fixes!&p=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Fmaytag-dryer-not-starting&r=&lt=1574&evt=pageLoad&sv=2&cdb=AQET&rn=845786', 'style': 'width: 0px; height: 0px; display: none; visibility: hidden;'}",
+                "order": 270
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt:  | Src: https://lantern.roeye.com/track.php?fingerprint=97952739-a0e0-4d7b-baf2-d1a0e30b2032&referrer=&landingpage=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Fmaytag-dryer-not-starting&useragent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36&site=searshomeservices.com",
+                "attributes": "{'src': 'https://lantern.roeye.com/track.php?fingerprint=97952739-a0e0-4d7b-baf2-d1a0e30b2032&referrer=&landingpage=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Fmaytag-dryer-not-starting&useragent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36&site=searshomeservices.com', 'alt': '', 'aria-hidden': 'true', 'border': '0', 'height': '0', 'width': '0', 'style': 'position: absolute; visibility: hidden; display: none;'}",
+                "order": 271
+            }
+        ]
+    }
+]

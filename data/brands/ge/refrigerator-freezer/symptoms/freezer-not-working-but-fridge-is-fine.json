@@ -1,0 +1,1074 @@
+[
+    {
+        "brand": "ge",
+        "appliance": "refrigerator",
+        "symptom": "freezer not working but fridge is fine",
+        "url": "https://www.searshomeservices.com/symptom/ge-refrigerator-freezer-not-working-but-fridge-is-fine",
+        "title": "GE Refrigerator freezer not working but fridge is fine",
+        "description": "",
+        "full_content": [
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{'hidden': ''}",
+                "order": 0
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{'hidden': ''}",
+                "order": 1
+            },
+            {
+                "tag": "a",
+                "content": "Skip to main content",
+                "attributes": "{'href': '#main-content', 'class': ['skip-link']}",
+                "order": 2
+            },
+            {
+                "tag": "body",
+                "content": "$",
+                "attributes": "{'style': 'overflow: auto;'}",
+                "order": 3
+            },
+            {
+                "tag": "body",
+                "content": "/$",
+                "attributes": "{'style': 'overflow: auto;'}",
+                "order": 4
+            },
+            {
+                "tag": "span",
+                "content": "Sears Logo",
+                "attributes": "{'class': ['sr-only']}",
+                "order": 5
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Header Sears Logo | Src: /static/icons/general/shs-logo.svg",
+                "attributes": "{'alt': 'Header Sears Logo', 'loading': 'lazy', 'width': '95', 'height': '40', 'decoding': 'async', 'data-nimg': '1', 'class': ['h-10'], 'style': 'color:transparent', 'src': '/static/icons/general/shs-logo.svg'}",
+                "order": 6
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Hamburger menu | Src: /static/icons/general/menu-button-closed.svg",
+                "attributes": "{'alt': 'Hamburger menu', 'loading': 'lazy', 'width': '24', 'height': '24', 'decoding': 'async', 'data-nimg': '1', 'class': ['h-10', 'w-10', 'text-blue-250'], 'style': 'color:transparent', 'src': '/static/icons/general/menu-button-closed.svg'}",
+                "order": 7
+            },
+            {
+                "tag": "h1",
+                "content": "GE Refrigerator freezer not working but fridge is fine",
+                "attributes": "{'data-testid': 'repair_symptom_page_title', 'data-metric-id': 'repair_symptom_page_title', 'class': ['text-5xl', 'text-left', 'text-blue-300', 'leading-10', 'mt-1']}",
+                "order": 8
+            },
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{'class': ['mb-4', 'md:mb-[1.1875rem]']}",
+                "order": 9
+            },
+            {
+                "tag": "h2",
+                "content": "Common reasons your GE Refrigerator freezer not working but fridge is fine",
+                "attributes": "{'class': ['mt-4', 'font-semibold', 'mb-1', 'text-3xl', 'md:text-4xl', 'leading-8', 'text-blue-300'], 'node': '[object Object]'}",
+                "order": 10
+            },
+            {
+                "tag": "p",
+                "content": "The most common reasons why your GE refrigerator freezer is not working but the fridge is fine are a defective thermistor, defective PCB (printed circuit board) or a bad compressor start relay.",
+                "attributes": "{'class': ['text-xl', 'text-gray-500', 'font-normal', 'mt-1', 'mb-[1.125rem]', 'min-h-18', 'md:min-h-0', 'md:max-w-[55.813rem]'], 'node': '[object Object]'}",
+                "order": 11
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{'class': ['mb-4', 'md:mb-[1.1875rem]']}",
+                "order": 12
+            },
+            {
+                "tag": "span",
+                "content": "21% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 13
+            },
+            {
+                "tag": "span",
+                "content": "Thermistor",
+                "attributes": "{'data-testid': 'percent_chart_0', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 14
+            },
+            {
+                "tag": "span",
+                "content": "20% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 15
+            },
+            {
+                "tag": "span",
+                "content": "PCB",
+                "attributes": "{'data-testid': 'percent_chart_1', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 16
+            },
+            {
+                "tag": "span",
+                "content": "11% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 17
+            },
+            {
+                "tag": "span",
+                "content": "Compressor Start Relay",
+                "attributes": "{'data-testid': 'percent_chart_2', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 18
+            },
+            {
+                "tag": "span",
+                "content": "48% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 19
+            },
+            {
+                "tag": "span",
+                "content": "Something else",
+                "attributes": "{'data-testid': 'percent_chart_3', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 20
+            },
+            {
+                "tag": "h4",
+                "content": "Schedule your refrigerator repair now!",
+                "attributes": "{'data-testid': 'conversion_component_title', 'data-metric-id': 'conversion_component_title', 'class': ['mt-0', 'text-4xl', 'text-blue-300', 'mb-0']}",
+                "order": 21
+            },
+            {
+                "tag": "p",
+                "content": "We can help! Our service technicians have repaired over 20,000 GE refrigerators. We can fix yours no matter where you bought it.",
+                "attributes": "{'class': ['text-xl', 'font-normal', 'text-gray-500', 'leading-8']}",
+                "order": 22
+            },
+            {
+                "tag": "span",
+                "content": "Call",
+                "attributes": "{'class': ['mr-2', 'ml-3', 'text-gray-500']}",
+                "order": 23
+            },
+            {
+                "tag": "a",
+                "content": "(646) 440-2692",
+                "attributes": "{'class': ['font-semibold', 'text-xl', 'text-blue-100', 'no-underline'], 'data-testid': 'cs_description_phone_link', 'data-metric-id': 'cs_description_phone_link', 'href': 'tel:+1-646-440-2692'}",
+                "order": 24
+            },
+            {
+                "tag": "span",
+                "content": "or schedule online now.",
+                "attributes": "{'class': ['ml-1', 'text-gray-500']}",
+                "order": 25
+            },
+            {
+                "tag": "span",
+                "content": "Chat",
+                "attributes": "{'class': ['ml-[0.75rem]', 'mr-1']}",
+                "order": 26
+            },
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{'class': ['w-full', 'mt-0', 'flex', 'flex-col', 'gap-6', 'lg:w-[53.55%]', 'lg:mt-4']}",
+                "order": 27
+            },
+            {
+                "tag": "button",
+                "content": "Refrigerator",
+                "attributes": "{'aria-label': 'Select Product for Refrigerator', 'data-testid': 'repair_symptom_page_conversion_component_v1_select_product', 'data-metric-id': 'repair_symptom_page_conversion_component_v1_select_product', 'data-metric-value': 'Refrigerator', 'class': ['relative', 'text-left', 'block', 'w-full', 'bg-white', 'border-2', 'text-blue-400', 'border', 'overflow-hidden', 'whitespace-nowrap', 'pl-4', 'pr-10', 'py-2', 'text-md', 'font-medium', 'h-12', 'rounded-lg'], 'id': 'headlessui-listbox-button-_R_3dd8jrav5ubsnpb_', 'type': 'button', 'aria-haspopup': 'listbox', 'aria-expanded': 'false', 'data-headlessui-state': '', 'name': 'products'}",
+                "order": 28
+            },
+            {
+                "tag": "button",
+                "content": "GE",
+                "attributes": "{'aria-label': 'Select Brand for GE', 'data-testid': 'repair_symptom_page_conversion_component_v1_select_brand', 'data-metric-id': 'repair_symptom_page_conversion_component_v1_select_brand', 'data-metric-value': 'GE', 'name': 'brands', 'class': ['relative', 'text-left', 'block', 'w-full', 'bg-white', 'border-2', 'text-blue-400', 'border', 'overflow-hidden', 'whitespace-nowrap', 'pl-4', 'pr-10', 'py-2', 'text-md', 'font-medium', 'h-12', 'rounded-lg'], 'id': 'headlessui-listbox-button-_r_5_', 'type': 'button', 'aria-haspopup': 'listbox', 'aria-expanded': 'false', 'data-headlessui-state': ''}",
+                "order": 29
+            },
+            {
+                "tag": "button",
+                "content": "Schedule Now",
+                "attributes": "{'type': 'button', 'class': ['cursor-pointer', 'bg-yellow', 'text-blue-200', 'hover:bg-yellow-100', 'focus:outline-yellow-200', 'focus:outline-4', 'disabled:bg-gray-200', 'disabled:text-gray-500', 'px-6', 'rounded-lg', 'w-full', 'text-xl', 'py-3.5', 'font-semibold', 'mt-3', 'shadow-scheduler', '!hover:no-underline'], 'data-testid': 'repair_symptom_page_conversion_component_v1_repair_schedule_now_button', 'data-metric-id': 'repair_symptom_page_conversion_component_v1_repair_schedule_now_button', 'data-metric-value': 'Schedule Now'}",
+                "order": 30
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{'class': ['w-full', 'mt-0', 'flex', 'flex-col', 'gap-6', 'lg:w-[53.55%]', 'lg:mt-4']}",
+                "order": 31
+            },
+            {
+                "tag": "h2",
+                "content": "Most common repairs needed to fix a GE refrigerator",
+                "attributes": "{'class': ['text-3xl', 'md:text-4xl', 'text-blue-300', 'leading-8'], 'node': '[object Object]'}",
+                "order": 32
+            },
+            {
+                "tag": "h4",
+                "content": "Thermistor Replacement",
+                "attributes": "{'class': ['text-2xl', 'text-blue-300', 'font-semibold', 'my-2', 'leading-8', 'h-[78px]'], 'node': '[object Object]'}",
+                "order": 33
+            },
+            {
+                "tag": "p",
+                "content": "For a GE refrigerator freezer not working but the fridge is working fine, a bad thermistor (temperature sensor) could be causing the cooling problem. The thermistor senses temperature inside the refrigerator compartment and sends the temperature signal to the electronic control board. The electronic control turns the compressor on and off to regulate freezer temperature based on the thermistor temperature signal. An errant temperature signal can prevent the control board from regulating refrigerator and freezer temperature accurately.",
+                "attributes": "{'class': ['mb-6', 'text-xl', 'leading-6', 'text-blue-400'], 'node': '[object Object]'}",
+                "order": 34
+            },
+            {
+                "tag": "a",
+                "content": "How to replace a refrigerator thermistor",
+                "attributes": "{'class': ['font-medium', 'hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-sm', 'leading-6'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_blank', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searspartsdirect.com/diy/repair-guide/how-to-replace-a-refrigerator-thermistor'}",
+                "order": 35
+            },
+            {
+                "tag": "h4",
+                "content": "PCB Replacement",
+                "attributes": "{'class': ['text-2xl', 'text-blue-300', 'font-semibold', 'my-2', 'leading-8', 'h-[78px]'], 'node': '[object Object]'}",
+                "order": 36
+            },
+            {
+                "tag": "p",
+                "content": "When your freezer is not working but the fridge is cooling, a defective PCB (also called the electronic control board) can be causing the problem. The electronic control board acts as the refrigerator's central control system, managing critical functions such as temperature regulation, fan operation, defrost cycles, icemaker functionality, and dispenser operations. When the board malfunctions, it can keep the freezer section from cooling properly even though the refrigerator section is cooling well. It's best to have a Sears Home Services professional conduct diagnostic tests on the board to determine if replacement is warranted. If the control board is preventing the refrigerator freezer from cooling even though the refrigerator section is cooling properly, the technician will replace the electronic control board.",
+                "attributes": "{'class': ['mb-6', 'text-xl', 'leading-6', 'text-blue-400'], 'node': '[object Object]'}",
+                "order": 37
+            },
+            {
+                "tag": "a",
+                "content": "How to replace a refrigerator PCB video",
+                "attributes": "{'class': ['font-medium', 'hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-sm', 'leading-6'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_blank', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searspartsdirect.com/diy/repair-guide/how-to-replace-a-refrigerator-electronic-control-board'}",
+                "order": 38
+            },
+            {
+                "tag": "h4",
+                "content": "Compressor Start Relay Replacement",
+                "attributes": "{'class': ['text-2xl', 'text-blue-300', 'font-semibold', 'my-2', 'leading-8', 'h-[78px]'], 'node': '[object Object]'}",
+                "order": 39
+            },
+            {
+                "tag": "p",
+                "content": "When you hear fans running in your refrigerator but the compressor isn\u2019t turning on, a bad compressor start relay could be preventing the compressor from starting. The compressor start relay sends current to the motor start windings to boost motor torque to start the motor, and to the motor run windings. Once the motor starts, the relay continues to send current to the run windings, but cuts off current to the start windings. A defective start relay won't send current to the start windings, run windings or both. The start relay includes an overload component that shuts off all current to the motor if the motor overheats. A defective overload trips when the motor isn't overheated, preventing the motor from starting and inhibiting freezer cooling. Have a Sears Home Services technician check the compressor start relay and replace the relay if it\u2019s bad.",
+                "attributes": "{'class': ['mb-6', 'text-xl', 'leading-6', 'text-blue-400'], 'node': '[object Object]'}",
+                "order": 40
+            },
+            {
+                "tag": "a",
+                "content": "How to replace a refrigerator compressor start relay video",
+                "attributes": "{'class': ['font-medium', 'hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-sm', 'leading-6'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_blank', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searspartsdirect.com/diy/repair-guide/how-to-replace-the-compressor-start-relay-in-a-top-freezer-refrigerator'}",
+                "order": 41
+            },
+            {
+                "tag": "h2",
+                "content": "What to expect when you experience a GE refrigerator freezer not working but the fridge is cooling",
+                "attributes": "{'node': '[object Object]', 'class': ['text-4xl', 'font-semibold', 'text-blue-300', 'mb-5', 'leading-8']}",
+                "order": 42
+            },
+            {
+                "tag": "h3",
+                "content": "Fixing a GE refrigerator freezer that is not working but the fridge is cooling",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 43
+            },
+            {
+                "tag": "p",
+                "content": "Fixing most problems with a refrigerator that is not working but the fridge is cooling involves replacing a defective thermistor, faulty PCB or a bad compressor start relay. Other problems that can cause cooling problems in the freezer include:",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 44
+            },
+            {
+                "tag": "li",
+                "content": "Failed evaporator fan.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 45
+            },
+            {
+                "tag": "li",
+                "content": "Dirty condenser coils.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 46
+            },
+            {
+                "tag": "li",
+                "content": "Bad condenser fan motor.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 47
+            },
+            {
+                "tag": "li",
+                "content": "Faulty automatic defrost system.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 48
+            },
+            {
+                "tag": "li",
+                "content": "Air leaks into the freezer.",
+                "attributes": "{'class': ['text-left', 'text-md', 'font-normal', 'leading-6', 'text-gray-500'], 'node': '[object Object]'}",
+                "order": 49
+            },
+            {
+                "tag": "p",
+                "content": "Several other issues can prevent the freezer from working even though the refrigerator sections is cool. Follow the instructions in your owner\u2019s manual for troubleshooting cooling problems in your refrigerator. If you\u2019re unable to find the cause of the problem on your own and get your refrigerator freezer cooling properly again, schedule refrigerator repair service to have our technician fix the issue.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 50
+            },
+            {
+                "tag": "h3",
+                "content": "What to do when you find the freezer not working even though the refrigerator is cool",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 51
+            },
+            {
+                "tag": "p",
+                "content": "Check the refrigerator temperature settings and adjust the settings if necessary. The freezer should be set at 0-degrees and the fridge temperature at 37-degrees. Adjust the temperature settings if necessary so the fridge and freezer cool properly. Follow the troubleshooting tips in the owner\u2019s manual to resolve the freezer not working problem. If the basic troubleshooting tips in the manual don\u2019t help resolve the cooling problem, schedule refrigerator repair service to have a Sears Home Services technician visit your home and repair the fridge.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 52
+            },
+            {
+                "tag": "h3",
+                "content": "What to expect with a refrigerator that is cold but the freezer is not freezing",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 53
+            },
+            {
+                "tag": "p",
+                "content": "When you have a service technician visit your home to fix a refrigerator with the freezer not working even though the fridge is cooling, the technician will first check basic issues such as the temperature settings and condition of the condenser coils and fans. The technician will typically measure actual refrigerator and freezer compartment temperatures and may take readings on sealed system pressures. After thorough analysis of the condition of your fridge and testing of components, the technician will determine the cause of the freezer cooling failure and fix the problem.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 54
+            },
+            {
+                "tag": "span",
+                "content": "Schedule Now",
+                "attributes": "{}",
+                "order": 55
+            },
+            {
+                "tag": "h2",
+                "content": "What our customers say about us",
+                "attributes": "{'class': ['text-blue-300', 'md:text-4xl-plus', 'my-2', 'tracking-wide', 'font-montserrat', 'text-4xl', 'font-semibold', 'leading-8']}",
+                "order": 56
+            },
+            {
+                "tag": "p",
+                "content": "With more than 1.3 Million 5 Star Reviews, you don't have to take our word for it",
+                "attributes": "{'class': ['font-normal', 'text-gray-500', 'text-md', 'lg:text-xl', 'mb-4', 'lg:mb-[18px]', 'px-4']}",
+                "order": 57
+            },
+            {
+                "tag": "p",
+                "content": "Jake is a great person.",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'truncate', 'font-semibold', 'text-blue-300', 'mt-2', 'mb-1'], 'title': 'Jake is a great person.'}",
+                "order": 58
+            },
+            {
+                "tag": "p",
+                "content": "He did a great job, the problem is with the refrigerator.",
+                "attributes": "{'class': ['text-md', 'leading-6', 'font-normal', 'text-gray-500', 'line-clamp-5', 'mb-1', 'lg:mb-4'], 'title': 'He did a great job, the problem is with the refrigerator.'}",
+                "order": 59
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: User Profile | Src: /static/icons/general/user-profile.svg",
+                "attributes": "{'alt': 'User Profile', 'loading': 'lazy', 'width': '47', 'height': '47', 'decoding': 'async', 'data-nimg': '1', 'class': ['w-12', 'h-12', 'rounded-full', 'object-cover'], 'style': 'color:transparent', 'src': '/static/icons/general/user-profile.svg'}",
+                "order": 60
+            },
+            {
+                "tag": "p",
+                "content": "Nancy V, Meridian, ID",
+                "attributes": "{'class': ['text-gray-500', 'text-xs', 'md:text-sm', 'font-normal', 'italic', 'uppercase']}",
+                "order": 61
+            },
+            {
+                "tag": "p",
+                "content": "Great job",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'truncate', 'font-semibold', 'text-blue-300', 'mt-2', 'mb-1'], 'title': 'Great job'}",
+                "order": 62
+            },
+            {
+                "tag": "p",
+                "content": "Robert did a great job and was kind and courteous. He cleaned up everything. I would highly recommend using him.",
+                "attributes": "{'class': ['text-md', 'leading-6', 'font-normal', 'text-gray-500', 'line-clamp-5', 'mb-1', 'lg:mb-4'], 'title': 'Robert did a great job and was kind and courteous. He cleaned up everything. I would highly recommend using him.'}",
+                "order": 63
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: User Profile | Src: /static/icons/general/user-profile.svg",
+                "attributes": "{'alt': 'User Profile', 'loading': 'lazy', 'width': '47', 'height': '47', 'decoding': 'async', 'data-nimg': '1', 'class': ['w-12', 'h-12', 'rounded-full', 'object-cover'], 'style': 'color:transparent', 'src': '/static/icons/general/user-profile.svg'}",
+                "order": 64
+            },
+            {
+                "tag": "p",
+                "content": "Karen K, Mount Laurel, NJ",
+                "attributes": "{'class': ['text-gray-500', 'text-xs', 'md:text-sm', 'font-normal', 'italic', 'uppercase']}",
+                "order": 65
+            },
+            {
+                "tag": "p",
+                "content": "Service appointment",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'truncate', 'font-semibold', 'text-blue-300', 'mt-2', 'mb-1'], 'title': 'Service appointment'}",
+                "order": 66
+            },
+            {
+                "tag": "p",
+                "content": "Joe was very professional and knowledgeable technician who quickly found and fixed the problem.  I would recommend for service again",
+                "attributes": "{'class': ['text-md', 'leading-6', 'font-normal', 'text-gray-500', 'line-clamp-5', 'mb-1', 'lg:mb-4'], 'title': 'Joe was very professional and knowledgeable technician who quickly found and fixed the problem.  I would recommend for service again'}",
+                "order": 67
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: User Profile | Src: /static/icons/general/user-profile.svg",
+                "attributes": "{'alt': 'User Profile', 'loading': 'lazy', 'width': '47', 'height': '47', 'decoding': 'async', 'data-nimg': '1', 'class': ['w-12', 'h-12', 'rounded-full', 'object-cover'], 'style': 'color:transparent', 'src': '/static/icons/general/user-profile.svg'}",
+                "order": 68
+            },
+            {
+                "tag": "p",
+                "content": "Tim R, Schaghticoke, NY",
+                "attributes": "{'class': ['text-gray-500', 'text-xs', 'md:text-sm', 'font-normal', 'italic', 'uppercase']}",
+                "order": 69
+            },
+            {
+                "tag": "h2",
+                "content": "Frequently Asked Questions",
+                "attributes": "{'id': 'faq-heading-symptom-ge-refrigerator-freezer-not-working-but-fridge-is-fine', 'class': ['text-4xl', 'lg:text-4xl-plus', 'font-semibold', 'text-blue-300', 'leading-9', 'pb-2', 'lg:mb-8']}",
+                "order": 70
+            },
+            {
+                "tag": "div",
+                "content": "Why is the freezer in my GE refrigerator not working but the fridge is fine?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 71
+            },
+            {
+                "tag": "div",
+                "content": "Check if the freezer fan is working, if there\u2019s an air flow blockage, or if the automatic defrost system is malfunctioning.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 72
+            },
+            {
+                "tag": "div",
+                "content": "Could a broken freezer fan cause the freezer to stop working?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 73
+            },
+            {
+                "tag": "div",
+                "content": "Yes, if the freezer fan is broken, it can disrupt the airflow to the freezer, causing it to stop working while the fridge continues to run.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 74
+            },
+            {
+                "tag": "div",
+                "content": "How do I fix a GE refrigerator freezer that\u2019s not working?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 75
+            },
+            {
+                "tag": "div",
+                "content": "Inspect the fan, defrost system, and check for blocked air supply or return vents. Move any items blocking vents. If needed, replace the faulty components to restore freezer function.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 76
+            },
+            {
+                "tag": "div",
+                "content": "What causes the freezer to stop working while the fridge still runs?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 77
+            },
+            {
+                "tag": "div",
+                "content": "A malfunctioning freezer fan, defrost system failure, or blocked air supply or return vents could cause this issue, while the fridge may continue operating normally.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 78
+            },
+            {
+                "tag": "h2",
+                "content": "Repair Refrigerator Resources",
+                "attributes": "{'class': ['text-blue-300', 'text-5xl', 'mb-12', 'md:px-0']}",
+                "order": 79
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Sears Technician fixing a Maytag fridge problem | Src: https://www.searshomeservices.com/cftassets/7pBOWa8xi3hQevI5QY6Gis/206b0cf1ac00c9bf1ec6f8fb5219b4e7/fixing-maytag-fridge-problem.png?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': 'Sears Technician fixing a Maytag fridge problem', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/7pBOWa8xi3hQevI5QY6Gis/206b0cf1ac00c9bf1ec6f8fb5219b4e7/fixing-maytag-fridge-problem.png?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/7pBOWa8xi3hQevI5QY6Gis/206b0cf1ac00c9bf1ec6f8fb5219b4e7/fixing-maytag-fridge-problem.png?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/7pBOWa8xi3hQevI5QY6Gis/206b0cf1ac00c9bf1ec6f8fb5219b4e7/fixing-maytag-fridge-problem.png?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/7pBOWa8xi3hQevI5QY6Gis/206b0cf1ac00c9bf1ec6f8fb5219b4e7/fixing-maytag-fridge-problem.png?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/7pBOWa8xi3hQevI5QY6Gis/206b0cf1ac00c9bf1ec6f8fb5219b4e7/fixing-maytag-fridge-problem.png?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/7pBOWa8xi3hQevI5QY6Gis/206b0cf1ac00c9bf1ec6f8fb5219b4e7/fixing-maytag-fridge-problem.png?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/7pBOWa8xi3hQevI5QY6Gis/206b0cf1ac00c9bf1ec6f8fb5219b4e7/fixing-maytag-fridge-problem.png?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/7pBOWa8xi3hQevI5QY6Gis/206b0cf1ac00c9bf1ec6f8fb5219b4e7/fixing-maytag-fridge-problem.png?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/7pBOWa8xi3hQevI5QY6Gis/206b0cf1ac00c9bf1ec6f8fb5219b4e7/fixing-maytag-fridge-problem.png?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/7pBOWa8xi3hQevI5QY6Gis/206b0cf1ac00c9bf1ec6f8fb5219b4e7/fixing-maytag-fridge-problem.png?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/7pBOWa8xi3hQevI5QY6Gis/206b0cf1ac00c9bf1ec6f8fb5219b4e7/fixing-maytag-fridge-problem.png?w=3840&q=90&fm=webp'}",
+                "order": 80
+            },
+            {
+                "tag": "p",
+                "content": "Fixing Maytag Fridge Problems",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 81
+            },
+            {
+                "tag": "span",
+                "content": "8 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 82
+            },
+            {
+                "tag": "span",
+                "content": "Dec. 22",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 83
+            },
+            {
+                "tag": "p",
+                "content": "Get expert tips to fix 6 common Maytag fridge problems in 2025. Don't let your fridge break down, learn how to resolve these issues today!",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 84
+            },
+            {
+                "tag": "a",
+                "content": "Refrigerator",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_refrigerator_blog_meta_data_0_product_link', 'data-metric-id': 'repair_symptom_page_refrigerator_blog_meta_data_0_product_link', 'data-metric-value': 'Refrigerator', 'target': '_self', 'href': '/blog/repair/refrigerator-resources'}",
+                "order": 85
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: homeowner discussing whether it's worth repairing a refrigerator with a Sears Technician | Src: https://www.searshomeservices.com/cftassets/67rf6KeE3Za9tbSzCMWd9g/5a1609b65509f3086c43260b40b6a2ea/is-it-worth-repairing-a-refrigerator.png?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': \"homeowner discussing whether it's worth repairing a refrigerator with a Sears Technician\", 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/67rf6KeE3Za9tbSzCMWd9g/5a1609b65509f3086c43260b40b6a2ea/is-it-worth-repairing-a-refrigerator.png?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/67rf6KeE3Za9tbSzCMWd9g/5a1609b65509f3086c43260b40b6a2ea/is-it-worth-repairing-a-refrigerator.png?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/67rf6KeE3Za9tbSzCMWd9g/5a1609b65509f3086c43260b40b6a2ea/is-it-worth-repairing-a-refrigerator.png?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/67rf6KeE3Za9tbSzCMWd9g/5a1609b65509f3086c43260b40b6a2ea/is-it-worth-repairing-a-refrigerator.png?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/67rf6KeE3Za9tbSzCMWd9g/5a1609b65509f3086c43260b40b6a2ea/is-it-worth-repairing-a-refrigerator.png?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/67rf6KeE3Za9tbSzCMWd9g/5a1609b65509f3086c43260b40b6a2ea/is-it-worth-repairing-a-refrigerator.png?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/67rf6KeE3Za9tbSzCMWd9g/5a1609b65509f3086c43260b40b6a2ea/is-it-worth-repairing-a-refrigerator.png?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/67rf6KeE3Za9tbSzCMWd9g/5a1609b65509f3086c43260b40b6a2ea/is-it-worth-repairing-a-refrigerator.png?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/67rf6KeE3Za9tbSzCMWd9g/5a1609b65509f3086c43260b40b6a2ea/is-it-worth-repairing-a-refrigerator.png?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/67rf6KeE3Za9tbSzCMWd9g/5a1609b65509f3086c43260b40b6a2ea/is-it-worth-repairing-a-refrigerator.png?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/67rf6KeE3Za9tbSzCMWd9g/5a1609b65509f3086c43260b40b6a2ea/is-it-worth-repairing-a-refrigerator.png?w=3840&q=90&fm=webp'}",
+                "order": 86
+            },
+            {
+                "tag": "p",
+                "content": "Is It Worth Repairing a Refrigerator?: A Comprehensive Guide",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 87
+            },
+            {
+                "tag": "span",
+                "content": "5 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 88
+            },
+            {
+                "tag": "span",
+                "content": "Dec. 22",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 89
+            },
+            {
+                "tag": "p",
+                "content": "Is it worth repairing a refrigerator? Find out the answer and make an informed decision with help from Sears Home Services.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 90
+            },
+            {
+                "tag": "a",
+                "content": "Refrigerator",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_refrigerator_blog_meta_data_1_product_link', 'data-metric-id': 'repair_symptom_page_refrigerator_blog_meta_data_1_product_link', 'data-metric-value': 'Refrigerator', 'target': '_self', 'href': '/blog/repair/refrigerator-resources'}",
+                "order": 91
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Why is there a D in the Fridge | Src: https://www.searshomeservices.com/cftassets/3YCwiAarE1WdNFmNdqpz4s/1d15be6f9c6c82492793794f85d4b781/Why_Is_There_a_-D-_in_Fridge_but_Not_in_Refrigerator.webp?w=3840&q=90",
+                "attributes": "{'alt': 'Why is there a D in the Fridge', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/3YCwiAarE1WdNFmNdqpz4s/1d15be6f9c6c82492793794f85d4b781/Why_Is_There_a_-D-_in_Fridge_but_Not_in_Refrigerator.webp?w=256&q=90 256w, https://www.searshomeservices.com/cftassets/3YCwiAarE1WdNFmNdqpz4s/1d15be6f9c6c82492793794f85d4b781/Why_Is_There_a_-D-_in_Fridge_but_Not_in_Refrigerator.webp?w=384&q=90 384w, https://www.searshomeservices.com/cftassets/3YCwiAarE1WdNFmNdqpz4s/1d15be6f9c6c82492793794f85d4b781/Why_Is_There_a_-D-_in_Fridge_but_Not_in_Refrigerator.webp?w=640&q=90 640w, https://www.searshomeservices.com/cftassets/3YCwiAarE1WdNFmNdqpz4s/1d15be6f9c6c82492793794f85d4b781/Why_Is_There_a_-D-_in_Fridge_but_Not_in_Refrigerator.webp?w=750&q=90 750w, https://www.searshomeservices.com/cftassets/3YCwiAarE1WdNFmNdqpz4s/1d15be6f9c6c82492793794f85d4b781/Why_Is_There_a_-D-_in_Fridge_but_Not_in_Refrigerator.webp?w=828&q=90 828w, https://www.searshomeservices.com/cftassets/3YCwiAarE1WdNFmNdqpz4s/1d15be6f9c6c82492793794f85d4b781/Why_Is_There_a_-D-_in_Fridge_but_Not_in_Refrigerator.webp?w=1080&q=90 1080w, https://www.searshomeservices.com/cftassets/3YCwiAarE1WdNFmNdqpz4s/1d15be6f9c6c82492793794f85d4b781/Why_Is_There_a_-D-_in_Fridge_but_Not_in_Refrigerator.webp?w=1200&q=90 1200w, https://www.searshomeservices.com/cftassets/3YCwiAarE1WdNFmNdqpz4s/1d15be6f9c6c82492793794f85d4b781/Why_Is_There_a_-D-_in_Fridge_but_Not_in_Refrigerator.webp?w=1920&q=90 1920w, https://www.searshomeservices.com/cftassets/3YCwiAarE1WdNFmNdqpz4s/1d15be6f9c6c82492793794f85d4b781/Why_Is_There_a_-D-_in_Fridge_but_Not_in_Refrigerator.webp?w=2048&q=90 2048w, https://www.searshomeservices.com/cftassets/3YCwiAarE1WdNFmNdqpz4s/1d15be6f9c6c82492793794f85d4b781/Why_Is_There_a_-D-_in_Fridge_but_Not_in_Refrigerator.webp?w=3840&q=90 3840w', 'src': 'https://www.searshomeservices.com/cftassets/3YCwiAarE1WdNFmNdqpz4s/1d15be6f9c6c82492793794f85d4b781/Why_Is_There_a_-D-_in_Fridge_but_Not_in_Refrigerator.webp?w=3840&q=90'}",
+                "order": 92
+            },
+            {
+                "tag": "p",
+                "content": "Why Is There a \"D\" in \"Fridge\" but Not in \"Refrigerator\"?",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 93
+            },
+            {
+                "tag": "span",
+                "content": "3 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 94
+            },
+            {
+                "tag": "span",
+                "content": "Dec. 22",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 95
+            },
+            {
+                "tag": "p",
+                "content": "Curious why there's a \"d\" in \"fridge\" but not in \"refrigerator\"? Discover the reason, plus key fridge care and disposal tips.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 96
+            },
+            {
+                "tag": "a",
+                "content": "Refrigerator",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_refrigerator_blog_meta_data_2_product_link', 'data-metric-id': 'repair_symptom_page_refrigerator_blog_meta_data_2_product_link', 'data-metric-value': 'Refrigerator', 'target': '_self', 'href': '/blog/repair/refrigerator-resources'}",
+                "order": 97
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Title image for blog article \"How Does a Refrigerator Ice Maker Work?\" | Src: https://www.searshomeservices.com/cftassets/7k22sqFkecIDGDG13wry3D/33ceed6d48d6567c02a2261dfa70cb95/how-does-a-refrigerator-ice-maker-work.png?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': 'Title image for blog article \"How Does a Refrigerator Ice Maker Work?\"', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/7k22sqFkecIDGDG13wry3D/33ceed6d48d6567c02a2261dfa70cb95/how-does-a-refrigerator-ice-maker-work.png?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/7k22sqFkecIDGDG13wry3D/33ceed6d48d6567c02a2261dfa70cb95/how-does-a-refrigerator-ice-maker-work.png?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/7k22sqFkecIDGDG13wry3D/33ceed6d48d6567c02a2261dfa70cb95/how-does-a-refrigerator-ice-maker-work.png?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/7k22sqFkecIDGDG13wry3D/33ceed6d48d6567c02a2261dfa70cb95/how-does-a-refrigerator-ice-maker-work.png?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/7k22sqFkecIDGDG13wry3D/33ceed6d48d6567c02a2261dfa70cb95/how-does-a-refrigerator-ice-maker-work.png?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/7k22sqFkecIDGDG13wry3D/33ceed6d48d6567c02a2261dfa70cb95/how-does-a-refrigerator-ice-maker-work.png?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/7k22sqFkecIDGDG13wry3D/33ceed6d48d6567c02a2261dfa70cb95/how-does-a-refrigerator-ice-maker-work.png?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/7k22sqFkecIDGDG13wry3D/33ceed6d48d6567c02a2261dfa70cb95/how-does-a-refrigerator-ice-maker-work.png?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/7k22sqFkecIDGDG13wry3D/33ceed6d48d6567c02a2261dfa70cb95/how-does-a-refrigerator-ice-maker-work.png?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/7k22sqFkecIDGDG13wry3D/33ceed6d48d6567c02a2261dfa70cb95/how-does-a-refrigerator-ice-maker-work.png?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/7k22sqFkecIDGDG13wry3D/33ceed6d48d6567c02a2261dfa70cb95/how-does-a-refrigerator-ice-maker-work.png?w=3840&q=90&fm=webp'}",
+                "order": 98
+            },
+            {
+                "tag": "p",
+                "content": "How Does a Refrigerator Ice Maker Work?",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 99
+            },
+            {
+                "tag": "span",
+                "content": "9 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 100
+            },
+            {
+                "tag": "span",
+                "content": "Dec. 19",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 101
+            },
+            {
+                "tag": "p",
+                "content": "Learn how a refrigerator ice maker works and how to keep it in top shape.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 102
+            },
+            {
+                "tag": "a",
+                "content": "Refrigerator",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_refrigerator_blog_meta_data_3_product_link', 'data-metric-id': 'repair_symptom_page_refrigerator_blog_meta_data_3_product_link', 'data-metric-value': 'Refrigerator', 'target': '_self', 'href': '/blog/repair/refrigerator-resources'}",
+                "order": 103
+            },
+            {
+                "tag": "a",
+                "content": "Appliance 101",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_refrigerator_blog_meta_data_3_secondary_category_link', 'data-metric-id': 'repair_symptom_page_refrigerator_blog_meta_data_3_secondary_category_link', 'data-metric-value': 'Refrigerator', 'target': '_self', 'href': '/blog/repair/appliance-101-resources'}",
+                "order": 104
+            },
+            {
+                "tag": "h3",
+                "content": "Glossary Terms",
+                "attributes": "{'class': ['text-blue-300', 'mb-0', 'text-4xl']}",
+                "order": 105
+            },
+            {
+                "tag": "span",
+                "content": "What is a Compressor?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 106
+            },
+            {
+                "tag": "p",
+                "content": "A compressor is a mechanical device that increases the pressure of a gas by reducing its volume, essential in various systems including refrigerators, air conditioners, and HVAC units for cooling and refrigeration processes.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 107
+            },
+            {
+                "tag": "span",
+                "content": "What is a Condenser?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 108
+            },
+            {
+                "tag": "p",
+                "content": "A condenser is a component of HVAC and refrigeration systems, responsible for releasing absorbed heat from the refrigerant into the outside air or a water line, thus facilitating the cooling process.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 109
+            },
+            {
+                "tag": "span",
+                "content": "What is a Dual Ice Maker?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 110
+            },
+            {
+                "tag": "p",
+                "content": "A dual ice maker is a feature in some refrigerators that includes two separate ice makers: one in the fridge compartment and another in the freezer section. This setup doubles the appliance's ice-making capacity.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 111
+            },
+            {
+                "tag": "span",
+                "content": "What is a French-Door Refrigerator?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 112
+            },
+            {
+                "tag": "p",
+                "content": "A French-door refrigerator features two doors that open side-by-side on the top section for the refrigerator compartment, with a bottom freezer drawer, combining style, efficiency, and easy access to both refrigerated and frozen goods.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 113
+            },
+            {
+                "tag": "h2",
+                "content": "Additional possible GE refrigerator symptoms you may experience",
+                "attributes": "{'class': ['text-blue-300', 'mb-0', 'leading-8', 'text-4xl']}",
+                "order": 114
+            },
+            {
+                "tag": "span",
+                "content": "GE refrigerator not making ice but water works",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 115
+            },
+            {
+                "tag": "span",
+                "content": "GE refrigerator bottom freezer model not making ice",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 116
+            },
+            {
+                "tag": "span",
+                "content": "GE refrigerator water dispenser not working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 117
+            },
+            {
+                "tag": "span",
+                "content": "GE refrigerator stopped making ice",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 118
+            },
+            {
+                "tag": "span",
+                "content": "GE refrigerator leaking from bottom",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 119
+            },
+            {
+                "tag": "span",
+                "content": "GE refrigerator leaking water",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 120
+            },
+            {
+                "tag": "span",
+                "content": "GE refrigerator noisy",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 121
+            },
+            {
+                "tag": "span",
+                "content": "GE refrigerator french door model not making ice",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 122
+            },
+            {
+                "tag": "span",
+                "content": "GE refrigerator no power",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 123
+            },
+            {
+                "tag": "span",
+                "content": "GE refrigerator not cooling",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 124
+            },
+            {
+                "tag": "span",
+                "content": "GE refrigerator door not closing",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 125
+            },
+            {
+                "tag": "span",
+                "content": "GE refrigerator fan not working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 126
+            },
+            {
+                "tag": "span",
+                "content": "GE refrigerator compressor not running",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 127
+            },
+            {
+                "tag": "span",
+                "content": "GE refrigerator display not working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 128
+            },
+            {
+                "tag": "span",
+                "content": "GE refrigerator ice maker not making ice",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 129
+            },
+            {
+                "tag": "span",
+                "content": "GE refrigerator light not working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 130
+            },
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{}",
+                "order": 131
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{}",
+                "order": 132
+            },
+            {
+                "tag": "div",
+                "content": "PC Header",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 133
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: shs-logo | Src: https://cdn.cookielaw.org/logos/cc9a8230-03c2-46ab-afe1-51ced9dc71c0/9ff49619-d07c-4183-9296-1ab182541af7/37067ed8-3732-4c57-8be8-5c334ab22954/logo-png.png",
+                "attributes": "{'alt': 'shs-logo', 'src': 'https://cdn.cookielaw.org/logos/cc9a8230-03c2-46ab-afe1-51ced9dc71c0/9ff49619-d07c-4183-9296-1ab182541af7/37067ed8-3732-4c57-8be8-5c334ab22954/logo-png.png'}",
+                "order": 134
+            },
+            {
+                "tag": "span",
+                "content": "Your Opt Out Preference Signal is Honored",
+                "attributes": "{}",
+                "order": 135
+            },
+            {
+                "tag": "h2",
+                "content": "Notice of Right to Opt Out of Sale/Sharing",
+                "attributes": "{'id': 'ot-pc-title'}",
+                "order": 136
+            },
+            {
+                "tag": "div",
+                "content": "This website uses cookies and other tracking technologies (\u201cCookies\u201d) to serve targeted ads, enhance user experience, and to analyze user activity. Some Cookies may collect personal information that is used in a way that is considered a \u201cSale\u201d, \u201cSharing\u201d, or \u201cTargeted Advertising\u201d as those terms are defined under various state privacy laws. To opt out of Cookie based Sales, Sharing, and Targeted Advertising, please follow the instructions below. To opt out of non-Cookie based Sales, Sharing, and Targeted Advertising, please visit our webform",
+                "attributes": "{'id': 'ot-pc-desc'}",
+                "order": 137
+            },
+            {
+                "tag": "a",
+                "content": "here",
+                "attributes": "{'href': 'https://privacyportal.onetrust.com/webform/cc9a8230-03c2-46ab-afe1-51ced9dc71c0/8af6e60f-4a08-4da4-bc67-c757487f400f', 'target': '_blank', 'rel': ['noopener', 'noreferrer'], 'style': 'color:#3860BE; text-decoration:underline; display:inline;'}",
+                "order": 138
+            },
+            {
+                "tag": "div",
+                "content": ". Please visit our Privacy Policy linked below, including the State Specific Disclosures section for more information about your rights and our privacy practices.",
+                "attributes": "{'id': 'ot-pc-desc'}",
+                "order": 139
+            },
+            {
+                "tag": "a",
+                "content": "Privacy Policy",
+                "attributes": "{'href': 'https://www.searshomeservices.com/privacy#california-residents', 'class': ['privacy-notice-link'], 'rel': ['noopener'], 'target': '_blank', 'aria-label': 'More information about your privacy, opens in a new tab'}",
+                "order": 140
+            },
+            {
+                "tag": "section",
+                "content": "Non Accordion Group",
+                "attributes": "{'class': ['ot-sdk-row', 'ot-cat-grp']}",
+                "order": 141
+            },
+            {
+                "tag": "section",
+                "content": "Accordion Group section starts",
+                "attributes": "{'class': ['ot-sdk-row', 'ot-cat-grp']}",
+                "order": 142
+            },
+            {
+                "tag": "section",
+                "content": "Accordion Group section ends",
+                "attributes": "{'class': ['ot-sdk-row', 'ot-cat-grp']}",
+                "order": 143
+            },
+            {
+                "tag": "span",
+                "content": "Selling, Sharing, Targeted Advertising",
+                "attributes": "{'style': 'font-weight:bold;font-size:18px'}",
+                "order": 144
+            },
+            {
+                "tag": "span",
+                "content": "Selling, Sharing, Targeted Advertising",
+                "attributes": "{'style': 'font-weight:bold;font-size:18px'}",
+                "order": 145
+            },
+            {
+                "tag": "div",
+                "content": "You can move the toggle above to the left to opt out of Cookie-based Sales, Sharing, and Targeted Advertising. Please note that your opt-out choice is specific to this website, browser, and device. If you access other Transformco websites, you will need to make your election for each. Also, if you clear your Cookies on this browser or use another browser or device, you may need to opt out again on this website.",
+                "attributes": "{'role': 'note', 'style': 'font-size:13.008px; color:#696969; margin:0 0 25px;'}",
+                "order": 146
+            },
+            {
+                "tag": "div",
+                "content": "Please note: Opting out may affect our ability to personalize your experience on this website, though we may use Cookies that do not include Sales, Sharing, or Targeted Advertising. You may still receive non-personalized advertisements on other sites or personalized ads that may be based on information processed before you opted out.",
+                "attributes": "{'role': 'note', 'style': 'font-size:13.008px; color:#696969; margin:0 0 25px;'}",
+                "order": 147
+            },
+            {
+                "tag": "div",
+                "content": "This website recognizes the Global Privacy Control (\u201cGPC\u201d), which is designed to recognize certain browser-based opt-out preference signals. We will process the GPC signal as a request to opt out. To process your request through GPC, you must use a browser or browser extension that supports the signal and turn it on for each browser and device you use.",
+                "attributes": "{'role': 'note', 'style': 'font-size:13.008px; color:#696969; margin:0 0 25px;'}",
+                "order": 148
+            },
+            {
+                "tag": "h3",
+                "content": "Cookie List",
+                "attributes": "{}",
+                "order": 149
+            },
+            {
+                "tag": "button",
+                "content": "Clear",
+                "attributes": "{'id': 'clear-filters-handler'}",
+                "order": 150
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 151
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 152
+            },
+            {
+                "tag": "button",
+                "content": "Apply",
+                "attributes": "{'id': 'filter-apply-handler'}",
+                "order": 153
+            },
+            {
+                "tag": "button",
+                "content": "Cancel",
+                "attributes": "{'id': 'filter-cancel-handler'}",
+                "order": 154
+            },
+            {
+                "tag": "span",
+                "content": "Consent",
+                "attributes": "{'class': ['ot-consent-hdr']}",
+                "order": 155
+            },
+            {
+                "tag": "span",
+                "content": "Leg.Interest",
+                "attributes": "{'class': ['ot-li-hdr']}",
+                "order": 156
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 157
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 158
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 159
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 160
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 161
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 162
+            },
+            {
+                "tag": "div",
+                "content": "Footer buttons and logo",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 163
+            },
+            {
+                "tag": "button",
+                "content": "Confirm My Choices",
+                "attributes": "{'class': ['save-preference-btn-handler', 'onetrust-close-btn-handler', 'ot-button-order-2']}",
+                "order": 164
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Powered by Onetrust | Src: https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+                "attributes": "{'alt': 'Powered by Onetrust', 'src': 'https://cdn.cookielaw.org/logos/static/powered_by_logo.svg', 'title': 'Powered by OneTrust Opens in a new Tab'}",
+                "order": 165
+            },
+            {
+                "tag": "div",
+                "content": "Cookie subgroup container",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 166
+            },
+            {
+                "tag": "div",
+                "content": "Vendor list link",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 167
+            },
+            {
+                "tag": "div",
+                "content": "Cookie lost link",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 168
+            },
+            {
+                "tag": "div",
+                "content": "Toggle HTML element",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 169
+            },
+            {
+                "tag": "div",
+                "content": "Checkbox HTML",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 170
+            },
+            {
+                "tag": "div",
+                "content": "Arrow SVG element",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 171
+            },
+            {
+                "tag": "div",
+                "content": "plus minus",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 172
+            },
+            {
+                "tag": "div",
+                "content": "Accordion basic element",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 173
+            },
+            {
+                "tag": "div",
+                "content": "Vendor Service container and item template",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 174
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt:  | Src: https://bat.bing.com/action/0?ti=5105802&Ver=2&mid=5b68347c-54a4-4a15-bc2f-6c66d44ddf61&bo=1&sid=567f1670e18411f088279dfbb56478ac&vid=567f44a0e18411f087b3c7285e0a1b13&vids=0&msclkid=N&uach=pv%3D&pi=918639831&lg=en-GB&sw=800&sh=600&sc=24&nwd=1&tl=GE%20refrigerator%20freezer%20not%20working%3A%20Discover%20Solutions%20%26%20Expert%20Repairs&p=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Fge-refrigerator-freezer-not-working-but-fridge-is-fine&r=&lt=1322&evt=pageLoad&sv=2&cdb=AQET&rn=757139",
+                "attributes": "{'id': 'batBeacon962495192303', 'width': '0', 'height': '0', 'alt': '', 'src': 'https://bat.bing.com/action/0?ti=5105802&Ver=2&mid=5b68347c-54a4-4a15-bc2f-6c66d44ddf61&bo=1&sid=567f1670e18411f088279dfbb56478ac&vid=567f44a0e18411f087b3c7285e0a1b13&vids=0&msclkid=N&uach=pv%3D&pi=918639831&lg=en-GB&sw=800&sh=600&sc=24&nwd=1&tl=GE%20refrigerator%20freezer%20not%20working%3A%20Discover%20Solutions%20%26%20Expert%20Repairs&p=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Fge-refrigerator-freezer-not-working-but-fridge-is-fine&r=&lt=1322&evt=pageLoad&sv=2&cdb=AQET&rn=757139', 'style': 'width: 0px; height: 0px; display: none; visibility: hidden;'}",
+                "order": 175
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt:  | Src: https://lantern.roeye.com/track.php?fingerprint=4ca5217e-6fa8-49b5-a29c-afb7428829be&referrer=&landingpage=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Fge-refrigerator-freezer-not-working-but-fridge-is-fine&useragent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36&site=searshomeservices.com",
+                "attributes": "{'src': 'https://lantern.roeye.com/track.php?fingerprint=4ca5217e-6fa8-49b5-a29c-afb7428829be&referrer=&landingpage=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Fge-refrigerator-freezer-not-working-but-fridge-is-fine&useragent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36&site=searshomeservices.com', 'alt': '', 'aria-hidden': 'true', 'border': '0', 'height': '0', 'width': '0', 'style': 'position: absolute; visibility: hidden; display: none;'}",
+                "order": 176
+            }
+        ]
+    }
+]

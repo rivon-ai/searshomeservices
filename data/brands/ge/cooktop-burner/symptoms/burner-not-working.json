@@ -1,0 +1,1002 @@
+[
+    {
+        "brand": "ge",
+        "appliance": "cooktop",
+        "symptom": "burner not working",
+        "url": "https://www.searshomeservices.com/symptom/ge-cooktop-burner-not-working",
+        "title": "GE cooktop burner not working",
+        "description": "",
+        "full_content": [
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{'hidden': ''}",
+                "order": 0
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{'hidden': ''}",
+                "order": 1
+            },
+            {
+                "tag": "a",
+                "content": "Skip to main content",
+                "attributes": "{'href': '#main-content', 'class': ['skip-link']}",
+                "order": 2
+            },
+            {
+                "tag": "body",
+                "content": "$",
+                "attributes": "{'style': 'overflow: auto;'}",
+                "order": 3
+            },
+            {
+                "tag": "body",
+                "content": "/$",
+                "attributes": "{'style': 'overflow: auto;'}",
+                "order": 4
+            },
+            {
+                "tag": "span",
+                "content": "Sears Logo",
+                "attributes": "{'class': ['sr-only']}",
+                "order": 5
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Header Sears Logo | Src: /static/icons/general/shs-logo.svg",
+                "attributes": "{'alt': 'Header Sears Logo', 'loading': 'lazy', 'width': '95', 'height': '40', 'decoding': 'async', 'data-nimg': '1', 'class': ['h-10'], 'style': 'color:transparent', 'src': '/static/icons/general/shs-logo.svg'}",
+                "order": 6
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Hamburger menu | Src: /static/icons/general/menu-button-closed.svg",
+                "attributes": "{'alt': 'Hamburger menu', 'loading': 'lazy', 'width': '24', 'height': '24', 'decoding': 'async', 'data-nimg': '1', 'class': ['h-10', 'w-10', 'text-blue-250'], 'style': 'color:transparent', 'src': '/static/icons/general/menu-button-closed.svg'}",
+                "order": 7
+            },
+            {
+                "tag": "h1",
+                "content": "GE cooktop burner not working",
+                "attributes": "{'data-testid': 'repair_symptom_page_title', 'data-metric-id': 'repair_symptom_page_title', 'class': ['text-5xl', 'text-left', 'text-blue-300', 'leading-10', 'mt-1']}",
+                "order": 8
+            },
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{'class': ['mb-4', 'md:mb-[1.1875rem]']}",
+                "order": 9
+            },
+            {
+                "tag": "h2",
+                "content": "Common reasons your GE cooktop burner is not working",
+                "attributes": "{'class': ['mt-4', 'font-semibold', 'mb-1', 'text-3xl', 'md:text-4xl', 'leading-8', 'text-blue-300'], 'node': '[object Object]'}",
+                "order": 10
+            },
+            {
+                "tag": "p",
+                "content": "The most common reasons your GE cooktop burner is not working are a cracked igniter switch, broken igniter or a cracked main top.",
+                "attributes": "{'class': ['text-xl', 'text-gray-500', 'font-normal', 'mt-1', 'mb-[1.125rem]', 'min-h-18', 'md:min-h-0', 'md:max-w-[55.813rem]'], 'node': '[object Object]'}",
+                "order": 11
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{'class': ['mb-4', 'md:mb-[1.1875rem]']}",
+                "order": 12
+            },
+            {
+                "tag": "span",
+                "content": "67% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 13
+            },
+            {
+                "tag": "span",
+                "content": "Igniter Switch",
+                "attributes": "{'data-testid': 'percent_chart_0', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 14
+            },
+            {
+                "tag": "span",
+                "content": "14% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 15
+            },
+            {
+                "tag": "span",
+                "content": "Igniter",
+                "attributes": "{'data-testid': 'percent_chart_1', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 16
+            },
+            {
+                "tag": "span",
+                "content": "14% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 17
+            },
+            {
+                "tag": "span",
+                "content": "Main Top",
+                "attributes": "{'data-testid': 'percent_chart_2', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 18
+            },
+            {
+                "tag": "span",
+                "content": "5% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 19
+            },
+            {
+                "tag": "span",
+                "content": "Something else",
+                "attributes": "{'data-testid': 'percent_chart_3', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 20
+            },
+            {
+                "tag": "h4",
+                "content": "Schedule your cooktop repair now!",
+                "attributes": "{'data-testid': 'conversion_component_title', 'data-metric-id': 'conversion_component_title', 'class': ['mt-0', 'text-4xl', 'text-blue-300', 'mb-0']}",
+                "order": 21
+            },
+            {
+                "tag": "p",
+                "content": "We can help! Our service technicians have repaired over",
+                "attributes": "{'class': ['text-xl', 'font-normal', 'text-gray-500', 'leading-8']}",
+                "order": 22
+            },
+            {
+                "tag": "b",
+                "content": "150,000",
+                "attributes": "{}",
+                "order": 23
+            },
+            {
+                "tag": "p",
+                "content": "GE cooktops. We can fix yours no matter where you bought it.",
+                "attributes": "{'class': ['text-xl', 'font-normal', 'text-gray-500', 'leading-8']}",
+                "order": 24
+            },
+            {
+                "tag": "span",
+                "content": "Call",
+                "attributes": "{'class': ['mr-2', 'ml-3', 'text-gray-500']}",
+                "order": 25
+            },
+            {
+                "tag": "a",
+                "content": "(646) 440-2692",
+                "attributes": "{'class': ['font-semibold', 'text-xl', 'text-blue-100', 'no-underline'], 'data-testid': 'cs_description_phone_link', 'data-metric-id': 'cs_description_phone_link', 'href': 'tel:+1-646-440-2692'}",
+                "order": 26
+            },
+            {
+                "tag": "span",
+                "content": "or schedule online now.",
+                "attributes": "{'class': ['ml-1', 'text-gray-500']}",
+                "order": 27
+            },
+            {
+                "tag": "span",
+                "content": "Chat",
+                "attributes": "{'class': ['ml-[0.75rem]', 'mr-1']}",
+                "order": 28
+            },
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{'class': ['w-full', 'mt-0', 'flex', 'flex-col', 'gap-6', 'lg:w-[53.55%]', 'lg:mt-4']}",
+                "order": 29
+            },
+            {
+                "tag": "button",
+                "content": "Cooktop",
+                "attributes": "{'aria-label': 'Select Product for Cooktop', 'data-testid': 'repair_symptom_page_conversion_component_v1_select_product', 'data-metric-id': 'repair_symptom_page_conversion_component_v1_select_product', 'data-metric-value': 'Cooktop', 'class': ['relative', 'text-left', 'block', 'w-full', 'bg-white', 'border-2', 'text-blue-400', 'border', 'overflow-hidden', 'whitespace-nowrap', 'pl-4', 'pr-10', 'py-2', 'text-md', 'font-medium', 'h-12', 'rounded-lg'], 'id': 'headlessui-listbox-button-_R_3dd8jrav5ubsnpb_', 'type': 'button', 'aria-haspopup': 'listbox', 'aria-expanded': 'false', 'data-headlessui-state': '', 'name': 'products'}",
+                "order": 30
+            },
+            {
+                "tag": "button",
+                "content": "GE",
+                "attributes": "{'aria-label': 'Select Brand for GE', 'data-testid': 'repair_symptom_page_conversion_component_v1_select_brand', 'data-metric-id': 'repair_symptom_page_conversion_component_v1_select_brand', 'data-metric-value': 'GE', 'name': 'brands', 'class': ['relative', 'text-left', 'block', 'w-full', 'bg-white', 'border-2', 'text-blue-400', 'border', 'overflow-hidden', 'whitespace-nowrap', 'pl-4', 'pr-10', 'py-2', 'text-md', 'font-medium', 'h-12', 'rounded-lg'], 'id': 'headlessui-listbox-button-_r_5_', 'type': 'button', 'aria-haspopup': 'listbox', 'aria-expanded': 'false', 'data-headlessui-state': ''}",
+                "order": 31
+            },
+            {
+                "tag": "button",
+                "content": "Schedule Now",
+                "attributes": "{'type': 'button', 'class': ['cursor-pointer', 'bg-yellow', 'text-blue-200', 'hover:bg-yellow-100', 'focus:outline-yellow-200', 'focus:outline-4', 'disabled:bg-gray-200', 'disabled:text-gray-500', 'px-6', 'rounded-lg', 'w-full', 'text-xl', 'py-3.5', 'font-semibold', 'mt-3', 'shadow-scheduler', '!hover:no-underline'], 'data-testid': 'repair_symptom_page_conversion_component_v1_repair_schedule_now_button', 'data-metric-id': 'repair_symptom_page_conversion_component_v1_repair_schedule_now_button', 'data-metric-value': 'Schedule Now'}",
+                "order": 32
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{'class': ['w-full', 'mt-0', 'flex', 'flex-col', 'gap-6', 'lg:w-[53.55%]', 'lg:mt-4']}",
+                "order": 33
+            },
+            {
+                "tag": "h2",
+                "content": "Most common repairs needed to fix a GE cooktop",
+                "attributes": "{'class': ['text-3xl', 'md:text-4xl', 'text-blue-300', 'leading-8'], 'node': '[object Object]'}",
+                "order": 34
+            },
+            {
+                "tag": "h4",
+                "content": "Igniter Switch Replacement",
+                "attributes": "{'class': ['text-2xl', 'text-blue-300', 'font-semibold', 'my-2', 'leading-8', 'h-[78px]'], 'node': '[object Object]'}",
+                "order": 35
+            },
+            {
+                "tag": "p",
+                "content": "A faulty infinite switch is a common cause for a cooktop burner not working. The infinite switch controls current going to the element. When an internal electrical contact in the infinite switch breaks, no current will go the burner when you turn the burner on. It\u2019s difficult to tell whether an infinite switch is faulty. Have a Sears Home Services Expert examine your cooktop and replace the infinite switch if it\u2019s defective. The technician will also check for damage to wiring or the element that could be caused by a faulty infinite switch when making the repair.",
+                "attributes": "{'class': ['mb-6', 'text-xl', 'leading-6', 'text-blue-400'], 'node': '[object Object]'}",
+                "order": 36
+            },
+            {
+                "tag": "a",
+                "content": "How to replace an igniter switch on a gas cooktop",
+                "attributes": "{'class': ['font-medium', 'hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-sm', 'leading-6'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_blank', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searspartsdirect.com/diy/repair-guide/how-to-replace-a-spark-igniter-switch-on-a-gas-cooktop'}",
+                "order": 37
+            },
+            {
+                "tag": "h4",
+                "content": "Igniter Replacement",
+                "attributes": "{'class': ['text-2xl', 'text-blue-300', 'font-semibold', 'my-2', 'leading-8', 'h-[78px]'], 'node': '[object Object]'}",
+                "order": 38
+            },
+            {
+                "tag": "p",
+                "content": "A broken igniter will prevent a burner from lighting on the cooktop. When you turn a burner knob to the Light position, the spark module sends current through the igniter electrode to create a spark and light the burner. A broken igniter won\u2019t create a spark between the tip of its electrode and the burner head to ignite the gas. Accessing the igniter is difficult in many gas cooktops. Have a Sears Home Services professional replace the broken igniter so the burner works properly.",
+                "attributes": "{'class': ['mb-6', 'text-xl', 'leading-6', 'text-blue-400'], 'node': '[object Object]'}",
+                "order": 39
+            },
+            {
+                "tag": "a",
+                "content": "Why won't my cooktop burners ignite?",
+                "attributes": "{'class': ['font-medium', 'hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-sm', 'leading-6'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_blank', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searspartsdirect.com/diy/symptom/gas-cooktop-repair/1235916/gas-burners-won-t-ignite-or-spark/cooktopcounterunit2234100225'}",
+                "order": 40
+            },
+            {
+                "tag": "h4",
+                "content": "Main Top Replacement",
+                "attributes": "{'class': ['text-2xl', 'text-blue-300', 'font-semibold', 'my-2', 'leading-8', 'h-[78px]'], 'node': '[object Object]'}",
+                "order": 41
+            },
+            {
+                "tag": "p",
+                "content": "A cracked main top will allow spills to reach the burner wiring connections and element. This can cause the element to short out and stop working. The house circuit breaker for the cooktop may trip when a short occurs. A short in a burner can also damage a burner switch to prevent the surface element from heating even after you replace the element. Have a Sears Home Services Technician examine the entire cooktop to check for additional problems when replacing the main top.",
+                "attributes": "{'class': ['mb-6', 'text-xl', 'leading-6', 'text-blue-400'], 'node': '[object Object]'}",
+                "order": 42
+            },
+            {
+                "tag": "a",
+                "content": "How to replace the glass top on a cooktop",
+                "attributes": "{'class': ['font-medium', 'hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-sm', 'leading-6'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_blank', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searspartsdirect.com/diy/repair-guide/how-to-replace-the-glass-top-on-an-electric-cooktop'}",
+                "order": 43
+            },
+            {
+                "tag": "h2",
+                "content": "What to expect when you experience a GE cooktop burner not working issue",
+                "attributes": "{'node': '[object Object]', 'class': ['text-4xl', 'font-semibold', 'text-blue-300', 'mb-5', 'leading-8']}",
+                "order": 44
+            },
+            {
+                "tag": "h3",
+                "content": "How is the burner not working problem fixed?",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 45
+            },
+            {
+                "tag": "p",
+                "content": "Correcting most burner not working problems usually involves replacing the igniter switch, igniter or main top. However, there are many potential causes, so a thorough diagnosis is key to fixing the problem. An accurate diagnosis is essential to understanding how much the repair will be.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 46
+            },
+            {
+                "tag": "p",
+                "content": "When you need",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 47
+            },
+            {
+                "tag": "a",
+                "content": "GE cooktop repair",
+                "attributes": "{'class': ['hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-xl', 'leading-6', 'font-normal'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_self', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searshomeservices.com/repair/ge/cooktop'}",
+                "order": 48
+            },
+            {
+                "tag": "p",
+                "content": ", choose Sears Home Services as your trusted service provider.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 49
+            },
+            {
+                "tag": "h3",
+                "content": "Sears Home Services recommendations for a cooktop burner that is not working",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 50
+            },
+            {
+                "tag": "p",
+                "content": "When the cooktop burner is not working it can be for many reasons. To avoid replacing unneeded parts we recommend having a Sears Home Services professional perform diagnostic tests to identify the root cause of the problem. Our technicians are experienced at diagnosing all types of cooktop failures.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 51
+            },
+            {
+                "tag": "h3",
+                "content": "What to look out for with a cooktop burner not working diagnosis",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 52
+            },
+            {
+                "tag": "p",
+                "content": "Diagnosing modern appliances without proper knowledge and training can be difficult. Without using proper diagnostic techniques, fixing your cooktop problem will only be achieved through changing parts on a hunch. Appliances, especially in the last 10 years, have become extremely advanced, and many models have electronic parts that are difficult to test. DIY repairs on the latest appliance models are becoming increasingly difficult.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 53
+            },
+            {
+                "tag": "span",
+                "content": "Schedule Now",
+                "attributes": "{}",
+                "order": 54
+            },
+            {
+                "tag": "h2",
+                "content": "What our customers say about us",
+                "attributes": "{'class': ['text-blue-300', 'md:text-4xl-plus', 'my-2', 'tracking-wide', 'font-montserrat', 'text-4xl', 'font-semibold', 'leading-8']}",
+                "order": 55
+            },
+            {
+                "tag": "p",
+                "content": "With more than 1.3 Million 5 Star Reviews, you don't have to take our word for it",
+                "attributes": "{'class': ['font-normal', 'text-gray-500', 'text-md', 'lg:text-xl', 'mb-4', 'lg:mb-[18px]', 'px-4']}",
+                "order": 56
+            },
+            {
+                "tag": "p",
+                "content": "fixed my oven within minutes!",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'truncate', 'font-semibold', 'text-blue-300', 'mt-2', 'mb-1'], 'title': 'fixed my oven within minutes!'}",
+                "order": 57
+            },
+            {
+                "tag": "p",
+                "content": "i had previously had a technician out 3 times in the past 1 1/2 years, who was chosen by my home warranty company.  The oven never worked, it was always a temporary fix.  Shareef listened to the issues i was having and what i thought was the problem and fixed it within minutes! The oven works perfectly now, it does not turn on and off any longer and all 4 burners are hot. He was personable, efficient, and a true professional.",
+                "attributes": "{'class': ['text-md', 'leading-6', 'font-normal', 'text-gray-500', 'line-clamp-5', 'mb-1', 'lg:mb-4'], 'title': 'i had previously had a technician out 3 times in the past 1 1/2 years, who was chosen by my home warranty company.  The oven never worked, it was always a temporary fix.  Shareef listened to the issues i was having and what i thought was the problem and fixed it within minutes! The oven works perfectly now, it does not turn on and off any longer and all 4 burners are hot. He was personable, efficient, and a true professional.'}",
+                "order": 58
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: User Profile | Src: /static/icons/general/user-profile.svg",
+                "attributes": "{'alt': 'User Profile', 'loading': 'lazy', 'width': '47', 'height': '47', 'decoding': 'async', 'data-nimg': '1', 'class': ['w-12', 'h-12', 'rounded-full', 'object-cover'], 'style': 'color:transparent', 'src': '/static/icons/general/user-profile.svg'}",
+                "order": 59
+            },
+            {
+                "tag": "p",
+                "content": "Julie B, Mt Pleasant, SC",
+                "attributes": "{'class': ['text-gray-500', 'text-xs', 'md:text-sm', 'font-normal', 'italic', 'uppercase']}",
+                "order": 60
+            },
+            {
+                "tag": "p",
+                "content": "He tried",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'truncate', 'font-semibold', 'text-blue-300', 'mt-2', 'mb-1'], 'title': 'He tried'}",
+                "order": 61
+            },
+            {
+                "tag": "p",
+                "content": "Sometimes things don't work  out as planned. Tim tried to fix my oven. Previous guy misdiagnosed the problem. So i am still without. \nTim tried and communicated with me about the issues.",
+                "attributes": "{'class': ['text-md', 'leading-6', 'font-normal', 'text-gray-500', 'line-clamp-5', 'mb-1', 'lg:mb-4'], 'title': \"Sometimes things don't work  out as planned. Tim tried to fix my oven. Previous guy misdiagnosed the problem. So i am still without. \\nTim tried and communicated with me about the issues.\"}",
+                "order": 62
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: User Profile | Src: /static/icons/general/user-profile.svg",
+                "attributes": "{'alt': 'User Profile', 'loading': 'lazy', 'width': '47', 'height': '47', 'decoding': 'async', 'data-nimg': '1', 'class': ['w-12', 'h-12', 'rounded-full', 'object-cover'], 'style': 'color:transparent', 'src': '/static/icons/general/user-profile.svg'}",
+                "order": 63
+            },
+            {
+                "tag": "p",
+                "content": "Diane U, Royal Oak, MI",
+                "attributes": "{'class': ['text-gray-500', 'text-xs', 'md:text-sm', 'font-normal', 'italic', 'uppercase']}",
+                "order": 64
+            },
+            {
+                "tag": "p",
+                "content": "Excellent Service, prompt and curious!",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'truncate', 'font-semibold', 'text-blue-300', 'mt-2', 'mb-1'], 'title': 'Excellent Service, prompt and curious!'}",
+                "order": 65
+            },
+            {
+                "tag": "p",
+                "content": "Excellent Service, Friendly and courteous! Prompt and eager to fix the stove!",
+                "attributes": "{'class': ['text-md', 'leading-6', 'font-normal', 'text-gray-500', 'line-clamp-5', 'mb-1', 'lg:mb-4'], 'title': 'Excellent Service, Friendly and courteous! Prompt and eager to fix the stove!'}",
+                "order": 66
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: User Profile | Src: /static/icons/general/user-profile.svg",
+                "attributes": "{'alt': 'User Profile', 'loading': 'lazy', 'width': '47', 'height': '47', 'decoding': 'async', 'data-nimg': '1', 'class': ['w-12', 'h-12', 'rounded-full', 'object-cover'], 'style': 'color:transparent', 'src': '/static/icons/general/user-profile.svg'}",
+                "order": 67
+            },
+            {
+                "tag": "p",
+                "content": "Mike Barrett, Duluth, MN",
+                "attributes": "{'class': ['text-gray-500', 'text-xs', 'md:text-sm', 'font-normal', 'italic', 'uppercase']}",
+                "order": 68
+            },
+            {
+                "tag": "h2",
+                "content": "Frequently Asked Questions",
+                "attributes": "{'id': 'faq-heading-symptom-ge-cooktop-burner-not-working', 'class': ['text-4xl', 'lg:text-4xl-plus', 'font-semibold', 'text-blue-300', 'leading-9', 'pb-2', 'lg:mb-8']}",
+                "order": 69
+            },
+            {
+                "tag": "div",
+                "content": "Why isn\u2019t my GE cooktop burner heating?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 70
+            },
+            {
+                "tag": "div",
+                "content": "Possible causes include a faulty burner element, damaged terminal block, or a broken burner switch.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 71
+            },
+            {
+                "tag": "div",
+                "content": "How do I test the burner element?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 72
+            },
+            {
+                "tag": "div",
+                "content": "Unplug the cooktop or disconnect electrical power by shutting off the house circuit breaker for the cooktop. Remove the element and use a multimeter to check for continuity. If there\u2019s no continuity, replace the element.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 73
+            },
+            {
+                "tag": "div",
+                "content": "Could a broken terminal block cause the burner to stop working?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 74
+            },
+            {
+                "tag": "div",
+                "content": "Yes, a damaged terminal block can prevent the burner from receiving power.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 75
+            },
+            {
+                "tag": "div",
+                "content": "What should I do if the element and terminal block are fine?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 76
+            },
+            {
+                "tag": "div",
+                "content": "Check the burner switch and wiring for damage or malfunction.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 77
+            },
+            {
+                "tag": "h2",
+                "content": "Repair Range Resources",
+                "attributes": "{'class': ['text-blue-300', 'text-5xl', 'mb-12', 'md:px-0']}",
+                "order": 78
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: homeowner cooking on an electric range and wondering how does an electric range work | Src: https://www.searshomeservices.com/cftassets/3jIKxGY8brOLcwFBPgjmZx/f8deaea69da261d78849c45f7a23249e/how-does-an-electric-range-work.png?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': 'homeowner cooking on an electric range and wondering how does an electric range work', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/3jIKxGY8brOLcwFBPgjmZx/f8deaea69da261d78849c45f7a23249e/how-does-an-electric-range-work.png?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/3jIKxGY8brOLcwFBPgjmZx/f8deaea69da261d78849c45f7a23249e/how-does-an-electric-range-work.png?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/3jIKxGY8brOLcwFBPgjmZx/f8deaea69da261d78849c45f7a23249e/how-does-an-electric-range-work.png?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/3jIKxGY8brOLcwFBPgjmZx/f8deaea69da261d78849c45f7a23249e/how-does-an-electric-range-work.png?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/3jIKxGY8brOLcwFBPgjmZx/f8deaea69da261d78849c45f7a23249e/how-does-an-electric-range-work.png?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/3jIKxGY8brOLcwFBPgjmZx/f8deaea69da261d78849c45f7a23249e/how-does-an-electric-range-work.png?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/3jIKxGY8brOLcwFBPgjmZx/f8deaea69da261d78849c45f7a23249e/how-does-an-electric-range-work.png?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/3jIKxGY8brOLcwFBPgjmZx/f8deaea69da261d78849c45f7a23249e/how-does-an-electric-range-work.png?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/3jIKxGY8brOLcwFBPgjmZx/f8deaea69da261d78849c45f7a23249e/how-does-an-electric-range-work.png?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/3jIKxGY8brOLcwFBPgjmZx/f8deaea69da261d78849c45f7a23249e/how-does-an-electric-range-work.png?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/3jIKxGY8brOLcwFBPgjmZx/f8deaea69da261d78849c45f7a23249e/how-does-an-electric-range-work.png?w=3840&q=90&fm=webp'}",
+                "order": 79
+            },
+            {
+                "tag": "p",
+                "content": "How Does an Electric Range Work?",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 80
+            },
+            {
+                "tag": "span",
+                "content": "6 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 81
+            },
+            {
+                "tag": "span",
+                "content": "Dec. 23",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 82
+            },
+            {
+                "tag": "p",
+                "content": "Learn how an electric range works and how to troubleshoot common problems.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 83
+            },
+            {
+                "tag": "a",
+                "content": "Range",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_range_blog_meta_data_0_product_link', 'data-metric-id': 'repair_symptom_page_range_blog_meta_data_0_product_link', 'data-metric-value': 'Range', 'target': '_self', 'href': '/blog/repair/range-resources'}",
+                "order": 84
+            },
+            {
+                "tag": "a",
+                "content": "Appliance 101",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_range_blog_meta_data_0_secondary_category_link', 'data-metric-id': 'repair_symptom_page_range_blog_meta_data_0_secondary_category_link', 'data-metric-value': 'Range', 'target': '_self', 'href': '/blog/repair/appliance-101-resources'}",
+                "order": 85
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: replacing a burnt out stove element | Src: https://www.searshomeservices.com/cftassets/5yKXAJScnwT9YEsqT1PThz/79b0265551f62a5b754953013ca1ffa0/replacing-a-burnt-out-surface-element.png?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': 'replacing a burnt out stove element', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/5yKXAJScnwT9YEsqT1PThz/79b0265551f62a5b754953013ca1ffa0/replacing-a-burnt-out-surface-element.png?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/5yKXAJScnwT9YEsqT1PThz/79b0265551f62a5b754953013ca1ffa0/replacing-a-burnt-out-surface-element.png?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/5yKXAJScnwT9YEsqT1PThz/79b0265551f62a5b754953013ca1ffa0/replacing-a-burnt-out-surface-element.png?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/5yKXAJScnwT9YEsqT1PThz/79b0265551f62a5b754953013ca1ffa0/replacing-a-burnt-out-surface-element.png?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/5yKXAJScnwT9YEsqT1PThz/79b0265551f62a5b754953013ca1ffa0/replacing-a-burnt-out-surface-element.png?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/5yKXAJScnwT9YEsqT1PThz/79b0265551f62a5b754953013ca1ffa0/replacing-a-burnt-out-surface-element.png?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/5yKXAJScnwT9YEsqT1PThz/79b0265551f62a5b754953013ca1ffa0/replacing-a-burnt-out-surface-element.png?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/5yKXAJScnwT9YEsqT1PThz/79b0265551f62a5b754953013ca1ffa0/replacing-a-burnt-out-surface-element.png?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/5yKXAJScnwT9YEsqT1PThz/79b0265551f62a5b754953013ca1ffa0/replacing-a-burnt-out-surface-element.png?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/5yKXAJScnwT9YEsqT1PThz/79b0265551f62a5b754953013ca1ffa0/replacing-a-burnt-out-surface-element.png?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/5yKXAJScnwT9YEsqT1PThz/79b0265551f62a5b754953013ca1ffa0/replacing-a-burnt-out-surface-element.png?w=3840&q=90&fm=webp'}",
+                "order": 86
+            },
+            {
+                "tag": "p",
+                "content": "Replacing a Burnt-Out Stove Element",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 87
+            },
+            {
+                "tag": "span",
+                "content": "6 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 88
+            },
+            {
+                "tag": "span",
+                "content": "Dec. 22",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 89
+            },
+            {
+                "tag": "p",
+                "content": "Need help replacing a burnt out stove element? Trust Sears Home Services for professional stove repairs and replacements.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 90
+            },
+            {
+                "tag": "a",
+                "content": "Range",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_range_blog_meta_data_1_product_link', 'data-metric-id': 'repair_symptom_page_range_blog_meta_data_1_product_link', 'data-metric-value': 'Range', 'target': '_self', 'href': '/blog/repair/range-resources'}",
+                "order": 91
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Homeowner who understands \"How Do Gas Stoves Work?\" after reading the article | Src: https://www.searshomeservices.com/cftassets/2yOpU3tMzFOMgSOh3ZxKYn/11a663c1fa1a390f722a5988665acef3/how-do-gas-stove-work.png?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': 'Homeowner who understands \"How Do Gas Stoves Work?\" after reading the article', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/2yOpU3tMzFOMgSOh3ZxKYn/11a663c1fa1a390f722a5988665acef3/how-do-gas-stove-work.png?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/2yOpU3tMzFOMgSOh3ZxKYn/11a663c1fa1a390f722a5988665acef3/how-do-gas-stove-work.png?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/2yOpU3tMzFOMgSOh3ZxKYn/11a663c1fa1a390f722a5988665acef3/how-do-gas-stove-work.png?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/2yOpU3tMzFOMgSOh3ZxKYn/11a663c1fa1a390f722a5988665acef3/how-do-gas-stove-work.png?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/2yOpU3tMzFOMgSOh3ZxKYn/11a663c1fa1a390f722a5988665acef3/how-do-gas-stove-work.png?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/2yOpU3tMzFOMgSOh3ZxKYn/11a663c1fa1a390f722a5988665acef3/how-do-gas-stove-work.png?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/2yOpU3tMzFOMgSOh3ZxKYn/11a663c1fa1a390f722a5988665acef3/how-do-gas-stove-work.png?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/2yOpU3tMzFOMgSOh3ZxKYn/11a663c1fa1a390f722a5988665acef3/how-do-gas-stove-work.png?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/2yOpU3tMzFOMgSOh3ZxKYn/11a663c1fa1a390f722a5988665acef3/how-do-gas-stove-work.png?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/2yOpU3tMzFOMgSOh3ZxKYn/11a663c1fa1a390f722a5988665acef3/how-do-gas-stove-work.png?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/2yOpU3tMzFOMgSOh3ZxKYn/11a663c1fa1a390f722a5988665acef3/how-do-gas-stove-work.png?w=3840&q=90&fm=webp'}",
+                "order": 92
+            },
+            {
+                "tag": "p",
+                "content": "How Do Gas Stoves Work?",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 93
+            },
+            {
+                "tag": "span",
+                "content": "8 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 94
+            },
+            {
+                "tag": "span",
+                "content": "Dec. 12",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 95
+            },
+            {
+                "tag": "p",
+                "content": "Learn how gas stoves work and how to safely use the cooktop and oven.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 96
+            },
+            {
+                "tag": "a",
+                "content": "Range",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_range_blog_meta_data_2_product_link', 'data-metric-id': 'repair_symptom_page_range_blog_meta_data_2_product_link', 'data-metric-value': 'Range', 'target': '_self', 'href': '/blog/repair/range-resources'}",
+                "order": 97
+            },
+            {
+                "tag": "a",
+                "content": "Appliance 101",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_range_blog_meta_data_2_secondary_category_link', 'data-metric-id': 'repair_symptom_page_range_blog_meta_data_2_secondary_category_link', 'data-metric-value': 'Range', 'target': '_self', 'href': '/blog/repair/appliance-101-resources'}",
+                "order": 98
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: How Do You Fix a Gas Oven That Won\u2019t Heat Up? | Src: https://www.searshomeservices.com/cftassets/34ESOj8PFdIzFAg0hqyxT8/e99e3ef70df8dc035deb3837655eda9f/How_Do_You_Fix_a_Gas_Oven_That_Won_t_Heat_Up.png?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': 'How Do You Fix a Gas Oven That Won\u2019t Heat Up?', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/34ESOj8PFdIzFAg0hqyxT8/e99e3ef70df8dc035deb3837655eda9f/How_Do_You_Fix_a_Gas_Oven_That_Won_t_Heat_Up.png?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/34ESOj8PFdIzFAg0hqyxT8/e99e3ef70df8dc035deb3837655eda9f/How_Do_You_Fix_a_Gas_Oven_That_Won_t_Heat_Up.png?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/34ESOj8PFdIzFAg0hqyxT8/e99e3ef70df8dc035deb3837655eda9f/How_Do_You_Fix_a_Gas_Oven_That_Won_t_Heat_Up.png?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/34ESOj8PFdIzFAg0hqyxT8/e99e3ef70df8dc035deb3837655eda9f/How_Do_You_Fix_a_Gas_Oven_That_Won_t_Heat_Up.png?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/34ESOj8PFdIzFAg0hqyxT8/e99e3ef70df8dc035deb3837655eda9f/How_Do_You_Fix_a_Gas_Oven_That_Won_t_Heat_Up.png?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/34ESOj8PFdIzFAg0hqyxT8/e99e3ef70df8dc035deb3837655eda9f/How_Do_You_Fix_a_Gas_Oven_That_Won_t_Heat_Up.png?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/34ESOj8PFdIzFAg0hqyxT8/e99e3ef70df8dc035deb3837655eda9f/How_Do_You_Fix_a_Gas_Oven_That_Won_t_Heat_Up.png?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/34ESOj8PFdIzFAg0hqyxT8/e99e3ef70df8dc035deb3837655eda9f/How_Do_You_Fix_a_Gas_Oven_That_Won_t_Heat_Up.png?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/34ESOj8PFdIzFAg0hqyxT8/e99e3ef70df8dc035deb3837655eda9f/How_Do_You_Fix_a_Gas_Oven_That_Won_t_Heat_Up.png?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/34ESOj8PFdIzFAg0hqyxT8/e99e3ef70df8dc035deb3837655eda9f/How_Do_You_Fix_a_Gas_Oven_That_Won_t_Heat_Up.png?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/34ESOj8PFdIzFAg0hqyxT8/e99e3ef70df8dc035deb3837655eda9f/How_Do_You_Fix_a_Gas_Oven_That_Won_t_Heat_Up.png?w=3840&q=90&fm=webp'}",
+                "order": 99
+            },
+            {
+                "tag": "p",
+                "content": "Gas Oven Not Heating Up? Diagnose and Fix the Issue",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 100
+            },
+            {
+                "tag": "span",
+                "content": "7 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 101
+            },
+            {
+                "tag": "span",
+                "content": "Jun. 24",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 102
+            },
+            {
+                "tag": "p",
+                "content": "Don't let a non-heating gas oven ruin your day. Follow these simple troubleshooting steps to get it working.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 103
+            },
+            {
+                "tag": "a",
+                "content": "Range",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_range_blog_meta_data_3_product_link', 'data-metric-id': 'repair_symptom_page_range_blog_meta_data_3_product_link', 'data-metric-value': 'Range', 'target': '_self', 'href': '/blog/repair/range-resources'}",
+                "order": 104
+            },
+            {
+                "tag": "h3",
+                "content": "Glossary Terms",
+                "attributes": "{'class': ['text-blue-300', 'mb-0', 'text-4xl']}",
+                "order": 105
+            },
+            {
+                "tag": "span",
+                "content": "What is a Convection Range?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 106
+            },
+            {
+                "tag": "p",
+                "content": "A convection range is a kitchen appliance that features a convection oven, which uses a fan and exhaust system to circulate hot air around the food, resulting in faster, more even cooking and baking compared to conventional ovens.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 107
+            },
+            {
+                "tag": "span",
+                "content": "What is a Drop-In Range?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 108
+            },
+            {
+                "tag": "p",
+                "content": "A drop-in range is a type of kitchen stove that is designed to be fitted into a pre-existing space in kitchen cabinetry, mounted on a platform, flanked by cabinetry, and often featuring a custom panel at the bottom.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 109
+            },
+            {
+                "tag": "span",
+                "content": "What is a Dual Fuel Range?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 110
+            },
+            {
+                "tag": "p",
+                "content": "A dual fuel range combines the precision of an electric oven with the responsiveness of a gas cooktop, offering the best of both worlds for cooking enthusiasts.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 111
+            },
+            {
+                "tag": "span",
+                "content": "What is BTU?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 112
+            },
+            {
+                "tag": "p",
+                "content": "BTU, or British Thermal Unit, measures the amount of heat required to raise the temperature of one pound of water by one degree Fahrenheit.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 113
+            },
+            {
+                "tag": "h2",
+                "content": "These cooktop brands may also experience burner not working",
+                "attributes": "{'class': ['text-blue-300', 'mb-0', 'leading-8', 'text-4xl']}",
+                "order": 114
+            },
+            {
+                "tag": "span",
+                "content": "JennAir cooktop burner not working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 115
+            },
+            {
+                "tag": "span",
+                "content": "Whirlpool cooktop burner not working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 116
+            },
+            {
+                "tag": "span",
+                "content": "GE Profile cooktop burner not working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 117
+            },
+            {
+                "tag": "span",
+                "content": "Frigidaire cooktop burner not working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 118
+            },
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{}",
+                "order": 119
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{}",
+                "order": 120
+            },
+            {
+                "tag": "div",
+                "content": "PC Header",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 121
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: shs-logo | Src: https://cdn.cookielaw.org/logos/cc9a8230-03c2-46ab-afe1-51ced9dc71c0/9ff49619-d07c-4183-9296-1ab182541af7/37067ed8-3732-4c57-8be8-5c334ab22954/logo-png.png",
+                "attributes": "{'alt': 'shs-logo', 'src': 'https://cdn.cookielaw.org/logos/cc9a8230-03c2-46ab-afe1-51ced9dc71c0/9ff49619-d07c-4183-9296-1ab182541af7/37067ed8-3732-4c57-8be8-5c334ab22954/logo-png.png'}",
+                "order": 122
+            },
+            {
+                "tag": "span",
+                "content": "Your Opt Out Preference Signal is Honored",
+                "attributes": "{}",
+                "order": 123
+            },
+            {
+                "tag": "h2",
+                "content": "Notice of Right to Opt Out of Sale/Sharing",
+                "attributes": "{'id': 'ot-pc-title'}",
+                "order": 124
+            },
+            {
+                "tag": "div",
+                "content": "This website uses cookies and other tracking technologies (\u201cCookies\u201d) to serve targeted ads, enhance user experience, and to analyze user activity. Some Cookies may collect personal information that is used in a way that is considered a \u201cSale\u201d, \u201cSharing\u201d, or \u201cTargeted Advertising\u201d as those terms are defined under various state privacy laws. To opt out of Cookie based Sales, Sharing, and Targeted Advertising, please follow the instructions below. To opt out of non-Cookie based Sales, Sharing, and Targeted Advertising, please visit our webform",
+                "attributes": "{'id': 'ot-pc-desc'}",
+                "order": 125
+            },
+            {
+                "tag": "a",
+                "content": "here",
+                "attributes": "{'href': 'https://privacyportal.onetrust.com/webform/cc9a8230-03c2-46ab-afe1-51ced9dc71c0/8af6e60f-4a08-4da4-bc67-c757487f400f', 'target': '_blank', 'rel': ['noopener', 'noreferrer'], 'style': 'color:#3860BE; text-decoration:underline; display:inline;'}",
+                "order": 126
+            },
+            {
+                "tag": "div",
+                "content": ". Please visit our Privacy Policy linked below, including the State Specific Disclosures section for more information about your rights and our privacy practices.",
+                "attributes": "{'id': 'ot-pc-desc'}",
+                "order": 127
+            },
+            {
+                "tag": "a",
+                "content": "Privacy Policy",
+                "attributes": "{'href': 'https://www.searshomeservices.com/privacy#california-residents', 'class': ['privacy-notice-link'], 'rel': ['noopener'], 'target': '_blank', 'aria-label': 'More information about your privacy, opens in a new tab'}",
+                "order": 128
+            },
+            {
+                "tag": "section",
+                "content": "Non Accordion Group",
+                "attributes": "{'class': ['ot-sdk-row', 'ot-cat-grp']}",
+                "order": 129
+            },
+            {
+                "tag": "section",
+                "content": "Accordion Group section starts",
+                "attributes": "{'class': ['ot-sdk-row', 'ot-cat-grp']}",
+                "order": 130
+            },
+            {
+                "tag": "section",
+                "content": "Accordion Group section ends",
+                "attributes": "{'class': ['ot-sdk-row', 'ot-cat-grp']}",
+                "order": 131
+            },
+            {
+                "tag": "span",
+                "content": "Selling, Sharing, Targeted Advertising",
+                "attributes": "{'style': 'font-weight:bold;font-size:18px'}",
+                "order": 132
+            },
+            {
+                "tag": "span",
+                "content": "Selling, Sharing, Targeted Advertising",
+                "attributes": "{'style': 'font-weight:bold;font-size:18px'}",
+                "order": 133
+            },
+            {
+                "tag": "div",
+                "content": "You can move the toggle above to the left to opt out of Cookie-based Sales, Sharing, and Targeted Advertising. Please note that your opt-out choice is specific to this website, browser, and device. If you access other Transformco websites, you will need to make your election for each. Also, if you clear your Cookies on this browser or use another browser or device, you may need to opt out again on this website.",
+                "attributes": "{'role': 'note', 'style': 'font-size:13.008px; color:#696969; margin:0 0 25px;'}",
+                "order": 134
+            },
+            {
+                "tag": "div",
+                "content": "Please note: Opting out may affect our ability to personalize your experience on this website, though we may use Cookies that do not include Sales, Sharing, or Targeted Advertising. You may still receive non-personalized advertisements on other sites or personalized ads that may be based on information processed before you opted out.",
+                "attributes": "{'role': 'note', 'style': 'font-size:13.008px; color:#696969; margin:0 0 25px;'}",
+                "order": 135
+            },
+            {
+                "tag": "div",
+                "content": "This website recognizes the Global Privacy Control (\u201cGPC\u201d), which is designed to recognize certain browser-based opt-out preference signals. We will process the GPC signal as a request to opt out. To process your request through GPC, you must use a browser or browser extension that supports the signal and turn it on for each browser and device you use.",
+                "attributes": "{'role': 'note', 'style': 'font-size:13.008px; color:#696969; margin:0 0 25px;'}",
+                "order": 136
+            },
+            {
+                "tag": "h3",
+                "content": "Cookie List",
+                "attributes": "{}",
+                "order": 137
+            },
+            {
+                "tag": "button",
+                "content": "Clear",
+                "attributes": "{'id': 'clear-filters-handler'}",
+                "order": 138
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 139
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 140
+            },
+            {
+                "tag": "button",
+                "content": "Apply",
+                "attributes": "{'id': 'filter-apply-handler'}",
+                "order": 141
+            },
+            {
+                "tag": "button",
+                "content": "Cancel",
+                "attributes": "{'id': 'filter-cancel-handler'}",
+                "order": 142
+            },
+            {
+                "tag": "span",
+                "content": "Consent",
+                "attributes": "{'class': ['ot-consent-hdr']}",
+                "order": 143
+            },
+            {
+                "tag": "span",
+                "content": "Leg.Interest",
+                "attributes": "{'class': ['ot-li-hdr']}",
+                "order": 144
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 145
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 146
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 147
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 148
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 149
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 150
+            },
+            {
+                "tag": "div",
+                "content": "Footer buttons and logo",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 151
+            },
+            {
+                "tag": "button",
+                "content": "Confirm My Choices",
+                "attributes": "{'class': ['save-preference-btn-handler', 'onetrust-close-btn-handler', 'ot-button-order-2']}",
+                "order": 152
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Powered by Onetrust | Src: https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+                "attributes": "{'alt': 'Powered by Onetrust', 'src': 'https://cdn.cookielaw.org/logos/static/powered_by_logo.svg', 'title': 'Powered by OneTrust Opens in a new Tab'}",
+                "order": 153
+            },
+            {
+                "tag": "div",
+                "content": "Cookie subgroup container",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 154
+            },
+            {
+                "tag": "div",
+                "content": "Vendor list link",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 155
+            },
+            {
+                "tag": "div",
+                "content": "Cookie lost link",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 156
+            },
+            {
+                "tag": "div",
+                "content": "Toggle HTML element",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 157
+            },
+            {
+                "tag": "div",
+                "content": "Checkbox HTML",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 158
+            },
+            {
+                "tag": "div",
+                "content": "Arrow SVG element",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 159
+            },
+            {
+                "tag": "div",
+                "content": "plus minus",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 160
+            },
+            {
+                "tag": "div",
+                "content": "Accordion basic element",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 161
+            },
+            {
+                "tag": "div",
+                "content": "Vendor Service container and item template",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 162
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt:  | Src: https://bat.bing.com/action/0?ti=5105802&Ver=2&mid=227921ed-70b0-4b00-ac42-0c348a0dabe1&bo=1&sid=a3b6f160e18211f087b413a71328b54f&vid=a3b71240e18211f0b52699301bad6bb2&vids=0&msclkid=N&uach=pv%3D&pi=918639831&lg=en-GB&sw=800&sh=600&sc=24&nwd=1&tl=GE%20cooktop%20burner%20not%20working%3F%20Discover%20quick%20solutions%20%26%20expert%20tips!&p=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Fge-cooktop-burner-not-working&r=&lt=926&evt=pageLoad&sv=2&cdb=AQET&rn=203094",
+                "attributes": "{'id': 'batBeacon752319352066', 'width': '0', 'height': '0', 'alt': '', 'src': 'https://bat.bing.com/action/0?ti=5105802&Ver=2&mid=227921ed-70b0-4b00-ac42-0c348a0dabe1&bo=1&sid=a3b6f160e18211f087b413a71328b54f&vid=a3b71240e18211f0b52699301bad6bb2&vids=0&msclkid=N&uach=pv%3D&pi=918639831&lg=en-GB&sw=800&sh=600&sc=24&nwd=1&tl=GE%20cooktop%20burner%20not%20working%3F%20Discover%20quick%20solutions%20%26%20expert%20tips!&p=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Fge-cooktop-burner-not-working&r=&lt=926&evt=pageLoad&sv=2&cdb=AQET&rn=203094', 'style': 'width: 0px; height: 0px; display: none; visibility: hidden;'}",
+                "order": 163
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt:  | Src: https://lantern.roeye.com/track.php?fingerprint=2802bdb9-d9cb-44b1-a0c5-31646c9f252a&referrer=&landingpage=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Fge-cooktop-burner-not-working&useragent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36&site=searshomeservices.com",
+                "attributes": "{'src': 'https://lantern.roeye.com/track.php?fingerprint=2802bdb9-d9cb-44b1-a0c5-31646c9f252a&referrer=&landingpage=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Fge-cooktop-burner-not-working&useragent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36&site=searshomeservices.com', 'alt': '', 'aria-hidden': 'true', 'border': '0', 'height': '0', 'width': '0', 'style': 'position: absolute; visibility: hidden; display: none;'}",
+                "order": 164
+            }
+        ]
+    }
+]

@@ -1,0 +1,876 @@
+[
+    {
+        "brand": "range",
+        "appliance": "hood",
+        "symptom": "lights not working but fan is",
+        "url": "https://www.searshomeservices.com/symptom/range-hood-lights-not-working-but-fan-is",
+        "title": "Range Hood lights not working but fan is",
+        "description": "",
+        "full_content": [
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{'hidden': ''}",
+                "order": 0
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{'hidden': ''}",
+                "order": 1
+            },
+            {
+                "tag": "a",
+                "content": "Skip to main content",
+                "attributes": "{'href': '#main-content', 'class': ['skip-link']}",
+                "order": 2
+            },
+            {
+                "tag": "body",
+                "content": "$",
+                "attributes": "{'style': 'overflow: auto;'}",
+                "order": 3
+            },
+            {
+                "tag": "body",
+                "content": "/$",
+                "attributes": "{'style': 'overflow: auto;'}",
+                "order": 4
+            },
+            {
+                "tag": "span",
+                "content": "Sears Logo",
+                "attributes": "{'class': ['sr-only']}",
+                "order": 5
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Header Sears Logo | Src: /static/icons/general/shs-logo.svg",
+                "attributes": "{'alt': 'Header Sears Logo', 'loading': 'lazy', 'width': '95', 'height': '40', 'decoding': 'async', 'data-nimg': '1', 'class': ['h-10'], 'style': 'color:transparent', 'src': '/static/icons/general/shs-logo.svg'}",
+                "order": 6
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Hamburger menu | Src: /static/icons/general/menu-button-closed.svg",
+                "attributes": "{'alt': 'Hamburger menu', 'loading': 'lazy', 'width': '24', 'height': '24', 'decoding': 'async', 'data-nimg': '1', 'class': ['h-10', 'w-10', 'text-blue-250'], 'style': 'color:transparent', 'src': '/static/icons/general/menu-button-closed.svg'}",
+                "order": 7
+            },
+            {
+                "tag": "h1",
+                "content": "Range Hood lights not working but fan is",
+                "attributes": "{'data-testid': 'repair_symptom_page_title', 'data-metric-id': 'repair_symptom_page_title', 'class': ['text-5xl', 'text-left', 'text-blue-300', 'leading-10', 'mt-1']}",
+                "order": 8
+            },
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{'class': ['mb-4', 'md:mb-[1.1875rem]']}",
+                "order": 9
+            },
+            {
+                "tag": "h2",
+                "content": "Common reasons your Range Hood lights not working but fan is",
+                "attributes": "{'class': ['mt-4', 'font-semibold', 'mb-1', 'text-3xl', 'md:text-4xl', 'leading-8', 'text-blue-300'], 'node': '[object Object]'}",
+                "order": 10
+            },
+            {
+                "tag": "p",
+                "content": "The most common reasons your range hood lights are not working but the fan is working are a faulty light switch, defective PCB or a bad wire connector.",
+                "attributes": "{'class': ['text-xl', 'text-gray-500', 'font-normal', 'mt-1', 'mb-[1.125rem]', 'min-h-18', 'md:min-h-0', 'md:max-w-[55.813rem]'], 'node': '[object Object]'}",
+                "order": 11
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{'class': ['mb-4', 'md:mb-[1.1875rem]']}",
+                "order": 12
+            },
+            {
+                "tag": "span",
+                "content": "38% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 13
+            },
+            {
+                "tag": "span",
+                "content": "Light Switch",
+                "attributes": "{'data-testid': 'percent_chart_0', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 14
+            },
+            {
+                "tag": "span",
+                "content": "20% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 15
+            },
+            {
+                "tag": "span",
+                "content": "PCB",
+                "attributes": "{'data-testid': 'percent_chart_1', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 16
+            },
+            {
+                "tag": "span",
+                "content": "18% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 17
+            },
+            {
+                "tag": "span",
+                "content": "Wire Connector",
+                "attributes": "{'data-testid': 'percent_chart_2', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 18
+            },
+            {
+                "tag": "span",
+                "content": "24% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 19
+            },
+            {
+                "tag": "span",
+                "content": "Something else",
+                "attributes": "{'data-testid': 'percent_chart_3', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 20
+            },
+            {
+                "tag": "h4",
+                "content": "Schedule your range hood repair now!",
+                "attributes": "{'data-testid': 'conversion_component_title', 'data-metric-id': 'conversion_component_title', 'class': ['mt-0', 'text-4xl', 'text-blue-300', 'mb-0']}",
+                "order": 21
+            },
+            {
+                "tag": "p",
+                "content": "We can help! Our service technicians have repaired over 40,000 range hoods. We can fix yours no matter where you bought it.",
+                "attributes": "{'class': ['text-xl', 'font-normal', 'text-gray-500', 'leading-8']}",
+                "order": 22
+            },
+            {
+                "tag": "span",
+                "content": "Call",
+                "attributes": "{'class': ['mr-2', 'ml-3', 'text-gray-500']}",
+                "order": 23
+            },
+            {
+                "tag": "a",
+                "content": "(646) 440-2692",
+                "attributes": "{'class': ['font-semibold', 'text-xl', 'text-blue-100', 'no-underline'], 'data-testid': 'cs_description_phone_link', 'data-metric-id': 'cs_description_phone_link', 'href': 'tel:+1-646-440-2692'}",
+                "order": 24
+            },
+            {
+                "tag": "span",
+                "content": "or schedule online now.",
+                "attributes": "{'class': ['ml-1', 'text-gray-500']}",
+                "order": 25
+            },
+            {
+                "tag": "span",
+                "content": "Chat",
+                "attributes": "{'class': ['ml-[0.75rem]', 'mr-1']}",
+                "order": 26
+            },
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{'class': ['w-full', 'mt-0', 'flex', 'flex-col', 'gap-6', 'lg:w-[53.55%]', 'lg:mt-4']}",
+                "order": 27
+            },
+            {
+                "tag": "button",
+                "content": "Range Hood",
+                "attributes": "{'aria-label': 'Select Product for Range Hood', 'data-testid': 'repair_symptom_page_conversion_component_v1_select_product', 'data-metric-id': 'repair_symptom_page_conversion_component_v1_select_product', 'data-metric-value': 'Range Hood', 'class': ['relative', 'text-left', 'block', 'w-full', 'bg-white', 'border-2', 'text-blue-400', 'border', 'overflow-hidden', 'whitespace-nowrap', 'pl-4', 'pr-10', 'py-2', 'text-md', 'font-medium', 'h-12', 'rounded-lg'], 'id': 'headlessui-listbox-button-_R_3dd8jrav5ubsnpb_', 'type': 'button', 'aria-haspopup': 'listbox', 'aria-expanded': 'false', 'data-headlessui-state': '', 'name': 'products'}",
+                "order": 28
+            },
+            {
+                "tag": "button",
+                "content": "Select a brand",
+                "attributes": "{'aria-label': 'Select a brand', 'data-testid': 'repair_symptom_page_conversion_component_v1_select_brand', 'data-metric-id': 'repair_symptom_page_conversion_component_v1_select_brand', 'data-metric-value': 'Select a brand', 'name': 'brands', 'class': ['relative', 'text-left', 'block', 'w-full', 'bg-white', 'border-2', 'text-gray-500', 'border-blue', 'border-2', 'overflow-hidden', 'whitespace-nowrap', 'pl-4', 'pr-10', 'py-2', 'text-md', 'font-medium', 'h-12', 'rounded-lg'], 'id': 'headlessui-listbox-button-_r_5_', 'type': 'button', 'aria-haspopup': 'listbox', 'aria-expanded': 'false', 'data-headlessui-state': ''}",
+                "order": 29
+            },
+            {
+                "tag": "button",
+                "content": "Schedule Now",
+                "attributes": "{'type': 'button', 'class': ['cursor-pointer', 'bg-yellow', 'text-blue-200', 'hover:bg-yellow-100', 'focus:outline-yellow-200', 'focus:outline-4', 'disabled:bg-gray-200', 'disabled:text-gray-500', 'px-6', 'rounded-lg', 'w-full', 'text-xl', 'py-3.5', 'font-semibold', 'mt-3', 'shadow-scheduler', '!hover:no-underline'], 'data-testid': 'repair_symptom_page_conversion_component_v1_repair_schedule_now_button', 'data-metric-id': 'repair_symptom_page_conversion_component_v1_repair_schedule_now_button', 'data-metric-value': 'Schedule Now'}",
+                "order": 30
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{'class': ['w-full', 'mt-0', 'flex', 'flex-col', 'gap-6', 'lg:w-[53.55%]', 'lg:mt-4']}",
+                "order": 31
+            },
+            {
+                "tag": "h2",
+                "content": "Most common repairs needed to fix a  range hood",
+                "attributes": "{'class': ['text-3xl', 'md:text-4xl', 'text-blue-300', 'leading-8'], 'node': '[object Object]'}",
+                "order": 32
+            },
+            {
+                "tag": "h4",
+                "content": "Light Switch Replacement",
+                "attributes": "{'class': ['text-2xl', 'text-blue-300', 'font-semibold', 'my-2', 'leading-8', 'h-[78px]'], 'node': '[object Object]'}",
+                "order": 33
+            },
+            {
+                "tag": "p",
+                "content": "When your range hood lights are not working the fan is working, a bad light switch could be causing the failure. The light switch has internal contacts that send electrical current to the light bulb socket to turn on the light when you activate the light switch. If the internal light switch contact is bad, the switch won\u2019t send current to the light socket. You\u2019ll need to replace the light switch if it\u2019s bad. Schedule range hood repair service to have a Sears Home Services technician replace the light switch.",
+                "attributes": "{'class': ['mb-6', 'text-xl', 'leading-6', 'text-blue-400'], 'node': '[object Object]'}",
+                "order": 34
+            },
+            {
+                "tag": "a",
+                "content": "Why don\u2019t my range hood lights work?",
+                "attributes": "{'class': ['font-medium', 'hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-sm', 'leading-6'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_blank', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searspartsdirect.com/diy/symptom/range-hood-repair/1234588/lights-don-t-work/rangehood1790'}",
+                "order": 35
+            },
+            {
+                "tag": "h4",
+                "content": "PCB Replacement",
+                "attributes": "{'class': ['text-2xl', 'text-blue-300', 'font-semibold', 'my-2', 'leading-8', 'h-[78px]'], 'node': '[object Object]'}",
+                "order": 36
+            },
+            {
+                "tag": "p",
+                "content": "If your range hood has electronic controls and the lights are not working even though the fan works, the PCB (printed circuit board) could be defective. This electronic control board operates the exhaust fan and cooktop lights in the range hood. When the PCB won\u2019t send current to the lights, an internal electrical relay could be broken or the internal logic of the control board could be corrupted. Schedule range hood repair service when you suspect that a defective PCB is preventing the cooktop lights from working even though the fan runs properly on your range hood.",
+                "attributes": "{'class': ['mb-6', 'text-xl', 'leading-6', 'text-blue-400'], 'node': '[object Object]'}",
+                "order": 37
+            },
+            {
+                "tag": "a",
+                "content": "How to replace a range hood electronic control board",
+                "attributes": "{'class': ['font-medium', 'hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-sm', 'leading-6'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_blank', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searspartsdirect.com/diy/repair-guide/how-to-replace-a-range-hood-electronic-control-board'}",
+                "order": 38
+            },
+            {
+                "tag": "h4",
+                "content": "Wire Connector Replacement",
+                "attributes": "{'class': ['text-2xl', 'text-blue-300', 'font-semibold', 'my-2', 'leading-8', 'h-[78px]'], 'node': '[object Object]'}",
+                "order": 39
+            },
+            {
+                "tag": "p",
+                "content": "When your range hood lights are not working even though the fan works, a bad wiring connector could be causing the problem. Wiring connectors inside the range hood allow electrical current to flow from control devices such as switches, user interface controls and electronic control boards to the light socket. When internal wiring connections inside a wiring connector fail, the light can stop working even though the fan continues to work. To find a bad wiring connector, a technician will check for continuity through wiring connections using a multimeter. Schedule range hood repair service when you suspect that a wiring connector has failed.",
+                "attributes": "{'class': ['mb-6', 'text-xl', 'leading-6', 'text-blue-400'], 'node': '[object Object]'}",
+                "order": 40
+            },
+            {
+                "tag": "a",
+                "content": "Why don\u2019t my range hood lights work?",
+                "attributes": "{'class': ['font-medium', 'hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-sm', 'leading-6'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_blank', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searspartsdirect.com/diy/symptom/range-hood-repair/1234588/lights-don-t-work/rangehood1790'}",
+                "order": 41
+            },
+            {
+                "tag": "h2",
+                "content": "What to expect when you experience range hood lights not working but the fan is working",
+                "attributes": "{'node': '[object Object]', 'class': ['text-4xl', 'font-semibold', 'text-blue-300', 'mb-5', 'leading-8']}",
+                "order": 42
+            },
+            {
+                "tag": "h3",
+                "content": "Steps to fixing a range hood lights not working even though the fan is working",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 43
+            },
+            {
+                "tag": "p",
+                "content": "Resolving most hood light not working problems when the fan is working usually involves replacing a faulty light switch, defective PCB or a bad wiring connector. However, there are many potential causes, so thorough troubleshooting and an accurate diagnosis are key to fixing the problem. A technician will test the light switch and electronic control board as well as look for problems with wiring connectors and other components.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 44
+            },
+            {
+                "tag": "h3",
+                "content": "Recommendations from Sears Home Services for a range hood light that is not working even though the fan works",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 45
+            },
+            {
+                "tag": "p",
+                "content": "When the range hood light is not working but the fan is working, there could be numerous potential causes. When your range hood has electronic controls, a bad user interface control, faulty electronic control board, bad light socket or a wiring failure could be preventing the light from turning on. To avoid replacing unneeded parts, we recommend scheduling",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 46
+            },
+            {
+                "tag": "a",
+                "content": "range hood repair",
+                "attributes": "{'class': ['hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-xl', 'leading-6', 'font-normal'], 'data-metric-id': '', 'data-metric-value': 'range hood repair', 'target': '_self', 'style': 'color:blue.7', 'node': '[object Object]', 'href': '/repair/range-hood-repair-service'}",
+                "order": 47
+            },
+            {
+                "tag": "p",
+                "content": "with a local Sears Home Services professional who can perform diagnostic tests to identify the root cause of the problem. Our technicians have extensive experience in diagnosing a variety of range failures.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 48
+            },
+            {
+                "tag": "h3",
+                "content": "Things to look out for with a range hood light not working while the fan still works",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 49
+            },
+            {
+                "tag": "p",
+                "content": "Diagnosing issues with modern appliances can pose significant challenges for individuals lacking advanced technical knowledge and training. Without employing proper diagnostic techniques, rectifying range hood problems may involve guesswork regarding which parts to replace. In the past decade, appliances have undergone substantial advancements, incorporating intricate electronic components that are increasingly difficult to troubleshoot and diagnose. As a result, do-it-yourself repairs on contemporary appliance models have become progressively difficult. We recommend having a service technician diagnose and repair the range hood when the light is not working even though the fan works.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 50
+            },
+            {
+                "tag": "span",
+                "content": "Schedule Now",
+                "attributes": "{}",
+                "order": 51
+            },
+            {
+                "tag": "h2",
+                "content": "Frequently Asked Questions",
+                "attributes": "{'id': 'faq-heading-symptom-range-hood-lights-not-working-but-fan-is', 'class': ['text-4xl', 'lg:text-4xl-plus', 'font-semibold', 'text-blue-300', 'leading-9', 'pb-2', 'lg:mb-8']}",
+                "order": 52
+            },
+            {
+                "tag": "div",
+                "content": "Why aren\u2019t the lights in my range hood working but the fan is?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 53
+            },
+            {
+                "tag": "div",
+                "content": "A burnt-out bulb, faulty switch, or damaged wiring could prevent the lights from working. Inspect the bulb and wiring for damage or malfunction.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 54
+            },
+            {
+                "tag": "div",
+                "content": "Could a blown bulb cause my range hood lights to stop working?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 55
+            },
+            {
+                "tag": "div",
+                "content": "Yes, if the bulb is burnt out, the lights won\u2019t turn on. Replacing the bulb should resolve the issue.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 56
+            },
+            {
+                "tag": "div",
+                "content": "How can I fix my range hood lights if they\u2019re not working?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 57
+            },
+            {
+                "tag": "div",
+                "content": "Check the bulb, switch, and wiring for issues. Replacing damaged components should restore light functionality.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 58
+            },
+            {
+                "tag": "div",
+                "content": "What should I do if the range hood lights still aren\u2019t working after replacing the bulb?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 59
+            },
+            {
+                "tag": "div",
+                "content": "If the lights continue not to work, the wiring or control switch may need professional inspection and repair.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 60
+            },
+            {
+                "tag": "h2",
+                "content": "Repair Range Hood Resources",
+                "attributes": "{'class': ['text-blue-300', 'text-5xl', 'mb-12', 'md:px-0']}",
+                "order": 61
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Homeowner using a ductless range hood for blog article \"How Does a Ductless Range Hood Work?\" | Src: https://www.searshomeservices.com/cftassets/6jE9zas9nknC3D1frw4xUn/ea184a8c160c2d7c8e396cd2c7f9dca4/how-does-a-ductless-range-hood-work.png?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': 'Homeowner using a ductless range hood for blog article \"How Does a Ductless Range Hood Work?\"', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/6jE9zas9nknC3D1frw4xUn/ea184a8c160c2d7c8e396cd2c7f9dca4/how-does-a-ductless-range-hood-work.png?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/6jE9zas9nknC3D1frw4xUn/ea184a8c160c2d7c8e396cd2c7f9dca4/how-does-a-ductless-range-hood-work.png?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/6jE9zas9nknC3D1frw4xUn/ea184a8c160c2d7c8e396cd2c7f9dca4/how-does-a-ductless-range-hood-work.png?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/6jE9zas9nknC3D1frw4xUn/ea184a8c160c2d7c8e396cd2c7f9dca4/how-does-a-ductless-range-hood-work.png?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/6jE9zas9nknC3D1frw4xUn/ea184a8c160c2d7c8e396cd2c7f9dca4/how-does-a-ductless-range-hood-work.png?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/6jE9zas9nknC3D1frw4xUn/ea184a8c160c2d7c8e396cd2c7f9dca4/how-does-a-ductless-range-hood-work.png?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/6jE9zas9nknC3D1frw4xUn/ea184a8c160c2d7c8e396cd2c7f9dca4/how-does-a-ductless-range-hood-work.png?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/6jE9zas9nknC3D1frw4xUn/ea184a8c160c2d7c8e396cd2c7f9dca4/how-does-a-ductless-range-hood-work.png?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/6jE9zas9nknC3D1frw4xUn/ea184a8c160c2d7c8e396cd2c7f9dca4/how-does-a-ductless-range-hood-work.png?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/6jE9zas9nknC3D1frw4xUn/ea184a8c160c2d7c8e396cd2c7f9dca4/how-does-a-ductless-range-hood-work.png?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/6jE9zas9nknC3D1frw4xUn/ea184a8c160c2d7c8e396cd2c7f9dca4/how-does-a-ductless-range-hood-work.png?w=3840&q=90&fm=webp'}",
+                "order": 62
+            },
+            {
+                "tag": "p",
+                "content": "How Does a Ductless Range Hood Work?: An Expert Explanation",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 63
+            },
+            {
+                "tag": "span",
+                "content": "8 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 64
+            },
+            {
+                "tag": "span",
+                "content": "Dec. 18",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 65
+            },
+            {
+                "tag": "p",
+                "content": "Learn how a ductless range hood works at Sears Home Services.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 66
+            },
+            {
+                "tag": "span",
+                "content": "Range Hood",
+                "attributes": "{'class': ['break-all']}",
+                "order": 67
+            },
+            {
+                "tag": "a",
+                "content": "Appliance 101",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_range_hood_blog_meta_data_0_secondary_category_link', 'data-metric-id': 'repair_symptom_page_range_hood_blog_meta_data_0_secondary_category_link', 'data-metric-value': 'Range Hood', 'target': '_self', 'href': '/blog/repair/appliance-101-resources'}",
+                "order": 68
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Get Your Range Hood Ready for the Holidays | Src: https://www.searshomeservices.com/cftassets/6QXG4kWfeqGHCRfpXmO86O/49ee7f7277a05d685bbe5a662f699b06/Get_Your_Range_Hood_Ready_for_the_Holidays.png?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': 'Get Your Range Hood Ready for the Holidays', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/6QXG4kWfeqGHCRfpXmO86O/49ee7f7277a05d685bbe5a662f699b06/Get_Your_Range_Hood_Ready_for_the_Holidays.png?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/6QXG4kWfeqGHCRfpXmO86O/49ee7f7277a05d685bbe5a662f699b06/Get_Your_Range_Hood_Ready_for_the_Holidays.png?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/6QXG4kWfeqGHCRfpXmO86O/49ee7f7277a05d685bbe5a662f699b06/Get_Your_Range_Hood_Ready_for_the_Holidays.png?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/6QXG4kWfeqGHCRfpXmO86O/49ee7f7277a05d685bbe5a662f699b06/Get_Your_Range_Hood_Ready_for_the_Holidays.png?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/6QXG4kWfeqGHCRfpXmO86O/49ee7f7277a05d685bbe5a662f699b06/Get_Your_Range_Hood_Ready_for_the_Holidays.png?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/6QXG4kWfeqGHCRfpXmO86O/49ee7f7277a05d685bbe5a662f699b06/Get_Your_Range_Hood_Ready_for_the_Holidays.png?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/6QXG4kWfeqGHCRfpXmO86O/49ee7f7277a05d685bbe5a662f699b06/Get_Your_Range_Hood_Ready_for_the_Holidays.png?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/6QXG4kWfeqGHCRfpXmO86O/49ee7f7277a05d685bbe5a662f699b06/Get_Your_Range_Hood_Ready_for_the_Holidays.png?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/6QXG4kWfeqGHCRfpXmO86O/49ee7f7277a05d685bbe5a662f699b06/Get_Your_Range_Hood_Ready_for_the_Holidays.png?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/6QXG4kWfeqGHCRfpXmO86O/49ee7f7277a05d685bbe5a662f699b06/Get_Your_Range_Hood_Ready_for_the_Holidays.png?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/6QXG4kWfeqGHCRfpXmO86O/49ee7f7277a05d685bbe5a662f699b06/Get_Your_Range_Hood_Ready_for_the_Holidays.png?w=3840&q=90&fm=webp'}",
+                "order": 69
+            },
+            {
+                "tag": "p",
+                "content": "Get Your Range Hood Ready for the Holidays: 2025 Prep",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 70
+            },
+            {
+                "tag": "span",
+                "content": "5 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 71
+            },
+            {
+                "tag": "span",
+                "content": "Jun. 24",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 72
+            },
+            {
+                "tag": "p",
+                "content": "Learn how to clean a range hood filter and improve the air quality in your kitchen. Follow our step-by-step guide today!",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 73
+            },
+            {
+                "tag": "span",
+                "content": "Range Hood",
+                "attributes": "{'class': ['break-all']}",
+                "order": 74
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: What To Do When Your Range Hood Isn\u2019t Working | Src: https://www.searshomeservices.com/cftassets/7Ir8yyexsI45vyJ59jIvLu/ddfb6ff8d92b57481a0bdf22cc47548d/What_To_Do_When_Your_Range_Hood_Isn_t_Working.png?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': 'What To Do When Your Range Hood Isn\u2019t Working', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/7Ir8yyexsI45vyJ59jIvLu/ddfb6ff8d92b57481a0bdf22cc47548d/What_To_Do_When_Your_Range_Hood_Isn_t_Working.png?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/7Ir8yyexsI45vyJ59jIvLu/ddfb6ff8d92b57481a0bdf22cc47548d/What_To_Do_When_Your_Range_Hood_Isn_t_Working.png?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/7Ir8yyexsI45vyJ59jIvLu/ddfb6ff8d92b57481a0bdf22cc47548d/What_To_Do_When_Your_Range_Hood_Isn_t_Working.png?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/7Ir8yyexsI45vyJ59jIvLu/ddfb6ff8d92b57481a0bdf22cc47548d/What_To_Do_When_Your_Range_Hood_Isn_t_Working.png?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/7Ir8yyexsI45vyJ59jIvLu/ddfb6ff8d92b57481a0bdf22cc47548d/What_To_Do_When_Your_Range_Hood_Isn_t_Working.png?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/7Ir8yyexsI45vyJ59jIvLu/ddfb6ff8d92b57481a0bdf22cc47548d/What_To_Do_When_Your_Range_Hood_Isn_t_Working.png?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/7Ir8yyexsI45vyJ59jIvLu/ddfb6ff8d92b57481a0bdf22cc47548d/What_To_Do_When_Your_Range_Hood_Isn_t_Working.png?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/7Ir8yyexsI45vyJ59jIvLu/ddfb6ff8d92b57481a0bdf22cc47548d/What_To_Do_When_Your_Range_Hood_Isn_t_Working.png?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/7Ir8yyexsI45vyJ59jIvLu/ddfb6ff8d92b57481a0bdf22cc47548d/What_To_Do_When_Your_Range_Hood_Isn_t_Working.png?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/7Ir8yyexsI45vyJ59jIvLu/ddfb6ff8d92b57481a0bdf22cc47548d/What_To_Do_When_Your_Range_Hood_Isn_t_Working.png?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/7Ir8yyexsI45vyJ59jIvLu/ddfb6ff8d92b57481a0bdf22cc47548d/What_To_Do_When_Your_Range_Hood_Isn_t_Working.png?w=3840&q=90&fm=webp'}",
+                "order": 75
+            },
+            {
+                "tag": "p",
+                "content": "What To Do When Your Range Hood Isn\u2019t Working",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 76
+            },
+            {
+                "tag": "span",
+                "content": "8 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 77
+            },
+            {
+                "tag": "span",
+                "content": "Mar. 04",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 78
+            },
+            {
+                "tag": "p",
+                "content": "When your range hood malfunctions, it can disrupt your kitchen's functionality and cause concern.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 79
+            },
+            {
+                "tag": "span",
+                "content": "Range Hood",
+                "attributes": "{'class': ['break-all']}",
+                "order": 80
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: homeowner cleaning a range hood vent | Src: https://www.searshomeservices.com/cftassets/4ZgISiuEKuhBYHHKk8fH2Y/3109e81497b573944ec1eed00ff0db39/how-to-clean-a-hood-vent.png?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': 'homeowner cleaning a range hood vent', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/4ZgISiuEKuhBYHHKk8fH2Y/3109e81497b573944ec1eed00ff0db39/how-to-clean-a-hood-vent.png?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/4ZgISiuEKuhBYHHKk8fH2Y/3109e81497b573944ec1eed00ff0db39/how-to-clean-a-hood-vent.png?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/4ZgISiuEKuhBYHHKk8fH2Y/3109e81497b573944ec1eed00ff0db39/how-to-clean-a-hood-vent.png?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/4ZgISiuEKuhBYHHKk8fH2Y/3109e81497b573944ec1eed00ff0db39/how-to-clean-a-hood-vent.png?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/4ZgISiuEKuhBYHHKk8fH2Y/3109e81497b573944ec1eed00ff0db39/how-to-clean-a-hood-vent.png?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/4ZgISiuEKuhBYHHKk8fH2Y/3109e81497b573944ec1eed00ff0db39/how-to-clean-a-hood-vent.png?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/4ZgISiuEKuhBYHHKk8fH2Y/3109e81497b573944ec1eed00ff0db39/how-to-clean-a-hood-vent.png?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/4ZgISiuEKuhBYHHKk8fH2Y/3109e81497b573944ec1eed00ff0db39/how-to-clean-a-hood-vent.png?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/4ZgISiuEKuhBYHHKk8fH2Y/3109e81497b573944ec1eed00ff0db39/how-to-clean-a-hood-vent.png?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/4ZgISiuEKuhBYHHKk8fH2Y/3109e81497b573944ec1eed00ff0db39/how-to-clean-a-hood-vent.png?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/4ZgISiuEKuhBYHHKk8fH2Y/3109e81497b573944ec1eed00ff0db39/how-to-clean-a-hood-vent.png?w=3840&q=90&fm=webp'}",
+                "order": 81
+            },
+            {
+                "tag": "p",
+                "content": "How to Clean a Hood Vent",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 82
+            },
+            {
+                "tag": "span",
+                "content": "4 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 83
+            },
+            {
+                "tag": "span",
+                "content": "Dec. 15",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 84
+            },
+            {
+                "tag": "p",
+                "content": "Learn how to clean your hood vent safely and effectively with this step-by-step guide. Keep your kitchen air clean, reduce fire risks, and extend the life of your range hood.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 85
+            },
+            {
+                "tag": "a",
+                "content": "Range Hood",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_range_hood_blog_meta_data_3_product_link', 'data-metric-id': 'repair_symptom_page_range_hood_blog_meta_data_3_product_link', 'data-metric-value': 'Range Hood', 'target': '_self', 'href': '/blog/maintain/range-hood-resources'}",
+                "order": 86
+            },
+            {
+                "tag": "h3",
+                "content": "Glossary Terms",
+                "attributes": "{'class': ['text-blue-300', 'mb-0', 'text-4xl']}",
+                "order": 87
+            },
+            {
+                "tag": "span",
+                "content": "What is a Ductless Range Hood?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 88
+            },
+            {
+                "tag": "p",
+                "content": "A ductless range hood, also known as a recirculating hood, filters and recirculates air in the kitchen, removing smoke, heat, and cooking odors without venting outdoors.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 89
+            },
+            {
+                "tag": "span",
+                "content": "What is a Range Hood?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 90
+            },
+            {
+                "tag": "p",
+                "content": "A range hood is a kitchen appliance installed over the stove or cooktop, designed to remove smoke, odors, heat, and airborne grease by venting them outside or filtering and recirculating the air.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 91
+            },
+            {
+                "tag": "span",
+                "content": "What is a Range Hood Filter?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 92
+            },
+            {
+                "tag": "p",
+                "content": "A range hood filter is a component of a kitchen exhaust system designed to trap grease, smoke, and other airborne particles during cooking. This improves air quality and protects kitchen surfaces.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 93
+            },
+            {
+                "tag": "span",
+                "content": "What is a Range Hood Liner?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 94
+            },
+            {
+                "tag": "p",
+                "content": "A range hood liner is a custom-fit enclosure designed to house a range hood's interior mechanisms, such as the fan and filter, providing a seamless integration into kitchen cabinetry or custom hoods for both aesthetic appeal and functionality.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 95
+            },
+            {
+                "tag": "h2",
+                "content": "Common range hood symptoms to look out for",
+                "attributes": "{'class': ['text-blue-300', 'mb-0', 'leading-8', 'text-4xl']}",
+                "order": 96
+            },
+            {
+                "tag": "span",
+                "content": "Range Hood fan not working but light is",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 97
+            },
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{}",
+                "order": 98
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{}",
+                "order": 99
+            },
+            {
+                "tag": "div",
+                "content": "PC Header",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 100
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: shs-logo | Src: https://cdn.cookielaw.org/logos/cc9a8230-03c2-46ab-afe1-51ced9dc71c0/9ff49619-d07c-4183-9296-1ab182541af7/37067ed8-3732-4c57-8be8-5c334ab22954/logo-png.png",
+                "attributes": "{'alt': 'shs-logo', 'src': 'https://cdn.cookielaw.org/logos/cc9a8230-03c2-46ab-afe1-51ced9dc71c0/9ff49619-d07c-4183-9296-1ab182541af7/37067ed8-3732-4c57-8be8-5c334ab22954/logo-png.png'}",
+                "order": 101
+            },
+            {
+                "tag": "span",
+                "content": "Your Opt Out Preference Signal is Honored",
+                "attributes": "{}",
+                "order": 102
+            },
+            {
+                "tag": "h2",
+                "content": "Notice of Right to Opt Out of Sale/Sharing",
+                "attributes": "{'id': 'ot-pc-title'}",
+                "order": 103
+            },
+            {
+                "tag": "div",
+                "content": "This website uses cookies and other tracking technologies (\u201cCookies\u201d) to serve targeted ads, enhance user experience, and to analyze user activity. Some Cookies may collect personal information that is used in a way that is considered a \u201cSale\u201d, \u201cSharing\u201d, or \u201cTargeted Advertising\u201d as those terms are defined under various state privacy laws. To opt out of Cookie based Sales, Sharing, and Targeted Advertising, please follow the instructions below. To opt out of non-Cookie based Sales, Sharing, and Targeted Advertising, please visit our webform",
+                "attributes": "{'id': 'ot-pc-desc'}",
+                "order": 104
+            },
+            {
+                "tag": "a",
+                "content": "here",
+                "attributes": "{'href': 'https://privacyportal.onetrust.com/webform/cc9a8230-03c2-46ab-afe1-51ced9dc71c0/8af6e60f-4a08-4da4-bc67-c757487f400f', 'target': '_blank', 'rel': ['noopener', 'noreferrer'], 'style': 'color:#3860BE; text-decoration:underline; display:inline;'}",
+                "order": 105
+            },
+            {
+                "tag": "div",
+                "content": ". Please visit our Privacy Policy linked below, including the State Specific Disclosures section for more information about your rights and our privacy practices.",
+                "attributes": "{'id': 'ot-pc-desc'}",
+                "order": 106
+            },
+            {
+                "tag": "a",
+                "content": "Privacy Policy",
+                "attributes": "{'href': 'https://www.searshomeservices.com/privacy#california-residents', 'class': ['privacy-notice-link'], 'rel': ['noopener'], 'target': '_blank', 'aria-label': 'More information about your privacy, opens in a new tab'}",
+                "order": 107
+            },
+            {
+                "tag": "section",
+                "content": "Non Accordion Group",
+                "attributes": "{'class': ['ot-sdk-row', 'ot-cat-grp']}",
+                "order": 108
+            },
+            {
+                "tag": "section",
+                "content": "Accordion Group section starts",
+                "attributes": "{'class': ['ot-sdk-row', 'ot-cat-grp']}",
+                "order": 109
+            },
+            {
+                "tag": "section",
+                "content": "Accordion Group section ends",
+                "attributes": "{'class': ['ot-sdk-row', 'ot-cat-grp']}",
+                "order": 110
+            },
+            {
+                "tag": "span",
+                "content": "Selling, Sharing, Targeted Advertising",
+                "attributes": "{'style': 'font-weight:bold;font-size:18px'}",
+                "order": 111
+            },
+            {
+                "tag": "span",
+                "content": "Selling, Sharing, Targeted Advertising",
+                "attributes": "{'style': 'font-weight:bold;font-size:18px'}",
+                "order": 112
+            },
+            {
+                "tag": "div",
+                "content": "You can move the toggle above to the left to opt out of Cookie-based Sales, Sharing, and Targeted Advertising. Please note that your opt-out choice is specific to this website, browser, and device. If you access other Transformco websites, you will need to make your election for each. Also, if you clear your Cookies on this browser or use another browser or device, you may need to opt out again on this website.",
+                "attributes": "{'role': 'note', 'style': 'font-size:13.008px; color:#696969; margin:0 0 25px;'}",
+                "order": 113
+            },
+            {
+                "tag": "div",
+                "content": "Please note: Opting out may affect our ability to personalize your experience on this website, though we may use Cookies that do not include Sales, Sharing, or Targeted Advertising. You may still receive non-personalized advertisements on other sites or personalized ads that may be based on information processed before you opted out.",
+                "attributes": "{'role': 'note', 'style': 'font-size:13.008px; color:#696969; margin:0 0 25px;'}",
+                "order": 114
+            },
+            {
+                "tag": "div",
+                "content": "This website recognizes the Global Privacy Control (\u201cGPC\u201d), which is designed to recognize certain browser-based opt-out preference signals. We will process the GPC signal as a request to opt out. To process your request through GPC, you must use a browser or browser extension that supports the signal and turn it on for each browser and device you use.",
+                "attributes": "{'role': 'note', 'style': 'font-size:13.008px; color:#696969; margin:0 0 25px;'}",
+                "order": 115
+            },
+            {
+                "tag": "h3",
+                "content": "Cookie List",
+                "attributes": "{}",
+                "order": 116
+            },
+            {
+                "tag": "button",
+                "content": "Clear",
+                "attributes": "{'id': 'clear-filters-handler'}",
+                "order": 117
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 118
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 119
+            },
+            {
+                "tag": "button",
+                "content": "Apply",
+                "attributes": "{'id': 'filter-apply-handler'}",
+                "order": 120
+            },
+            {
+                "tag": "button",
+                "content": "Cancel",
+                "attributes": "{'id': 'filter-cancel-handler'}",
+                "order": 121
+            },
+            {
+                "tag": "span",
+                "content": "Consent",
+                "attributes": "{'class': ['ot-consent-hdr']}",
+                "order": 122
+            },
+            {
+                "tag": "span",
+                "content": "Leg.Interest",
+                "attributes": "{'class': ['ot-li-hdr']}",
+                "order": 123
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 124
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 125
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 126
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 127
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 128
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 129
+            },
+            {
+                "tag": "div",
+                "content": "Footer buttons and logo",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 130
+            },
+            {
+                "tag": "button",
+                "content": "Confirm My Choices",
+                "attributes": "{'class': ['save-preference-btn-handler', 'onetrust-close-btn-handler', 'ot-button-order-2']}",
+                "order": 131
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Powered by Onetrust | Src: https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+                "attributes": "{'alt': 'Powered by Onetrust', 'src': 'https://cdn.cookielaw.org/logos/static/powered_by_logo.svg', 'title': 'Powered by OneTrust Opens in a new Tab'}",
+                "order": 132
+            },
+            {
+                "tag": "div",
+                "content": "Cookie subgroup container",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 133
+            },
+            {
+                "tag": "div",
+                "content": "Vendor list link",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 134
+            },
+            {
+                "tag": "div",
+                "content": "Cookie lost link",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 135
+            },
+            {
+                "tag": "div",
+                "content": "Toggle HTML element",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 136
+            },
+            {
+                "tag": "div",
+                "content": "Checkbox HTML",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 137
+            },
+            {
+                "tag": "div",
+                "content": "Arrow SVG element",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 138
+            },
+            {
+                "tag": "div",
+                "content": "plus minus",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 139
+            },
+            {
+                "tag": "div",
+                "content": "Accordion basic element",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 140
+            },
+            {
+                "tag": "div",
+                "content": "Vendor Service container and item template",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 141
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt:  | Src: https://bat.bing.com/action/0?ti=5105802&Ver=2&mid=3b6efad3-c598-4756-a66b-db899bdd4dee&bo=1&sid=a92eaac0e18c11f0b453cbf3b1ce44c5&vid=a92f9680e18c11f097bd3f26ed3f90ae&vids=1&msclkid=N&uach=pv%3D&pi=918639831&lg=en-GB&sw=800&sh=600&sc=24&nwd=1&tl=Range%20hood%20lights%20not%20working%20but%20fan%20is%3F%20Discover%20Solutions%20%26%20Quick%20Fixes!&p=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Frange-hood-lights-not-working-but-fan-is&r=&lt=1405&evt=pageLoad&sv=2&cdb=AQET&rn=215574",
+                "attributes": "{'id': 'batBeacon327984034999', 'width': '0', 'height': '0', 'alt': '', 'src': 'https://bat.bing.com/action/0?ti=5105802&Ver=2&mid=3b6efad3-c598-4756-a66b-db899bdd4dee&bo=1&sid=a92eaac0e18c11f0b453cbf3b1ce44c5&vid=a92f9680e18c11f097bd3f26ed3f90ae&vids=1&msclkid=N&uach=pv%3D&pi=918639831&lg=en-GB&sw=800&sh=600&sc=24&nwd=1&tl=Range%20hood%20lights%20not%20working%20but%20fan%20is%3F%20Discover%20Solutions%20%26%20Quick%20Fixes!&p=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Frange-hood-lights-not-working-but-fan-is&r=&lt=1405&evt=pageLoad&sv=2&cdb=AQET&rn=215574', 'style': 'width: 0px; height: 0px; display: none; visibility: hidden;'}",
+                "order": 142
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt:  | Src: https://lantern.roeye.com/track.php?fingerprint=080c550e-1809-46f1-94a5-8ce530bcd8ea&referrer=&landingpage=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Frange-hood-lights-not-working-but-fan-is&useragent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36&site=searshomeservices.com",
+                "attributes": "{'src': 'https://lantern.roeye.com/track.php?fingerprint=080c550e-1809-46f1-94a5-8ce530bcd8ea&referrer=&landingpage=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Frange-hood-lights-not-working-but-fan-is&useragent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36&site=searshomeservices.com', 'alt': '', 'aria-hidden': 'true', 'border': '0', 'height': '0', 'width': '0', 'style': 'position: absolute; visibility: hidden; display: none;'}",
+                "order": 143
+            }
+        ]
+    }
+]

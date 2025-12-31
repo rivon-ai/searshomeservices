@@ -1,0 +1,1410 @@
+[
+    {
+        "brand": "ge",
+        "appliance": "oven",
+        "symptom": "not heating",
+        "url": "https://www.searshomeservices.com/symptom/ge-oven-not-heating",
+        "title": "GE oven not heating",
+        "description": "",
+        "full_content": [
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{'hidden': ''}",
+                "order": 0
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{'hidden': ''}",
+                "order": 1
+            },
+            {
+                "tag": "a",
+                "content": "Skip to main content",
+                "attributes": "{'href': '#main-content', 'class': ['skip-link']}",
+                "order": 2
+            },
+            {
+                "tag": "body",
+                "content": "$",
+                "attributes": "{'style': 'overflow: auto;'}",
+                "order": 3
+            },
+            {
+                "tag": "body",
+                "content": "/$",
+                "attributes": "{'style': 'overflow: auto;'}",
+                "order": 4
+            },
+            {
+                "tag": "span",
+                "content": "Sears Logo",
+                "attributes": "{'class': ['sr-only']}",
+                "order": 5
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Header Sears Logo | Src: /static/icons/general/shs-logo.svg",
+                "attributes": "{'alt': 'Header Sears Logo', 'loading': 'lazy', 'width': '95', 'height': '40', 'decoding': 'async', 'data-nimg': '1', 'class': ['h-10'], 'style': 'color:transparent', 'src': '/static/icons/general/shs-logo.svg'}",
+                "order": 6
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Hamburger menu | Src: /static/icons/general/menu-button-closed.svg",
+                "attributes": "{'alt': 'Hamburger menu', 'loading': 'lazy', 'width': '24', 'height': '24', 'decoding': 'async', 'data-nimg': '1', 'class': ['h-10', 'w-10', 'text-blue-250'], 'style': 'color:transparent', 'src': '/static/icons/general/menu-button-closed.svg'}",
+                "order": 7
+            },
+            {
+                "tag": "h1",
+                "content": "GE oven not heating",
+                "attributes": "{'data-testid': 'repair_symptom_page_title', 'data-metric-id': 'repair_symptom_page_title', 'class': ['text-5xl', 'text-left', 'text-blue-300', 'leading-10', 'mt-1']}",
+                "order": 8
+            },
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{'class': ['mb-4', 'md:mb-[1.1875rem]']}",
+                "order": 9
+            },
+            {
+                "tag": "h2",
+                "content": "Common reasons your GE oven is not heating",
+                "attributes": "{'class': ['mt-4', 'font-semibold', 'mb-1', 'text-3xl', 'md:text-4xl', 'leading-8', 'text-blue-300'], 'node': '[object Object]'}",
+                "order": 10
+            },
+            {
+                "tag": "p",
+                "content": "The most common reasons your GE oven is not heating are a cracked igniter, defective electronic control board or a broken bake element.",
+                "attributes": "{'class': ['text-xl', 'text-gray-500', 'font-normal', 'mt-1', 'mb-[1.125rem]', 'min-h-18', 'md:min-h-0', 'md:max-w-[55.813rem]'], 'node': '[object Object]'}",
+                "order": 11
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{'class': ['mb-4', 'md:mb-[1.1875rem]']}",
+                "order": 12
+            },
+            {
+                "tag": "span",
+                "content": "63% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 13
+            },
+            {
+                "tag": "span",
+                "content": "Igniter",
+                "attributes": "{'data-testid': 'percent_chart_0', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 14
+            },
+            {
+                "tag": "span",
+                "content": "15% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 15
+            },
+            {
+                "tag": "span",
+                "content": "Electronic Control Board",
+                "attributes": "{'data-testid': 'percent_chart_1', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 16
+            },
+            {
+                "tag": "span",
+                "content": "13% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 17
+            },
+            {
+                "tag": "span",
+                "content": "Bake Element",
+                "attributes": "{'data-testid': 'percent_chart_2', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 18
+            },
+            {
+                "tag": "span",
+                "content": "9% of the time it's the",
+                "attributes": "{'class': ['text-xxs', 'sm:text-xxs', 'md:text-sm', 'font-semibold', 'leading-xl', 'md:leading-xl', 'lg:leading-xl', 'xl:leading-6', 'text-gray-500', 'block']}",
+                "order": 19
+            },
+            {
+                "tag": "span",
+                "content": "Something else",
+                "attributes": "{'data-testid': 'percent_chart_3', 'class': ['text-blue', 'font-semibold', 'text-md', 'md:text-2xl', 'leading-8', 'cursor-default', 'block']}",
+                "order": 20
+            },
+            {
+                "tag": "h4",
+                "content": "Schedule your oven repair now!",
+                "attributes": "{'data-testid': 'conversion_component_title', 'data-metric-id': 'conversion_component_title', 'class': ['mt-0', 'text-4xl', 'text-blue-300', 'mb-0']}",
+                "order": 21
+            },
+            {
+                "tag": "p",
+                "content": "We can help! Our service technicians have repaired over",
+                "attributes": "{'class': ['text-xl', 'font-normal', 'text-gray-500', 'leading-8']}",
+                "order": 22
+            },
+            {
+                "tag": "b",
+                "content": "150,000",
+                "attributes": "{}",
+                "order": 23
+            },
+            {
+                "tag": "p",
+                "content": "GE ovens. We can fix yours no matter where you bought it.",
+                "attributes": "{'class': ['text-xl', 'font-normal', 'text-gray-500', 'leading-8']}",
+                "order": 24
+            },
+            {
+                "tag": "span",
+                "content": "Call",
+                "attributes": "{'class': ['mr-2', 'ml-3', 'text-gray-500']}",
+                "order": 25
+            },
+            {
+                "tag": "a",
+                "content": "(646) 440-2692",
+                "attributes": "{'class': ['font-semibold', 'text-xl', 'text-blue-100', 'no-underline'], 'data-testid': 'cs_description_phone_link', 'data-metric-id': 'cs_description_phone_link', 'href': 'tel:+1-646-440-2692'}",
+                "order": 26
+            },
+            {
+                "tag": "span",
+                "content": "or schedule online now.",
+                "attributes": "{'class': ['ml-1', 'text-gray-500']}",
+                "order": 27
+            },
+            {
+                "tag": "span",
+                "content": "Chat",
+                "attributes": "{'class': ['ml-[0.75rem]', 'mr-1']}",
+                "order": 28
+            },
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{'class': ['w-full', 'mt-0', 'flex', 'flex-col', 'gap-6', 'lg:w-[53.55%]', 'lg:mt-4']}",
+                "order": 29
+            },
+            {
+                "tag": "button",
+                "content": "Oven",
+                "attributes": "{'aria-label': 'Select Product for Oven', 'data-testid': 'repair_symptom_page_conversion_component_v1_select_product', 'data-metric-id': 'repair_symptom_page_conversion_component_v1_select_product', 'data-metric-value': 'Oven', 'class': ['relative', 'text-left', 'block', 'w-full', 'bg-white', 'border-2', 'text-blue-400', 'border', 'overflow-hidden', 'whitespace-nowrap', 'pl-4', 'pr-10', 'py-2', 'text-md', 'font-medium', 'h-12', 'rounded-lg'], 'id': 'headlessui-listbox-button-_R_3dd8jrav5ubsnpb_', 'type': 'button', 'aria-haspopup': 'listbox', 'aria-expanded': 'false', 'data-headlessui-state': '', 'name': 'products'}",
+                "order": 30
+            },
+            {
+                "tag": "button",
+                "content": "GE",
+                "attributes": "{'aria-label': 'Select Brand for GE', 'data-testid': 'repair_symptom_page_conversion_component_v1_select_brand', 'data-metric-id': 'repair_symptom_page_conversion_component_v1_select_brand', 'data-metric-value': 'GE', 'name': 'brands', 'class': ['relative', 'text-left', 'block', 'w-full', 'bg-white', 'border-2', 'text-blue-400', 'border', 'overflow-hidden', 'whitespace-nowrap', 'pl-4', 'pr-10', 'py-2', 'text-md', 'font-medium', 'h-12', 'rounded-lg'], 'id': 'headlessui-listbox-button-_r_5_', 'type': 'button', 'aria-haspopup': 'listbox', 'aria-expanded': 'false', 'data-headlessui-state': ''}",
+                "order": 31
+            },
+            {
+                "tag": "button",
+                "content": "Schedule Now",
+                "attributes": "{'type': 'button', 'class': ['cursor-pointer', 'bg-yellow', 'text-blue-200', 'hover:bg-yellow-100', 'focus:outline-yellow-200', 'focus:outline-4', 'disabled:bg-gray-200', 'disabled:text-gray-500', 'px-6', 'rounded-lg', 'w-full', 'text-xl', 'py-3.5', 'font-semibold', 'mt-3', 'shadow-scheduler', '!hover:no-underline'], 'data-testid': 'repair_symptom_page_conversion_component_v1_repair_schedule_now_button', 'data-metric-id': 'repair_symptom_page_conversion_component_v1_repair_schedule_now_button', 'data-metric-value': 'Schedule Now'}",
+                "order": 32
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{'class': ['w-full', 'mt-0', 'flex', 'flex-col', 'gap-6', 'lg:w-[53.55%]', 'lg:mt-4']}",
+                "order": 33
+            },
+            {
+                "tag": "h2",
+                "content": "Most common repairs needed to fix a GE oven",
+                "attributes": "{'class': ['text-3xl', 'md:text-4xl', 'text-blue-300', 'leading-8'], 'node': '[object Object]'}",
+                "order": 34
+            },
+            {
+                "tag": "h4",
+                "content": "Igniter Replacement",
+                "attributes": "{'class': ['text-2xl', 'text-blue-300', 'font-semibold', 'my-2', 'leading-8', 'h-[78px]'], 'node': '[object Object]'}",
+                "order": 35
+            },
+            {
+                "tag": "p",
+                "content": "When an oven igniter is faulty, it can prevent a burner from igniting, resulting in no heat from the bake or broil burners in the oven. A failed igniter could also cause difficulty in lighting the burner, requiring multiple attempts to achieve ignition. The igniter may emit a clicking sound without successfully lighting the gas, indicating a malfunction. In some cases, the igniter may not produce any visible spark at all. An igniter failure can lead to delayed ignition, causing a noticeable delay between turning the knob and the burner lighting.",
+                "attributes": "{'class': ['mb-6', 'text-xl', 'leading-6', 'text-blue-400'], 'node': '[object Object]'}",
+                "order": 36
+            },
+            {
+                "tag": "a",
+                "content": "How to replace a gas oven igniter",
+                "attributes": "{'class': ['font-medium', 'hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-sm', 'leading-6'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_blank', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searspartsdirect.com/diy/repair-guide/how-to-replace-a-wall-oven-igniter'}",
+                "order": 37
+            },
+            {
+                "tag": "h4",
+                "content": "Electronic Control Board Replacement",
+                "attributes": "{'class': ['text-2xl', 'text-blue-300', 'font-semibold', 'my-2', 'leading-8', 'h-[78px]'], 'node': '[object Object]'}",
+                "order": 38
+            },
+            {
+                "tag": "p",
+                "content": "An inoperative electronic control board can lead to various failures in an oven, including a lack of power or heating in the oven, or prevent the oven from turning off. This is because the board serves as the brain of the oven, controlling crucial operations such as regulating oven temperatures, running cooling fans, controlling cooking time and controlling the self-clean cycle of the oven. If the electronic control board malfunctions, it can disrupt communication between many different components. A failing board may prevent the oven door latch from engaging, or may cause a chattering or clicking noise from the oven or emit a burning odor. Due to the potential impact on multiple components, it is advisable to have a Sears Home Services professional conduct diagnostic tests on the board to confirm if replacement is necessary.",
+                "attributes": "{'class': ['mb-6', 'text-xl', 'leading-6', 'text-blue-400'], 'node': '[object Object]'}",
+                "order": 39
+            },
+            {
+                "tag": "a",
+                "content": "Why won't my oven heat?",
+                "attributes": "{'class': ['font-medium', 'hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-sm', 'leading-6'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_blank', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searspartsdirect.com/diy/symptom/wall-oven-repair/1234576/wall-oven-won-t-heat/oven005'}",
+                "order": 40
+            },
+            {
+                "tag": "h4",
+                "content": "Bake Element Replacement",
+                "attributes": "{'class': ['text-2xl', 'text-blue-300', 'font-semibold', 'my-2', 'leading-8', 'h-[78px]'], 'node': '[object Object]'}",
+                "order": 41
+            },
+            {
+                "tag": "p",
+                "content": "A broken oven bake element will prevent the element from heating. In some cases, the bake element may show visible signs of damage, such as cracks, blisters, or burn marks. A failing element may exhibit an inability of the oven to reach or maintain the set temperature. You may notice uneven cooking or prolonged cooking times. If the element is severely damaged, it may cause sparking, smoking or odd noises during operation. Having a Sears Home Services professional address these symptoms promptly is essential to ensure consistent and effective baking performance in the oven.",
+                "attributes": "{'class': ['mb-6', 'text-xl', 'leading-6', 'text-blue-400'], 'node': '[object Object]'}",
+                "order": 42
+            },
+            {
+                "tag": "a",
+                "content": "How to replace a bake element",
+                "attributes": "{'class': ['font-medium', 'hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-sm', 'leading-6'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_blank', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searspartsdirect.com/diy/repair-guide/how-to-replace-a-range-hidden-bake-element'}",
+                "order": 43
+            },
+            {
+                "tag": "h2",
+                "content": "Why is my GE oven not getting hot?",
+                "attributes": "{'node': '[object Object]', 'class': ['text-4xl', 'font-semibold', 'text-blue-300', 'mb-5', 'leading-8']}",
+                "order": 44
+            },
+            {
+                "tag": "p",
+                "content": "Here\u2019s a popular and safe DIY video that shows how to safely diagnose and repair a GE gas oven heating failure:",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 45
+            },
+            {
+                "tag": "p",
+                "content": "The first thing that you\u2019ll need to check when your GE oven isn\u2019t heating is the gas supply.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 46
+            },
+            {
+                "tag": "h3",
+                "content": "Check the Gas Supply",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 47
+            },
+            {
+                "tag": "p",
+                "content": "If your surface burners are working, then you know your oven should be getting gas as well. If the burners aren\u2019t working, check your gas supply cut-off valve to make sure that it's open. If it is open and you\u2019re not getting gas, then you need to contact your gas supplier to figure out what\u2019s wrong.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 48
+            },
+            {
+                "tag": "p",
+                "content": "Some ranges have a service cut-off valve on the pressure regulator that shuts off the gas supply to the oven and not the surface burners. If your range has one, make sure that service valve is open.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 49
+            },
+            {
+                "tag": "p",
+                "content": "Here\u2019s an image that shows that service valve:",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 50
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: gas-stove-pressure-regulator-service-valve-tab | Src: //www.searshomeservices.com/cftassets/5GZJNEUcXGaQn5MFYZFI62/818e680bd3c79af2f04e23007611ca2d/gas-stove-pressure-regulator.png?w=3840&q=80&fm=webp",
+                "attributes": "{'alt': 'gas-stove-pressure-regulator-service-valve-tab', 'title': '', 'variant': 'rounded', 'node': '[object Object]', 'loading': 'lazy', 'width': '578', 'height': '450', 'decoding': 'async', 'data-nimg': '1', 'class': ['rounded-md', 'w-full'], 'style': 'color:transparent', 'sizes': '(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw', 'srcset': '//www.searshomeservices.com/cftassets/5GZJNEUcXGaQn5MFYZFI62/818e680bd3c79af2f04e23007611ca2d/gas-stove-pressure-regulator.png?w=256&q=80&fm=webp 256w, //www.searshomeservices.com/cftassets/5GZJNEUcXGaQn5MFYZFI62/818e680bd3c79af2f04e23007611ca2d/gas-stove-pressure-regulator.png?w=384&q=80&fm=webp 384w, //www.searshomeservices.com/cftassets/5GZJNEUcXGaQn5MFYZFI62/818e680bd3c79af2f04e23007611ca2d/gas-stove-pressure-regulator.png?w=640&q=80&fm=webp 640w, //www.searshomeservices.com/cftassets/5GZJNEUcXGaQn5MFYZFI62/818e680bd3c79af2f04e23007611ca2d/gas-stove-pressure-regulator.png?w=750&q=80&fm=webp 750w, //www.searshomeservices.com/cftassets/5GZJNEUcXGaQn5MFYZFI62/818e680bd3c79af2f04e23007611ca2d/gas-stove-pressure-regulator.png?w=828&q=80&fm=webp 828w, //www.searshomeservices.com/cftassets/5GZJNEUcXGaQn5MFYZFI62/818e680bd3c79af2f04e23007611ca2d/gas-stove-pressure-regulator.png?w=1080&q=80&fm=webp 1080w, //www.searshomeservices.com/cftassets/5GZJNEUcXGaQn5MFYZFI62/818e680bd3c79af2f04e23007611ca2d/gas-stove-pressure-regulator.png?w=1200&q=80&fm=webp 1200w, //www.searshomeservices.com/cftassets/5GZJNEUcXGaQn5MFYZFI62/818e680bd3c79af2f04e23007611ca2d/gas-stove-pressure-regulator.png?w=1920&q=80&fm=webp 1920w, //www.searshomeservices.com/cftassets/5GZJNEUcXGaQn5MFYZFI62/818e680bd3c79af2f04e23007611ca2d/gas-stove-pressure-regulator.png?w=2048&q=80&fm=webp 2048w, //www.searshomeservices.com/cftassets/5GZJNEUcXGaQn5MFYZFI62/818e680bd3c79af2f04e23007611ca2d/gas-stove-pressure-regulator.png?w=3840&q=80&fm=webp 3840w', 'src': '//www.searshomeservices.com/cftassets/5GZJNEUcXGaQn5MFYZFI62/818e680bd3c79af2f04e23007611ca2d/gas-stove-pressure-regulator.png?w=3840&q=80&fm=webp'}",
+                "order": 51
+            },
+            {
+                "tag": "h3",
+                "content": "Test the igniter",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 52
+            },
+            {
+                "tag": "p",
+                "content": "Pull the bottom panel out of your cold oven. Start the oven and see if the igniter glows.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 53
+            },
+            {
+                "tag": "p",
+                "content": "If the igniter glows you may be convinced it\u2019s working and want to replace the safety gas valve. But the safety gas valve rarely fails. The igniter can glow but not get hot enough to open the safety gas valve. In fact, this is the most frequent failure when an oven burner won't ignite even though the igniter is glowing bright. Replacing the igniter in this situation usually fixes the problem.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 54
+            },
+            {
+                "tag": "p",
+                "content": "If you're uncertain whether your glowing igniter has failed, you can have a trained service technician check the amp draw through the igniter circuit.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 55
+            },
+            {
+                "tag": "p",
+                "content": "If the igniter wasn\u2019t glowing, you\u2019ll need to use a multimeter to test it.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 56
+            },
+            {
+                "tag": "p",
+                "content": "Unplug the range. For safety, always disconnect power before checking resistance. To check the resistance of the igniter, put the meter leads on the igniter terminals. If you measure between 10 and 2,500 ohms, then you know your igniter is okay.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 57
+            },
+            {
+                "tag": "p",
+                "content": "If the igniter measures no continuity, then you need to replace the igniter. Here\u2019s a video showing you how:",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 58
+            },
+            {
+                "tag": "h3",
+                "content": "Test the safety gas valve",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 59
+            },
+            {
+                "tag": "p",
+                "content": "Next, check resistance on the safety gas valve. The safety gas valve should measure less than 5 ohms of resistance. If the safety gas valve measures no continuity, you can have a service technician replace that part.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 60
+            },
+            {
+                "tag": "p",
+                "content": "If the igniter and the safety gas valve both check okay, then you could have a problem with wiring, or a defective electronic control board.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 61
+            },
+            {
+                "tag": "p",
+                "content": "When you\u2019re unable to find and fix a GE oven heating problem on your own, schedule repair service and we\u2019ll send a Sears Home Services technician to your home to repair the oven.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 62
+            },
+            {
+                "tag": "h2",
+                "content": "Why is my GE Electric Oven Not Heating?",
+                "attributes": "{'node': '[object Object]', 'class': ['text-4xl', 'font-semibold', 'text-blue-300', 'mb-5', 'leading-8']}",
+                "order": 63
+            },
+            {
+                "tag": "p",
+                "content": "To troubleshoot a problem with your GE electric oven, follow the tips in this safe DIY video:",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 64
+            },
+            {
+                "tag": "h2",
+                "content": "What to expect when you experience a GE oven not heating issue",
+                "attributes": "{'node': '[object Object]', 'class': ['text-4xl', 'font-semibold', 'text-blue-300', 'mb-5', 'leading-8']}",
+                "order": 65
+            },
+            {
+                "tag": "h3",
+                "content": "How is the not heating problem fixed?",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 66
+            },
+            {
+                "tag": "p",
+                "content": "Correcting most not heating problems usually involves replacing the igniter, electronic control board or bake element. However, there are many potential causes, so a thorough diagnosis is key to fixing the problem. An accurate diagnosis is essential to understanding how much the repair will be.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 67
+            },
+            {
+                "tag": "p",
+                "content": "When you need professional",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 68
+            },
+            {
+                "tag": "a",
+                "content": "GE oven repair",
+                "attributes": "{'class': ['hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-xl', 'leading-6', 'font-normal'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_self', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searshomeservices.com/repair/ge/oven'}",
+                "order": 69
+            },
+            {
+                "tag": "p",
+                "content": "to fix a problem, schedule an appointment with Sears Home Services.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 70
+            },
+            {
+                "tag": "h3",
+                "content": "Sears Home Services recommendations for an oven that is not heating",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 71
+            },
+            {
+                "tag": "p",
+                "content": "When the oven is not heating it can be for many reasons. To avoid replacing unneeded parts we recommend having a Sears Home Services professional perform diagnostic tests to identify the root cause of the problem. Our technicians are experienced at diagnosing all types of oven failures.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 72
+            },
+            {
+                "tag": "p",
+                "content": "When you need professional",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 73
+            },
+            {
+                "tag": "a",
+                "content": "GE oven repair",
+                "attributes": "{'class': ['hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-xl', 'leading-6', 'font-normal'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_self', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searshomeservices.com/repair/ge/oven'}",
+                "order": 74
+            },
+            {
+                "tag": "p",
+                "content": "to fix a problem, schedule an appointment with Sears Home Services.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 75
+            },
+            {
+                "tag": "h3",
+                "content": "What to look out for with an oven not heating diagnosis",
+                "attributes": "{'node': '[object Object]', 'class': ['text-3xl', 'font-semibold', 'text-gray-500', 'leading-8', 'my-[1.375rem]']}",
+                "order": 76
+            },
+            {
+                "tag": "p",
+                "content": "Diagnosing modern appliances without proper knowledge and training can be difficult. Without using proper diagnostic techniques, fixing your oven problem will only be achieved through changing parts on a hunch. Appliances, especially in the last 10 years, have become extremely advanced, and many models have electronic parts that are difficult to test. DIY repairs on the latest appliance models are becoming increasingly difficult.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 77
+            },
+            {
+                "tag": "h2",
+                "content": "GE Gas Oven not Heating up but Burners Work Troubleshooting",
+                "attributes": "{'node': '[object Object]', 'class': ['text-4xl', 'font-semibold', 'text-blue-300', 'mb-5', 'leading-8']}",
+                "order": 78
+            },
+            {
+                "tag": "p",
+                "content": "When your GE gas oven is not heating up but the burners work, you know that the range is getting an adequate gas supply to operate properly.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 79
+            },
+            {
+                "tag": "p",
+                "content": "The number one cause of a GE gas oven not heating in this situation is a failed oven burner igniter. The oven burner igniter may glow when you start the oven or it may not work at all.  Pull the bottom panel out of your cold oven. Start the oven and see if the igniter glows.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 80
+            },
+            {
+                "tag": "p",
+                "content": "If the igniter glows you may be convinced it\u2019s working and want to replace the safety gas valve. But the safety gas valve rarely fails. The igniter can glow but not get hot enough to open the safety gas valve. As the igniter glows and heats up, it allows more current to flow to the safety gas valve. If the igniter glows hot enough, current will glow to the safety valve and the valve will open to ignite the oven burner. Even though the igniter glows, it might not get hot enough to allow adequate current to flow through the gas valve so the gas valve opens. Having a service technician replace the igniter in this situation usually fixes the oven heating problem.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 81
+            },
+            {
+                "tag": "p",
+                "content": "If the igniter doesn\u2019t glow when your GE gas oven is not heating up but burners work, then a failed electronic control board, bad igniter, defective safety gas valve or wiring failure could be preventing the oven from heating. Schedule oven repair service to have a Sears Home Services technician visit your home and fix the oven heating failure.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 82
+            },
+            {
+                "tag": "h2",
+                "content": "Fixing a GE Electric Oven that Won\u2019t Heat Past 100 Degrees",
+                "attributes": "{'node': '[object Object]', 'class': ['text-4xl', 'font-semibold', 'text-blue-300', 'mb-5', 'leading-8']}",
+                "order": 83
+            },
+            {
+                "tag": "p",
+                "content": "When your GE electric oven won\u2019t heat past 100 degrees, check the bake element. Look for cracks or damage. Replace the bake element if you see damage. This will likely fix the GE electric oven heating problem.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 84
+            },
+            {
+                "tag": "p",
+                "content": "Even if you don\u2019t see physical damage when examining the heating element, it can still be defective. A technician will use a multimeter to check continuity through the element and replace it if it\u2019s defective.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 85
+            },
+            {
+                "tag": "p",
+                "content": "If the oven bake element is okay, a bad oven control thermostat or defective oven temperature sensor could be preventing your GE electric oven from heating past 100 degrees. An oven control thermostat includes a temperature sensor that detects oven temperature. An electronic control board uses a separate temperature sensor detect oven temperature. If the temperature sensor on either type of oven control is defective, a GE electric oven won\u2019t heat past 100 degrees in some situations.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 86
+            },
+            {
+                "tag": "p",
+                "content": "Another failure that will prevent a GE electric oven from heating past 100 degrees is a bad electronic oven control board. A relay on the electronic oven control board could fail to send electric current to the bake element when you start the oven. In this situation, a technician will need to replace the oven electronic control board.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 87
+            },
+            {
+                "tag": "p",
+                "content": "Diagnosing and repairing a GE electric oven that won\u2019t heat past 100 degrees can be difficult. Schedule oven repair service to have a Sears Home Services technician visit your home and fix the heating problem in your GE electric oven.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 88
+            },
+            {
+                "tag": "h2",
+                "content": "What to do when Your GE Oven is not Heating Up",
+                "attributes": "{'node': '[object Object]', 'class': ['text-4xl', 'font-semibold', 'text-blue-300', 'mb-5', 'leading-8']}",
+                "order": 89
+            },
+            {
+                "tag": "p",
+                "content": "When your GE oven is not heating up at all, check the house circuit breakers if you have an electric oven. An electric oven will have 2 circuit breakers. Reset both circuit breakers and see if the oven begins heating.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 90
+            },
+            {
+                "tag": "p",
+                "content": "For a gas GE oven not heating up, check the gas supply cut-off valve for the oven. Open the cut-off valve if you find it shut.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 91
+            },
+            {
+                "tag": "p",
+                "content": "A blown fuse or tripped safety thermostat will also prevent a GE oven from heating. If you\u2019re able to access and reset the oven safety thermostat, have a service technician complete that task.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 92
+            },
+            {
+                "tag": "p",
+                "content": "Other problems that will prevent an electric oven from heating up include bad electric control board, failed oven control thermostat, bad temperature sensor, failed relay control board and a faulty oven temperature sensor.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 93
+            },
+            {
+                "tag": "p",
+                "content": "Additional issues that will prevent a gas GE oven from heating up include a failed igniter, bad safety gas valve, defective electronic control board, faulty oven control thermostat, bad oven temperature control thermostat and a wiring failure.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 94
+            },
+            {
+                "tag": "p",
+                "content": "Schedule oven repair service when your GE oven is not heating up and you can\u2019t fix the problem on your owner with basic troubleshooting.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 95
+            },
+            {
+                "tag": "p",
+                "content": "A GE oven that never warms up leaves your meals half-cooked or altogether raw. This could be due to a faulty igniter in gas models or a failed element in electrics. For reliable restoration, consult",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 96
+            },
+            {
+                "tag": "a",
+                "content": "stove fix near me",
+                "attributes": "{'class': ['hover:underline', 'hover:underline-offset-4', 'text-blue-100', 'focus:outline-blue-1000', 'text-xl', 'leading-6', 'font-normal'], 'data-metric-id': '', 'data-metric-value': '', 'target': '_self', 'style': 'color:blue.7', 'node': '[object Object]', 'href': 'https://www.searshomeservices.com/repair/oven-repair-service'}",
+                "order": 97
+            },
+            {
+                "tag": "p",
+                "content": ". You\u2019ll regain stable heat levels so you can tackle everyday dinners or special roasts without hassle.",
+                "attributes": "{'node': '[object Object]', 'class': ['text-xl', 'leading-7', 'text-gray-500', 'my-[1.125rem]']}",
+                "order": 98
+            },
+            {
+                "tag": "span",
+                "content": "Schedule Now",
+                "attributes": "{}",
+                "order": 99
+            },
+            {
+                "tag": "h2",
+                "content": "What our customers say about us",
+                "attributes": "{'class': ['text-blue-300', 'md:text-4xl-plus', 'my-2', 'tracking-wide', 'font-montserrat', 'text-4xl', 'font-semibold', 'leading-8']}",
+                "order": 100
+            },
+            {
+                "tag": "p",
+                "content": "With more than 1.3 Million 5 Star Reviews, you don't have to take our word for it",
+                "attributes": "{'class': ['font-normal', 'text-gray-500', 'text-md', 'lg:text-xl', 'mb-4', 'lg:mb-[18px]', 'px-4']}",
+                "order": 101
+            },
+            {
+                "tag": "p",
+                "content": "Excellent",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'truncate', 'font-semibold', 'text-blue-300', 'mt-2', 'mb-1'], 'title': 'Excellent'}",
+                "order": 102
+            },
+            {
+                "tag": "p",
+                "content": "Excellent. Informative. If needed, we would like to use again.",
+                "attributes": "{'class': ['text-md', 'leading-6', 'font-normal', 'text-gray-500', 'line-clamp-5', 'mb-1', 'lg:mb-4'], 'title': 'Excellent. Informative. If needed, we would like to use again.'}",
+                "order": 103
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: User Profile | Src: /static/icons/general/user-profile.svg",
+                "attributes": "{'alt': 'User Profile', 'loading': 'lazy', 'width': '47', 'height': '47', 'decoding': 'async', 'data-nimg': '1', 'class': ['w-12', 'h-12', 'rounded-full', 'object-cover'], 'style': 'color:transparent', 'src': '/static/icons/general/user-profile.svg'}",
+                "order": 104
+            },
+            {
+                "tag": "p",
+                "content": "Peter B, Arlington Heights, IL",
+                "attributes": "{'class': ['text-gray-500', 'text-xs', 'md:text-sm', 'font-normal', 'italic', 'uppercase']}",
+                "order": 105
+            },
+            {
+                "tag": "p",
+                "content": "Service call for Jennair wall oven",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'truncate', 'font-semibold', 'text-blue-300', 'mt-2', 'mb-1'], 'title': 'Service call for Jennair wall oven'}",
+                "order": 106
+            },
+            {
+                "tag": "p",
+                "content": "Sal has been to our home to service other utilities we have.  He is always pleasant and spot on what the problem is.  Unfortunately this time the oven was not repairable and he confirmed what we were expecting.",
+                "attributes": "{'class': ['text-md', 'leading-6', 'font-normal', 'text-gray-500', 'line-clamp-5', 'mb-1', 'lg:mb-4'], 'title': 'Sal has been to our home to service other utilities we have.  He is always pleasant and spot on what the problem is.  Unfortunately this time the oven was not repairable and he confirmed what we were expecting.'}",
+                "order": 107
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: User Profile | Src: /static/icons/general/user-profile.svg",
+                "attributes": "{'alt': 'User Profile', 'loading': 'lazy', 'width': '47', 'height': '47', 'decoding': 'async', 'data-nimg': '1', 'class': ['w-12', 'h-12', 'rounded-full', 'object-cover'], 'style': 'color:transparent', 'src': '/static/icons/general/user-profile.svg'}",
+                "order": 108
+            },
+            {
+                "tag": "p",
+                "content": "Juliann M, Pittsburgh, PA",
+                "attributes": "{'class': ['text-gray-500', 'text-xs', 'md:text-sm', 'font-normal', 'italic', 'uppercase']}",
+                "order": 109
+            },
+            {
+                "tag": "p",
+                "content": "Oven repair",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'truncate', 'font-semibold', 'text-blue-300', 'mt-2', 'mb-1'], 'title': 'Oven repair'}",
+                "order": 110
+            },
+            {
+                "tag": "p",
+                "content": "He was pleasant, knew what he was doing and efficient.  \nNice man.",
+                "attributes": "{'class': ['text-md', 'leading-6', 'font-normal', 'text-gray-500', 'line-clamp-5', 'mb-1', 'lg:mb-4'], 'title': 'He was pleasant, knew what he was doing and efficient.  \\nNice man.'}",
+                "order": 111
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: User Profile | Src: /static/icons/general/user-profile.svg",
+                "attributes": "{'alt': 'User Profile', 'loading': 'lazy', 'width': '47', 'height': '47', 'decoding': 'async', 'data-nimg': '1', 'class': ['w-12', 'h-12', 'rounded-full', 'object-cover'], 'style': 'color:transparent', 'src': '/static/icons/general/user-profile.svg'}",
+                "order": 112
+            },
+            {
+                "tag": "p",
+                "content": "Judy S, Richland, WA",
+                "attributes": "{'class': ['text-gray-500', 'text-xs', 'md:text-sm', 'font-normal', 'italic', 'uppercase']}",
+                "order": 113
+            },
+            {
+                "tag": "h2",
+                "content": "Frequently Asked Questions",
+                "attributes": "{'id': 'faq-heading-symptom-ge-oven-not-heating', 'class': ['text-4xl', 'lg:text-4xl-plus', 'font-semibold', 'text-blue-300', 'leading-9', 'pb-2', 'lg:mb-8']}",
+                "order": 114
+            },
+            {
+                "tag": "div",
+                "content": "Why isn\u2019t my GE oven heating?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 115
+            },
+            {
+                "tag": "div",
+                "content": "This issue could be due to a faulty heating element, broken thermostat, or malfunctioning control board.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 116
+            },
+            {
+                "tag": "div",
+                "content": "How can I fix my GE oven if it\u2019s not heating?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 117
+            },
+            {
+                "tag": "div",
+                "content": "Check the heating element, inspect the thermostat, and test the control board.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 118
+            },
+            {
+                "tag": "div",
+                "content": "Could a broken thermostat prevent my GE oven from heating?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 119
+            },
+            {
+                "tag": "div",
+                "content": "Yes, if the thermostat is malfunctioning, the oven may not reach the desired temperature.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 120
+            },
+            {
+                "tag": "div",
+                "content": "What should I do if my GE oven isn\u2019t heating?",
+                "attributes": "{'class': ['text-xl', 'font-semibold', 'text-blue-300', 'mb-4']}",
+                "order": 121
+            },
+            {
+                "tag": "div",
+                "content": "Test the heating element, inspect the thermostat, and check the control board for faults.",
+                "attributes": "{'class': ['text-md', 'text-blue-300']}",
+                "order": 122
+            },
+            {
+                "tag": "h2",
+                "content": "Repair Oven Resources",
+                "attributes": "{'class': ['text-blue-300', 'text-5xl', 'mb-12', 'md:px-0']}",
+                "order": 123
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Woman placing an apple pie into pre-heated oven. | Src: https://www.searshomeservices.com/cftassets/01MX9BZOoA5PVu9zonxS4Y/86785662532a7336418f18bf55cdc28e/SHS_blog_Efficient_Preheating_Your_Oven-s_Fast_Track_to_Ready_primary.png?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': 'Woman placing an apple pie into pre-heated oven.', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/01MX9BZOoA5PVu9zonxS4Y/86785662532a7336418f18bf55cdc28e/SHS_blog_Efficient_Preheating_Your_Oven-s_Fast_Track_to_Ready_primary.png?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/01MX9BZOoA5PVu9zonxS4Y/86785662532a7336418f18bf55cdc28e/SHS_blog_Efficient_Preheating_Your_Oven-s_Fast_Track_to_Ready_primary.png?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/01MX9BZOoA5PVu9zonxS4Y/86785662532a7336418f18bf55cdc28e/SHS_blog_Efficient_Preheating_Your_Oven-s_Fast_Track_to_Ready_primary.png?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/01MX9BZOoA5PVu9zonxS4Y/86785662532a7336418f18bf55cdc28e/SHS_blog_Efficient_Preheating_Your_Oven-s_Fast_Track_to_Ready_primary.png?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/01MX9BZOoA5PVu9zonxS4Y/86785662532a7336418f18bf55cdc28e/SHS_blog_Efficient_Preheating_Your_Oven-s_Fast_Track_to_Ready_primary.png?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/01MX9BZOoA5PVu9zonxS4Y/86785662532a7336418f18bf55cdc28e/SHS_blog_Efficient_Preheating_Your_Oven-s_Fast_Track_to_Ready_primary.png?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/01MX9BZOoA5PVu9zonxS4Y/86785662532a7336418f18bf55cdc28e/SHS_blog_Efficient_Preheating_Your_Oven-s_Fast_Track_to_Ready_primary.png?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/01MX9BZOoA5PVu9zonxS4Y/86785662532a7336418f18bf55cdc28e/SHS_blog_Efficient_Preheating_Your_Oven-s_Fast_Track_to_Ready_primary.png?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/01MX9BZOoA5PVu9zonxS4Y/86785662532a7336418f18bf55cdc28e/SHS_blog_Efficient_Preheating_Your_Oven-s_Fast_Track_to_Ready_primary.png?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/01MX9BZOoA5PVu9zonxS4Y/86785662532a7336418f18bf55cdc28e/SHS_blog_Efficient_Preheating_Your_Oven-s_Fast_Track_to_Ready_primary.png?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/01MX9BZOoA5PVu9zonxS4Y/86785662532a7336418f18bf55cdc28e/SHS_blog_Efficient_Preheating_Your_Oven-s_Fast_Track_to_Ready_primary.png?w=3840&q=90&fm=webp'}",
+                "order": 124
+            },
+            {
+                "tag": "p",
+                "content": "Efficiently Preheating Your Oven",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 125
+            },
+            {
+                "tag": "span",
+                "content": "5 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 126
+            },
+            {
+                "tag": "span",
+                "content": "Dec. 18",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 127
+            },
+            {
+                "tag": "p",
+                "content": "Ensure even cooking and optimal oven performance by learning the best preheating techniques. Discover tips on maintaining cleanliness, utilizing advanced features, and avoiding common mistakes for superior culinary results.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 128
+            },
+            {
+                "tag": "a",
+                "content": "Oven",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_oven_blog_meta_data_0_product_link', 'data-metric-id': 'repair_symptom_page_oven_blog_meta_data_0_product_link', 'data-metric-value': 'Oven', 'target': '_self', 'href': '/blog/repair/oven-resources'}",
+                "order": 129
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Homeowner looking at her oven and wondering \"How Does a Potentiometer Work?\" | Src: https://www.searshomeservices.com/cftassets/6Zz57bQbfyKYc38Nj4sMkD/509c1a145713aa480939be4af9ed6ad4/how-does-a-potentiometer-work.png?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': 'Homeowner looking at her oven and wondering \"How Does a Potentiometer Work?\"', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/6Zz57bQbfyKYc38Nj4sMkD/509c1a145713aa480939be4af9ed6ad4/how-does-a-potentiometer-work.png?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/6Zz57bQbfyKYc38Nj4sMkD/509c1a145713aa480939be4af9ed6ad4/how-does-a-potentiometer-work.png?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/6Zz57bQbfyKYc38Nj4sMkD/509c1a145713aa480939be4af9ed6ad4/how-does-a-potentiometer-work.png?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/6Zz57bQbfyKYc38Nj4sMkD/509c1a145713aa480939be4af9ed6ad4/how-does-a-potentiometer-work.png?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/6Zz57bQbfyKYc38Nj4sMkD/509c1a145713aa480939be4af9ed6ad4/how-does-a-potentiometer-work.png?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/6Zz57bQbfyKYc38Nj4sMkD/509c1a145713aa480939be4af9ed6ad4/how-does-a-potentiometer-work.png?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/6Zz57bQbfyKYc38Nj4sMkD/509c1a145713aa480939be4af9ed6ad4/how-does-a-potentiometer-work.png?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/6Zz57bQbfyKYc38Nj4sMkD/509c1a145713aa480939be4af9ed6ad4/how-does-a-potentiometer-work.png?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/6Zz57bQbfyKYc38Nj4sMkD/509c1a145713aa480939be4af9ed6ad4/how-does-a-potentiometer-work.png?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/6Zz57bQbfyKYc38Nj4sMkD/509c1a145713aa480939be4af9ed6ad4/how-does-a-potentiometer-work.png?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/6Zz57bQbfyKYc38Nj4sMkD/509c1a145713aa480939be4af9ed6ad4/how-does-a-potentiometer-work.png?w=3840&q=90&fm=webp'}",
+                "order": 130
+            },
+            {
+                "tag": "p",
+                "content": "How Does a Potentiometer Work?",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 131
+            },
+            {
+                "tag": "span",
+                "content": "6 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 132
+            },
+            {
+                "tag": "span",
+                "content": "Dec. 12",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 133
+            },
+            {
+                "tag": "p",
+                "content": "Learn how a potentiometer works in an oven and how to adjust it if necessary.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 134
+            },
+            {
+                "tag": "a",
+                "content": "Oven",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_oven_blog_meta_data_1_product_link', 'data-metric-id': 'repair_symptom_page_oven_blog_meta_data_1_product_link', 'data-metric-value': 'Oven', 'target': '_self', 'href': '/blog/repair/oven-resources'}",
+                "order": 135
+            },
+            {
+                "tag": "a",
+                "content": "Appliance 101",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_oven_blog_meta_data_1_secondary_category_link', 'data-metric-id': 'repair_symptom_page_oven_blog_meta_data_1_secondary_category_link', 'data-metric-value': 'Oven', 'target': '_self', 'href': '/blog/repair/appliance-101-resources'}",
+                "order": 136
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: A woman baking cookies in her convection oven. | Src: https://www.searshomeservices.com/cftassets/3W4QXgvHp3aqxcINCDsH8l/36d181c34042fc8576c75b48aaffbb5a/How_does_a_convection_oven_work_baking_cookies.jpg?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': 'A woman baking cookies in her convection oven.', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/3W4QXgvHp3aqxcINCDsH8l/36d181c34042fc8576c75b48aaffbb5a/How_does_a_convection_oven_work_baking_cookies.jpg?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/3W4QXgvHp3aqxcINCDsH8l/36d181c34042fc8576c75b48aaffbb5a/How_does_a_convection_oven_work_baking_cookies.jpg?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/3W4QXgvHp3aqxcINCDsH8l/36d181c34042fc8576c75b48aaffbb5a/How_does_a_convection_oven_work_baking_cookies.jpg?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/3W4QXgvHp3aqxcINCDsH8l/36d181c34042fc8576c75b48aaffbb5a/How_does_a_convection_oven_work_baking_cookies.jpg?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/3W4QXgvHp3aqxcINCDsH8l/36d181c34042fc8576c75b48aaffbb5a/How_does_a_convection_oven_work_baking_cookies.jpg?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/3W4QXgvHp3aqxcINCDsH8l/36d181c34042fc8576c75b48aaffbb5a/How_does_a_convection_oven_work_baking_cookies.jpg?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/3W4QXgvHp3aqxcINCDsH8l/36d181c34042fc8576c75b48aaffbb5a/How_does_a_convection_oven_work_baking_cookies.jpg?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/3W4QXgvHp3aqxcINCDsH8l/36d181c34042fc8576c75b48aaffbb5a/How_does_a_convection_oven_work_baking_cookies.jpg?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/3W4QXgvHp3aqxcINCDsH8l/36d181c34042fc8576c75b48aaffbb5a/How_does_a_convection_oven_work_baking_cookies.jpg?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/3W4QXgvHp3aqxcINCDsH8l/36d181c34042fc8576c75b48aaffbb5a/How_does_a_convection_oven_work_baking_cookies.jpg?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/3W4QXgvHp3aqxcINCDsH8l/36d181c34042fc8576c75b48aaffbb5a/How_does_a_convection_oven_work_baking_cookies.jpg?w=3840&q=90&fm=webp'}",
+                "order": 137
+            },
+            {
+                "tag": "p",
+                "content": "How Does a Convection Oven Work?: 2025 Explanation",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 138
+            },
+            {
+                "tag": "span",
+                "content": "8 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 139
+            },
+            {
+                "tag": "span",
+                "content": "Sep. 25",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 140
+            },
+            {
+                "tag": "p",
+                "content": "Explore how a convection oven works to cook food faster and more evenly. Learn the benefits, best practices, and maintenance tips to get perfect results every time.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 141
+            },
+            {
+                "tag": "a",
+                "content": "Oven",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_oven_blog_meta_data_2_product_link', 'data-metric-id': 'repair_symptom_page_oven_blog_meta_data_2_product_link', 'data-metric-value': 'Oven', 'target': '_self', 'href': '/blog/repair/oven-resources'}",
+                "order": 142
+            },
+            {
+                "tag": "a",
+                "content": "Appliance 101",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_oven_blog_meta_data_2_secondary_category_link', 'data-metric-id': 'repair_symptom_page_oven_blog_meta_data_2_secondary_category_link', 'data-metric-value': 'Oven', 'target': '_self', 'href': '/blog/repair/appliance-101-resources'}",
+                "order": 143
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: buying a new oven | Src: https://www.searshomeservices.com/cftassets/7LnkUUpjNNEKqZKIeYDS8H/91f6c84b8e225a7e0bb1c8606376d2bb/Buying_a_New_Oven_5_Questions_to_Ask.png?w=3840&q=90&fm=webp",
+                "attributes": "{'alt': 'buying a new oven', 'title': '', 'loading': 'lazy', 'decoding': 'async', 'data-nimg': 'fill', 'class': ['rounded-lg', 'object-cover'], 'style': 'position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;color:transparent', 'sizes': '(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw', 'srcset': 'https://www.searshomeservices.com/cftassets/7LnkUUpjNNEKqZKIeYDS8H/91f6c84b8e225a7e0bb1c8606376d2bb/Buying_a_New_Oven_5_Questions_to_Ask.png?w=256&q=90&fm=webp 256w, https://www.searshomeservices.com/cftassets/7LnkUUpjNNEKqZKIeYDS8H/91f6c84b8e225a7e0bb1c8606376d2bb/Buying_a_New_Oven_5_Questions_to_Ask.png?w=384&q=90&fm=webp 384w, https://www.searshomeservices.com/cftassets/7LnkUUpjNNEKqZKIeYDS8H/91f6c84b8e225a7e0bb1c8606376d2bb/Buying_a_New_Oven_5_Questions_to_Ask.png?w=640&q=90&fm=webp 640w, https://www.searshomeservices.com/cftassets/7LnkUUpjNNEKqZKIeYDS8H/91f6c84b8e225a7e0bb1c8606376d2bb/Buying_a_New_Oven_5_Questions_to_Ask.png?w=750&q=90&fm=webp 750w, https://www.searshomeservices.com/cftassets/7LnkUUpjNNEKqZKIeYDS8H/91f6c84b8e225a7e0bb1c8606376d2bb/Buying_a_New_Oven_5_Questions_to_Ask.png?w=828&q=90&fm=webp 828w, https://www.searshomeservices.com/cftassets/7LnkUUpjNNEKqZKIeYDS8H/91f6c84b8e225a7e0bb1c8606376d2bb/Buying_a_New_Oven_5_Questions_to_Ask.png?w=1080&q=90&fm=webp 1080w, https://www.searshomeservices.com/cftassets/7LnkUUpjNNEKqZKIeYDS8H/91f6c84b8e225a7e0bb1c8606376d2bb/Buying_a_New_Oven_5_Questions_to_Ask.png?w=1200&q=90&fm=webp 1200w, https://www.searshomeservices.com/cftassets/7LnkUUpjNNEKqZKIeYDS8H/91f6c84b8e225a7e0bb1c8606376d2bb/Buying_a_New_Oven_5_Questions_to_Ask.png?w=1920&q=90&fm=webp 1920w, https://www.searshomeservices.com/cftassets/7LnkUUpjNNEKqZKIeYDS8H/91f6c84b8e225a7e0bb1c8606376d2bb/Buying_a_New_Oven_5_Questions_to_Ask.png?w=2048&q=90&fm=webp 2048w, https://www.searshomeservices.com/cftassets/7LnkUUpjNNEKqZKIeYDS8H/91f6c84b8e225a7e0bb1c8606376d2bb/Buying_a_New_Oven_5_Questions_to_Ask.png?w=3840&q=90&fm=webp 3840w', 'src': 'https://www.searshomeservices.com/cftassets/7LnkUUpjNNEKqZKIeYDS8H/91f6c84b8e225a7e0bb1c8606376d2bb/Buying_a_New_Oven_5_Questions_to_Ask.png?w=3840&q=90&fm=webp'}",
+                "order": 144
+            },
+            {
+                "tag": "p",
+                "content": "Buying a New Oven?: 5 Questions for 2025",
+                "attributes": "{'class': ['text-xl', 'leading-8', 'text-blue-300', 'font-semibold']}",
+                "order": 145
+            },
+            {
+                "tag": "span",
+                "content": "8 min read",
+                "attributes": "{'class': ['break-words']}",
+                "order": 146
+            },
+            {
+                "tag": "span",
+                "content": "Jun. 24",
+                "attributes": "{'class': ['ml-2', 'break-words']}",
+                "order": 147
+            },
+            {
+                "tag": "p",
+                "content": "Considering buying a new oven? Discover the top 5 questions you should ask before making a purchase. Trust Sears Home Services for expert guidance.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 148
+            },
+            {
+                "tag": "a",
+                "content": "Oven",
+                "attributes": "{'class': ['break-all', 'text-blue-100', 'text-xs'], 'data-testid': 'repair_symptom_page_oven_blog_meta_data_3_product_link', 'data-metric-id': 'repair_symptom_page_oven_blog_meta_data_3_product_link', 'data-metric-value': 'Oven', 'target': '_self', 'href': '/blog/repair/oven-resources'}",
+                "order": 149
+            },
+            {
+                "tag": "h3",
+                "content": "Glossary Terms",
+                "attributes": "{'class': ['text-blue-300', 'mb-0', 'text-4xl']}",
+                "order": 150
+            },
+            {
+                "tag": "span",
+                "content": "What is a Convection Oven?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 151
+            },
+            {
+                "tag": "p",
+                "content": "A convection oven is a kitchen appliance that uses a fan to circulate hot air around food, cooking it more evenly and often more quickly than a traditional oven.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 152
+            },
+            {
+                "tag": "span",
+                "content": "What is a Thermocouple?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 153
+            },
+            {
+                "tag": "p",
+                "content": "A thermocouple is a sensor used for measuring temperature, consisting of two different metal wires joined at one end, which generate a voltage proportional to temperature changes.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 154
+            },
+            {
+                "tag": "span",
+                "content": "What is an Oven Bag?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 155
+            },
+            {
+                "tag": "p",
+                "content": "An oven bag is a heat-resistant, nylon or polyester bag designed for cooking a wide variety of foods in the oven, ensuring moist and flavorful meals by trapping moisture and flavor inside.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 156
+            },
+            {
+                "tag": "span",
+                "content": "What is an Oven Rack?",
+                "attributes": "{'class': ['text-blue-300', 'text-xl', 'font-semibold', 'leading-8', 'line-clamp-2']}",
+                "order": 157
+            },
+            {
+                "tag": "p",
+                "content": "An oven rack is a removable shelving unit inside an oven that holds cookware, allowing air to circulate around the food for even cooking and baking.",
+                "attributes": "{'class': ['text-blue-400', 'text-md', 'leading-6', 'font-normal']}",
+                "order": 158
+            },
+            {
+                "tag": "h2",
+                "content": "Additional possible GE oven symptoms you may experience",
+                "attributes": "{'class': ['text-blue-300', 'mb-0', 'leading-8', 'text-4xl']}",
+                "order": 159
+            },
+            {
+                "tag": "span",
+                "content": "GE oven not working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 160
+            },
+            {
+                "tag": "span",
+                "content": "GE oven broiler not working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 161
+            },
+            {
+                "tag": "span",
+                "content": "GE oven burner not working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 162
+            },
+            {
+                "tag": "span",
+                "content": "GE oven display not working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 163
+            },
+            {
+                "tag": "span",
+                "content": "GE oven fan not working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 164
+            },
+            {
+                "tag": "span",
+                "content": "GE oven element not working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 165
+            },
+            {
+                "tag": "span",
+                "content": "GE oven light not working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 166
+            },
+            {
+                "tag": "span",
+                "content": "GE oven steam clean not working",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 167
+            },
+            {
+                "tag": "span",
+                "content": "GE oven won't turn off",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 168
+            },
+            {
+                "tag": "h2",
+                "content": "These oven brands may also experience not heating",
+                "attributes": "{'class': ['text-blue-300', 'mb-0', 'leading-8', 'text-4xl']}",
+                "order": 169
+            },
+            {
+                "tag": "span",
+                "content": "Frigidaire oven not heating",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 170
+            },
+            {
+                "tag": "span",
+                "content": "Kenmore Elite oven not heating",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 171
+            },
+            {
+                "tag": "span",
+                "content": "GE Monogram oven not heating",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 172
+            },
+            {
+                "tag": "span",
+                "content": "GE Profile oven not heating",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 173
+            },
+            {
+                "tag": "span",
+                "content": "Haier oven not heating",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 174
+            },
+            {
+                "tag": "span",
+                "content": "JennAir oven not heating",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 175
+            },
+            {
+                "tag": "span",
+                "content": "Kenmore oven not heating",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 176
+            },
+            {
+                "tag": "span",
+                "content": "LG oven not heating",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 177
+            },
+            {
+                "tag": "span",
+                "content": "Magic Chef oven not heating",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 178
+            },
+            {
+                "tag": "span",
+                "content": "Maytag oven not heating",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 179
+            },
+            {
+                "tag": "span",
+                "content": "Samsung oven not heating",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 180
+            },
+            {
+                "tag": "span",
+                "content": "Tappan oven not heating",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 181
+            },
+            {
+                "tag": "span",
+                "content": "Whirlpool oven not heating",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 182
+            },
+            {
+                "tag": "span",
+                "content": "Amana oven not heating",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 183
+            },
+            {
+                "tag": "span",
+                "content": "Bosch oven not heating",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 184
+            },
+            {
+                "tag": "span",
+                "content": "Fisher & Paykel oven not heating",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 185
+            },
+            {
+                "tag": "span",
+                "content": "KitchenAid oven not heating",
+                "attributes": "{'class': ['text-gray-500', 'text-md', 'font-medium', 'leading-6', 'line-clamp-2', 'mb-2', 'lg:mb-3']}",
+                "order": 186
+            },
+            {
+                "tag": "div",
+                "content": "$",
+                "attributes": "{}",
+                "order": 187
+            },
+            {
+                "tag": "div",
+                "content": "/$",
+                "attributes": "{}",
+                "order": 188
+            },
+            {
+                "tag": "div",
+                "content": "PC Header",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 189
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: shs-logo | Src: https://cdn.cookielaw.org/logos/cc9a8230-03c2-46ab-afe1-51ced9dc71c0/9ff49619-d07c-4183-9296-1ab182541af7/37067ed8-3732-4c57-8be8-5c334ab22954/logo-png.png",
+                "attributes": "{'alt': 'shs-logo', 'src': 'https://cdn.cookielaw.org/logos/cc9a8230-03c2-46ab-afe1-51ced9dc71c0/9ff49619-d07c-4183-9296-1ab182541af7/37067ed8-3732-4c57-8be8-5c334ab22954/logo-png.png'}",
+                "order": 190
+            },
+            {
+                "tag": "span",
+                "content": "Your Opt Out Preference Signal is Honored",
+                "attributes": "{}",
+                "order": 191
+            },
+            {
+                "tag": "h2",
+                "content": "Notice of Right to Opt Out of Sale/Sharing",
+                "attributes": "{'id': 'ot-pc-title'}",
+                "order": 192
+            },
+            {
+                "tag": "div",
+                "content": "This website uses cookies and other tracking technologies (\u201cCookies\u201d) to serve targeted ads, enhance user experience, and to analyze user activity. Some Cookies may collect personal information that is used in a way that is considered a \u201cSale\u201d, \u201cSharing\u201d, or \u201cTargeted Advertising\u201d as those terms are defined under various state privacy laws. To opt out of Cookie based Sales, Sharing, and Targeted Advertising, please follow the instructions below. To opt out of non-Cookie based Sales, Sharing, and Targeted Advertising, please visit our webform",
+                "attributes": "{'id': 'ot-pc-desc'}",
+                "order": 193
+            },
+            {
+                "tag": "a",
+                "content": "here",
+                "attributes": "{'href': 'https://privacyportal.onetrust.com/webform/cc9a8230-03c2-46ab-afe1-51ced9dc71c0/8af6e60f-4a08-4da4-bc67-c757487f400f', 'target': '_blank', 'rel': ['noopener', 'noreferrer'], 'style': 'color:#3860BE; text-decoration:underline; display:inline;'}",
+                "order": 194
+            },
+            {
+                "tag": "div",
+                "content": ". Please visit our Privacy Policy linked below, including the State Specific Disclosures section for more information about your rights and our privacy practices.",
+                "attributes": "{'id': 'ot-pc-desc'}",
+                "order": 195
+            },
+            {
+                "tag": "a",
+                "content": "Privacy Policy",
+                "attributes": "{'href': 'https://www.searshomeservices.com/privacy#california-residents', 'class': ['privacy-notice-link'], 'rel': ['noopener'], 'target': '_blank', 'aria-label': 'More information about your privacy, opens in a new tab'}",
+                "order": 196
+            },
+            {
+                "tag": "section",
+                "content": "Non Accordion Group",
+                "attributes": "{'class': ['ot-sdk-row', 'ot-cat-grp']}",
+                "order": 197
+            },
+            {
+                "tag": "section",
+                "content": "Accordion Group section starts",
+                "attributes": "{'class': ['ot-sdk-row', 'ot-cat-grp']}",
+                "order": 198
+            },
+            {
+                "tag": "section",
+                "content": "Accordion Group section ends",
+                "attributes": "{'class': ['ot-sdk-row', 'ot-cat-grp']}",
+                "order": 199
+            },
+            {
+                "tag": "span",
+                "content": "Selling, Sharing, Targeted Advertising",
+                "attributes": "{'style': 'font-weight:bold;font-size:18px'}",
+                "order": 200
+            },
+            {
+                "tag": "span",
+                "content": "Selling, Sharing, Targeted Advertising",
+                "attributes": "{'style': 'font-weight:bold;font-size:18px'}",
+                "order": 201
+            },
+            {
+                "tag": "div",
+                "content": "You can move the toggle above to the left to opt out of Cookie-based Sales, Sharing, and Targeted Advertising. Please note that your opt-out choice is specific to this website, browser, and device. If you access other Transformco websites, you will need to make your election for each. Also, if you clear your Cookies on this browser or use another browser or device, you may need to opt out again on this website.",
+                "attributes": "{'role': 'note', 'style': 'font-size:13.008px; color:#696969; margin:0 0 25px;'}",
+                "order": 202
+            },
+            {
+                "tag": "div",
+                "content": "Please note: Opting out may affect our ability to personalize your experience on this website, though we may use Cookies that do not include Sales, Sharing, or Targeted Advertising. You may still receive non-personalized advertisements on other sites or personalized ads that may be based on information processed before you opted out.",
+                "attributes": "{'role': 'note', 'style': 'font-size:13.008px; color:#696969; margin:0 0 25px;'}",
+                "order": 203
+            },
+            {
+                "tag": "div",
+                "content": "This website recognizes the Global Privacy Control (\u201cGPC\u201d), which is designed to recognize certain browser-based opt-out preference signals. We will process the GPC signal as a request to opt out. To process your request through GPC, you must use a browser or browser extension that supports the signal and turn it on for each browser and device you use.",
+                "attributes": "{'role': 'note', 'style': 'font-size:13.008px; color:#696969; margin:0 0 25px;'}",
+                "order": 204
+            },
+            {
+                "tag": "h3",
+                "content": "Cookie List",
+                "attributes": "{}",
+                "order": 205
+            },
+            {
+                "tag": "button",
+                "content": "Clear",
+                "attributes": "{'id': 'clear-filters-handler'}",
+                "order": 206
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 207
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 208
+            },
+            {
+                "tag": "button",
+                "content": "Apply",
+                "attributes": "{'id': 'filter-apply-handler'}",
+                "order": 209
+            },
+            {
+                "tag": "button",
+                "content": "Cancel",
+                "attributes": "{'id': 'filter-cancel-handler'}",
+                "order": 210
+            },
+            {
+                "tag": "span",
+                "content": "Consent",
+                "attributes": "{'class': ['ot-consent-hdr']}",
+                "order": 211
+            },
+            {
+                "tag": "span",
+                "content": "Leg.Interest",
+                "attributes": "{'class': ['ot-li-hdr']}",
+                "order": 212
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 213
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 214
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 215
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 216
+            },
+            {
+                "tag": "span",
+                "content": "checkbox label",
+                "attributes": "{'class': ['ot-label-txt']}",
+                "order": 217
+            },
+            {
+                "tag": "span",
+                "content": "label",
+                "attributes": "{'class': ['ot-label-status']}",
+                "order": 218
+            },
+            {
+                "tag": "div",
+                "content": "Footer buttons and logo",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 219
+            },
+            {
+                "tag": "button",
+                "content": "Confirm My Choices",
+                "attributes": "{'class': ['save-preference-btn-handler', 'onetrust-close-btn-handler', 'ot-button-order-2']}",
+                "order": 220
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt: Powered by Onetrust | Src: https://cdn.cookielaw.org/logos/static/powered_by_logo.svg",
+                "attributes": "{'alt': 'Powered by Onetrust', 'src': 'https://cdn.cookielaw.org/logos/static/powered_by_logo.svg', 'title': 'Powered by OneTrust Opens in a new Tab'}",
+                "order": 221
+            },
+            {
+                "tag": "div",
+                "content": "Cookie subgroup container",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 222
+            },
+            {
+                "tag": "div",
+                "content": "Vendor list link",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 223
+            },
+            {
+                "tag": "div",
+                "content": "Cookie lost link",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 224
+            },
+            {
+                "tag": "div",
+                "content": "Toggle HTML element",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 225
+            },
+            {
+                "tag": "div",
+                "content": "Checkbox HTML",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 226
+            },
+            {
+                "tag": "div",
+                "content": "Arrow SVG element",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 227
+            },
+            {
+                "tag": "div",
+                "content": "plus minus",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 228
+            },
+            {
+                "tag": "div",
+                "content": "Accordion basic element",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 229
+            },
+            {
+                "tag": "div",
+                "content": "Vendor Service container and item template",
+                "attributes": "{'role': 'dialog', 'aria-modal': 'true', 'style': 'height: 100%;', 'aria-label': 'Notice of Right to Opt Out of Sale/Sharing'}",
+                "order": 230
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt:  | Src: https://bat.bing.com/action/0?ti=5105802&Ver=2&mid=94693151-a641-4be3-b6b5-95e24aecc05e&bo=1&sid=c534bf30e18311f091641bc72627a939&vid=c534cda0e18311f09b7e4bae5f0b42b0&vids=0&msclkid=N&uach=pv%3D&pi=918639831&lg=en-GB&sw=800&sh=600&sc=24&nwd=1&tl=GE%20oven%20not%20heating%3F%20Discover%20solutions%20%26%20expert%20tips%20to%20get%20cooking%20again!&p=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Fge-oven-not-heating&r=&lt=1626&evt=pageLoad&sv=2&cdb=AQET&rn=331747",
+                "attributes": "{'id': 'batBeacon108940800899', 'width': '0', 'height': '0', 'alt': '', 'src': 'https://bat.bing.com/action/0?ti=5105802&Ver=2&mid=94693151-a641-4be3-b6b5-95e24aecc05e&bo=1&sid=c534bf30e18311f091641bc72627a939&vid=c534cda0e18311f09b7e4bae5f0b42b0&vids=0&msclkid=N&uach=pv%3D&pi=918639831&lg=en-GB&sw=800&sh=600&sc=24&nwd=1&tl=GE%20oven%20not%20heating%3F%20Discover%20solutions%20%26%20expert%20tips%20to%20get%20cooking%20again!&p=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Fge-oven-not-heating&r=&lt=1626&evt=pageLoad&sv=2&cdb=AQET&rn=331747', 'style': 'width: 0px; height: 0px; display: none; visibility: hidden;'}",
+                "order": 231
+            },
+            {
+                "tag": "img",
+                "content": "[IMAGE] Alt:  | Src: https://lantern.roeye.com/track.php?fingerprint=f08effc7-7478-4bfe-9253-9d17f92438cc&referrer=&landingpage=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Fge-oven-not-heating&useragent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36&site=searshomeservices.com",
+                "attributes": "{'src': 'https://lantern.roeye.com/track.php?fingerprint=f08effc7-7478-4bfe-9253-9d17f92438cc&referrer=&landingpage=https%3A%2F%2Fwww.searshomeservices.com%2Fsymptom%2Fge-oven-not-heating&useragent=Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F120.0.0.0%20Safari%2F537.36&site=searshomeservices.com', 'alt': '', 'aria-hidden': 'true', 'border': '0', 'height': '0', 'width': '0', 'style': 'position: absolute; visibility: hidden; display: none;'}",
+                "order": 232
+            }
+        ]
+    }
+]

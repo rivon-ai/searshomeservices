@@ -58,25 +58,22 @@ export default function SearsHeader() {
             <div className='w-full border-b'>
                 <div className='w-[75%] mx-auto text-blue-900 font-semibold flex justify-between items-center text-sm py-2'>
                     <div className='flex items-center gap-2'>
-                        <Link href="https://www.searspartsdirect.com/">
-                            Shop Parts
-                        </Link>
-                        <Link href={"https://searshomeadvantage.shopyourway.com/"}>
-                            Sears Home Advantage
-                        </Link>
+                        {upperLink.slice(0, 2).map((link, idx) => (
+                            <Link key={idx} href={link.href}>
+                                {link.name}
+                            </Link>
+                        ))}
                     </div>
 
                     <div className='flex items-center gap-2'>
-                        <Link href="/signin">
-                            Sign In
-                        </Link>
-                        <span>|</span>
-                        <Link href="/signup">
-                            Sign Up
-                        </Link>
-                        <Link href={"https://www.searshomeservices.com/orders"}>
-                            Appointment Lookup
-                        </Link>
+                        {upperLink.slice(2).map((link, idx) => (
+                            <React.Fragment key={idx}>
+                                {link.name === "Sign Up" && <span>|</span>}
+                                <Link href={link.href}>
+                                    {link.name}
+                                </Link>
+                            </React.Fragment>
+                        ))}
                     </div>
                 </div>
             </div>
@@ -133,9 +130,9 @@ export default function SearsHeader() {
                                     {contact.name}
                                 </Link>
                             ) : (
-                                <div className='flex items-center gap-1.5'>
+                                <div key={idx} className='flex items-center gap-1.5'>
                                     <LuPhone className="text-xl text-gray-800" />
-                                    <Link key={idx} href={contact.href} className='text-xl font-semibold text-gray-800 underline'>
+                                    <Link href={contact.href} className='text-xl font-semibold text-gray-800 underline'>
                                         {contact.name}
                                     </Link>
                                 </div>

@@ -1,4 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sears Home Services - Symptom Center
+
+This is a **Next.js** application designed for Sears Home Services, featuring a dynamic **Symptom Center**, appointment scheduling flows, and a comprehensive appliance repair guide.
+
+## Key Features
+
+- **Dynamic Symptom Routing**: A flexible routing system (`/symptom-center/[brand-appliance-issue]`) that dynamically renders pages based on structured JSON data.
+- **Structured Data Integration**: Centralized brand and appliance data management using `brands_appliances_symptoms_structured.json` ensures consistency across the app.
+- **Smart Scheduling**: Integrated scheduling components (`ReasonStat&ScheduleCard`, `HeroSection`) that use shared data sources to prevent invalid selections.
+- **Responsive Design**: Built with Tailwind CSS for a seamless experience on mobile and desktop.
+
+## Project Structure
+
+### Data Layer (`/data`)
+
+The application relies on a file-based data architecture:
+
+- **`brands_appliances_symptoms_structured.json`**: The **Single Source of Truth** for all Brand -> Appliance -> Symptom relationships. This file drives the dropdowns and navigation.
+- **`appliance_issues_full.json`**: Contains detailed metadata for specific symptoms (titles, descriptions, slugs).
+- **`brandAppliances.ts`**: A robust TypeScript utility (`/utils/brandAppliances.ts`) that types and exports the data for safe consumption by components.
+- **Individual Symptom Files** (`data/brands/...`): Specific JSON files for each symptom page, containing rich content like repair steps, images, and explanations.
+
+### Key Components (`/app`)
+
+- **`HeroSection.tsx`**: The main landing component. It features synchronized **Brand** and **Appliance** dropdowns that direct users to the correct scheduling flow.
+- **`SymptomSection.tsx`**: Displays lists of common symptoms for a selected appliance. It dynamically filters issues based on the user's selection.
+- **`ReasonStat&ScheduleCard.tsx`**: A high-conversion component shown on symptom pages. It offers a "Schedule Now" CTA and displays localized repair statistics.
+- **`DynamicSymptomRenderer.tsx`**: The core engine for symptom pages. It parses the deep JSON structure of a symptom file and renders the appropriate UI sections (text, images, steps).
+
+## Development Workflow
+
+### Adding a New Brand or Appliance
+
+1. **Update the Source**: Add the new entry to `data/brands_appliances_symptoms_structured.json`.
+   - _Note_: Ensure the structure matches `BrandData` interface: `{ brand: string, appliances: [...] }`.
+2. **Verify**: The `brandAppliances.ts` utility will automatically propagate this new data to all dropdowns in `HeroSection`, `SymptomSection`, and `ReasonStat&ScheduleCard`.
+
+### content Management
+
+- **Symptom Pages**: Content for individual symptom pages is managed via JSON files in the `data/brands` directory hierarchy.
+  - To update a page, locate the corresponding JSON file (e.g., `data/brands/lg/washer/symptoms/leaking.json`) and edit the fields.
+  - The `DynamicSymptomRenderer` handles layout automatically.
+
+### Code Standards
+
+- **Type Safety**: Always import types from `utils/brandAppliances` or shared interfaces. Avoid `any`.
+- **Shared Utilities**: Use `brandAppliances` for any brand/appliance lists. Do not hardcode lists.
 
 ## Getting Started
 
@@ -8,29 +54,15 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Utilities & Tools
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **`utils/brandAppliances.ts`**: Exports `brandAppliances` (data) and `BrandData` (type). Use this for all dropdowns.
+- **`utils/renderInconsistentSection.tsx`**: A specialized helper for rendering legacy or inconsistent content structures within symptom data.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+_Built for Sears Home Services_

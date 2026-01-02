@@ -12,8 +12,8 @@ export default function WhyToChoose() {
     return (
         <>
             {/* Why Sears Home Services */}
-            <div className="border-t border-gray-200 pt-12 mb-16">
-                <h2 className="text-xl font-bold text-blue-900 mb-10 uppercase tracking-wide">Why Sears Home Services?</h2>
+            <div className="">  
+                <h3 className="text-xl font-bold text-blue-950 mb-10 uppercase tracking-wide">Why Sears Home Services?</h3>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     {/* Happy Customers */}

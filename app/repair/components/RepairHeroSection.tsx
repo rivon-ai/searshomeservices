@@ -1,20 +1,19 @@
-"use client";
-
 import ImageScheduleCard from "@/components/Image&ScheduleCard";
 import React from "react";
 import img from "@/public/image1.webp";
-import ExpertRepairAndHomeServices from "./ExpertRepair&HomeServices";
-import FAQ from "./FAQ";
-import HowItWorks from "./HowItWorks";
+import ApplianceServicesNearYou from "./ApplianceServicesNearYou";
+import LearnMore from "./LearnMore";
+import ExpertApplianceRepair from "./ExpertApplianceRepair";
+import HowItWorks from "@/app/components/HowItWorks";
+import BrandsWeRepair from "@/app/components/BrandsWeRepair";
 import WhyToChoose from "@/components/WhyToChoose";
-import MaintainenceCards from "./MaintainenceCards";
-import SchdeluProfessionalMaintenance from "./SchdeluProfessionalMaintenance";
-import SearsHomeServicesCards from "./SearsHomeServicesCards";
-import DealCards from "./DealCards";
+import KitchenRepairExperts from "./KitchenRepairExperts";
+import DealCards from "@/app/components/DealCards";
 import RatingSection from "@/components/RatingSection";
-import LatestResource from "./LatestResource";
-import CommonSymptoms from "./CommonSymptoms";
-import GlossaryTerms from "./GlossaryTerms";
+import FAQ from "@/app/components/FAQ";
+import LatestResource from "@/app/components/LatestResource";
+import GlossaryTerms from "@/app/components/GlossaryTerms";
+import CommonSymptoms from "@/app/components/CommonSymptoms";
 
 const reviews = [
   {
@@ -43,7 +42,7 @@ const reviews = [
   },
 ];
 
-export default function HeroSection() {
+export default function RepairHeroSection() {
   return (
     <div className="flex flex-col gap-10">
       <ImageScheduleCard
@@ -58,12 +57,16 @@ export default function HeroSection() {
         description="We're in your neighborhood and we'll fix it, no matter where you bought it. Schedule service your way"
       />
 
-      <div className="mt-28 border-b">
-        <ExpertRepairAndHomeServices />
+      <div className="pt-28 pb-12 border-b ">
+        <ExpertApplianceRepair />
       </div>
 
       <div className="pb-10 border-b">
-        <FAQ />
+        <ApplianceServicesNearYou />
+      </div>
+
+      <div className="pb-10 border-b ">
+        <LearnMore />
       </div>
 
       <div className="pb-10 border-b">
@@ -71,24 +74,15 @@ export default function HeroSection() {
       </div>
 
       <div className="pb-10 border-b">
+        <BrandsWeRepair />
+      </div>
+
+      <div className="pb-10 border-b">
         <WhyToChoose />
-        <p className="text-gray-500 mt-4">
-          When you're looking for "appliance repair near me" you can count of
-          Sears Home Services to be there with fast and reliable appliance
-          repair service.
-        </p>
       </div>
 
       <div className="pb-10 border-b">
-        <MaintainenceCards />
-      </div>
-
-      <div className="pb-10 border-b">
-        <SchdeluProfessionalMaintenance />
-      </div>
-
-      <div className="pb-10 border-b">
-        <SearsHomeServicesCards />
+        <KitchenRepairExperts />
       </div>
 
       <div className="pb-10 border-b">
@@ -99,11 +93,15 @@ export default function HeroSection() {
         <RatingSection reviews={reviews} />
       </div>
 
-      <div className="pb-10 border-b max-w-[50%] mx-auto">
+      <div className="pb-10 border-b">
+        <FAQ />
+      </div>
+
+      <div className="pb-10 max-w-[50%] mx-auto">
         <LatestResource />
       </div>
 
-      <div className="pb-10 border-b max-w-[50%] mx-auto">
+      <div className="pb-10 max-w-[50%] mx-auto">
         <GlossaryTerms />
       </div>
 

@@ -1,0 +1,41 @@
+{
+  "APPLIANCES": [
+    { "text": "Cooktop", "url": "https://www.searshomeservices.com/repair/cooktop-repair-service" },
+    { "text": "Dishwasher", "url": "https://www.searshomeservices.com/repair/dishwasher-repair-service" },
+    { "text": "Double Oven", "url": "https://www.searshomeservices.com/repair/double-oven-repair-service" },
+    { "text": "Dryer", "url": "https://www.searshomeservices.com/repair/dryer-repair-service" },
+    { "text": "Freezer", "url": "https://www.searshomeservices.com/repair/freezer-repair-service" },
+    { "text": "Garbage Disposal", "url": "https://www.searshomeservices.com/repair/garbage-disposal-repair-service" },
+    { "text": "Gas Grill", "url": "https://www.searshomeservices.com/repair/gas-grill-repair-service" },
+    { "text": "Ice Maker", "url": "https://www.searshomeservices.com/repair/ice-maker-repair-service" },
+    { "text": "Microwave", "url": "https://www.searshomeservices.com/repair/microwave-repair-service" },
+    { "text": "Range", "url": "https://www.searshomeservices.com/repair/range-repair-service" },
+    { "text": "Range Hood", "url": "https://www.searshomeservices.com/repair/range-hood-repair-service" },
+    { "text": "Refrigerator", "url": "https://www.searshomeservices.com/repair/refrigerator-repair-service" },
+    { "text": "Oven", "url": "https://www.searshomeservices.com/repair/oven-repair-service" },
+    { "text": "Stacked Laundry", "url": "https://www.searshomeservices.com/repair/stacked-laundry-unit-repair-service" },
+    { "text": "Trash Compactor", "url": "https://www.searshomeservices.com/repair/trash-compactor-repair-service" },
+    { "text": "Washer", "url": "https://www.searshomeservices.com/repair/washer-repair-service" },
+    { "text": "Washer Dryer Combo", "url": "https://www.searshomeservices.com/repair/washer-dryer-combo-repair-service" }
+  ],
+  "COOLING & HEATING": [
+    { "text": "Boiler", "url": "https://www.searshomeservices.com/repair/hvac/boiler-repair-service" },
+    { "text": "Central Air", "url": "https://www.searshomeservices.com/repair/hvac/central-air-conditioner-repair-service" },
+    { "text": "Gas Furnace", "url": "https://www.searshomeservices.com/repair/hvac/gas-furnace-repair-service" },
+    { "text": "HVAC", "url": "https://www.searshomeservices.com/repair/hvac-repair-service" },
+    { "text": "Heat Pump", "url": "https://www.searshomeservices.com/repair/hvac/heat-pump-repair-service" },
+    { "text": "Humidifier & Dehumidifier", "url": "https://www.searshomeservices.com/repair/hvac/humidifier-dehumidifier-repair-service" },
+    { "text": "Water Heater", "url": "https://www.searshomeservices.com/repair/hvac/water-heater-repair-service" }
+  ],
+  "FITNESS": [
+    { "text": "Elliptical Machine", "url": "https://www.searshomeservices.com/repair/elliptical-machine-repair-service" },
+    { "text": "Stationary Bike", "url": "https://www.searshomeservices.com/repair/stationary-bike-repair-service" },
+    { "text": "Stepper", "url": "https://www.searshomeservices.com/repair/stepper-repair-service" },
+    { "text": "Treadmill", "url": "https://www.searshomeservices.com/repair/treadmill-repair-service" }
+  ],
+  "LAWN & GARDEN": [
+    { "text": "Riding Mower", "url": "https://www.searshomeservices.com/repair/riding-mower-repair-service" },
+    { "text": "Snowblower", "url": "https://www.searshomeservices.com/repair/snow-blower-repair-service" },
+    { "text": "Wide-Deck Lawn Mower", "url": "https://www.searshomeservices.com/repair/wide-deck-lawn-mower-repair-service" }
+  ]
+}

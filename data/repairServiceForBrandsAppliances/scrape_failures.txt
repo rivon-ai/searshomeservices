@@ -1,0 +1,1 @@
+2026-01-06T08:22:53.932Z - Payne - Payne Gas furnace - https://www.searshomeservices.com/repair/payne/gas-furnace - TimeoutError: Navigation timeout of 60000 ms exceeded

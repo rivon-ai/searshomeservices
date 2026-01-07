@@ -51,12 +51,14 @@ export default function RepairResources({
               >
                 {/* Image */}
                 <div className="relative w-full h-48">
-                  <Image
-                    src={article.imageUrl}
-                    alt={article.title}
-                    fill
-                    className="object-cover"
-                  />
+                  {article.imageUrl ? (
+                    <Image
+                      src={article.imageUrl}
+                      alt={article.title}
+                      fill
+                      className="object-cover"
+                    />
+                  ) : null}
                 </div>
                 {/* Content */}
                 <div className="p-6">
@@ -83,33 +85,38 @@ export default function RepairResources({
           </div>
         </div>
       </div>
-      <div className="mx-4 lg:max-w-149 lg:mx-auto my-12 lg:mt-0 lg:mb-10">
-        <h2 className="text-2xl font-semibold">Glossary Terms</h2>
-        <div className="mt-9">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6">
-            {glossaryData.map((term, index) => (
-              <div key={index} className="flex flex-col h-full">
-                <div className="text-xl font-semibold leading-8 mt-0 lg:mt-4 mb-3">
-                  <Link
-                    href={term.link}
-                    className="focus:no-underline"
-                    target="_self"
-                  >
-                    <span className="text-xl font-medium leading-8 line-clamp-2">
-                      {term.title}
-                    </span>
-                  </Link>
+
+      {glossaryData.length > 0 ? (
+        <div className="mx-4 lg:max-w-149 lg:mx-auto my-12 lg:mt-0 lg:mb-10">
+          <h2 className="text-2xl font-semibold">Glossary Terms</h2>
+          <div className="mt-9">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6">
+              {glossaryData.map((term, index) => (
+                <div key={index} className="flex flex-col h-full">
+                  <div className="text-xl font-semibold leading-8 mt-0 lg:mt-4 mb-3">
+                    <Link
+                      href={term.link}
+                      className="focus:no-underline"
+                      target="_self"
+                    >
+                      <span className="text-xl font-medium leading-8 line-clamp-2">
+                        {term.title}
+                      </span>
+                    </Link>
+                  </div>
+                  <div className=" leading-6 line-clamp-3 mb-8 lg:mb-4">
+                    <p className=" text-md leading-6 font-normal">
+                      {term.description}
+                    </p>
+                  </div>
                 </div>
-                <div className=" leading-6 line-clamp-3 mb-8 lg:mb-4">
-                  <p className=" text-md leading-6 font-normal">
-                    {term.description}
-                  </p>
-                </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
-      </div>
+      ) : (
+        <div></div>
+      )}
     </>
   );
 }

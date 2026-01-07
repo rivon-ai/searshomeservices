@@ -18,7 +18,7 @@ import img from "@/public/alabamaImage.webp";
 import { Phone, Clock, MapPin, Home, Square, Grid } from "lucide-react";
 import ImageSection from "../components/ImageSection";
 import RatingSection from "../../../../../../components/RatingSection";
-import HowItWorks from "../components/HowItWorks";
+import HowItWorks from "../components/HowItWorksSection";
 import WhyToChoose from "../../../../../../components/WhyToChoose";
 import BrandsWeRepair from "../../../../../components/BrandsWeRepair";
 import LearnMore from "../components/LearnMore";

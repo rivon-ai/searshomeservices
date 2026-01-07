@@ -4,7 +4,7 @@ import img from "@/public/image1.webp";
 import ApplianceServicesNearYou from "./ApplianceServicesNearYou";
 import LearnMore from "./LearnMore";
 import ExpertApplianceRepair from "./ExpertApplianceRepair";
-import HowItWorks from "@/app/components/HowItWorks";
+import HowItWorks from "@/app/components/HowItWorksSVG";
 import BrandsWeRepair from "@/app/components/BrandsWeRepair";
 import WhyToChoose from "@/components/WhyToChoose";
 import KitchenRepairExperts from "./KitchenRepairExperts";

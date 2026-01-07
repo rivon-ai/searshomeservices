@@ -21,7 +21,7 @@ export default function BrandsWeRepair() {
     return (
         <div>
             {/* Brands We Repair */}
-            <div className="border-t border-gray-200 pt-12">
+            <div className="pt-12">
                 <h2 className="text-xl font-bold text-gray-900 mb-4 uppercase tracking-wide">Brands We Repair</h2>
 
                 <p className="text-gray-600 text-sm mb-8">We repair all major brands, no matter where you bought it.</p>
@@ -46,7 +46,6 @@ export default function BrandsWeRepair() {
                     <div className="grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all">
                         <Image src={kitchenAid} alt={"star svg"} className="w-40 h-32" />
                     </div>
-
                 </div>
 
                 {/* Brand Logos - Row 2 */}
@@ -70,7 +69,7 @@ export default function BrandsWeRepair() {
                 </div>
 
                 <div className="mt-6">
-                    <Link href="#" className="text-blue-600 hover:underline text-sm">
+                    <Link href="/repair/appliance-brand-we-repair" className="text-blue-600 hover:underline text-sm">
                         See the complete list of brands we repair
                     </Link>
                 </div>

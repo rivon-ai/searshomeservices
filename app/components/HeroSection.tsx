@@ -5,7 +5,7 @@ import React from "react";
 import img from "@/public/image1.webp";
 import ExpertRepairAndHomeServices from "./ExpertRepair&HomeServices";
 import FAQ from "./FAQ";
-import HowItWorks from "./HowItWorks";
+import HowItWorks from "./HowItWorksImageComp";
 import WhyToChoose from "@/components/WhyToChoose";
 import MaintainenceCards from "./MaintainenceCards";
 import SchdeluProfessionalMaintenance from "./SchdeluProfessionalMaintenance";

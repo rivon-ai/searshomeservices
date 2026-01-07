@@ -9,7 +9,7 @@ import BrandsWeRepair from "../../../../components/BrandsWeRepair";
 import WhyToChoose from "../../../../../components/WhyToChoose";
 import RepairResources from "./components/RepairResources";
 import TermsAndApplianceSymptom from "./components/TermsAndApplianceSymptom";
-import HowItWorks from "./components/HowItWorks";
+import HowItWorks from "./components/HowItWorksSection";
 
 const resources = [
   {

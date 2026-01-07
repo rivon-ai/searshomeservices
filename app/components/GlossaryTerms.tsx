@@ -1,6 +1,7 @@
 import React from "react";
+import { ScrapedNode } from "@/utils/brand-appliance-parser";
 
-const terms = [
+const defaultTerms = [
   {
     title: "What is the drum of the washing machine?",
     description:
@@ -23,10 +24,98 @@ const terms = [
   },
 ];
 
-export default function GlossaryTerms() {
+interface GlossaryTermsProps {
+  nodes?: ScrapedNode[];
+}
+
+export default function GlossaryTerms({ nodes }: GlossaryTermsProps) {
+  let terms = defaultTerms;
+
+  if (nodes && nodes.length > 0) {
+    terms = [];
+    let currentTerm: { title: string; description: string } | null = null;
+
+    let lastContent = "";
+
+    nodes.forEach((node) => {
+      const content = node.content ? node.content.trim() : "";
+
+      // Skip empty or duplicate content
+      if (!content || content === lastContent) {
+        return;
+      }
+      lastContent = content;
+
+      const attrs = (node.attributes as any) || {};
+      const className = attrs.class || "";
+      const isBold =
+        className.includes("font-bold") || className.includes("font-semibold");
+
+      // Heuristic for Title:
+      // Check standard tags, question marks, or bold styling on ANY tag (div, span, p) if short
+      const isHeaderTag = ["h3", "h4", "h5", "h6", "strong", "b"].includes(
+        node.tag,
+      );
+      const isStyledBold = isBold && content.length < 150;
+      const isQuestion = content.endsWith("?") && content.length < 150;
+
+      const isTitle = isHeaderTag || isQuestion || isStyledBold;
+
+      if (isTitle) {
+        // Avoid duplicate titles
+        if (currentTerm && currentTerm.title === content) {
+          return;
+        }
+
+        if (currentTerm) {
+          terms.push(currentTerm);
+        }
+        currentTerm = {
+          title: content,
+          description: "",
+        };
+      } else {
+        // Description content
+        if (currentTerm && content !== currentTerm.title) {
+          currentTerm.description +=
+            (currentTerm.description ? " " : "") + content;
+        }
+      }
+    });
+
+    if (currentTerm) {
+      terms.push(currentTerm);
+    }
+  }
+
+  // Fallback: If we had nodes but failed to parse any structured terms,
+  // just render the nodes simply to avoid "missing content".
+  if (terms.length === 0 && nodes && nodes.length > 0) {
+    return (
+      <div className="w-full">
+        <h3 className="text-2xl font-bold text-blue-950 mb-12">
+          Glossary Terms
+        </h3>
+        <div className="prose max-w-none">
+          {nodes.map((n, i) => (
+            <div key={i} className="mb-4 text-gray-600">
+              {n.tag.startsWith("h") || n.tag === "strong" ? (
+                <strong>{n.content}</strong>
+              ) : (
+                n.content
+              )}
+            </div>
+          ))}
+        </div>
+      </div>
+    );
+  }
+
+  if (terms.length === 0) return null;
+
   return (
     <div className="w-full">
-      <h2 className="text-2xl font-bold text-blue-950 mb-12">Glossary Terms</h2>
+      <h3 className="text-2xl font-bold text-blue-950 mb-12">Glossary Terms</h3>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-12">
         {terms.map((term, index) => (

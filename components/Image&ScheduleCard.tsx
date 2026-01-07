@@ -1,5 +1,4 @@
-"use client"
-
+"use client";
 
 import React, { useState } from "react";
 import Image, { StaticImageData } from "next/image";
@@ -73,6 +72,7 @@ export default function ImageScheduleCard({
           className="w-full h-auto rounded-lg"
           width={1200}
           height={600}
+          unoptimized={typeof heroImage === "string"}
         />
       )}
 

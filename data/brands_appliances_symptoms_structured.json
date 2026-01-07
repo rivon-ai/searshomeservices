@@ -1082,15 +1082,10 @@
                                "appliance":  "oven",
                                "symptoms":  [
                                                 "display-not-working",
+                                                "light-not-working",
                                                 "not-working"
                                             ]
-                           },
-                           {
-                               "appliance":  "oven-light",
-                               "symptoms":  [
-                                                "light-not-working"
-                                            ]
-                           },
+                           },                          
                            {
                                "appliance":  "refrigerator",
                                "symptoms":  [

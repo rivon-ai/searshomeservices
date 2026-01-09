@@ -46,8 +46,6 @@ export default function RootLayout({
       >
         <SearsHeader />
 
-        <Breadcrumbs />
-
         {children}
         <FooterTwo />
       </body>

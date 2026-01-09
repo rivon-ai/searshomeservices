@@ -1,0 +1,189 @@
+[
+  {
+    "title": "Repair",
+    "link": "/blog/repair",
+    "posts": [
+      {
+        "isFeatured": true,
+        "title": "Solving Samsung Refrigerator Ice Machine Problems: Expert Tips",
+        "url": "/blog/solving-samsung-refrigerator-ice-machine-problems-expert-tips",
+        "image": "https://images.ctfassets.net/e0821f6q5nel/13B0kMHK5ynw8i4kYgqx6K/2624121fa9a0c9feb58fec4585259ad1/5_Expert_Tips_for_Solving_Samsung_Refrigerator_Ice_Machine_Problems_in_2025.png",
+        "readTime": "8 min read",
+        "date": "Jan. 06",
+        "description": "Having issues with your Samsung refrigerator ice machine? Check out these 5 expert tips for problem-solving.",
+        "tags": [
+          {
+            "label": "Refrigerator",
+            "url": "/blog/repair/refrigerator-resources"
+          }
+        ]
+      },
+      {
+        "isFeatured": false,
+        "title": "How Does a Thermocouple Work?: A Basic Explanation",
+        "url": "/blog/how-does-a-thermocouple-work-explanation",
+        "image": "https://images.ctfassets.net/e0821f6q5nel/6tWnRHTu1zMQVmjR9oc37Y/a7ac11d432a1cf4e8db8596cfac6cbe4/How_does_a_thermocouple_work_water_heater.jpg",
+        "readTime": "10 min read",
+        "date": "Jan. 06",
+        "description": "Curious about how thermocouples work? Discover how these components control gas flow in appliances, ensuring safe operation in furnaces, water heaters, and more.",
+        "tags": [
+          { "label": "HVAC", "url": "/blog/repair/hvac-resources" },
+          {
+            "label": "Appliance 101",
+            "url": "/blog/repair/appliance-101-resources"
+          }
+        ]
+      },
+      {
+        "isFeatured": false,
+        "title": "How Does a Gas Furnace Work?: A Basic Technical Explanation",
+        "url": "/blog/how-does-a-gas-furnace-work-explanation",
+        "image": "https://images.ctfassets.net/e0821f6q5nel/4BqEHcjroB8qqxvzv8vq2N/8b9eb0917e1a31b00f1ef5f00dd43641/how-does-a-gas-furnace-work.png",
+        "readTime": "6 min read",
+        "date": "Jan. 06",
+        "description": "Find out how a gas furnace works and how to maintain it so it works efficiently and lasts longer.",
+        "tags": [
+          { "label": "Furnace", "url": "/blog/repair/furnace-resources" },
+          {
+            "label": "Appliance 101",
+            "url": "/blog/repair/appliance-101-resources"
+          }
+        ]
+      },
+      {
+        "isFeatured": false,
+        "title": "Is It Worth Repairing a Freezer?: Practical Tips from the Pros",
+        "url": "/blog/is-it-worth-repairing-a-freezer-practical-guide",
+        "image": "https://images.ctfassets.net/e0821f6q5nel/33ym2IovKiWlFtpAjFFxpe/065a6cf4a9640dc289d0bd811d37115b/SHS_blog-Is_It_Worth_Repairing_a_Freezer_A_Practical_Guide_for_Homeowners_primary.png",
+        "readTime": "5 min read",
+        "date": "Jan. 06",
+        "description": "Is it worth repairing a freezer? Explore the pros and cons and make the right choice for your budget with Sears Home Services.",
+        "tags": [
+          { "label": "Freezer", "url": "/blog/repair/freezer-resources" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Maintain",
+    "link": "/blog/maintain",
+    "posts": [
+      {
+        "isFeatured": true,
+        "title": "How Does a Thermostat Work?: A Basic Explanation",
+        "url": "/blog/how-does-a-thermostat-work-explanation",
+        "image": "https://images.ctfassets.net/e0821f6q5nel/6kJfSDBiynsES2CN12cpbM/9130b9092ee07ec5d2630ec2bfcc6855/How_does_a_thermostat_work_primary.jpg",
+        "readTime": "9 min read",
+        "date": "Jan. 07",
+        "description": "Discover how thermostats work to control your home's comfort and energy use. Learn about types, programming tips, and maintenance for a more efficient home.",
+        "tags": [
+          { "label": "HVAC", "url": "/blog/maintain/hvac-resources" },
+          {
+            "label": "Appliance 101",
+            "url": "/blog/maintain/appliance-101-resources"
+          }
+        ]
+      },
+      {
+        "isFeatured": false,
+        "title": "How to Clean a Kenmore Dishwasher: Expert Maintenance Tips",
+        "url": "/blog/how-to-clean-a-kenmore-dishwasher-maintenance-tips",
+        "image": "https://images.ctfassets.net/e0821f6q5nel/1ptM6G4j3Hsu0iXryRC0d7/2a8e1503d5e8ae387ffb29857ad713d2/SHS_blog-How_to_Clean_a_Kenmore_Dishwasher_primary.png",
+        "readTime": "7 min read",
+        "date": "Jan. 06",
+        "description": "Keep your Kenmore dishwasher running smoothly with our expert cleaning tips. Learn how to remove grime and eliminate odors for a fresh and hygienic dishwasher.",
+        "tags": [
+          {
+            "label": "Dishwasher",
+            "url": "/blog/maintain/dishwasher-resources"
+          }
+        ]
+      },
+      {
+        "isFeatured": false,
+        "title": "How Does a Dishwasher Work?",
+        "url": "/blog/how-does-a-dishwasher-work-explanation",
+        "image": "https://images.ctfassets.net/e0821f6q5nel/4ByBYCKrZJgEpG4fPVbjPY/63920d33918378cb535ec3dd725bd29f/How_does_a_dishwasher_work_primary.jpg",
+        "readTime": "12 min read",
+        "date": "Jan. 06",
+        "description": "Discover how dishwashers work, tips for maintenance, and when to seek repairs. Keep your dishwasher running smoothly and your dishes spotless every cycle.",
+        "tags": [
+          {
+            "label": "Dishwasher",
+            "url": "/blog/maintain/dishwasher-resources"
+          },
+          {
+            "label": "Appliance 101",
+            "url": "/blog/maintain/appliance-101-resources"
+          }
+        ]
+      },
+      {
+        "isFeatured": false,
+        "title": "How to Load Your Dishwasher: Expert Tips",
+        "url": "/blog/how-to-load-your-dishwasher-tips",
+        "image": "https://images.ctfassets.net/e0821f6q5nel/1nwcZC0z1SCWzCWKQGHfKH/c2db092fc23a3188241c213e9b2dcde3/How_to_Load_Your_Dishwasher.png",
+        "readTime": "3 min read",
+        "date": "Jan. 06",
+        "description": "Loading your dishwasher properly will ensure that all dishes get cleaned properly.",
+        "tags": [
+          {
+            "label": "Dishwasher",
+            "url": "/blog/maintain/dishwasher-resources"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Protect",
+    "link": "/blog/protect",
+    "posts": [
+      {
+        "isFeatured": true,
+        "title": "How to Find the Best Home Warranty for Appliances",
+        "url": "/blog/how-to-find-the-best-home-warranty-for-appliances",
+        "image": "https://images.ctfassets.net/e0821f6q5nel/19B78O1mEvrrmpQUozg91V/36b6c29352334ba2b647f0dce17db4f4/how-to-find-the-best-home-warranty-for-appliances-hero.png",
+        "readTime": "6 min read",
+        "date": "Jan. 06",
+        "description": "Discover how to find the best home warranty for appliances at Sears Home Services.",
+        "tags": [{ "label": "Laundry Appliances", "url": "N/A" }]
+      },
+      {
+        "isFeatured": false,
+        "title": "How to Choose a Home Warranty: A Complete Guide for Homeowners in 2026",
+        "url": "/blog/how-to-choose-a-home-warranty-complete-guide-for-homeowners",
+        "image": "https://images.ctfassets.net/e0821f6q5nel/1H2Z7ZP7Ni3TnyjSmwEmy2/f743efc3c6be214c445d9d0f7c13c2e7/how-to-choose-a-home-warranty-hero-image.png",
+        "readTime": "8 min read",
+        "date": "Jan. 06",
+        "description": "Choosing a home warranty doesn’t have to be overwhelming. This complete 2025 guide walks you through coverage options, costs, providers, and key questions to help homeowners make a confident decision.",
+        "tags": [
+          {
+            "label": "Kitchen Appliances",
+            "url": "/blog/protect/kitchen-appliances-resources"
+          }
+        ]
+      },
+      {
+        "isFeatured": false,
+        "title": "What Do Home Warranties Cover? Complete Coverage Guide",
+        "url": "/blog/what-do-home-warranties-cover-complete-coverage-guide",
+        "image": "https://images.ctfassets.net/e0821f6q5nel/3EphmaRwmfeSnbSSD1CvOt/1d942fd05f853b223e39bca4af4f24f6/what-does-a-home-warranty-cover.png",
+        "readTime": "9 min read",
+        "date": "Jan. 05",
+        "description": "This guide explains what home warranties typically cover, from major systems like HVAC and plumbing to appliances like refrigerators and washers. It also highlights common exclusions and how coverage works so you can choose the right plan with confidence.",
+        "tags": [{ "label": "HVAC", "url": "/blog/protect/hvac-resources" }]
+      },
+      {
+        "isFeatured": false,
+        "title": "What Is the Biggest Benefit of a Home Warranty?",
+        "url": "/blog/what-is-the-biggest-benefit-of-a-home-warranty",
+        "image": "https://images.ctfassets.net/e0821f6q5nel/4gisyaqJ5Hr4tQsTbWswjT/36e21ec0d90c6a77c59f2c8f73e228f1/What_is_the_Biggest_Benefit_of_a_Home_Warranty.png",
+        "readTime": "6 min read",
+        "date": "Jan. 05",
+        "description": "Discover the top advantage of having a home warranty with Sears Home Services.",
+        "tags": [{ "label": "HVAC", "url": "/blog/protect/hvac-resources" }]
+      }
+    ]
+  }
+]

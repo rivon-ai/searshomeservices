@@ -56,7 +56,7 @@ export default function SearsHeader() {
 
             {/* top-Section  */}
             <div className='w-full border-b'>
-                <div className='w-[75%] mx-auto text-blue-900 font-semibold flex justify-between items-center text-sm py-2'>
+                <div className='w-[80%] mx-auto text-blue-900 font-semibold flex justify-between items-center text-sm py-2'>
                     <div className='flex items-center gap-2'>
                         {upperLink.slice(0, 2).map((link, idx) => (
                             <Link key={idx} href={link.href}>
@@ -80,7 +80,7 @@ export default function SearsHeader() {
 
             {/* bottom section */}
             <div>
-                <div className='w-[75%] mx-auto flex justify-between items-center py-4'>
+                <div className='w-[80%] mx-auto flex justify-between items-center py-4'>
                     {/* Logo */}
                     <div>
                         <Link href="/">

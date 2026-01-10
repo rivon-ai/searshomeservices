@@ -57,7 +57,7 @@ const resources: Resource[] = [
 export default function LatestResource() {
   return (
     <div className="w-full">
-      <h2 className="text-2xl font-bold text-blue-950 mb-12">
+      <h2 className="text-3xl font-semibold text-blue-950 mb-12">
         Latest Resources
       </h2>
 
@@ -67,7 +67,7 @@ export default function LatestResource() {
             key={index}
             className="flex flex-col h-full group cursor-pointer"
           >
-            <div className="relative overflow-hidden rounded-xl mb-4 h-64 w-full">
+            <div className="relative overflow-hidden rounded-xl mb-4 h-44 w-full">
               <Image
                 src={resource.image}
                 alt={resource.title}

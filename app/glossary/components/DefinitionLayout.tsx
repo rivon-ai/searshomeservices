@@ -1,7 +1,15 @@
+"use client";
+
 import React from "react";
-import TableOfContents from "../components/TableOfContents";
-import ScheduleCard from "../components/ScheduleCard";
-import ContentSection from "../components/ContentSection";
+import Link from "next/link";
+import { TermObject } from "../lib/glossaryData";
+import ScheduleCard from "../../blog/repair/components/ScheduleCard";
+import TableOfContents from "@/app/blog/repair/components/TableOfContents";
+import ContentSection from "@/app/blog/repair/components/ContentSection";
+
+interface DefinitionLayoutProps {
+  term: TermObject;
+}
 
 // Data Definitions
 const sections = [
@@ -56,9 +64,8 @@ const sections = [
   },
 ];
 
-export default function BlogRepairPage() {
+export const DefinitionLayout: React.FC<DefinitionLayoutProps> = ({ term }) => {
   const headings = sections.map((s) => ({ id: s.id, title: s.title }));
-
   return (
     <main className="min-h-screen bg-gray-50 py-8 lg:py-12">
       {/* Container */}
@@ -72,6 +79,8 @@ export default function BlogRepairPage() {
           {/* Center Column: Content (50%) */}
           <div className="lg:w-1/2 grow order-2 mt-6 lg:mt-0">
             <ContentSection sections={sections} />
+
+            
           </div>
 
           {/* Right Column: Schedule Card (25%) */}
@@ -83,4 +92,4 @@ export default function BlogRepairPage() {
       </div>
     </main>
   );
-}
+};

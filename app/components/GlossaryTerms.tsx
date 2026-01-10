@@ -115,7 +115,7 @@ export default function GlossaryTerms({ nodes }: GlossaryTermsProps) {
 
   return (
     <div className="w-full">
-      <h3 className="text-2xl font-bold text-blue-950 mb-12">Glossary Terms</h3>
+      <h2 className="text-3xl font-semibold text-blue-950 mb-12">Glossary Terms</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-12">
         {terms.map((term, index) => (

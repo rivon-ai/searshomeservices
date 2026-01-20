@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export interface FAQItem {
   question: string;
-  answer: string[];
+  answer: string;
 }
 
 interface FAQProps {
@@ -34,11 +34,7 @@ export default function FAQ({ items }: FAQProps) {
               <h2>{item.question}</h2>
             </AccordionTrigger>
             <AccordionContent className="text-gray-700 text-base leading-relaxed">
-              {item.answer.map((paragraph, i) => (
-                <p key={i} className="mb-4 last:mb-0">
-                  {paragraph}
-                </p>
-              ))}
+              {item.answer}
             </AccordionContent>
           </AccordionItem>
         ))}

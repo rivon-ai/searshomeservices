@@ -93,9 +93,9 @@ export default function GlossaryTerms({ nodes }: GlossaryTermsProps) {
   if (terms.length === 0 && nodes && nodes.length > 0) {
     return (
       <div className="w-full">
-        <h3 className="text-2xl font-bold text-blue-950 mb-12">
+        <h2 className="text-2xl font-bold text-blue-950 mb-12">
           Glossary Terms
-        </h3>
+        </h2>
         <div className="prose max-w-none">
           {nodes.map((n, i) => (
             <div key={i} className="mb-4 text-gray-600">

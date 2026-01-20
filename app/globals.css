@@ -121,13 +121,23 @@
   }
 }
 
-body{
+body {
   font-family: var(--font-montserrat), sans-serif;
 }
-h3, h1, .oswald-font {
+h3,
+h1,
+.oswald-font {
   font-family: var(--font-oswald), sans-serif;
 }
 
 h2 {
   font-family: var(--font-montserrat), sans-serif;
+}
+
+.bg-hero-gradient {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0) 100%
+  );
 }

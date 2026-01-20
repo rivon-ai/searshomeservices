@@ -63,7 +63,30 @@ export default function HeroSection() {
       </div>
 
       <div className="pb-10 border-b">
-        <FAQ />
+        <FAQ
+          items={[
+            {
+              question: "How do I schedule an appliance repair service?",
+              answer:
+                "You can easily schedule an appointment online 24/7 by clicking the 'Schedule Now' button, or you can call our customer support team for assistance.",
+            },
+            {
+              question: "What brands of appliances do you repair?",
+              answer:
+                "We repair all major appliance brands, including Samsung, Whirlpool, LG, GE, Maytag, and Kenmore, regardless of where you bought them.",
+            },
+            {
+              question: "Do you offer a warranty on your repair services?",
+              answer:
+                "Yes, we provide a 90-day warranty on all repair parts and labor to ensure your appliance continues to run smoothly.",
+            },
+            {
+              question: "What should I expect during a service visit?",
+              answer:
+                "A professional technician will arrive at your home, diagnose the issue, provide an estimate for the repair, and perform the service using high-quality parts.",
+            },
+          ]}
+        />
       </div>
 
       <div className="pb-10 border-b">

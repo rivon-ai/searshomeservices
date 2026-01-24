@@ -39,7 +39,7 @@ export default function RatingSection({
   const currentDate = "DECEMBER 28, 2025";
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-8 bg-white">
+    <div className="max-w-7xl mx-auto px-4 py-8">
       {/* Header */}
       <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-8 md:mb-12 gap-4">
         <div>
@@ -81,9 +81,9 @@ export default function RatingSection({
                   <Card className="border-none shadow-sm bg-[#F8F9FA] h-full cursor-pointer hover:shadow-md transition-shadow rounded-xl">
                     <CardContent className="p-8 flex flex-col h-full">
                       {/* Title */}
-                      <h3 className="text-lg font-bold text-blue-900 mb-2">
+                      <h2 className="text-lg font-semibold text-blue-900 mb-2">
                         {review.title}
-                      </h3>
+                      </h2>
 
                       {/* Star Rating */}
                       <StarRating rating={review.rating} />

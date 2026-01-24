@@ -55,7 +55,6 @@ export default function MainSection() {
         <HelpOptions />
       </div>
       <div className="mx-auto lg:max-w-[50%] flex flex-col gap-20 py-10">
-        <RecentApplianceSymptoms />
         <LatestResource />
         <GlossaryTerms />
         <ContentGrid

@@ -110,6 +110,35 @@ export interface BookingCardProps {
   ctaLink?: string;
 }
 
+// Deal Cards
+export interface DealCardItem {
+  title: string;
+  save_percent: string;
+  price: string;
+  link: string;
+  features: string[];
+}
+
+export interface DealCardsProps {
+  title: string;
+  cards: DealCardItem[];
+}
+
+// Cleaning Section
+export interface CleaningItemData {
+  title: string;
+  description: string;
+  details: string;
+  features: string[];
+  before_image: string;
+  after_image: string;
+}
+
+export interface CleaningSectionProps {
+  title: string;
+  items: CleaningItemData[];
+}
+
 export interface SectionData {
   id: string;
   type:
@@ -122,7 +151,10 @@ export interface SectionData {
     | "glossary"
     | "recent_appliance_symptoms"
     | "brand_logos"
-    | "booking_card";
+    | "booking_card"
+    | "deal_cards"
+    | "appliance_cleaning_section"
+    | "rating_section"; // Added
   props:
     | HeroSectionProps
     | ServiceGridProps
@@ -133,6 +165,9 @@ export interface SectionData {
     | RecentSymptomsProps
     | BrandLogosProps
     | BookingCardProps
+    | DealCardsProps
+    | CleaningSectionProps
+    | ContentGridProps // Re-using ContentGridProps for RatingSection as the structure is identical (title + items)
     | any; // For generic_section which is complex
 }
 

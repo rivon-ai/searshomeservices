@@ -1,4 +1,4 @@
-# tProject Structure & Page Guide
+# Project Structure & Page Guide
 
 ## Overview
 

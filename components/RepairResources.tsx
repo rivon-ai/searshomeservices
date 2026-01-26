@@ -29,11 +29,13 @@ interface RepairResource {
 interface RepairResourcesProps {
   blogPosts?: BlogPost[];
   appliance?: string;
+  title?: string;
 }
 
 export function RepairResources({
   blogPosts = [],
   appliance,
+  title = "Repair Resources",
 }: RepairResourcesProps) {
   // Transform scraped blog posts to match RepairResource interface
   const resourcesToDisplay: RepairResource[] = blogPosts.map((post) => ({
@@ -60,7 +62,7 @@ export function RepairResources({
       <hr className="mb-6 md:mb-10" />
       <div className="">
         <h2 className="text-[#003d82] text-4xl mb-4 px-4 lg:px-0 lg:mb-8">
-          Repair Resources
+          {title}
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 md:gap-6">
           {resourcesToDisplay.map((resource, index) => (

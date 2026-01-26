@@ -127,6 +127,24 @@ const symptomItems = [
   },
 ];
 
+const MAINTENANCE_STEPS = [
+  {
+    icon: "https://www.searshomeservices.com/cftassets/5nUSIYvayFgLraaIwW3A2F/258f607fdfc6bf2c881eb8329aefa005/Calendar.svg?w=96&q=90",
+    title: "Book",
+    description: "Book your appointment now, for a time that works best for you.",
+  },
+  {
+    icon: "https://www.searshomeservices.com/cftassets/5AJwh2PhlyR4LcHY4Gkg6N/b01fc2f68989552c2bd18657b2787ea9/Parts.svg?w=96&q=90",
+    title: "Service",
+    description: "Our licensed pros will complete the maintenance.",
+  },
+  {
+    icon: "https://www.searshomeservices.com/cftassets/51uhz7Rpe3DkUdtip9OhCU/e1833cf67a8b50cadbdcaddf0bfcd320/Like.svg?w=96&q=90",
+    title: "Relax",
+    description: "Maintenance work is covered by a 30-day satisfaction guarantee.",
+  },
+];
+
 export default function Page() {
   return (
     <div>
@@ -150,7 +168,7 @@ export default function Page() {
         );
       })}
 
-      <MaintenanceSteps />
+      <MaintenanceSteps steps={MAINTENANCE_STEPS} />
 
       <div className="bg-green-50">
         <RatingSection reviews={REVIEWS} />

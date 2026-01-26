@@ -149,7 +149,7 @@
     },
     {
       "id": "five-star-service",
-      "type": "content_grid",
+      "type": "rating_section",
       "props": {
         "title": "Five star service",
         "items": [

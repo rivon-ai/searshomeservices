@@ -20,7 +20,7 @@ export default function MaintenanceSteps({
     <section className="w-full bg-white py-12 lg:py-20">
       <div className="w-full max-w-300 mx-auto px-4">
         <div className="max-w-2xl mb-12 lg:mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-blue-950 leading-tight">
+          <h2 className="text-3xl font-bold text-blue-950 leading-tight">
             {title}
           </h2>
         </div>

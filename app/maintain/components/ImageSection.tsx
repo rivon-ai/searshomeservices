@@ -20,97 +20,27 @@ export default function ImageSection({
   scheduler,
 }: ImageSectionProps) {
   return (
-    <section className="min-h-96 md:min-h-128 flex items-center justify-center font-sans">
-      <div className="relative w-full m-0">
-        <div className="pb-22 bg-white">
-          <section className="bg-blue-500 h-127 md:h-160">
-            <div className="flex flex-col grow relative w-full h-127 md:h-166 m-0 md:mx-auto">
-              <div className="relative w-full h-full">
-                {/* Background Image */}
-                <img
-                  alt={heading}
-                  fetchPriority="high"
-                  decoding="async"
-                  className="absolute inset-0 object-cover pointer-events-none"
-                  sizes="(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw"
-                  src={backgroundImage}
-                />
-                <div className="absolute w-full h-full bg-black/40 pointer-events-none"></div>
-
-                {/* Search/Schedule Widget Container */}
-                <div className="absolute w-full top-100 md:top-120 lg:top-128 z-10 pointer-events-none">
-                  <div className="mx-auto max-w-300 pointer-events-auto">
-                    <div className="grid grid-cols-1 w-full px-4 md:px-2 py-5 md:py-22">
-                      <section className="min-w-full mx-auto z-100">
-                        <div className="items-center flex flex-col lg:flex-row grow relative bg-white rounded-3xl px-6 py-4 lg:rounded-full lg:px-10 lg:py-4 lg:gap-4 lg:min-h-30 shadow-xl">
-                          <div className="flex flex-col lg:flex-row grow w-full lg:w-2/3 relative mx-2 lg:mx-0 gap-4 lg:gap-2">
-                            <div className="relative w-full lg:w-full">
-                              <select
-                                aria-label="Select Appliance"
-                                className="relative text-left block w-full bg-white border text-gray-500 border-gray-200 overflow-hidden whitespace-nowrap pl-4 pr-10 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500 appearance-none text-md font-medium h-14 rounded-[40px] cursor-pointer"
-                                defaultValue={scheduler?.defaultAppliance || ""}
-                              >
-                                <option value="" disabled>
-                                  Select Appliance
-                                </option>
-                                {scheduler?.available_options?.map(
-                                  (option, idx) => (
-                                    <option key={idx} value={option}>
-                                      {option}
-                                    </option>
-                                  ),
-                                ) || (
-                                  <>
-                                    <option value="appliance-repair">
-                                      Appliance Repair
-                                    </option>
-                                    <option value="maintenance">
-                                      Maintenance
-                                    </option>
-                                  </>
-                                )}
-                              </select>
-                              <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3">
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  viewBox="0 0 20 20"
-                                  fill="currentColor"
-                                  aria-hidden="true"
-                                  data-slot="icon"
-                                  className="h-5 w-5 text-gray-400"
-                                >
-                                  <path
-                                    fillRule="evenodd"
-                                    d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
-                                    clipRule="evenodd"
-                                  />
-                                </svg>
-                              </div>
-                            </div>
-                          </div>
-                          <div className="mt-4 lg:mt-0 w-full lg:w-auto">
-                            <button
-                              type="button"
-                              className="cursor-pointer text-white bg-teal-400 hover:bg-teal-500 transition-colors px-10 py-4 rounded-full w-full lg:w-auto font-bold text-lg"
-                            >
-                              Schedule Now
-                            </button>
-                          </div>
-                        </div>
-                      </section>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
+    <section className="relative w-full bg-white mb-28 md:mb-32 lg:mb-36 font-sans">
+      <div className="relative w-full h-[32rem] md:h-[40rem] lg:h-[45rem] bg-blue-500">
+        {/* Background Image Container */}
+        <div className="absolute inset-0 w-full h-full overflow-hidden">
+          <img
+            alt={heading}
+            fetchPriority="high"
+            decoding="async"
+            className="w-full h-full object-cover pointer-events-none"
+            sizes="(min-width: 1200px) 50vw, (min-width: 600px) 35vw, (min-width: 385px) 30vw, 100vw"
+            src={backgroundImage}
+          />
+          <div className="absolute inset-0 bg-black/40 pointer-events-none"></div>
         </div>
 
-        {/* Content Overlay */}
-        <div className="absolute inset-0 flex flex-col justify-center mx-auto max-w-300 px-4 lg:px-0 max-h-100 md:max-h-128 lg:max-h-152 pointer-events-none">
-          {/* Star Rating Badge - Static for now or pass as prop if needed */}
-          <div className="absolute top-4 left-5 z-10 cursor-pointer bg-white px-3 py-1.5 rounded-lg pointer-events-auto shadow-md">
-            <div className="flex items-center gap-2">
+        {/* content container */}
+        <div className="relative z-10 w-full h-full mx-auto max-w-[75rem] px-4 flex flex-col justify-center">
+          {/* Text Content */}
+          <div className="w-full mb-12 flex flex-col items-start text-left">
+            {/* Star Rating Badge */}
+            <div className="bg-white px-3 py-1.5 rounded-lg shadow-md mb-6 inline-flex items-center gap-2 cursor-pointer transition-transform hover:scale-105">
               <div className="flex gap-0.5 text-yellow-400">
                 {[1, 2, 3, 4, 5].map((i) => (
                   <svg
@@ -132,16 +62,68 @@ export default function ImageSection({
                 8399 Customer Reviews
               </p>
             </div>
-          </div>
 
-          <div className="shrink-0"></div>
-          <h1 className="lg:hero text-white text-left w-full max-w-185 text-5xl lg:text-7xl font-bold mb-6 drop-shadow-md">
-            {heading}
-          </h1>
-          <div className="text-gray-100 mt-2 text-left w-full max-w-196">
-            <p className="font-medium text-2xl lg:text-4xl leading-snug text-white drop-shadow-sm">
+            <h1 className="lg:hero text-white text-5xl lg:text-7xl font-bold mb-6 drop-shadow-md max-w-[46.25rem]">
+              {heading}
+            </h1>
+            <p className="font-medium text-2xl lg:text-4xl leading-snug text-white drop-shadow-sm max-w-[49rem] text-left">
               {description}
             </p>
+          </div>
+        </div>
+
+        {/* Search/Schedule Widget - Floating Overlay */}
+        <div className="absolute bottom-0 left-0 w-full translate-y-1/2 z-20 px-4 pointer-events-none">
+          <div className="mx-auto max-w-[75rem] pointer-events-auto">
+            <div className="items-center flex flex-col lg:flex-row bg-white rounded-3xl px-6 py-4 lg:rounded-full lg:px-10 lg:py-4 lg:gap-4 shadow-xl">
+              <div className="flex flex-col lg:flex-row grow w-full lg:w-2/3 relative mx-2 lg:mx-0 gap-4 lg:gap-2">
+                <div className="relative w-full lg:w-full">
+                  <select
+                    aria-label="Select Appliance"
+                    className="relative text-left block w-full bg-white border text-gray-500 border-gray-200 overflow-hidden whitespace-nowrap pl-4 pr-10 py-2 focus:outline-none focus:ring-blue-500 focus:border-blue-500 appearance-none text-md font-medium h-14 rounded-[40px] cursor-pointer"
+                    defaultValue={scheduler?.defaultAppliance || ""}
+                  >
+                    <option value="" disabled>
+                      Select Appliance
+                    </option>
+                    {scheduler?.available_options?.map((option, idx) => (
+                      <option key={idx} value={option}>
+                        {option}
+                      </option>
+                    )) || (
+                      <>
+                        <option value="appliance-repair">Appliance Repair</option>
+                        <option value="maintenance">Maintenance</option>
+                      </>
+                    )}
+                  </select>
+                  <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-3">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      aria-hidden="true"
+                      data-slot="icon"
+                      className="h-5 w-5 text-gray-400"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div className="mt-4 lg:mt-0 w-full lg:w-auto">
+                <button
+                  type="button"
+                  className="cursor-pointer text-white bg-teal-400 hover:bg-teal-500 transition-colors px-10 py-4 rounded-full w-full lg:w-auto font-bold text-lg"
+                >
+                  Schedule Now
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

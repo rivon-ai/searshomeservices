@@ -32,6 +32,7 @@
     "playwright": "^1.57.0",
     "puppeteer": "^24.34.0",
     "react": "19.2.1",
+    "react-compare-image": "^3.5.14",
     "react-dom": "19.2.1",
     "react-icons": "^5.5.0",
     "react-markdown": "^10.1.0",

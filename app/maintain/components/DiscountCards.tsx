@@ -4,20 +4,27 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { ChevronDown, ChevronUp, Check } from "lucide-react";
 
+export interface DiscountCardsProps {
+  title?: string;
+  cards?: PricingCardProps[];
+}
+
+export interface PricingCardProps {
+  title: string;
+  saveLabel: string;
+  description?: string; // Optional in some cases?
+  price: string;
+  link?: string; // Added link
+  services: ServiceItem[];
+  isBestValue?: boolean;
+  features?: string[]; // Added to match adapter if needed, but using services for now
+}
+
 interface ServiceItem {
   name: string;
 }
 
-interface PricingCardProps {
-  title: string;
-  saveLabel: string;
-  description: string;
-  price: string;
-  services: ServiceItem[];
-  isBestValue?: boolean;
-}
-
-const CARDS: PricingCardProps[] = [
+const DEFAULT_CARDS: PricingCardProps[] = [
   {
     title: "Washer and Dryer",
     saveLabel: "SAVE 25%*",
@@ -57,7 +64,10 @@ const CARDS: PricingCardProps[] = [
   },
 ];
 
-export default function DiscountCards() {
+export default function DiscountCards({
+  title,
+  cards = DEFAULT_CARDS,
+}: DiscountCardsProps) {
   const [openCardIndex, setOpenCardIndex] = useState<number | null>(null);
 
   const toggleCard = (index: number) => {
@@ -65,9 +75,14 @@ export default function DiscountCards() {
   };
 
   return (
-    <div className="w-full max-w-300 mx-auto px-4 py-8">
+    <div className="w-full max-w-7xl mx-auto px-4 py-8">
+      {title && (
+        <h2 className="text-3xl font-bold text-[#002B5C] mb-8 text-center">
+          {title}
+        </h2>
+      )}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        {CARDS.map((card, index) => (
+        {cards.map((card, index) => (
           <div
             key={index}
             className={`relative rounded-3xl p-6 sm:p-8 flex flex-col items-center text-center transition-all duration-300 ${
@@ -119,7 +134,7 @@ export default function DiscountCards() {
             <div className="text-4xl font-bold mb-8">{card.price}</div>
 
             <Link
-              href="/maintain/schedule"
+              href={card.link || "/maintain/schedule"}
               className={`w-full py-3.5 rounded-full font-bold mb-8 transition-colors ${
                 card.isBestValue
                   ? "bg-linear-to-r from-[#5CE5B4] to-[#31D3F5] text-[#003C60] font-bold py-3 px-8 rounded-full hover:opacity-90 transition-opacity"

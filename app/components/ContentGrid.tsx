@@ -1,13 +1,13 @@
 import React from "react";
 import Link from "next/link";
 
-interface ContentItem {
+export interface ContentItem {
   title: string;
   description: string;
   href: string;
 }
 
-interface ContentGridProps {
+export interface ContentGridProps {
   sectionTitle: string;
   items: ContentItem[];
 }

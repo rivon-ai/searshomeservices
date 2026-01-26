@@ -1,3 +1,4 @@
+
 {
   "slug": "appliance-maintenance",
   "seo": {
@@ -62,396 +63,59 @@
     },
     {
       "id": "we-clean-where-you-cant",
-      "type": "generic_section",
+      "type": "appliance_cleaning_section",
       "props": {
         "title": "We clean where you can't",
-        "content": [
+        "items": [
           {
-            "type": "heading-3",
-            "children": [
-              {
-                "type": "text",
-                "value": "Refrigerator"
-              }
-            ]
+            "title": "Refrigerator",
+            "description": "Clogged condenser coils on a refrigerator make the compressor work longer and harder, shortening the life of the product.",
+            "details": "Your refrigerator maintenance includes a detailed 9-point inspection featuring:",
+            "features": [
+              "Full electrical system inspection",
+              "Thermostat and air damper check",
+              "Defrost evaporation and drain inspection",
+              "Level check",
+              "Condensor coil, drip pan and door gasket cleaning",
+              "And much more"
+            ],
+            "before_image": "https://www.searshomeservices.com/cftassets/4y9v7JDUn89orfnom7Z6ik/e28104542b5d6e1738c8f7dcb904a618/646fa51f04880878a6153ab955af0d2b?w=600&q=90",
+            "after_image": "https://www.searshomeservices.com/cftassets/1aHsJiy6l1Bu30brmnvW6d/b0749032ab8d56fc3a707dcbdc685417/037d09de92d7a6a199066b1eeaecc4c8?w=600&q=90"
           },
           {
-            "type": "paragraph",
-            "children": [
-              {
-                "type": "text",
-                "value": "Clogged condenser coils on a refrigerator make the compressor work longer and harder, shortening the life of the product."
-              }
-            ]
+            "title": "Washer",
+            "description": "Mildew buildup in washers can create unsanitary conditions and a bad smell.",
+            "details": "Your washer cleaning service and maintenance includes a detailed 18-point inspection featuring:",
+            "features": [
+              "Both front load and top load washers",
+              "Fill cycle and temperature checks",
+              "Belt and motor inspections",
+              "Spin and agitate speed checks",
+              "Electrical system checks",
+              "Hose inspections",
+              "Drain checks",
+              "Clean and sanitize door boot",
+              "Run cycle with washing machine cleaner",
+              "And much more"
+            ],
+            "before_image": "https://www.searshomeservices.com/cftassets/1tTAko8LwjwCn7XFTLLMxu/84997ba44703315cfdb86851bad681f4/8c717dad5d74495c268821a13c8999f8?w=600&q=90",
+            "after_image": "https://www.searshomeservices.com/cftassets/6IU0lc06lS5SS2ufAiJM2V/41a7e636dc500c6ff0de6d4f60839873/bb18ed88491db77e25e5abc837cc2c14?w=600&q=90"
           },
           {
-            "type": "paragraph",
-            "children": [
-              {
-                "type": "text",
-                "value": "Your refrigerator maintenance includes a detailed 9-point inspection featuring:"
-              }
-            ]
-          },
-          {
-            "type": "list",
-            "children": [
-              {
-                "type": "list-item",
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "Full electrical system inspection"
-                  }
-                ]
-              },
-              {
-                "type": "list-item",
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "Thermostat and air damper check"
-                  }
-                ]
-              },
-              {
-                "type": "list-item",
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "Defrost evaporation and drain inspection"
-                  }
-                ]
-              },
-              {
-                "type": "list-item",
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "Level check"
-                  }
-                ]
-              },
-              {
-                "type": "list-item",
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "Condensor coil, drip pan and door gasket cleaning"
-                  }
-                ]
-              },
-              {
-                "type": "list-item",
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "And much more"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "div",
-            "children": [
-              {
-                "type": "text",
-                "value": "Before"
-              }
-            ]
-          },
-          {
-            "type": "image",
-            "src": "https://www.searshomeservices.com/cftassets/4y9v7JDUn89orfnom7Z6ik/e28104542b5d6e1738c8f7dcb904a618/646fa51f04880878a6153ab955af0d2b?w=600&q=90",
-            "alt": "Frame Image"
-          },
-          {
-            "type": "div",
-            "children": [
-              {
-                "type": "text",
-                "value": "After"
-              }
-            ]
-          },
-          {
-            "type": "image",
-            "src": "https://www.searshomeservices.com/cftassets/1aHsJiy6l1Bu30brmnvW6d/b0749032ab8d56fc3a707dcbdc685417/037d09de92d7a6a199066b1eeaecc4c8?w=600&q=90",
-            "alt": "Table Image"
-          },
-          {
-            "type": "heading-3",
-            "children": [
-              {
-                "type": "text",
-                "value": "Washer"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "type": "text",
-                "value": "Mildew buildup in washers can create unsanitary conditions and a bad smell."
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "type": "text",
-                "value": "Your washer cleaning service and maintenance includes a detailed 18-point inspection featuring:"
-              }
-            ]
-          },
-          {
-            "type": "list",
-            "children": [
-              {
-                "type": "list-item",
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "Both front load and top load washers"
-                  }
-                ]
-              },
-              {
-                "type": "list-item",
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "Fill cycle and temperature checks"
-                  }
-                ]
-              },
-              {
-                "type": "list-item",
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "Belt and motor inspections"
-                  }
-                ]
-              },
-              {
-                "type": "list-item",
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "Spin and agitate speed checks"
-                  }
-                ]
-              },
-              {
-                "type": "list-item",
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "Electrical system checks"
-                  }
-                ]
-              },
-              {
-                "type": "list-item",
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "Hose inspections"
-                  }
-                ]
-              },
-              {
-                "type": "list-item",
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "Drain checks"
-                  }
-                ]
-              },
-              {
-                "type": "list-item",
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "Clean and sanitize door boot"
-                  }
-                ]
-              },
-              {
-                "type": "list-item",
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "Run cycle with washing machine cleaner"
-                  }
-                ]
-              },
-              {
-                "type": "list-item",
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "And much more"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "div",
-            "children": [
-              {
-                "type": "text",
-                "value": "Before"
-              }
-            ]
-          },
-          {
-            "type": "image",
-            "src": "https://www.searshomeservices.com/cftassets/1tTAko8LwjwCn7XFTLLMxu/84997ba44703315cfdb86851bad681f4/8c717dad5d74495c268821a13c8999f8?w=600&q=90",
-            "alt": "Frame Image"
-          },
-          {
-            "type": "div",
-            "children": [
-              {
-                "type": "text",
-                "value": "After"
-              }
-            ]
-          },
-          {
-            "type": "image",
-            "src": "https://www.searshomeservices.com/cftassets/6IU0lc06lS5SS2ufAiJM2V/41a7e636dc500c6ff0de6d4f60839873/bb18ed88491db77e25e5abc837cc2c14?w=600&q=90",
-            "alt": "Table Image"
-          },
-          {
-            "type": "heading-3",
-            "children": [
-              {
-                "type": "text",
-                "value": "Dryer"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "type": "text",
-                "value": "Thousands of fires are sparked each year by lint and debris buildup in clothes dryers"
-              }
-            ]
-          },
-          {
-            "type": "paragraph",
-            "children": [
-              {
-                "type": "text",
-                "value": "Your dryer maintenance includes a detailed 13-point inspection featuring:"
-              }
-            ]
-          },
-          {
-            "type": "list",
-            "children": [
-              {
-                "type": "list-item",
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "Drum seal and support checks"
-                  }
-                ]
-              },
-              {
-                "type": "list-item",
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "Intake and exhaust inspections"
-                  }
-                ]
-              },
-              {
-                "type": "list-item",
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "Electrical system inspection"
-                  }
-                ]
-              },
-              {
-                "type": "list-item",
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "Temperature and moisture sensor cleaning and inspection"
-                  }
-                ]
-              },
-              {
-                "type": "list-item",
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "Leveling"
-                  }
-                ]
-              },
-              {
-                "type": "list-item",
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "A thorough cleaning of the inside of the dryer and exhaust vents"
-                  }
-                ]
-              },
-              {
-                "type": "list-item",
-                "children": [
-                  {
-                    "type": "text",
-                    "value": "And much more"
-                  }
-                ]
-              }
-            ]
-          },
-          {
-            "type": "div",
-            "children": [
-              {
-                "type": "text",
-                "value": "Before"
-              }
-            ]
-          },
-          {
-            "type": "image",
-            "src": "https://www.searshomeservices.com/cftassets/jRSEgpk1exZQOfscr5Ftj/1cfa9e48ba8467d4707e1fefa2b804f9/24980ccbb2caa2c1b4eff8928899d098?w=600&q=90",
-            "alt": "Frame Image"
-          },
-          {
-            "type": "div",
-            "children": [
-              {
-                "type": "text",
-                "value": "After"
-              }
-            ]
-          },
-          {
-            "type": "image",
-            "src": "https://www.searshomeservices.com/cftassets/2WRBAxrgEqzLAja7DPGGBv/7e2528e1b48640dcca18b85ad128926c/9bf71c9ff8140863ab5b515d9b9477a6?w=600&q=90",
-            "alt": "Table Image"
+            "title": "Dryer",
+            "description": "Thousands of fires are sparked each year by lint and debris buildup in clothes dryers",
+            "details": "Your dryer maintenance includes a detailed 13-point inspection featuring:",
+            "features": [
+              "Drum seal and support checks",
+              "Intake and exhaust inspections",
+              "Electrical system inspection",
+              "Temperature and moisture sensor cleaning and inspection",
+              "Leveling",
+              "A thorough cleaning of the inside of the dryer and exhaust vents",
+              "And much more"
+            ],
+            "before_image": "https://www.searshomeservices.com/cftassets/jRSEgpk1exZQOfscr5Ftj/1cfa9e48ba8467d4707e1fefa2b804f9/24980ccbb2caa2c1b4eff8928899d098?w=600&q=90",
+            "after_image": "https://www.searshomeservices.com/cftassets/2WRBAxrgEqzLAja7DPGGBv/7e2528e1b48640dcca18b85ad128926c/9bf71c9ff8140863ab5b515d9b9477a6?w=600&q=90"
           }
         ]
       }
@@ -1005,7 +669,7 @@
     },
     {
       "id": "five-star-service",
-      "type": "content_grid",
+      "type": "rating_section",
       "props": {
         "title": "Five star service",
         "items": [

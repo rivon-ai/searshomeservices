@@ -16,34 +16,34 @@ import {
 import { LuPhone } from "react-icons/lu";
 
 const upperLink = [
-    { name: "Shop Parts", href: "https://www.searspartsdirect.com/" },
+    { name: "Shop Parts", href: "ttps://www.searspartsdirect.com/" },
     { name: "Sears Home Advantage", href: "https://searshomeadvantage.shopyourway.com/" },
     { name: "Sign In", href: "/signin" },
     { name: "Sign Up", href: "/signup" },
-    { name: "Appointment Lookup", href: "https://www.searshomeservices.com/orders" }
+    { name: "Appointment Lookup", href: "/orders" }
 
 ]
 
 const options = [
-    { name: "Repair", href: "https://www.searspartsdirect.com/repair" },
-    { name: "Home Warrenty", href: "https://www.searspartsdirect.com/home-warrenty" },
-    { name: "Time-up & Maintain", href: "https://www.searspartsdirect.com/maintain" },
-    { name: "HVAC", href: "https://www.searspartsdirect.com/repair/hvac-repair-service" },
+    { name: "Repair", href: "/repair" },
+    { name: "Home Warrenty", href: "/home-warrenty" },
+    { name: "Time-up & Maintain", href: "/maintain" },
+    { name: "HVAC", href: "/repair/hvac-repair-service" },
     {
         name: "Resources",
-        href: "https://www.searshomeservices.com/authors",
+        href: "/authors",
         submenu: [
-            { name: "Resource Center", href: "https://www.searshomeservices.com/blog" },
-            { name: "Glossary", href: "https://www.searshomeservices.com/glossary" },
-            { name: "Help", href: "https://www.searshomeservices.com/help" },
-            { name: "Symptom Center", href: "https://www.searshomeservices.com/symptom-center" },
+            { name: "Resource Center", href: "/blog" }, 
+            { name: "Glossary", href: "/glossary" },
+            { name: "Help", href: "/help" },
+            { name: "Symptom Center", href: "/symptom-center" },
         ]
     },
 ]
 
 const contactLinks = [
     { name: "802-552-4364", href: "tel:802-552-4364" },
-    { name: "Schedule Now", href: "https://www.searshomeservices.com/scheduler" },
+    { name: "Schedule Now", href: "/scheduler" },
 ]
 
 

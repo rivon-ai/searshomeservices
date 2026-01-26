@@ -306,7 +306,7 @@ const glossaryTerms: GlossaryTerm[] = [
 
 export function GlossaryTerms() {
   return (
-    <div className="max-w-300 lg:mx-auto">
+    <div className="">
       <div className="mx-4 lg:max-w-xl lg:mx-auto mt-8 mb-12 lg:mb-20 lg:mt-20">
         <h3 className="text-[#003d82] mb-0 text-4xl">Glossary Terms</h3>
         <div className="mt-8">

@@ -66,7 +66,7 @@ export default function Navbar() {
                 </Link>
               </div>
 
-              <Link href="/appointment-lookup" className="flex items-center gap-1 hover:text-blue-700 transition-colors">
+              <Link href="/order" className="flex items-center gap-1 hover:text-blue-700 transition-colors">
                 <MdManageSearch className="text-lg" />
                 Appointment Lookup
               </Link>
@@ -115,7 +115,7 @@ export default function Navbar() {
                       Sign Up
                     </Link>
                     <Link
-                      href="/appointment-lookup"
+                      href="/order"
                       className="flex items-center gap-2 text-blue-900 hover:text-blue-700 py-2"
                       onClick={() => setMobileOpen(false)}
                     >

@@ -20,7 +20,7 @@ const upperLink = [
     { name: "Sears Home Advantage", href: "https://searshomeadvantage.shopyourway.com/" },
     { name: "Sign In", href: "/signin" },
     { name: "Sign Up", href: "/signup" },
-    { name: "Appointment Lookup", href: "/orders" }
+    { name: "Appointment Lookup", href: "/order" }
 
 ]
 

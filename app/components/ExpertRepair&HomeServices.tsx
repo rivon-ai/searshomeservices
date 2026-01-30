@@ -159,13 +159,8 @@ export default function ExpertRepairAndHomeServices() {
             section.level === "h1"
               ? "text-xl text-blue-950 mb-6 uppercase"
               : section.level === "h2"
-                ? "text-xl text-blue-950 mt-8 mb-4 border-l-4 border-yellow-400 pl-3" // Added a little yellow accent to mimic typical style if needed, or just plain
+                ? "text-xl text-blue-950 mt-8 mb-4 border-l-4 border-yellow-400 pl-3" 
                 : "text-lg text-blue-950 mt-6 mb-3";
-
-          // Adjusting strictly to screenshot observation:
-          // H1 looks like simple bold blue uppercase.
-          // "Our Services" looks like H2.
-          // "Appliance Repair" looks like H3.
 
           const trueStyles =
             section.level === "h1"
@@ -185,7 +180,7 @@ export default function ExpertRepairAndHomeServices() {
           return (
             <p
               key={index}
-              className="text-gray-700 leading-relaxed mb-4 text-base"
+              className="text-gray-500 leading-relaxed mb-4 text-base"
             >
               {section.content?.map((part, i) =>
                 typeof part === "string" ? (

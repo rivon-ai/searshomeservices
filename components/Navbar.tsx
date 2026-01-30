@@ -79,7 +79,7 @@ export default function Navbar() {
                 802-552-4364
               </Link>
 
-              <Button className="bg-blue-800 text-white text-lg hover:bg-blue-700 font-semibold px-10 py-5">Schedule Now</Button>
+              <Link href="/schedule" className="bg-blue-800 text-white text-lg hover:bg-blue-700 font-semibold px-10 py-5 cursor-pointer">Schedule Now</Link>
             </div>
 
             {/* Mobile Menu Toggle */}
@@ -148,7 +148,7 @@ export default function Navbar() {
                     <Link href="/resources" className="text-blue-900 hover:text-blue-700 py-2 font-medium">
                       Resources
                     </Link>
-                    <Button className="bg-blue-800 text-white hover:bg-blue-700 w-full mt-4">Schedule Now</Button>
+                    <Link href="/schedule" className="bg-blue-800 text-white hover:bg-blue-700 w-full mt-4 cursor-pointer">Schedule Now</Link>
                   </div>
                 </SheetContent>
               </Sheet>

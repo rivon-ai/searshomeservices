@@ -4,17 +4,14 @@ import React, { useState } from "react";
 import Image, { StaticImageData } from "next/image";
 import Link from "next/link";
 import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
-import { Button } from "@/components/ui/button";
+  Combobox,
+  ComboboxContent,
+  ComboboxItem,
+  ComboboxList,
+  ComboboxInput,
+} from "@/components/ui/combobox";
 import { IoCallOutline } from "react-icons/io5";
 import { CiChat1 } from "react-icons/ci";
-import { IoIosArrowDown } from "react-icons/io";
 import { FaStar } from "react-icons/fa";
 import { BrandData, Appliance, brandAppliances } from "@/utils/brandAppliances";
 
@@ -40,14 +37,58 @@ export default function ImageScheduleCard({
   subHeading,
   description,
 }: ImageScheduleCardProps) {
-  const [selectedBrand, setSelectedBrand] = useState<string>("");
   const [selectedProduct, setSelectedProduct] = useState<string>("");
+  const [selectedBrand, setSelectedBrand] = useState<string>("");
 
-  // Helper to get selected brand data
-  const currentBrandData = brandAppliances.find(
-    (b) => b.brand === selectedBrand,
-  );
-  const currentBrandApps: Appliance[] = currentBrandData?.appliances || [];
+  // Get all unique appliances from the data
+  const allAppliances = React.useMemo(() => {
+    const applianceSet = new Set<string>();
+    brandAppliances.forEach((brandData) => {
+      brandData.appliances.forEach((app) => {
+        applianceSet.add(app.appliance);
+      });
+    });
+    return Array.from(applianceSet).sort();
+  }, []);
+
+  // Get brands that support the selected appliance
+  const brandsForSelectedAppliance = React.useMemo(() => {
+    if (!selectedProduct) return [];
+
+    return brandAppliances
+      .filter((brandData) =>
+        brandData.appliances.some((app) => app.appliance === selectedProduct)
+      )
+      .map((brandData) => brandData.brand);
+  }, [selectedProduct]);
+
+  // Check if brand selection is required (appliance has multiple brands)
+  const isBrandRequired = brandsForSelectedAppliance.length > 0;
+  const showBrandCombobox = isBrandRequired;
+
+  // Validate if user can proceed to schedule
+  const canProceed = selectedProduct && (!isBrandRequired || selectedBrand);
+
+  // Handle appliance change
+  const handleApplianceChange = (value: string | null) => {
+    const newAppliance = value || "";
+    setSelectedProduct(newAppliance);
+
+    // Reset brand if the new appliance doesn't support the currently selected brand
+    if (newAppliance) {
+      const brandsForNewAppliance = brandAppliances
+        .filter((brandData) =>
+          brandData.appliances.some((app) => app.appliance === newAppliance)
+        )
+        .map((brandData) => brandData.brand);
+
+      if (!brandsForNewAppliance.includes(selectedBrand)) {
+        setSelectedBrand("");
+      }
+    } else {
+      setSelectedBrand("");
+    }
+  };
 
   return (
     <div className="relative">
@@ -91,7 +132,7 @@ export default function ImageScheduleCard({
         {/* Heading */}
         <div className="mb-6">
           {heading && (
-            <h2 className="font-bold text-3xl text-blue-950 mb-3">{heading}</h2>
+            <h2 className="font-semibold text-3xl text-blue-950 mb-3">{heading}</h2>
           )}
           {subHeading && (
             <p className="text-gray-600 text-base leading-relaxed">
@@ -103,94 +144,86 @@ export default function ImageScheduleCard({
           )}
         </div>
         <h2 className="text-xl font-semibold mb-2">
-          Select Brand and Appliance
+          Select {showBrandCombobox ? "Appliance and Brand" : "Appliance"}
         </h2>
 
-        {/* Dropdown and Button */}
-        <div className="flex flex-col md:flex-row items-stretch gap-3 mb-6 w-full">
-          {/* Brand Dropdown */}
-          <DropdownMenu>
-            <DropdownMenuTrigger className="flex justify-between items-center bg-white border-2 border-gray-300 rounded-lg px-4 py-2 font-medium text-gray-700 cursor-pointer hover:border-gray-400 transition-colors flex-1">
-              <span className="capitalize">{selectedBrand || "Brand"}</span>
-              <IoIosArrowDown className="ml-2" />
-            </DropdownMenuTrigger>
-            <DropdownMenuContent
-              className="w-full min-w-[200px] bg-white border border-gray-300 rounded-lg shadow-md mt-1 max-h-[300px] overflow-y-auto"
-              align="start"
+        {/* Comboboxes and Button */}
+        <div className="flex flex-col md:flex-row items-center gap-3 mb-6 w-full">
+          {/* Appliance Combobox - Always Shown */}
+          <Combobox
+            value={selectedProduct}
+            onValueChange={handleApplianceChange}
+          >
+            <ComboboxInput
+              placeholder={selectedProduct || "Select Appliance"}
+              className="flex-1 h-full py-0.5"
             >
-              <DropdownMenuLabel>Brand</DropdownMenuLabel>
-              <DropdownMenuSeparator />
-              {brandAppliances.map((brandData: BrandData) => (
-                <DropdownMenuItem
-                  key={brandData.brand}
-                  onClick={() => {
-                    const brandName = brandData.brand;
-                    setSelectedBrand(brandName);
-                    // Reset product logic
-                    const newBrandApps = brandData.appliances || [];
-                    const currentProductStillValid = newBrandApps.some(
-                      (a) => a.appliance === selectedProduct,
-                    );
+              <ComboboxContent>
+                <ComboboxList>
+                  {allAppliances.map((appliance: string) => (
+                    <ComboboxItem
+                      key={appliance}
+                      value={appliance}
+                      className="capitalize"
+                    >
+                      {appliance}
+                    </ComboboxItem>
+                  ))}
+                </ComboboxList>
+              </ComboboxContent>
+            </ComboboxInput>
+          </Combobox>
 
-                    if (!currentProductStillValid) {
-                      if (newBrandApps.length > 0) {
-                        setSelectedProduct(newBrandApps[0].appliance);
-                      } else {
-                        setSelectedProduct("");
-                      }
-                    }
-                  }}
-                  className="cursor-pointer capitalize"
-                >
-                  {brandData.brand}
-                </DropdownMenuItem>
-              ))}
-            </DropdownMenuContent>
-          </DropdownMenu>
-
-          {/* Appliance Dropdown */}
-          <DropdownMenu>
-            <DropdownMenuTrigger className="flex justify-between items-center bg-white border-2 border-gray-300 rounded-lg px-4 py-2 font-medium text-gray-700 cursor-pointer hover:border-gray-400 transition-colors flex-1">
-              <span className="capitalize">
-                {selectedProduct || "Appliance"}
-              </span>
-              <IoIosArrowDown className="ml-2" />
-            </DropdownMenuTrigger>
-            <DropdownMenuContent
-              className="w-full min-w-[200px] bg-white border border-gray-300 rounded-lg shadow-md mt-1 max-h-[300px] overflow-y-auto"
-              align="start"
+          {/* Brand Combobox - Conditionally Shown */}
+          {showBrandCombobox && (
+            <Combobox
+              value={selectedBrand}
+              onValueChange={(value) => setSelectedBrand(value || "")}
             >
-              <DropdownMenuLabel>Appliance</DropdownMenuLabel>
-              <DropdownMenuSeparator />
-              {currentBrandApps.length > 0 ? (
-                currentBrandApps.map((option: Appliance, index: number) => (
-                  <DropdownMenuItem
-                    key={index}
-                    onClick={() => setSelectedProduct(option.appliance)}
-                    className="cursor-pointer capitalize"
-                  >
-                    {option.appliance}
-                  </DropdownMenuItem>
-                ))
-              ) : (
-                <DropdownMenuItem className="cursor-pointer" disabled>
-                  {selectedBrand
-                    ? "No appliances found"
-                    : "Select a brand first"}
-                </DropdownMenuItem>
-              )}
-            </DropdownMenuContent>
-          </DropdownMenu>
+              <ComboboxInput
+                placeholder={selectedBrand || "Select Brand"}
+                className="flex-1 h-full py-0.5"
+              >
+                <ComboboxContent>
+                  <ComboboxList>
+                    {brandsForSelectedAppliance.map((brand: string) => (
+                      <ComboboxItem
+                        key={brand}
+                        value={brand}
+                        className="capitalize"
+                      >
+                        {brand}
+                      </ComboboxItem>
+                    ))}
+                  </ComboboxList>
+                </ComboboxContent>
+              </ComboboxInput>
+            </Combobox>
+          )}
 
-          <Button className="bg-blue-700 text-white hover:bg-blue-800 cursor-pointer font-semibold text-lg px-8 py-5 rounded-md transition-colors">
-            Schedule Now
-          </Button>
+          {/* Schedule Now Button/Link */}
+          {canProceed ? ( 
+            <Link
+              href={`/schedule?serviceType=${'Repair'}&appliance=${selectedProduct}${selectedBrand ? `&brand=${selectedBrand}` : ""}`}
+              className="bg-blue-700 text-white hover:bg-blue-800 cursor-pointer font-semibold text-lg px-8 py-2 flex items-center justify-center rounded-md transition-colors"
+            >
+              Schedule Now
+            </Link>
+          ) : (
+            <button
+              disabled
+              className="bg-gray-400 text-white cursor-not-allowed font-semibold text-lg px-8 py-2 flex items-center justify-center rounded-md"
+              title={!selectedProduct ? "Please select an appliance" : "Please select a brand"}
+            >
+              Schedule Now
+            </button>
+          )}
         </div>
 
         {/* Contact Options */}
         <div className="flex items-start justify-between  mb-4">
           <Link
-            href={"/page"}
+            href={"tel:8025524364"}
             className="flex items-center justify-center gap-2 w-full bg-gray-100 py-2 rounded-lg mr-2"
           >
             <IoCallOutline className="w-5 h-5" />
@@ -198,7 +231,7 @@ export default function ImageScheduleCard({
             <span className="font-bold text-blue-800">(802) 552-4364</span>
           </Link>
           <Link
-            href={"/page"}
+            href={"/schedule"}
             className="flex items-center justify-center gap-2 w-full bg-gray-100 text-center py-2 rounded-lg mr-2"
           >
             <CiChat1 className="w-6 h-6 " />
@@ -208,12 +241,12 @@ export default function ImageScheduleCard({
 
         {/* Warranty Link */}
         <Link
-          href={"/page"}
+          href={"/"}
           className="text-sm text-blue-600 hover:text-blue-800 font-medium hover:underline transition-colors block"
         >
           Will you be using repair benefits from a Sears or other warranty plan?
         </Link>
-      </div>
-    </div>
+      </div >
+    </div >
   );
 }

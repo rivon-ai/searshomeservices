@@ -4,11 +4,13 @@ import { Button } from "@/components/ui/button";
 import warrantyIcon from "@/public/HomeWarrenty.svg";
 import partsIcon from "@/public/ApplianceParts.svg";
 import cleaningIcon from "@/public/HomeCleaning.svg";
+import Link from "next/link";
 
 interface ServiceCard {
   title: string;
   icon: any; // Using any for SVG imports if strict typing isn't set up, or StaticImageData
   description: string;
+  href: string;
 }
 
 const servicesData: ServiceCard[] = [
@@ -16,16 +18,19 @@ const servicesData: ServiceCard[] = [
     title: "HOME WARRANTY",
     icon: warrantyIcon,
     description: "Protect your home's appliances and systems",
+    href: "/home-warranty",
   },
   {
     title: "APPLIANCE PARTS",
     icon: partsIcon,
     description: "Shop 3 million+ parts. Lookup 50,000 manuals",
+    href: "https://www.searspartsdirect.com",
   },
   {
     title: "HOME CLEANING",
     icon: cleaningIcon,
     description: "Air duct, carpet and upholstery cleaning experts",
+    href: "https://www.searsclean   .com",
   },
 ];
 
@@ -66,7 +71,7 @@ export default function SearsHomeServicesCards() {
               variant="outline"
               className="w-full border-blue-600 text-blue-600 hover:bg-blue-50 font-medium py-6 text-base rounded-md"
             >
-              Learn More
+              <Link href={service.href}>Learn More</Link>
             </Button>
           </div>
         ))}

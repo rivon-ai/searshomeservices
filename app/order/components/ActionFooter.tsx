@@ -17,7 +17,7 @@ import {
     CarouselNext,
     CarouselPrevious,
 } from "@/components/ui/carousel";
-import { DATES } from "../../scheduler/data";
+import { DATES } from "../../schedule/data";
 
 import { useRouter } from "next/navigation";
 import { updateAppointment } from "../../services/appointmentService";

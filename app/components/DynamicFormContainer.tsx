@@ -1,11 +1,11 @@
 "use client";
 
 import React from "react";
-import { StepProduct } from "../scheduler/components/StepProduct";
-import { StepZipCode } from "../scheduler/components/StepZipCode";
-import { StepDateTime } from "../scheduler/components/StepDateTime";
-import { StepServiceCall } from "../scheduler/components/StepServiceCall";
-import { SetBooking } from "../scheduler/components/SetBooking";
+import { StepProduct } from "../schedule/components/StepProduct";
+import { StepZipCode } from "../schedule/components/StepZipCode";
+import { StepDateTime } from "../schedule/components/StepDateTime";
+import { StepServiceCall } from "../schedule/components/StepServiceCall";
+import { SetBooking } from "../schedule/components/SetBooking";
 
 interface BookingData {
     appliance: string;

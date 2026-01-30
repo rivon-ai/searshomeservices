@@ -43,7 +43,7 @@ const options = [
 
 const contactLinks = [
     { name: "802-552-4364", href: "tel:802-552-4364" },
-    { name: "Schedule Now", href: "/scheduler" },
+    { name: "Schedule Now", href: "/schedule" },
 ]
 
 

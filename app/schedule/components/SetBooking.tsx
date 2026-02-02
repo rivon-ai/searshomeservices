@@ -3,6 +3,13 @@
 import React, { useState } from "react";
 import { ChevronDown, CheckSquare, Square } from "lucide-react";
 import FloatingLabelInput from "../../../components/FloatingLabelInput";
+import { cn } from "@/lib/utils";
+import {
+    DropdownMenu,
+    DropdownMenuContent,
+    DropdownMenuItem,
+    DropdownMenuTrigger,
+} from "@/components/ui/dropdown-menu";
 
 interface StepProps {
     bookingData: any;
@@ -12,6 +19,7 @@ interface StepProps {
 
 export function SetBooking({ bookingData, updateBookingData, onNext }: StepProps) {
     const [errors, setErrors] = useState<Record<string, string>>({});
+    const [isStateFocused, setIsStateFocused] = useState(false);
 
     // Refs for scrolling to error
     const firstNameRef = React.useRef<HTMLInputElement>(null);
@@ -197,22 +205,34 @@ export function SetBooking({ bookingData, updateBookingData, onNext }: StepProps
                 {/* State & Zip */}
                 <div className="grid grid-cols-2 gap-4">
                     <div className="group">
-                        <label className="block text-xs text-gray-500 mb-1">State *</label>
-                        <div className="relative">
-                            <select
-                                value={bookingData.state}
-                                onChange={(e) => updateBookingData("state", e.target.value)}
-                                className="w-full py-4 border-b border-gray-300 bg-white outline-none appearance-none h-14 focus:border-[#0046BE] transition-colors cursor-pointer"
-                            >
-                                <option value="" disabled>Select State</option>
-                                <option value="NY">NY</option>
-                                <option value="TX">TX</option>
-                                <option value="CA">CA</option>
-                                <option value="FL">FL</option>
-                                <option value="IL">IL</option>
-                            </select>
-                            <ChevronDown size={14} className="absolute right-0 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
-                        </div>
+                        <DropdownMenu onOpenChange={setIsStateFocused}>
+                            <DropdownMenuTrigger asChild>
+                                <button className="relative w-full text-left py-4 border-none bg-white outline-none h-14 transition-colors cursor-pointer flex items-center justify-between group">
+                                    <span className={bookingData.state ? "text-gray-700 font-medium" : "text-gray-400 font-medium"}>
+                                        {bookingData.state || "Select State"}
+                                    </span>
+                                    <ChevronDown size={14} className="text-gray-400" />
+
+                                    {/* Underline - Base */}
+                                    <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-gray-200 transition-colors duration-200" />
+
+                                    {/* Underline - Active (Animated) */}
+                                    <div
+                                        className={cn(
+                                            "absolute bottom-0 left-0 right-0 h-[2px] bg-[#0046BE] transition-transform duration-300 ease-in-out origin-center scale-x-0",
+                                            isStateFocused && "scale-x-100"
+                                        )}
+                                    />
+                                </button>
+                            </DropdownMenuTrigger>
+                            <DropdownMenuContent className="w-(--radix-dropdown-menu-trigger-width)">
+                                {["NY", "TX", "CA", "FL", "IL"].map((state) => (
+                                    <DropdownMenuItem key={state} onSelect={() => updateBookingData("state", state)} className="cursor-pointer">
+                                        {state}
+                                    </DropdownMenuItem>
+                                ))}
+                            </DropdownMenuContent>
+                        </DropdownMenu>
                     </div>
                     <div className="group">
                         <FloatingLabelInput

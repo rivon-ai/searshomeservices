@@ -8,7 +8,7 @@ import Link from "next/link";
 
 interface ServiceCard {
   title: string;
-  icon: any; // Using any for SVG imports if strict typing isn't set up, or StaticImageData
+  icon: any; 
   description: string;
   href: string;
 }

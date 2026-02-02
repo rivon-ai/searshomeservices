@@ -1,6 +1,7 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect, Suspense } from "react";
+import { useSearchParams } from "next/navigation";
 import { SummarySidebar } from "../components/SummarySidebar";
 import { AntiGravityProgressBar } from "../components/AntiGravityProgressBar";
 import { DynamicFormContainer } from "../components/DynamicFormContainer";
@@ -9,13 +10,17 @@ import { BookingSuccess } from "./components/BookingSuccess"; // Import new comp
 
 import { APPLIANCES, BRANDS, DATES } from "./data";
 
-export default function SchedulerPage() {
+function SchedulerContent() {
+    const searchParams = useSearchParams();
+    const applianceParam = searchParams.get("appliance") || "";
+    const brandParam = searchParams.get("brand") || "";
+
     // --- STATE ---
     const [currentStep, setCurrentStep] = useState(1);
     const [createdAppointmentId, setCreatedAppointmentId] = useState<string | null>(null);
     const [bookingData, setBookingData] = useState({
-        appliance: "",
-        brand: "",
+        appliance: applianceParam,
+        brand: brandParam,
         issue: "",
         zipCode: "",
         serviceDate: "",
@@ -102,6 +107,17 @@ export default function SchedulerPage() {
         }));
     };
 
+    // Update state if params change or on initial load (optional, but good for consistency)
+    useEffect(() => {
+        if (applianceParam || brandParam) {
+            setBookingData(prev => ({
+                ...prev,
+                appliance: prev.appliance || applianceParam,
+                brand: prev.brand || brandParam
+            }));
+        }
+    }, [applianceParam, brandParam]);
+
     // --- SUCCESS VIEW (Step 6) ---
     if (currentStep === 6) {
         return (
@@ -151,5 +167,13 @@ export default function SchedulerPage() {
 
             </div>
         </div>
+    );
+}
+
+export default function SchedulerPage() {
+    return (
+        <Suspense fallback={<div className="flex items-center justify-center h-screen">Loading...</div>}>
+            <SchedulerContent />
+        </Suspense>
     );
 }

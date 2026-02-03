@@ -1,4 +1,6 @@
-import puppeteer, { Browser, Page } from 'puppeteer';
+import puppeteer from "puppeteer";
+type Browser = any;
+type Page = any;
 import fs from 'fs/promises';
 import path from 'path';
 

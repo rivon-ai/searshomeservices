@@ -237,8 +237,8 @@ const recentSymptoms: Symptom[] = [
 
 export function RecentSymptoms() {
   return (
-    <div className="max-w-300 lg:mx-auto">
-      <div className="mx-4 lg:max-w-149 lg:mx-auto lg:mt-6 mb-12">
+    <div className="">
+      <div className="mt-6 mb-12">
         <h3 className="text-[#003d82] mb-0 text-4xl">
           Recent Appliance Symptoms
         </h3>
@@ -307,7 +307,7 @@ const glossaryTerms: GlossaryTerm[] = [
 export function GlossaryTerms() {
   return (
     <div className="">
-      <div className="mx-4 lg:max-w-xl lg:mx-auto mt-8 mb-12 lg:mb-20 lg:mt-20">
+      <div className="mb-12 mt-20">
         <h3 className="text-[#003d82] mb-0 text-4xl">Glossary Terms</h3>
         <div className="mt-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-6">
@@ -342,7 +342,7 @@ export function GlossaryTerms() {
 // Combined Demo Component
 export default function RepairResourcesAndGlossary() {
   return (
-    <div className="bg-white py-8">
+    <div className="bg-white py-8 max-w-[50%] mx-auto">
       <RepairResources />
       <RecentSymptoms />
       <GlossaryTerms />

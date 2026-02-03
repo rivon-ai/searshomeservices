@@ -1,4 +1,6 @@
-import puppeteer, { Browser } from "puppeteer";
+import puppeteer from "puppeteer";
+type Browser = any;
+type Page = any;
 import fs from "fs/promises";
 import path from "path";
 import { existsSync } from "fs";

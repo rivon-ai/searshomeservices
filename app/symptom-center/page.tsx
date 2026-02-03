@@ -7,10 +7,10 @@ import SymptomSection from './components/SymptomSection'
 
 export default function page() {
     return (
-        <div>
+        <section>
             <HeaderSection />
             <SymptomSection />
             <RepairResourcesAndGlossary />
-        </div>
+        </section>
     )
 }

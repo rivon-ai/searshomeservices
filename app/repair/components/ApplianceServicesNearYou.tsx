@@ -17,16 +17,16 @@ import waterHeaterIcon from "@/public/sear-page-icons-images/water-heater.svg";
 // I'll import it again to be explicit in the data structure if needed, or just use rangeIcon variable.
 
 const services = [
-  { name: "Refrigerator", icon: fridgeIcon },
-  { name: "Washer", icon: washerIcon },
-  { name: "Dryer", icon: dryerIcon },
-  { name: "Dishwasher", icon: dishwasherIcon },
-  { name: "Range", icon: rangeIcon },
-  { name: "Oven", icon: ovenIcon },
-  { name: "HVAC", icon: hvacIcon },
-  { name: "Freezer", icon: freezerIcon },
-  { name: "Water Heater", icon: waterHeaterIcon },
-  { name: "Cooktop", icon: rangeIcon }, // Reusing Range icon
+  { name: "refrigerator", icon: fridgeIcon },
+  { name: "washer", icon: washerIcon },
+  { name: "dryer", icon: dryerIcon },
+  { name: "dishwasher", icon: dishwasherIcon },
+  { name: "range", icon: rangeIcon },
+  { name: "oven", icon: ovenIcon },
+  { name: "hvac", icon: hvacIcon },
+  { name: "freezer", icon: freezerIcon },
+  { name: "waterheater", icon: waterHeaterIcon },
+  { name: "cooktop", icon: rangeIcon }, // Reusing Range icon
 ];
 
 export default function ApplianceServicesNearYou() {
@@ -39,8 +39,9 @@ export default function ApplianceServicesNearYou() {
 
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-12">
         {services.map((service, index) => (
-          <div
+          <Link
             key={index}
+            href={service.name === "hvac" ? `/repair/hvac-repair-service` : `/schedule?serviceType=Repair&appliance=${service.name}`}
             className="flex flex-col items-center justify-center group cursor-pointer"
           >
             <div className="mb-4 h-16 flex items-end">
@@ -53,13 +54,13 @@ export default function ApplianceServicesNearYou() {
             <span className="text-blue-950 font-bold uppercase text-sm tracking-wide text-center">
               {service.name}
             </span>
-          </div>
+          </Link>
         ))}
       </div>
 
       <div>
         <Link
-          href="#"
+          href="/schedule"
           className="text-blue-800 font-medium hover:text-blue-600 hover:underline"
         >
           Schedule all other repairs

@@ -25,7 +25,6 @@ import systemPlanSVG from '@/public/home-warrenty/system-plan-svg.svg'
 import wholeHomePlanSVG from '@/public/home-warrenty/home-plan-svg.svg'
 import applianceHVACPlanSVG from '@/public/home-warrenty/applianceAndHvac-plan-svg.svg'
 import PlanComparisonCards from './components/PlanComparisonCards';
-import ReviewsCarousel from './components/ReviewsCarousel';
 
 import { CiCalendar } from "react-icons/ci";
 import { FaUserNurse } from "react-icons/fa";
@@ -40,6 +39,7 @@ import glossaryImgTwo from '@/public/home-warrenty/glossaryImgTwo.webp'
 import glossaryImgThree from '@/public/home-warrenty/glossaryImgThree.webp'
 import glossaryImgFour from '@/public/home-warrenty/glossaryImgFour.webp'
 import ResourcesSection from './components/ResourcesSection';
+import RatingSection from '@/components/RatingSection';
 
 const pageSections = {
     // 1. Hero Banner
@@ -51,9 +51,9 @@ const pageSections = {
         bodyText: "Plus, you'll get $250 in benefits every year, when you use them*",
         ctaText: "Get Free Quote",
         trustBadges: [
-            "1.3M+ 5-Star Reviews",
-            "4M+ homes repaired a year",
-            "2,500 licensed, local experts"
+            "600k+ 5-Star Reviews",
+            "3M+ homes repaired a year",
+            "1,500 licensed, local experts"
         ],
         image: heroImage
     },
@@ -225,49 +225,58 @@ const pageSections = {
             subheading: "With more than 1,000,000 5-Star Reviews, our repair service reputation speaks for itself.",
             testimonials: [
                 {
+                    title: "Excellent Service",
+                    author: "Mae M, Hyattsville, MD",
                     rating: 5,
-                    quote: "The customer service rep was very polite and professional. He took his time to explain everything to me in detail regarding my washing machine repair. I will be using their service again for future needs.",
-                    author: "Mae M, Hyattsville, MD"
+                    text: "The customer service rep was very polite and professional. He took his time to explain everything to me in detail regarding my washing machine repair. I will be using their service again for future needs.",
                 },
                 {
+                    title: "Informative & Helpful",
+                    author: "Debbie D, Mesa, AZ",
                     rating: 5,
-                    quote: "Very informative on the issues and concerns I had. Gave good suggestions on how to maintain the refrigerator and keep it running properly",
-                    author: "Debbie D, Mesa, AZ"
+                    text: "Very informative on the issues and concerns I had. Gave good suggestions on how to maintain the refrigerator and keep it running properly",
                 },
                 {
+                    title: "Quick Diagnosis",
+                    author: "Richard F, Dixon, IL",
                     rating: 5,
-                    quote: "Our Technician arrived early, and quickly diagnosed the problem, which was out of the ordinary. He didn't keep us waiting long for our explanation and estimate for the repairs.",
-                    author: "Richard F, Dixon, IL"
+                    text: "Our Technician arrived early, and quickly diagnosed the problem, which was out of the ordinary. He didn't keep us waiting long for our explanation and estimate for the repairs.",
                 },
                 {
+                    title: "Knowledgeable Tech",
+                    author: "Janet S, Lubbock, TX",
                     rating: 5,
-                    quote: "Very pleased with Technician. Very knowledgable and polite and clean. Arrived on time as schedule and communicated. Could not be happier with the whole experience.",
-                    author: "Janet S, Lubbock, TX"
+                    text: "Very pleased with Technician. Very knowledgable and polite and clean. Arrived on time as schedule and communicated. Could not be happier with the whole experience.",
                 },
                 {
+                    title: "Fast Repair",
+                    author: "Colleen C, Fort Myers, FL",
                     rating: 5,
-                    quote: "I was not home at the time of my appointment but my serviceman was cooperative and made it easy to get my dryer fixed. He listened to my notes to call my landlord upon arrival. My landlord said he was fast in diagnosing and repairing the issue",
-                    author: "Colleen C, Fort Myers, FL"
+                    text: "I was not home at the time of my appointment but my serviceman was cooperative and made it easy to get my dryer fixed. He listened to my notes to call my landlord upon arrival. My landlord said he was fast in diagnosing and repairing the issue",
                 },
                 {
+                    title: "Friendly & Professional",
+                    author: "Mslizb, Inglewood, CA",
                     rating: 5,
-                    quote: "The technician was on time and when he arrived he explained what the service consisted of and what it did not consist of. Very friendly and professional",
-                    author: "Mslizb, Inglewood, CA"
+                    text: "The technician was on time and when he arrived he explained what the service consisted of and what it did not consist of. Very friendly and professional",
                 },
                 {
+                    title: "Great Experience",
+                    author: "Kimberly P, Edelstein, IL",
                     rating: 5,
-                    quote: "Repair man was here, diagnosed the problem, and ordered parts the same day. He came back after the parts arrived to fix it. It works great!",
-                    author: "Kimberly P, Edelstein, IL"
+                    text: "Repair man was here, diagnosed the problem, and ordered parts the same day. He came back after the parts arrived to fix it. It works great!",
                 },
                 {
+                    title: "Highly Professional",
+                    author: "JLFH, Traverse City, MI",
                     rating: 5,
-                    quote: "Mike has worked on my dryer a few times. Professional and very good at what he does. W/permission he added me to his schedule at the end of the day when o called and let him know the part had finally arrived.",
-                    author: "JLFH, Traverse City, MI"
+                    text: "Mike has worked on my dryer a few times. Professional and very good at what he does. W/permission he added me to his schedule at the end of the day when o called and let him know the part had finally arrived.",
                 },
                 {
+                    title: "Excellent Scheduling",
+                    author: "Laura B, Beaufort, NC",
                     rating: 5,
-                    quote: "Michael provided excellent service on our Kitchen Aid dishwasher. He not only fixed the issue but he also gave us some pointers for getting even higher performance from the appliance. The appointment schedule was updated regularly, and he arrived in the estimated time frame. We're happy customers and we'll call on Sears again if needed.",
-                    author: "Laura B, Beaufort, NC"
+                    text: "Michael provided excellent service on our Kitchen Aid dishwasher. He not only fixed the issue but he also gave us some pointers for getting even higher performance from the appliance. The appointment schedule was updated regularly, and he arrived in the estimated time frame. We're happy customers and we'll call on Sears again if needed.",
                 }
             ],
             isCarousel: true
@@ -547,7 +556,7 @@ export default function page() {
             <PropositionGrid featureGridData={pageSections.featureGridData} />
             <TrustAndLegacy brandTrustData={pageSections.brandTrustData} />
             <PlanComparisonCards comparisonCardsData={pageSections.comparisonPlanData} />
-            <ReviewsCarousel reviewCarousel={pageSections.reviewCarousel} />
+            <RatingSection reviews={pageSections.reviewCarousel.bottomRow.testimonials} />
             <HeritageServiceSections heritageHumanProofData={pageSections.heritageHumanProofData} serviceProcessKeyFeaturesData={pageSections.serviceProcessKeyFeaturesData} techCredibilityData={pageSections.techCredibilityData} />
             <FaqAndCallAction FaqAndCallToActionbData={pageSections.FaqAndCallToActionbData} />
             <ResourcesSection

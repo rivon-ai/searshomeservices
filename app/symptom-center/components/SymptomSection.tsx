@@ -46,52 +46,52 @@ type SymptomLink = {
 const symptomLinks: SymptomLink[] = [
   {
     label: "Payne central air not working",
-    href: "/symptom/payne-central-air-not-working",
+    href: "/symptom-center/payne-central-air-not-working",
     testId: "recent_symptoms_symptom_0",
   },
   {
     label: "ICP central air not working",
-    href: "/symptom/icp-central-air-not-working",
+    href: "/symptom-center/icp-central-air-not-working",
     testId: "recent_symptoms_symptom_1",
   },
   {
     label: "Heil central air not working",
-    href: "/symptom/heil-central-air-not-working",
+    href: "/symptom-center/heil-central-air-not-working",
     testId: "recent_symptoms_symptom_2",
   },
   {
     label: "Carrier central air not working",
-    href: "/symptom/carrier-central-air-not-working",
+    href: "/symptom-center/carrier-central-air-not-working",
     testId: "recent_symptoms_symptom_3",
   },
   {
     label: "Comfortmaker central air not working",
-    href: "/symptom/comfortmaker-central-air-not-working",
+    href: "/symptom-center/comfortmaker-central-air-not-working",
     testId: "recent_symptoms_symptom_4",
   },
   {
     label: "Ruud central air not working",
-    href: "/symptom/ruud-central-air-not-working",
+    href: "/symptom-center/ruud-central-air-not-working",
     testId: "recent_symptoms_symptom_5",
   },
   {
     label: "York central air not working",
-    href: "/symptom/york-central-air-not-working",
+    href: "/symptom-center/york-central-air-not-working",
     testId: "recent_symptoms_symptom_6",
   },
   {
     label: "Goodman central air not working",
-    href: "/symptom/goodman-central-air-not-working",
+    href: "/symptom-center/goodman-central-air-not-working",
     testId: "recent_symptoms_symptom_7",
   },
   {
     label: "Kenmore central air not working",
-    href: "/symptom/kenmore-central-air-not-working",
+    href: "/symptom-center/kenmore-central-air-not-working",
     testId: "recent_symptoms_symptom_8",
   },
   {
     label: "Rheem central air not working",
-    href: "/symptom/rheem-central-air-not-working",
+    href: "/symptom-center/rheem-central-air-not-working",
     testId: "recent_symptoms_symptom_9",
   },
 ];

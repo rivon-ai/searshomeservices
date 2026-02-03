@@ -102,8 +102,8 @@ export default function SearsHeader() {
                                     )
                                 } else {
                                     return (
-                                        <DropdownMenu key={idx} >
-                                            <DropdownMenuTrigger>
+                                        <DropdownMenu key={idx} open={isResourcesOpen} onOpenChange={setIsResourcesOpen}>
+                                            <DropdownMenuTrigger className="outline-none">
                                                 <span className='hover:bg-gray-200 text-blue-800 px-1 rounded-sm flex items-center gap-1 cursor-pointer'>
                                                     {option.name} <ChevronDown size={12} />
                                                 </span>
@@ -112,8 +112,14 @@ export default function SearsHeader() {
                                                 <DropdownMenuLabel>{option.name} Options</DropdownMenuLabel>
                                                 <DropdownMenuSeparator />
                                                 {option.submenu.map((subItem, subIdx) => (
-                                                    <DropdownMenuItem key={subIdx} className='hover:text-blue-800 hover:bg-gray-200'>
-                                                        <Link href={subItem.href}>{subItem.name}</Link>
+                                                    <DropdownMenuItem key={subIdx} className='cursor-pointer hover:text-blue-800 hover:bg-gray-200' asChild>
+                                                        <Link 
+                                                            href={subItem.href} 
+                                                            className='w-full'
+                                                            onClick={() => setIsResourcesOpen(false)}
+                                                        >
+                                                            {subItem.name}
+                                                        </Link>
                                                     </DropdownMenuItem>
                                                 ))}
                                             </DropdownMenuContent>

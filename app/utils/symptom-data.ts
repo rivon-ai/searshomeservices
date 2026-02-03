@@ -1,5 +1,4 @@
-import fs from 'fs';
-import path from 'path';
+const DATA_BASE_URL = (process.env.NEXT_PUBLIC_DATA_URL || 'http://localhost:3001').replace(/\/$/, '');
 
 export interface SymptomNode {
     tag: string;
@@ -8,6 +7,11 @@ export interface SymptomNode {
     order: number;
     children?: SymptomNode[];
 }
+
+const APPLIANCE_DIR_MAP: Record<string, string> = {
+    'furnace': 'gas',
+    'central-air': 'central'
+};
 
 export interface StatsItem {
     value: number;
@@ -114,41 +118,31 @@ export async function getSymptomData(slug: string): Promise<SymptomPageData | nu
         const appliance = parts[1];
         const issue = parts.slice(2).join('-');
 
-        // Map URL slug aliases to actual directory names
-        const applianceDirMap: Record<string, string> = {
-            'furnace': 'gas',
-            'central-air': 'central'
-        };
-
-        const applianceDir = applianceDirMap[appliance] || appliance;
-        const baseDir = path.join(process.cwd(), 'data', 'brands', brand, applianceDir, 'symptoms');
-
-        // Try multiple filename patterns
-        const strategies = [
-            `${issue}.json`,
-            `${appliance}-${issue}.json`,
-            `${brand}-${appliance}-${issue}.json`
+        const applianceDir = APPLIANCE_DIR_MAP[appliance] || appliance;
+        
+        // Define candidates as URLs
+        const candidates = [
+            `${DATA_BASE_URL}/data/brands/${brand}/${applianceDir}/symptoms/${issue}.json`,
+            `${DATA_BASE_URL}/data/brands/${brand}/${applianceDir}/symptoms/${appliance}-${issue}.json`,
+            `${DATA_BASE_URL}/data/brands/${brand}/${applianceDir}/symptoms/${brand}-${appliance}-${issue}.json`
         ];
 
-        let filePath = '';
-        let found = false;
-
-        for (const filename of strategies) {
-            const tryPath = path.join(baseDir, filename);
-            if (fs.existsSync(tryPath)) {
-                filePath = tryPath;
-                found = true;
-                break;
+        let root = null;
+        for (const url of candidates) {
+            try {
+                const response = await fetch(url);
+                if (response.ok) {
+                    root = await response.json();
+                    break;
+                }
+            } catch (err: any) {
+                // Continue to next candidate
             }
         }
 
-        if (!found) {
-            console.error(`File not found for slug ${slug}. Checked in ${baseDir} with patterns: ${strategies.join(', ')}`);
+        if (!root) {
             return null;
         }
-
-        const fileContent = fs.readFileSync(filePath, 'utf-8');
-        const root = JSON.parse(fileContent);
 
         // Handle the array structure where data is in root[0].full_content
         let nodes: SymptomNode[] = [];
@@ -343,9 +337,6 @@ function extractTestimonials(nodes: SymptomNode[]): TestimonialItem[] {
         if (node.tag === 'h2') break;
 
         // Pattern: P(Title) -> P(Review) -> P(Author)
-        // We can identify Title by class 'font-semibold' 'text-blue-300'
-        // Review by 'line-clamp-5'
-        // Author by 'italic' 'uppercase'
         
         const attrs = node.attributes as Record<string, any>;
         const classes = Array.isArray(attrs.class) ? attrs.class : [];

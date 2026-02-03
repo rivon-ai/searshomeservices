@@ -2,22 +2,42 @@
 
 
 import React from 'react'
-import kenMore from "@/public/sear-page-icons-images/kenmore-01.svg"
-import whirpool from "@/public/sear-page-icons-images/whirlpool-01.svg"
-import fridigate from "@/public/sear-page-icons-images/frigidaire-01.svg"
-import mayTag from "@/public/sear-page-icons-images/maytag-01.svg"
+import kenmore from "@/public/sear-page-icons-images/kenmore-01.svg"
+import whirlpool from "@/public/sear-page-icons-images/whirlpool-01.svg"
+import frigidaire from "@/public/sear-page-icons-images/frigidaire-01.svg"
+import maytag from "@/public/sear-page-icons-images/maytag-01.svg"
 import ge from "@/public/sear-page-icons-images/GE-01.svg"
-import kitchenAid from "@/public/sear-page-icons-images/kitchenaid-01.svg"
+import kitchenaid from "@/public/sear-page-icons-images/kitchenaid-01.svg"
 import electrolux from "@/public/sear-page-icons-images/electrolux-01.svg"
 import bosch from "@/public/sear-page-icons-images/bosch-01.svg"
 import samsung from "@/public/sear-page-icons-images/Samsung_Orig_Wordmark_BLACK_RGB_1.svg"
 import jennAir from "@/public/sear-page-icons-images/jenn-air-01.svg"
-import LG from "@/public/sear-page-icons-images/LG-01.svg"
+import lg from "@/public/sear-page-icons-images/LG-01.svg"
 import Image from "next/image"
 import Link from 'next/link'
 
 
+const BRANDS = [
+    { name: 'kenmore', src: kenmore },
+    { name: 'whirlpool', src: whirlpool },
+    { name: 'frigidaire', src: frigidaire },
+    { name: 'maytag', src: maytag },
+    { name: 'ge', src: ge },
+    { name: 'kitchenaid', src: kitchenaid },
+    { name: 'jennair', src: jennAir },
+    { name: 'lg', src: lg },
+    { name: 'electrolux', src: electrolux },
+    { name: 'bosch', src: bosch },
+    { name: 'samsung', src: samsung },
+];
+
 export default function BrandsWeRepair() {
+    const BrandLogo = ({ name, src }: { name: string; src: any }) => (
+        <Link href={`/repair/${name}`} className="grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all">
+            <Image src={src} alt={name} className="w-40 h-32" />
+        </Link>
+    );
+
     return (
         <div>
             {/* Brands We Repair */}
@@ -28,44 +48,16 @@ export default function BrandsWeRepair() {
 
                 {/* Brand Logos - Row 1 */}
                 <div className="flex flex-wrap items-center justify-center gap-12 mb-8">
-                    <div className="grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all">
-                        <Image src={kenMore} alt={"star svg"} className="w-40 h-32" />
-                    </div>
-                    <div className="grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all">
-                        <Image src={whirpool} alt={"star svg"} className="w-40 h-32" />
-                    </div>
-                    <div className="grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all">
-                        <Image src={fridigate} alt={"star svg"} className="w-40 h-32" />
-                    </div>
-                    <div className="grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all">
-                        <Image src={mayTag} alt={"star svg"} className="w-40 h-32" />
-                    </div>
-                    <div className="grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all">
-                        <Image src={ge} alt={"star svg"} className="w-40 h-32" />
-                    </div>
-                    <div className="grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all">
-                        <Image src={kitchenAid} alt={"star svg"} className="w-40 h-32" />
-                    </div>
+                    {BRANDS.slice(0, 6).map((brand) => (
+                        <BrandLogo key={brand.name} {...brand} />
+                    ))}
                 </div>
 
                 {/* Brand Logos - Row 2 */}
                 <div className="flex flex-wrap items-center justify-center gap-12 mb-8">
-                    <div className="grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all">
-                        <Image src={jennAir} alt={"star svg"} className="w-40 h-32" />
-                    </div>
-                    <div className="grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all">
-                        <Image src={LG} alt={"star svg"} className="w-40 h-32" />
-                    </div>
-
-                    <div className="grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all">
-                        <Image src={electrolux} alt={"star svg"} className="w-40 h-32" />
-                    </div>
-                    <div className="grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all">
-                        <Image src={bosch} alt={"star svg"} className="w-40 h-32" />
-                    </div>
-                    <div className="grayscale opacity-60 hover:grayscale-0 hover:opacity-100 transition-all">
-                        <Image src={samsung} alt={"star svg"} className="w-40 h-32" />
-                    </div>
+                    {BRANDS.slice(6).map((brand) => (
+                        <BrandLogo key={brand.name} {...brand} />
+                    ))}
                 </div>
 
                 <div className="mt-6">

@@ -1,6 +1,5 @@
 import Image, { StaticImageData } from 'next/image';
 import React from 'react'
-import { FaCheckCircle } from 'react-icons/fa';
 import { HeroBannerData } from '../page';
 
 type HeroBannerSectionProps = {
@@ -9,7 +8,7 @@ type HeroBannerSectionProps = {
 
 export default function HeroBanner({ heroBannerData }: HeroBannerSectionProps) {
     return (
-        <section className="relative w-full h-[500px] sm:h-[600px] lg:h-[500px] overflow-hidden">
+        <section className="relative w-full h-[500px] sm:h-[500px] lg:h-[600px] overflow-hidden">
             {/* Background Image */}
             <div className="absolute inset-0">
                 <Image
@@ -20,114 +19,46 @@ export default function HeroBanner({ heroBannerData }: HeroBannerSectionProps) {
                     priority
                 />
                 {/* Dark Overlay */}
-                {heroBannerData && (
-                    <div className="absolute inset-0 bg-linear-to-r from-black/70 via-black/50 to-transparent"></div>
-                )}
+                <div className="absolute inset-0 bg-linear-to-r from-black/70 via-black/50 to-transparent"></div>
             </div>
 
             {/* Content */}
-            <div className="relative h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center">
-                <div className="max-w-2xl">
+            <div className="relative h-full w-[80%] mx-auto flex items-center">
+                <div className="w-full">
                     {/* Heading */}
-                    <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-                        {heroBannerData.heading}
-                    </h1>
+                    <div className="w-260">
+                        <h2 className="text-7xl font-bold text-white mb-8 leading-[1.1] tracking-tight">
+                            {heroBannerData.heading}
+                        </h2>
+                    </div>
 
                     {/* Subheading */}
-                    <p className="text-base sm:text-lg text-white mb-4 leading-relaxed">
-                        {heroBannerData.subheading}
-                    </p>
+                    <div className="w-220">
+                        <p className="text-lg sm:text-xl text-white mb-6 font-medium leading-relaxed">
+                            {heroBannerData.subheading}
+                        </p>
 
-                    {/* Body Text */}
-                    <p className="text-base sm:text-lg text-white mb-8 leading-relaxed">
-                        {heroBannerData.bodyText}
-                    </p>
+                        {/* Body Text / Additional Benefit */}
+                        <p className="text-lg sm:text-xl text-white mb-10 font-medium">
+                            {heroBannerData.bodyText}
+                        </p>
 
-                    {/* CTA Button */}
-                    <button className="bg-linear-to-r from-[#76FFA3] to-[#48FFFF] hover:bg-teal-500 text-teal-800 font-bold text-base sm:text-lg px-8 py-3 rounded-full transition-colors duration-300 mb-8">
-                        {heroBannerData.ctaText}
-                    </button>
+                        {/* CTA Button */}
+                        <button className="bg-linear-to-r from-[#76FFA3] to-[#48FFFF] hover:opacity-90 text-[#003D3D] font-bold text-lg px-10 py-4 rounded-full transition-all duration-300 mb-10 shadow-lg">
+                            {heroBannerData.ctaText}
+                        </button>
 
-                    {/* Trust Badges */}
-                    <div className="flex flex-wrap gap-4 sm:gap-6 items-center">
-                        {heroBannerData.trustBadges.map((badge: any, index: number) => (
-                            <div key={index} className="flex items-center gap-2 text-white">
-                                <FaCheckCircle className="text-white text-sm shrink-0" />
-                                <span className="text-sm font-medium">{badge}</span>
-                            </div>
-                        ))}
-                    </div>
-                    <div>
-                        Not working
-                        Not turning on
-                        Won’t start / Won’t start cycle
-                        Stopped working
-                        No power
-                        Not heating
-                        Not cooling
-                        Blowing cold air (furnace)
-                        Blowing warm air (AC)
-                        Leaking water
-                        Leaking from bottom
-                        Water at bottom
-                        Dripping inside
-                        Not draining / Won’t drain
-                        Drain clogged
-                        Not filling / No water
-                        Water not cold
-                        Noisy / Loud / Banging / Vibrates
-                        Shaking / Excessive vibration
-                        Takes too long to dry / Not drying
-                        Clothes still wet after cycle
-                        Buttons not working
-                        Touchpad not responding
-                        Display not working / Blank screen
-                        Lights flashing / Blinking
-                        Door not closing / Won’t shut
-                        Lid won’t lock
-                        Not washing / Dishes not clean
-                        Top/bottom rack not cleaning
-                        Detergent not dispensing
-                        Rinse cycle not working
-                        Not spinning / Drum not turning
-                        Won’t agitate
-                        Won’t rinse
-                        Won’t finish cycle
-                        Light not working
-                        Fan not working
-                        Ice maker not working / Not making ice
-                        Ice not dispensing
-                        Water dispenser not working
-                        Water filter leaking / Not working
-                        Auto-fill pitcher not working (Samsung)
-                        Ice maker rest button not working (LG)
-                        Broiler not working
-                        Burner not working
-                        Oven element not working
-                        Igniter not working
-                        Compressor not running
-                        Freezer not freezing (but fridge works)
-                        Fridge not cooling (but freezer works)
-                        Too cold / Too warm
-                        Temperature inaccurate
-                        Burning smell
-                        Keeps running / Won’t turn off
-                        Stops early / Keeps restarting
-                        Control lock won’t turn off
-                        Clean Filter light stuck (LG)
-                        Smart Diagnosis errors (LG)
-                        Drum roller replacement needed
-                        Drawer problem (freezer/refrigerator)
-                        Broken shelf
-                        Dispenser not working (soap/ice/water)
-                        Chime not working
-                        Cold water not working
-                        Steam clean not working
-                        Timer knob not working
-                        Dial not working
-                        Deep fill not working
-                        Sensor dry not working
-                        Auto-fill not working
+                        {/* Trust Badges */}
+                        <div className="flex gap-x-8 gap-y-4 items-center">
+                            {heroBannerData.trustBadges.map((badge: any, index: number) => (
+                                <div key={index} className="flex items-center gap-2 text-white">
+                                    <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" className="text-white text-base shrink-0 opacity-90" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M504 256c0 136.967-111.033 248-248 248S8 392.967 8 256 119.033 8 256 8s248 111.033 248 248zM227.314 387.314l184-184c6.248-6.248 6.248-16.379 0-22.627l-22.627-22.627c-6.248-6.249-16.379-6.249-22.628 0L216 308.118l-70.059-70.059c-6.248-6.248-16.379-6.248-22.628 0l-22.627 22.627c-6.248 6.248-6.248 16.379 0 22.627l104 104c6.249 6.249 16.379 6.249 22.628.001z"></path>
+                                    </svg>
+                                    <span className="text-xs font-semibold tracking-wide">{badge}</span>
+                                </div>
+                            ))}
+                        </div>
                     </div>
                 </div>
             </div>

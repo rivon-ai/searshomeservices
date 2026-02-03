@@ -62,7 +62,7 @@ export default function BrandRepairService({
   ];
 
   return (
-    <div className="max-w-[75%] mx-auto">
+    <div className="max-w-[80%] mx-auto">
       {/* 1. Image&ScheduleCard */}
       <div className="relative mb-12">
         <ImageScheduleCard
@@ -112,13 +112,13 @@ export default function BrandRepairService({
             <ApplianceSuggestions
               title={
                 data.brandSuggestionsData.title ||
-                "Which Kenmore appliance needs repair?"
+                "Which appliance needs repair?"
               }
               suggestions={data.brandSuggestionsData.brands.map((b: any) => ({
                 label: b.label || b.name,
                 iconSrc: b.iconSrc || b.logoUrl,
                 iconAlt: b.iconAlt || b.alt,
-                href: b.href || b.link,
+                href: b.href || "#",
               }))}
             />
           </div>
@@ -145,7 +145,12 @@ export default function BrandRepairService({
 
       {/* 6. FAQ */}
       <div className="my-10">
-        <FAQ items={data.faqData} />
+        <FAQ
+          items={data.faqData.map((f) => ({
+            question: f.question,
+            answer: f.answer.join("\n"),
+          }))}
+        />
       </div>
 
       {/* 8. ApplianceBrandsWeRepair (if applicable to brand page) */}

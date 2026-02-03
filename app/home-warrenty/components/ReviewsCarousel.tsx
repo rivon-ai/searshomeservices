@@ -61,8 +61,8 @@ export default function ReviewsCarousel({ reviewCarousel }: ReviewsCarouselProps
                                     <div className="bg-white rounded-2xl p-6 shadow-md h-full flex flex-col">
                                         {/* Title from first few words of quote */}
                                         <h4 className="text-lg font-bold text-gray-900 mb-3">
-                                            {testimonial.quote.split(' ').slice(0, 3).join(' ')}
-                                            {testimonial.quote.split(' ').length > 3 ? '...' : ''}
+                                            {testimonial.text.split(' ').slice(0, 3).join(' ')}
+                                            {testimonial.text.split(' ').length > 3 ? '...' : ''}
                                         </h4>
 
                                         {/* Star Rating */}
@@ -72,7 +72,7 @@ export default function ReviewsCarousel({ reviewCarousel }: ReviewsCarouselProps
 
                                         {/* Quote */}
                                         <p className="text-sm text-gray-700 mb-6 grow leading-relaxed">
-                                            {testimonial.quote}
+                                            {testimonial.text}
                                         </p>
 
                                         {/* Author */}

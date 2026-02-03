@@ -298,8 +298,7 @@ const sharingAndCookiesContent = [
             "To remove posted content or information on shopyourway.com, please write to sywsolutions@syw.com.",
             "Please note that your request does not ensure complete or comprehensive removal of the content or information.",
         ],
-    },
-    , {
+    }, {
         id: "external-links",
         title: "What About Links to Other Sites?",
         paragraphs: [
@@ -981,7 +980,7 @@ export default function PrivacyPolicy() {
                                     key={item.id}
                                     className="list-disc space-y-1 pl-6"
                                 >
-                                    {item.items.map((listItem, index) => (
+                                    {item.items?.map((listItem, index) => (
                                         <li key={index}>{listItem}</li>
                                     ))}
                                 </ul>
@@ -1082,7 +1081,7 @@ export default function PrivacyPolicy() {
 
                                         {/* Table Rows */}
                                         <div className="space-y-6">
-                                            {item.rows.map((row, index) => (
+                                            {item.rows?.map((row, index) => (
                                                 <div key={index} className="grid grid-cols-2 gap-8 pb-6 border-b border-gray-200 last:border-b-0">
                                                     {/* Left Column: Category */}
                                                     <div className="text-gray-500  flex items-center ">

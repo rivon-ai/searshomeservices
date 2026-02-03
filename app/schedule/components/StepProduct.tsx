@@ -11,7 +11,7 @@ import {
 import { brandAppliances } from "@/utils/brandAppliances";
 import { cn } from "@/lib/utils";
 import { ChevronDown } from "lucide-react";
-
+    
 interface StepProps {
     bookingData: any;
     updateBookingData: (key: string, value: any) => void;

@@ -9,8 +9,8 @@ import BrandsWeRepair from "@/app/components/BrandsWeRepair";
 import WhyToChoose from "@/components/WhyToChoose";
 import KitchenRepairExperts from "./KitchenRepairExperts";
 import DealCards from "@/app/components/DealCards";
-import RatingSection from "@/components/RatingSection";
 import FAQ from "@/app/components/FAQ";
+import RatingSection from "@/components/RatingSection"
 import LatestResource from "@/app/components/LatestResource";
 import GlossaryTerms from "@/app/components/GlossaryTerms";
 import CommonSymptoms from "@/app/components/CommonSymptoms";

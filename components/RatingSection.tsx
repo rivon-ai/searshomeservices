@@ -19,9 +19,8 @@ const StarRating = ({ rating }: { rating: number }) => {
       {[...Array(5)].map((_, i) => (
         <Star
           key={i}
-          className={`w-5 h-5 ${
-            i < rating ? "fill-yellow-400 text-yellow-400" : "text-gray-200"
-          }`}
+          className={`w-5 h-5 ${i < rating ? "fill-yellow-400 text-yellow-400" : "text-gray-200"
+            }`}
         />
       ))}
     </div>
@@ -31,7 +30,7 @@ const StarRating = ({ rating }: { rating: number }) => {
 export default function RatingSection({
   reviews,
 }: {
-  reviews: { title: string; rating: number; text: string; author: string }[];
+  reviews: readonly { title: string; rating: number; text: string; author?: string }[];
 }) {
   const params = useParams();
 

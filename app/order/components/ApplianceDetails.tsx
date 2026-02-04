@@ -10,7 +10,7 @@ import {
     DialogTitle,
     DialogClose,
 } from "../../components/ui/dialog";
-import { updateAppointment } from "../../services/appointmentService";
+import { Appointment, updateAppointment } from "@/lib/appointmentService";
 
 interface ApplianceDetailsProps {
     appointmentId: string;

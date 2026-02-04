@@ -5,10 +5,13 @@ import { Instagram, Twitter, Facebook } from 'lucide-react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
+import { usePathname } from 'next/navigation';
 
 export default function FooterTwo() {
+    const pathname = usePathname()
+    
     return (
-        <footer className="w-full bg-white border-t">
+        <footer className={`w-full bg-white border-t ${pathname.startsWith('/auth') ? "hidden" : ""}`}>
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Main Footer Content */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12 py-12 lg:py-16">

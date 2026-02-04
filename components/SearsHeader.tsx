@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Menu, ChevronDown } from 'lucide-react';
 import Link from 'next/link';
 import navImage from '@/public/searsLogo.svg'
@@ -14,6 +14,7 @@ import {
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { LuPhone } from "react-icons/lu";
+import { usePathname } from 'next/navigation';
 
 const upperLink = [
     { name: "Shop Parts", href: "ttps://www.searspartsdirect.com/" },
@@ -33,7 +34,7 @@ const options = [
         name: "Resources",
         href: "/authors",
         submenu: [
-            { name: "Resource Center", href: "/blog" }, 
+            { name: "Resource Center", href: "/blog" },
             { name: "Glossary", href: "/glossary" },
             { name: "Help", href: "/help" },
             { name: "Symptom Center", href: "/symptom-center" },
@@ -50,9 +51,13 @@ const contactLinks = [
 export default function SearsHeader() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isResourcesOpen, setIsResourcesOpen] = useState(false);
+    const pathname = usePathname()
+    useEffect(() => {
+        console.log("Current pathname:", pathname);
+    }, [pathname]);
 
     return (
-        <header className="bg-white sticky top-0 z-30 opacity-90">
+        <header className={`bg-white sticky top-0 z-30 opacity-90 ${pathname.startsWith('/auth') ? "hidden" : ""}`} >
 
             {/* top-Section  */}
             <div className='w-full border-b'>
@@ -113,8 +118,8 @@ export default function SearsHeader() {
                                                 <DropdownMenuSeparator />
                                                 {option.submenu.map((subItem, subIdx) => (
                                                     <DropdownMenuItem key={subIdx} className='cursor-pointer hover:text-blue-800 hover:bg-gray-200' asChild>
-                                                        <Link 
-                                                            href={subItem.href} 
+                                                        <Link
+                                                            href={subItem.href}
                                                             className='w-full'
                                                             onClick={() => setIsResourcesOpen(false)}
                                                         >

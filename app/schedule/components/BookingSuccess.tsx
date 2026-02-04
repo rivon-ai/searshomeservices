@@ -1,7 +1,9 @@
+"use client"
+
 import React, { useEffect, useState } from "react";
 import { Check, Info } from "lucide-react";
 import Link from "next/link";
-import { getAppointmentById, Appointment } from "../../services/appointmentService";
+import { getAppointmentById, Appointment } from "@/lib/appointmentService";
 
 interface BookingSuccessProps {
     appointmentId: string;

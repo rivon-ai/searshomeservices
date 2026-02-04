@@ -1,5 +1,5 @@
 import React from "react";
-import { getAppointmentById } from "../../services/appointmentService";
+import { getAppointmentById } from "@/lib/appointmentService";
 import { AppointmentGrid } from "../components/AppointmentGrid";
 import { OrderDetails } from "../components/OrderDetails";
 import { ApplianceDetails } from "../components/ApplianceDetails";

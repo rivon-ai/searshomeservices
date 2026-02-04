@@ -61,7 +61,7 @@ export async function getAppointmentById(id: string): Promise<Appointment | unde
 }
 
 // Create a new appointment
-export async function createAppointment(bookingData: Omit<Appointment, 'id' | 'createdAt' | 'updatedAt'>): Promise<Appointment> {
+export async function createAppointment(bookingData: Omit<Appointment, 'id' | 'createdAt' | 'updatedAt' | 'status'>): Promise<Appointment> {
     const appointments = await getAppointments();
     
     // Clean up incoming data to remove UI-only fields if they slip through

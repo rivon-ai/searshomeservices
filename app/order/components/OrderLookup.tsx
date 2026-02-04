@@ -1,93 +1,37 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import FloatingLabelInput from "../../../components/FloatingLabelInput";
 import OrderResultList from "./OrderResultList";
-import { getAppointmentsByPhoneEmail, validateOrderId } from "../../services/appointmentService";
-import type { Appointment } from "../../services/appointmentService";
+import { useOrderLookup } from "../../hooks/useOrderLookup";
 import {
     Tooltip,
     TooltipContent,
     TooltipTrigger,
 } from "@/components/ui/tooltip"
 
-const OrderLookup = ({ hasSearched, setHasSearched }: { hasSearched: boolean, setHasSearched: (value: boolean) => void }) => {
-    const router = useRouter();
-    const [orders, setOrders] = useState<Appointment[]>([]);
-    const [isLoading, setIsLoading] = useState(false);
-    const [error, setError] = useState("");
-
-    // Form states
-    const [phone, setPhone] = useState("");
-    const [email, setEmail] = useState("");
-    const [orderNumber, setOrderNumber] = useState("");
-
-    // Pagination state
-    const [currentPage, setCurrentPage] = useState(1);
-    const ORDERS_PER_PAGE = 5;
-
-    const handlePhoneSearch = async (e: React.FormEvent) => {
-        e.preventDefault();
-        setIsLoading(true);
-        setError("");
-
-        try {
-            const results = await getAppointmentsByPhoneEmail(phone, email || undefined);
-            setOrders(results);
-            setHasSearched(true);
-            setCurrentPage(1); // Reset to first page
-
-            // Clear form fields after successful search
-            setPhone("");
-            setEmail("");
-
-            if (results.length === 0) {
-                setError("No appointments found for the provided phone number and email.");
-            }
-        } catch (err) {
-            setError("An error occurred while searching for appointments. Please try again.");
-            console.error(err);
-        } finally {
-            setIsLoading(false);
-        }
-    };
-
-    const handleOrderNumberSearch = async (e: React.FormEvent) => {
-        e.preventDefault();
-        setIsLoading(true);
-        setError("");
-
-        try {
-            const exists = await validateOrderId(orderNumber);
-            if (exists) {
-                // Redirect to order details page
-                router.push(`/order/${orderNumber}`);
-            } else {
-                setError("Order number not found. Please check and try again.");
-                setIsLoading(false);
-            }
-        } catch (err) {
-            setError("An error occurred while validating the order number. Please try again.");
-            console.error(err);
-            setIsLoading(false);
-        }
-    };
-
-    // Calculate pagination
-    const totalPages = Math.ceil(orders.length / ORDERS_PER_PAGE);
-    const paginatedOrders = orders.slice(
-        (currentPage - 1) * ORDERS_PER_PAGE,
-        currentPage * ORDERS_PER_PAGE
-    );
-
-    const handlePageChange = (newPage: number) => {
-        if (newPage >= 1 && newPage <= totalPages) {
-            setCurrentPage(newPage);
-        }
-    };
+const OrderLookup = ({ searchState }: { searchState: ReturnType<typeof useOrderLookup> }) => {
+    const {
+        orders,
+        isLoading,
+        error,
+        hasSearched,
+        phone,
+        email,
+        orderNumber,
+        fieldErrors,
+        currentPage,
+        totalPages,
+        paginatedOrders,
+        setPhone,
+        setEmail,
+        setOrderNumber,
+        handlePhoneSearch,
+        handleOrderNumberSearch,
+        handlePageChange
+    } = searchState;
 
     return (
         <div className="flex flex-col gap-8 w-full">
@@ -141,6 +85,7 @@ const OrderLookup = ({ hasSearched, setHasSearched }: { hasSearched: boolean, se
                                 required
                             />
                             <span className="absolute top-4 right-2 text-red-500 text-xs">*</span>
+                            {fieldErrors.phone && <p className="text-xs text-red-500 mt-1">{fieldErrors.phone}</p>}
                         </div>
 
                         <div className="relative">
@@ -152,6 +97,7 @@ const OrderLookup = ({ hasSearched, setHasSearched }: { hasSearched: boolean, se
                                 value={email}
                                 onChange={(e) => setEmail(e.target.value)}
                             />
+                            {fieldErrors.email && <p className="text-xs text-red-500 mt-1">{fieldErrors.email}</p>}
                         </div>
                     </div>
 
@@ -181,6 +127,7 @@ const OrderLookup = ({ hasSearched, setHasSearched }: { hasSearched: boolean, se
                             required
                         />
                         <span className="absolute top-4 right-2 text-red-500 text-xs">*</span>
+                        {fieldErrors.orderNumber && <p className="text-xs text-red-500 mt-1">{fieldErrors.orderNumber}</p>}
                     </div>
 
                     <div className="mt-2">

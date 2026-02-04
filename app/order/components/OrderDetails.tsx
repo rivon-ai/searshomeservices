@@ -1,7 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
-import { useRouter } from "next/navigation";
+import { useOrderDetails } from "../../hooks/useOrderDetails";
 import {
     Dialog,
     DialogContent,
@@ -10,7 +9,6 @@ import {
     DialogClose,
 } from "../../components/ui/dialog";
 import { X, Check } from "lucide-react";
-import { updateAppointment } from "../../services/appointmentService";
 
 interface OrderDetailsProps {
     appointmentStatus: string;
@@ -39,32 +37,25 @@ export function OrderDetails({
     email,
     instructions
 }: OrderDetailsProps) {
-    const router = useRouter();
-    const [isEditOpen, setIsEditOpen] = useState(false);
-    const [isEditSuccess, setIsEditSuccess] = useState(false);
-    const [editEmail, setEditEmail] = useState(email);
-    const [editPhone, setEditPhone] = useState(phone);
-    const [editInstructions, setEditInstructions] = useState(instructions || "");
-
-    const handleUpdate = async () => {
-        await updateAppointment(appointmentId, {
-            email: editEmail,
-            phone: editPhone,
-            instructions: editInstructions
-        });
-        setIsEditSuccess(true);
-        router.refresh();
-    };
-
-    const handleCloseEdit = () => {
-        setIsEditOpen(false);
-        setTimeout(() => {
-            setIsEditSuccess(false);
-            setEditEmail(email);
-            setEditPhone(phone);
-            setEditInstructions(instructions || "");
-        }, 300);
-    };
+    const {
+        isEditOpen,
+        isEditSuccess,
+        isLoading,
+        editEmail,
+        editPhone,
+        editInstructions,
+        setEditEmail,
+        setEditPhone,
+        setEditInstructions,
+        handleUpdate,
+        openEdit,
+        handleCloseEdit
+    } = useOrderDetails({
+        appointmentId,
+        initialEmail: email,
+        initialPhone: phone,
+        initialInstructions: instructions || ""
+    });
 
     return (
         <div className="py-8 border-b border-gray-100">
@@ -77,12 +68,7 @@ export function OrderDetails({
                     <p className="text-[#00245B] font-medium">{orderNumber}</p>
                     {appointmentStatus !== 'cancelled' && (
                         <button
-                            onClick={() => {
-                                setEditEmail(email);
-                                setEditPhone(phone);
-                                setEditInstructions(instructions || "");
-                                setIsEditOpen(true);
-                            }}
+                            onClick={openEdit}
                             className="cursor-pointer mt-4 w-full md:w-32 py-2 border border-blue-900 text-[#0046BE] rounded-md hover:bg-blue-50 transition-colors">
                             Edit
                         </button>
@@ -116,7 +102,7 @@ export function OrderDetails({
 
             {/* Edit Info Dialog */}
             <Dialog open={isEditOpen} onOpenChange={(open) => {
-                if (open) setIsEditOpen(true);
+                if (open) openEdit();
                 else handleCloseEdit();
             }}>
                 <DialogContent className="max-w-[700px] w-full p-0 overflow-hidden bg-white">

@@ -12,7 +12,7 @@ import {
     TableHeader,
     TableRow,
 } from "@/components/ui/table";
-import type { Appointment } from "../../services/appointmentService";
+import { Appointment } from "@/lib/appointmentService";
 
 interface OrderResultListProps {
     orders: Appointment[];

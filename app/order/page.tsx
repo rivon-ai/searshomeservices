@@ -1,11 +1,11 @@
-"use client";
-
-import React, { useState } from "react";
+import React from "react";
 import OrderLookup from "./components/OrderLookup";
 import AppointmentInfo from "./components/AppointmentInfo";
+import { useOrderLookup } from "../hooks/useOrderLookup";
 
 export default function OrderPage() {
-    const [hasSearched, setHasSearched] = useState(false);
+    const searchState = useOrderLookup();
+    const { hasSearched } = searchState;
 
     return (
         <div className="min-h-screen md:w-[80%] mx-auto bg-white">
@@ -16,7 +16,7 @@ export default function OrderPage() {
 
                 <div className={`grid grid-cols-1 gap-12 ${hasSearched ? 'lg:grid-cols-1' : 'lg:grid-cols-2 lg:gap-24'}`}>
                     <div className="flex justify-center">
-                        <OrderLookup hasSearched={hasSearched} setHasSearched={setHasSearched} />
+                        <OrderLookup searchState={searchState} />
                     </div>
 
                     <div className={`flex ${hasSearched ? 'justify-center' : 'lg:justify-start lg:border-l lg:border-gray-200 lg:pl-24'}`}>

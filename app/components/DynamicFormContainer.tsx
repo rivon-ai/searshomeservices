@@ -29,6 +29,7 @@ interface DynamicFormContainerProps {
     onNext: () => void;
     bookingData: BookingData;
     updateBookingData: (key: keyof BookingData, value: any) => void;
+    fieldErrors: Record<string, string>;
 }
 
 export function DynamicFormContainer({
@@ -36,6 +37,7 @@ export function DynamicFormContainer({
     onNext,
     bookingData,
     updateBookingData,
+    fieldErrors,
 }: DynamicFormContainerProps) {
 
     // --- RENDER COMPONENT VIA STEP ---
@@ -57,7 +59,12 @@ export function DynamicFormContainer({
     }
 
     if (currentStep === 5) {
-        return <SetBooking bookingData={bookingData} updateBookingData={updateBookingData as (key: string, value: any) => void} onNext={onNext} />;
+        return <SetBooking
+            bookingData={bookingData}
+            updateBookingData={updateBookingData as (key: string, value: any) => void}
+            onNext={onNext}
+            fieldErrors={fieldErrors}
+        />;
     }
 
     return null;

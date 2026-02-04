@@ -30,6 +30,7 @@
     "cmdk": "^1.1.1",
     "embla-carousel-react": "^8.6.0",
     "framer-motion": "^12.23.25",
+    "grommet-icons": "^4.14.0",
     "jsdom": "^27.4.0",
     "lucide-react": "^0.556.0",
     "next": "16.0.8",

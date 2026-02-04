@@ -20,7 +20,7 @@ import {
 import { DATES } from "../../schedule/data";
 
 import { useRouter } from "next/navigation";
-import { updateAppointment } from "../../services/appointmentService";
+import { Appointment, updateAppointment } from "@/lib/appointmentService";
 
 interface ActionFooterProps {
     appointmentId: string;

@@ -1,7 +1,7 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import React from "react";
-import MainSection from "../../components/CityMainSection";
+import MainSection from "../../../components/locations/CityMainSection";
 
 export default function page() {
   return (

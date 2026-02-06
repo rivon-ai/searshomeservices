@@ -1,15 +1,15 @@
 import Link from "next/link";
 import { Calendar, Wrench, Star, User } from "lucide-react";
-import Locations from "./components/Locations";
+import Locations from "../../../../components/locations/Locations";
 import RatingSection from "../../../../../components/RatingSection";
-import LearnMore from "./components/LearnMore";
-import ImageSection from "./components/ImageSection";
+import LearnMore from "../../../../components/locations/LearnMore";
+import ImageSection from "../../../../components/locations/ImageSection";
 import img from "@/public/alabamaImage.webp";
 import BrandsWeRepair from "../../../../components/BrandsWeRepair";
 import WhyToChoose from "../../../../../components/WhyToChoose";
-import RepairResources from "./components/RepairResources";
-import TermsAndApplianceSymptom from "./components/TermsAndApplianceSymptom";
-import HowItWorks from "./components/HowItWorksSection";
+import RepairResources from "../../../../components/locations/RepairResources";
+import TermsAndApplianceSymptom from "../../../../components/locations/TermsAndApplianceSymptom";
+import HowItWorks from "../../../../components/locations/HowItWorksSection";
 
 const resources = [
   {

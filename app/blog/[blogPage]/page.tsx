@@ -1,7 +1,7 @@
 import React from "react";
-import TableOfContents from "../repair/components/TableOfContents";
-import ScheduleCard from "../repair/components/ScheduleCard";
-import ContentSection from "../repair/components/ContentSection";
+import TableOfContents from "../../components/blog-repair/TableOfContents";
+import ScheduleCard from "../../components/blog-repair/ScheduleCard";
+import ContentSection from "../../components/blog-repair/ContentSection";
 
 // Data Definitions
 const sections = [

@@ -1,8 +1,8 @@
 import React from "react";
-import ContentGrid from "@/app/components/ContentGrid";
-import GlossaryTerms from "@/app/components/GlossaryTerms";
-import LatestResource from "@/app/components/LatestResource";
-import FaqHeroSection from "../../components/FaqHeroSection";
+import ContentGrid from "@/app/components/shared/ContentGrid";
+import GlossaryTerms from "@/app/components/shared/GlossaryTerms";
+import LatestResource from "@/app/components/shared/LatestResource";
+import FaqHeroSection from "@/app/components/help/FaqHeroSection";
 
 const symptomItems = [
   {

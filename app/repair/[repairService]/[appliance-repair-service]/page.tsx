@@ -6,7 +6,7 @@ import {
   parseRepairServiceData,
 } from "@/utils/repair-service-parser";
 
-import BrandApplianceRepairService from "../components/BrandApplianceRepairService";
+import BrandApplianceRepairService from "../../../components/repair/BrandApplianceRepairService";
 import { getBrandApplianceRepairData } from "@/app/utils/repair-data";
 
 interface PageProps {

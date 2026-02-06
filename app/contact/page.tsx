@@ -1,6 +1,6 @@
 import React from 'react'
-import FaqAccordition from "./components/FaqAccordition"
-import Imagesection from './components/ImageSection'
+import FaqAccordition from "../components/contact/FaqAccordition"
+import Imagesection from '../components/contact/ImageSection'
 
 export default function page() {
   return (

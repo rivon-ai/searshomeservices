@@ -2,10 +2,10 @@
 
 import React from "react";
 import { useParams } from "next/navigation";
-import CategoryLinks from "../components/CategoryLinks";
-import LatestResource from "@/app/components/LatestResource";
-import GlossaryTerms from "@/app/components/GlossaryTerms";
-import ContentGrid from "@/app/components/ContentGrid";
+import CategoryLinks from "@/app/components/features/help/CategoryLinks";
+import LatestResource from "@/app/components/shared/LatestResource";
+import GlossaryTerms from "@/app/components/shared/GlossaryTerms";
+import ContentGrid from "@/app/components/shared/ContentGrid";
 
 export interface LinkData {
   text: string;

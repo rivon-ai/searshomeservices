@@ -1,10 +1,10 @@
 "use client";
 
 import React, { Suspense } from "react";
-import { SummarySidebar } from "../components/SummarySidebar";
-import { AntiGravityProgressBar } from "../components/AntiGravityProgressBar";
-import { DynamicFormContainer } from "../components/DynamicFormContainer";
-import { BookingSuccess } from "./components/BookingSuccess";
+import { SummarySidebar } from "../components/shared/SummarySidebar";
+import { AntiGravityProgressBar } from "../components/shared/AntiGravityProgressBar";
+import { DynamicFormContainer } from "../components/shared/DynamicFormContainer";
+import { BookingSuccess } from "../components/features/schedule/BookingSuccess";
 import { useScheduleWizard } from "../hooks/useScheduleWizard";
 
 import { APPLIANCES, BRANDS, DATES } from "./data";

@@ -2,7 +2,7 @@ import { StaticImageData } from 'next/image';
 import React from 'react'
 
 import heroImage from '@/public/home-warrenty/heroImage.webp'
-import HeroBanner from './components/HeroBanner';
+import HeroBanner from '../components/home-warrenty/HeroBanner';
 
 import trophy from "@/public/home-warrenty/trophyCup.svg"
 import star from "@/public/home-warrenty/star.svg"
@@ -10,7 +10,7 @@ import hammerGroup from '@/public/home-warrenty/HammerGroup.svg'
 import HVAC from '@/public/home-warrenty/HVAC.svg'
 import gift from '@/public/home-warrenty/gift.svg'
 import home from '@/public/home-warrenty/home-improvement.svg'
-import PropositionGrid from './components/PropositionGrid';
+import PropositionGrid from '../components/home-warrenty/PropositionGrid';
 
 import kenmore from '@/public/home-warrenty/kenmore.svg'
 import whirpool from '@/public/home-warrenty/whirlpool.svg'
@@ -18,27 +18,27 @@ import GE from '@/public/home-warrenty/GE.svg'
 import kitchenAid from '@/public/home-warrenty/kitchenaid.svg'
 import bosch from '@/public/home-warrenty/bosch.svg'
 import samsung from '@/public/home-warrenty/Samsung.svg'
-import TrustAndLegacy from './components/TrustAndLegacy';
+import TrustAndLegacy from '../components/home-warrenty/TrustAndLegacy';
 
 import appliancePlanSVG from '@/public/home-warrenty/Appliance-plan-svg.svg'
 import systemPlanSVG from '@/public/home-warrenty/system-plan-svg.svg'
 import wholeHomePlanSVG from '@/public/home-warrenty/home-plan-svg.svg'
 import applianceHVACPlanSVG from '@/public/home-warrenty/applianceAndHvac-plan-svg.svg'
-import PlanComparisonCards from './components/PlanComparisonCards';
+import PlanComparisonCards from '../components/home-warrenty/PlanComparisonCards';
 
 import { CiCalendar } from "react-icons/ci";
 import { FaUserNurse } from "react-icons/fa";
 import { AiFillLike } from "react-icons/ai";
-import HeritageServiceSections from './components/HeritageServiceSections';
+import HeritageServiceSections from '../components/home-warrenty/HeritageServiceSections';
 
 import callUsImage from '@/public/home-warrenty/call-us-md.svg'
-import FaqAndCallAction from './components/FaqAndCallAction';
+import FaqAndCallAction from '../components/home-warrenty/FaqAndCallAction';
 
 import glossaryImgOne from '@/public/home-warrenty/glossaryImgOne.webp'
 import glossaryImgTwo from '@/public/home-warrenty/glossaryImgTwo.webp'
 import glossaryImgThree from '@/public/home-warrenty/glossaryImgThree.webp'
 import glossaryImgFour from '@/public/home-warrenty/glossaryImgFour.webp'
-import ResourcesSection from './components/ResourcesSection';
+import ResourcesSection from '../components/home-warrenty/ResourcesSection';
 import RatingSection from '@/components/RatingSection';
 
 const pageSections = {

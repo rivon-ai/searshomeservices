@@ -1,5 +1,5 @@
 import React from 'react'
-import TabSection from './components/TabSection'
+import TabSection from '../components/promotions/TabSection'
 
 export default function page() {
     return (

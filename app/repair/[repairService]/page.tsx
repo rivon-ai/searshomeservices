@@ -1,7 +1,7 @@
 import React from "react";
-import ApplianceRepairService from "./components/ApplianceRepairService";
+import ApplianceRepairService from "../../components/repair/ApplianceRepairService";
 import { notFound } from "next/navigation";
-import BrandRepairService from "./components/BrandRepairService";
+import BrandRepairService from "../../components/repair/BrandRepairService";
 import { getRepairServiceData } from "@/app/utils/repair-data";
 
 export default async function RepairServicePage({

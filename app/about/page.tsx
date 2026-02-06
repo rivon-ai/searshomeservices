@@ -1,7 +1,7 @@
 import React from 'react'
-import Imagesection from './components/Imagesection'
-import CardSection from './components/CardSection'
-import SearsServicesTextComponent from './components/SearsServicesTextComponent'
+import Imagesection from '../components/about/Imagesection'
+import CardSection from '../components/about/CardSection'
+import SearsServicesTextComponent from '../components/about/SearsServicesTextComponent'
 
 function page() {
   return (

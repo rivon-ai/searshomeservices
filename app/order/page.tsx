@@ -1,6 +1,6 @@
 import React from "react";
-import OrderLookup from "./components/OrderLookup";
-import AppointmentInfo from "./components/AppointmentInfo";
+import OrderLookup from "../components/order/OrderLookup";
+import AppointmentInfo from "../components/order/AppointmentInfo";
 import { useOrderLookup } from "../hooks/useOrderLookup";
 
 export default function OrderPage() {

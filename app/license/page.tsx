@@ -1,5 +1,5 @@
 import React from 'react'
-import LicenseInformationComponent from './components/LicenseInformationContent'
+import LicenseInformationComponent from '../components/license/LicenseInformationContent'
 
 export default function page() {
   return (

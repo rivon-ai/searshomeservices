@@ -1,6 +1,6 @@
 import React from 'react'
-import ReviewsList from './components/ReviewList';
-import RatingSummary from './components/RatingSummary';
+import ReviewsList from '../../../../../../components/locations/ReviewList';
+import RatingSummary from '../../../../../../components/locations/RatingSummary';
 
 
 interface Review {
@@ -52,7 +52,7 @@ const sampleReviews: Review[] = [
     reviewBody: "Outstanding service! Our oven stopped working right before a family gathering, and they were able to send someone out the next day.",
     response: "We're so glad we could help you in time for your gathering! Thank you for choosing Sears Home Services."
   },
-    {
+  {
     id: "1752458453432",
     date: "July 13, 2025",
     customerName: "Eric A.",
@@ -91,7 +91,7 @@ const sampleReviews: Review[] = [
     reviewBody: "Outstanding service! Our oven stopped working right before a family gathering, and they were able to send someone out the next day.",
     response: "We're so glad we could help you in time for your gathering! Thank you for choosing Sears Home Services."
   },
-    {
+  {
     id: "1752458453432",
     date: "July 13, 2025",
     customerName: "Eric A.",
@@ -130,7 +130,7 @@ const sampleReviews: Review[] = [
     reviewBody: "Outstanding service! Our oven stopped working right before a family gathering, and they were able to send someone out the next day.",
     response: "We're so glad we could help you in time for your gathering! Thank you for choosing Sears Home Services."
   },
-    {
+  {
     id: "1752458453432",
     date: "July 13, 2025",
     customerName: "Eric A.",
@@ -169,7 +169,7 @@ const sampleReviews: Review[] = [
     reviewBody: "Outstanding service! Our oven stopped working right before a family gathering, and they were able to send someone out the next day.",
     response: "We're so glad we could help you in time for your gathering! Thank you for choosing Sears Home Services."
   },
-    {
+  {
     id: "1752458453432",
     date: "July 13, 2025",
     customerName: "Eric A.",

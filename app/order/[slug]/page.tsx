@@ -1,10 +1,10 @@
 import React from "react";
 import { getAppointmentById } from "@/lib/appointmentService";
-import { AppointmentGrid } from "../components/AppointmentGrid";
-import { OrderDetails } from "../components/OrderDetails";
-import { ApplianceDetails } from "../components/ApplianceDetails";
-import { VideoSection } from "../components/VideoSection";
-import { ActionFooter } from "../components/ActionFooter";
+import { AppointmentGrid } from "../../components/order/AppointmentGrid";
+import { OrderDetails } from "../../components/order/OrderDetails";
+import { ApplianceDetails } from "../../components/order/ApplianceDetails";
+import { VideoSection } from "../../components/order/VideoSection";
+import { ActionFooter } from "../../components/order/ActionFooter";
 
 interface PageProps {
   params: Promise<{ slug: string }>;

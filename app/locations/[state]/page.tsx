@@ -1,4 +1,4 @@
-import CityHeroSection from "@/app/locations/components/CityHeroSection";
+import CityHeroSection from "@/app/components/locations/CityHeroSection";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Link from "next/link";

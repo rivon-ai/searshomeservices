@@ -1,10 +1,10 @@
 import React from 'react'
-import RepairHeroSection from './components/RepairHeroSection'
+import RepairHeroSection from '../components/repair/RepairHeroSection'
 
 export default function page() {
   return (
     <div className='max-w-[80%] mx-auto'>
-        <RepairHeroSection />
+      <RepairHeroSection />
     </div>
   )
 }

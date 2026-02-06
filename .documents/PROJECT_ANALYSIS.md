@@ -13,11 +13,13 @@
 ## 1. Technology Stack
 
 ### Core Framework
+
 - **Next.js 16.0.8** (App Router) - Server-side rendering and static generation
 - **React 19.2.1** - UI library
 - **TypeScript 5** - Type-safe development
 
 ### Styling & UI
+
 - **Tailwind CSS 4.1.17** - Utility-first CSS framework
 - **Shadcn UI** (New York style) - Component library built on Radix UI
 - **Radix UI** - Accessible component primitives (Accordion, Dialog, Dropdown, Select, Tabs, Tooltip)
@@ -25,16 +27,19 @@
 - **Lucide React** - Icon library
 
 ### Data Management
+
 - **File-based JSON storage** - No traditional database
 - **Node.js filesystem APIs** - For reading/writing JSON files
 - **Custom parsers** - Transform scraped HTML-like JSON into React components
 
 ### Web Scraping & Data Collection
+
 - **Puppeteer 24.34.0** - Browser automation for scraping
 - **Playwright 1.57.0** - Alternative scraping tool
 - **jsdom 27.4.0** - DOM parsing
 
 ### Additional Libraries
+
 - **react-markdown** - Markdown rendering
 - **recharts** - Data visualization
 - **embla-carousel-react** - Carousel components
@@ -85,22 +90,27 @@ searshomeservices/
 ### 2.2 Architectural Patterns
 
 #### A. File-Based CMS Architecture
+
 - **No Database**: Uses JSON files as the data source
-- **Benefits**: 
+- **Benefits**:
   - Fast read times
   - Version-controllable content
   - Easy integration with scraping scripts
   - No database migrations needed
 
 #### B. Dynamic Routing Strategy
+
 The app uses Next.js dynamic routes to handle thousands of pages:
+
 - `/symptom-center/[brand-appliance-issue]` - Dynamic symptom pages
 - `/repair/[repairService]/[appliance-repair-service]` - Brand-specific repair pages
 - `/maintain/[slug]` - Maintenance service pages
 - `/locations/[state]/[city]` - Location-based pages
 
 #### C. Data Parsing Layer
+
 Sophisticated parsers transform raw JSON (HTML-like node structures) into typed React components:
+
 - `symptom-data.ts` - Parses symptom page data
 - `repair-service-parser.ts` - Parses repair service pages
 - `brand-appliance-parser.ts` - Parses brand-appliance specific pages
@@ -114,17 +124,20 @@ Sophisticated parsers transform raw JSON (HTML-like node structures) into typed 
 **Purpose**: Help users diagnose appliance issues by brand and appliance type.
 
 **Workflow**:
+
 1. User selects a **brand** from dropdown
 2. User selects an **appliance** (filtered by selected brand)
 3. System displays available **symptoms/issues** for that combination
 4. User clicks on a symptom to view detailed diagnostic page
 
 **Key Components**:
+
 - `SymptomSection.tsx` - Brand/appliance selection interface
 - `DynamicSymptomRenderer.tsx` - Renders symptom detail pages
 - `getSymptomData()` - Fetches and parses symptom JSON files
 
 **Data Flow**:
+
 ```
 User Selection → brandAppliances.ts → Filter Symptoms → 
 Load JSON from data/brands/[brand]/[appliance]/symptoms/[issue].json → 
@@ -139,17 +152,20 @@ Example: `/symptom-center/kenmore-washer-not-spinning`
 **Purpose**: Display repair service information for specific brand-appliance combinations.
 
 **Workflow**:
+
 1. User navigates to `/repair/[brand]/[appliance]`
 2. System loads scraped data from `data/scraped/[brand]/appliances/[appliance].json`
 3. Parser extracts sections (hero, FAQ, resources, etc.)
 4. Components render structured content
 
 **Key Components**:
+
 - `BrandApplianceRepairService.tsx` - Main renderer
 - `parseRepairServiceData()` - Data parser
 - `ImageScheduleCard` - CTA component
 
 **Data Structure**:
+
 - Scraped HTML-like JSON stored in `data/scraped/`
 - Contains structured nodes with tags, content, attributes
 - Parser extracts: hero data, FAQs, resources, brand suggestions, etc.
@@ -159,6 +175,7 @@ Example: `/symptom-center/kenmore-washer-not-spinning`
 **Purpose**: Multi-step appointment booking flow.
 
 **Workflow** (5 steps + success):
+
 1. **Step 1 - Product Selection**: Select brand and appliance
 2. **Step 2 - Zip Code**: Enter service location
 3. **Step 3 - Date/Time**: Select appointment slot
@@ -167,17 +184,20 @@ Example: `/symptom-center/kenmore-washer-not-spinning`
 6. **Step 6 - Success**: Confirmation screen
 
 **Key Features**:
+
 - Progress bar with step validation
 - Summary sidebar showing selected options
 - Form validation at each step
 - Server action for appointment creation
 
 **Data Storage**:
+
 - Appointments stored in `data/appointments.json`
 - Server actions in `app/services/appointmentService.ts`
 - CRUD operations: create, read, update, delete, search
 
 **Key Components**:
+
 - `SchedulerPage.tsx` - Main container
 - `DynamicFormContainer.tsx` - Step renderer
 - `StepProduct.tsx`, `StepZipCode.tsx`, `StepDateTime.tsx`, etc.
@@ -189,6 +209,7 @@ Example: `/symptom-center/kenmore-washer-not-spinning`
 **Purpose**: Lookup and manage existing appointments/orders.
 
 **Features**:
+
 - Order lookup by phone/email
 - View appointment details
 - Reschedule appointments
@@ -196,6 +217,7 @@ Example: `/symptom-center/kenmore-washer-not-spinning`
 - Upload appliance images (model number, serial, issue, barcode)
 
 **Key Components**:
+
 - `OrderLookup.tsx` - Search interface
 - `OrderResultList.tsx` - Search results
 - `OrderDetails.tsx` - Appointment details view
@@ -206,6 +228,7 @@ Example: `/symptom-center/kenmore-washer-not-spinning`
 **Purpose**: Display maintenance service information and booking.
 
 **Structure**:
+
 - Dynamic pages from `data/maintain/` JSON files
 - Adapters transform data into consistent format
 - Components: Hero, Feature lists, Service cards, Booking cards
@@ -215,6 +238,7 @@ Example: `/symptom-center/kenmore-washer-not-spinning`
 **Purpose**: Location-specific service pages for SEO and local targeting.
 
 **Structure**:
+
 - `/locations/[state]` - State-level pages
 - `/locations/[state]/[city]` - City-level pages
 - City-specific content and CTAs
@@ -251,7 +275,8 @@ This is the **Single Source of Truth** for brand-appliance-symptom relationships
 ]
 ```
 
-**Usage**: 
+**Usage**:
+
 - Powers all dropdown selections
 - Ensures consistency across components
 - Exported via `utils/brandAppliances.ts` with TypeScript types
@@ -261,6 +286,7 @@ This is the **Single Source of Truth** for brand-appliance-symptom relationships
 **Location**: `data/brands/[brand]/[appliance]/symptoms/[issue].json`
 
 **Format**: HTML-like node structure:
+
 ```json
 [
   {
@@ -283,6 +309,7 @@ This is the **Single Source of Truth** for brand-appliance-symptom relationships
 ```
 
 **Parser**: `app/utils/symptom-data.ts` extracts:
+
 - Meta (title, description)
 - Statistics
 - Repair steps
@@ -299,6 +326,7 @@ This is the **Single Source of Truth** for brand-appliance-symptom relationships
 
 **Format**: Similar node structure to symptom data
 **Parser**: `utils/repair-service-parser.ts` extracts:
+
 - Hero data (heading, description, image)
 - Random content sections
 - FAQ data
@@ -312,6 +340,7 @@ This is the **Single Source of Truth** for brand-appliance-symptom relationships
 **File**: `data/appointments.json`
 
 **Structure**:
+
 ```typescript
 interface Appointment {
   id: string;
@@ -422,6 +451,7 @@ interface Appointment {
 **Approach**: JSON files automatically generate pages without code changes.
 
 **Benefits**:
+
 - Scalability: Add thousands of pages by adding JSON files
 - SEO: Each page is a real route with metadata
 - Maintainability: Content updates don't require code changes
@@ -432,6 +462,7 @@ interface Appointment {
 **Approach**: TypeScript interfaces for all data structures.
 
 **Files**:
+
 - `utils/brandAppliances.ts` - Brand/appliance types
 - `app/utils/symptom-data.ts` - Symptom page types
 - `utils/repair-service-parser.ts` - Repair service types
@@ -444,6 +475,7 @@ interface Appointment {
 **Approach**: Next.js App Router with server components and actions.
 
 **Usage**:
+
 - Server components for data fetching (no client JS needed)
 - Server actions for mutations (appointment CRUD)
 - Client components only where interactivity needed
@@ -455,6 +487,7 @@ interface Appointment {
 **Approach**: Small, focused components composed into larger pages.
 
 **Examples**:
+
 - `DynamicSymptomRenderer` composes multiple section components
 - `DynamicFormContainer` switches between step components
 - Reusable UI components from Shadcn UI
@@ -464,6 +497,7 @@ interface Appointment {
 **Approach**: Forms and interactions work without JavaScript where possible.
 
 **Implementation**:
+
 - Server-side form handling
 - Progressive validation
 - Graceful degradation
@@ -473,12 +507,14 @@ interface Appointment {
 **Approach**: Automated data collection and processing.
 
 **Scripts**:
+
 - `batch-scrape-brands.ts` - Scrape brand pages
 - `batch-scrape-repair-services.ts` - Scrape repair pages
 - `format-scraped-data.ts` - Clean and structure data
 - `summarize-brands.ts` - Generate summaries
 
 **Workflow**:
+
 ```
 Scrape HTML → Parse to JSON → Store in data/ → 
 Parser transforms → React components render
@@ -493,6 +529,7 @@ Parser transforms → React components render
 **Implementation**: `generateMetadata()` functions in page components.
 
 **Example**:
+
 ```typescript
 export async function generateMetadata({ params }: PageProps) {
   const data = await getSymptomData(slug);
@@ -510,6 +547,7 @@ export async function generateMetadata({ params }: PageProps) {
 **Approach**: Multiple fallback strategies for finding data files.
 
 **Example** (from `getSymptomData`):
+
 ```typescript
 const strategies = [
   `${issue}.json`,
@@ -525,6 +563,7 @@ const strategies = [
 **Challenge**: JSON attributes stored as strings need parsing.
 
 **Solution**: `parseAttributes()` function handles:
+
 - String to object conversion
 - Python-style booleans (True/False → true/false)
 - None → null conversion
@@ -534,7 +573,8 @@ const strategies = [
 
 **Approach**: Filter and sort nodes by order property, remove unwanted sections.
 
-**Implementation**: 
+**Implementation**:
+
 - Sort by `order` field
 - Filter nodes before/after specific H2 tags
 - Remove footer/unwanted content sections
@@ -546,11 +586,13 @@ const strategies = [
 ### 8.1 Adding New Content
 
 **For Symptoms**:
+
 1. Add entry to `brands_appliances_symptoms_structured.json`
 2. Create JSON file in `data/brands/[brand]/[appliance]/symptoms/[issue].json`
 3. Deploy - page automatically available
 
 **For Repair Services**:
+
 1. Run scraping script: `npm run scrape:brands`
 2. Or manually create JSON in `data/scraped/[brand]/appliances/[appliance].json`
 3. Deploy - page automatically available
@@ -558,6 +600,7 @@ const strategies = [
 ### 8.2 Data Updates
 
 **Process**:
+
 1. Update JSON files in `data/` directory
 2. Commit changes
 3. Deploy - changes reflected immediately
@@ -591,19 +634,20 @@ npm run format:scraped   # Format scraped data
 
 ### 🎯 Key Architecture Decisions
 
-1. **File-Based Over Database**: 
+1. **File-Based Over Database**:
+
    - Chosen for simplicity, speed, and version control
    - Trade-off: No real-time updates, but acceptable for this use case
-
 2. **Dynamic Routing Over Static Pages**:
+
    - Enables thousands of pages without code duplication
    - Trade-off: Slightly more complex routing logic
-
 3. **Parser-Based Rendering**:
+
    - Transforms raw JSON into components
    - Trade-off: More complex than direct rendering, but enables flexible content structure
-
 4. **Server Actions Over API Routes**:
+
    - Simpler for mutations, better type safety
    - Trade-off: Less flexible than REST API, but sufficient for needs
 
@@ -613,35 +657,36 @@ npm run format:scraped   # Format scraped data
 
 ### Areas for Enhancement
 
-1. **Caching Strategy**: 
+1. **Caching Strategy**:
+
    - Implement caching for frequently accessed JSON files
    - Consider ISR (Incremental Static Regeneration) for symptom pages
-
 2. **Error Handling**:
+
    - More robust error boundaries
    - Better 404 handling for missing data files
-
 3. **Data Validation**:
+
    - Schema validation for JSON files (e.g., Zod)
    - Validate data structure at build time
-
 4. **Search Functionality**:
+
    - Full-text search for symptoms and repair guides
    - Consider Algolia or similar
-
 5. **Analytics Integration**:
+
    - Track user journeys through symptom diagnosis
    - Monitor booking conversion rates
-
 6. **Image Optimization**:
+
    - Ensure all images use Next.js Image component
    - Implement proper lazy loading
-
 7. **Accessibility**:
+
    - Audit and improve ARIA labels
    - Keyboard navigation improvements
-
 8. **Testing**:
+
    - Unit tests for parsers
    - Integration tests for booking flow
    - E2E tests for critical user journeys
@@ -653,6 +698,7 @@ npm run format:scraped   # Format scraped data
 The Sears Home Services platform demonstrates a well-architected, scalable solution for a content-heavy service booking application. The file-based CMS approach, combined with dynamic routing and sophisticated parsing, enables the platform to handle thousands of pages efficiently while maintaining type safety and developer experience.
 
 The architecture prioritizes:
+
 - **Scalability** through data-driven page generation
 - **SEO** through proper routing and metadata
 - **Type Safety** through comprehensive TypeScript usage
@@ -660,4 +706,3 @@ The architecture prioritizes:
 - **Maintainability** through separation of content and code
 
 This approach is particularly well-suited for content that changes infrequently and benefits from version control, making it an excellent choice for a service-oriented platform with extensive product documentation.
-

@@ -1,11 +1,11 @@
 import React from "react";
 import Link from "next/link";
 import { ChevronRight, Home } from "lucide-react";
-import HeroGrid from "../../components/blog-repair/HeroGrid";
-import ArticleListItem from "../../components/blog-repair/ArticleListItem";
-import StickySidebar from "../../components/blog-repair/StickySidebar";
-import BlogPagination from "../../components/blog-repair/BlogPagination";
-import type { Article } from "../../components/blog-repair/HeroGrid";
+import HeroGrid from "@/components/features/blog-repair/HeroGrid";
+import ArticleListItem from "@/components/features/blog-repair/ArticleListItem";
+import StickySidebar from "@/components/features/blog-repair/StickySidebar";
+import BlogPagination from "@/components/features/blog-repair/BlogPagination";
+import type { Article } from "@/components/features/blog-repair/HeroGrid";
 
 // Dummy Data
 const dummyArticles: Article[] = [

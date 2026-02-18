@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { FaGoogle, FaApple } from "react-icons/fa";
-import { useAuth } from "@/app/hooks/useAuth";
+import { useAuth } from "@/hooks/useAuth";
 
 export default function SignInPage() {
     const [email, setEmail] = useState("");

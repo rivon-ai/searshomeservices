@@ -1,8 +1,8 @@
 import React from "react";
 import { notFound } from "next/navigation";
 import { MaintainPageData } from "../types/maintain-data";
-import SectionRenderer from "../../components/features/maintain/SectionRenderer";
-import { getMaintainPageData } from "../../utils/maintain-data";
+import SectionRenderer from "@/components/features/maintain/SectionRenderer";
+import { getMaintainPageData } from "@/utils/fetchers/maintain-data";
 
 export async function generateMetadata({
   params,

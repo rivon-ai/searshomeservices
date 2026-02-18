@@ -1,6 +1,6 @@
 import React from 'react'
-import ReviewsList from '../../../../../../components/locations/ReviewList';
-import RatingSummary from '../../../../../../components/locations/RatingSummary';
+import ReviewsList from '@/components/features/locations/ReviewList';
+import RatingSummary from '@/components/features/locations/RatingSummary';
 
 
 interface Review {

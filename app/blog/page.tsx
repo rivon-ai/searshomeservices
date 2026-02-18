@@ -1,6 +1,6 @@
 import React from "react";
-import HeroSection from "../components/blog/HeroSection";
-import Blogs from "../components/blog/Blogs";
+import HeroSection from "@/components/features/blog/HeroSection";
+import Blogs from "@/components/features/blog/Blogs";
 
 export default function page() {
   return (

@@ -1,6 +1,6 @@
-import CityHeroSection from "@/app/components/locations/CityHeroSection";
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
+import CityHeroSection from "@/components/features/locations/CityHeroSection";
+import Footer from "@/components/shared/Footer";
+import Navbar from "@/components/shared/Navbar";
 import Link from "next/link";
 import React from "react";
 

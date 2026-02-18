@@ -1,7 +1,8 @@
+"use client";
 import React from "react";
-import OrderLookup from "../components/order/OrderLookup";
-import AppointmentInfo from "../components/order/AppointmentInfo";
-import { useOrderLookup } from "../hooks/useOrderLookup";
+import OrderLookup from "@/components/features/order/OrderLookup";
+import AppointmentInfo from "@/components/features/order/AppointmentInfo";
+import { useOrderLookup } from "@/hooks/useOrderLookup";
 
 export default function OrderPage() {
     const searchState = useOrderLookup();

@@ -1,7 +1,7 @@
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
+import Footer from "@/components/shared/Footer";
+import Navbar from "@/components/shared/Navbar";
 import React from "react";
-import MainSection from "../../../components/locations/CityMainSection";
+import MainSection from "@/components/features/locations/CityMainSection";
 
 export default function page() {
   return (

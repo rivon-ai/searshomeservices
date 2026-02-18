@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Montserrat, Oswald } from "next/font/google";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import Navbar from "@/components/shared/Navbar";
+import Footer from "@/components/shared/Footer";
 import "@/app/globals.css";
-import Breadcrumbs from "@/components/Breadcrumbs";
-import SearsHeader from "../components/SearsHeader";
-import FooterTwo from "../components/FooterTwo";
+import Breadcrumbs from "@/components/shared/Breadcrumbs";
+import SearsHeader from "@/components/shared/SearsHeader";
+import FooterTwo from "@/components/shared/FooterTwo";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

@@ -1,4 +1,4 @@
-import { GLOSSARY_TERMS, TermObject } from "@/app/utils/glossaryData";
+import { GLOSSARY_TERMS, TermObject } from "@/utils/data/glossaryData";
 
 export interface GlossaryData {
   [letter: string]: TermObject[];

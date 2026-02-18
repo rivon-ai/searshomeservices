@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import { glossaryService } from "@/lib/glossaryService";
-import { CategoryLayout } from "../../components/features/glossary/CategoryLayout";
-import { DefinitionLayout } from "../../components/features/glossary/DefinitionLayout";
+import { CategoryLayout } from "@/components/features/glossary/CategoryLayout";
+import { DefinitionLayout } from "@/components/features/glossary/DefinitionLayout";
 
 interface PageProps {
   params: Promise<{

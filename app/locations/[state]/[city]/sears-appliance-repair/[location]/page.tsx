@@ -16,17 +16,17 @@ import {
 } from "lucide-react";
 import img from "@/public/alabamaImage.webp";
 import { Phone, Clock, MapPin, Home, Square, Grid } from "lucide-react";
-import ImageSection from "../../../../../components/locations/ImageSection";
-import RatingSection from "../../../../../../components/RatingSection";
-import HowItWorks from "../../../../../components/locations/HowItWorksSection";
-import WhyToChoose from "../../../../../../components/WhyToChoose";
-import BrandsWeRepair from "../../../../../components/BrandsWeRepair";
-import LearnMore from "../../../../../components/locations/LearnMore";
+import ImageSection from "@/components/features/locations/ImageSection";
+import RatingSection from "@/components/shared/RatingSection";
+import HowItWorks from "@/components/features/locations/HowItWorksSection";
+import WhyToChoose from "@/components/shared/WhyToChoose";
+import BrandsWeRepair from "@/components/shared/BrandsWeRepair";
+import LearnMore from "@/components/features/locations/LearnMore";
 import Link from "next/link";
 import { Card } from "@/components/ui/card";
-import RepairResources from "../../../../../components/locations/RepairResources";
-import TermsAndApplianceSymptom from "../../../../../components/locations/TermsAndApplianceSymptom";
-import RatingSites from "../../../../../components/locations/RatingSites";
+import RepairResources from "@/components/features/locations/RepairResources";
+import TermsAndApplianceSymptom from "@/components/features/locations/TermsAndApplianceSymptom";
+import RatingSites from "@/components/features/locations/RatingSites";
 
 const reviews = [
   {

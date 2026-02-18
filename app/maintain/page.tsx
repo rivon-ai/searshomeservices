@@ -1,14 +1,14 @@
 import React from "react";
-import ImageSection from "../components/features/maintain/ImageSection";
-import HeroSection from "../components/features/maintain/HeroSection";
-import LinkCards from "../components/features/maintain/LinkCards";
-import DiscountCards from "../components/features/maintain/DiscountCards";
-import MaintenanceSteps from "../components/features/maintain/MaintenanceSteps";
-import RatingSection from "@/components/RatingSection";
-import { RepairResources } from "@/components/RepairResources";
-import LatestResource from "../components/shared/LatestResource";
-import GlossaryTerms from "../components/shared/GlossaryTerms";
-import ContentGrid from "../components/shared/ContentGrid";
+import ImageSection from "@/components/features/maintain/ImageSection";
+import HeroSection from "@/components/features/maintain/HeroSection";
+import LinkCards from "@/components/features/maintain/LinkCards";
+import DiscountCards from "@/components/features/maintain/DiscountCards";
+import MaintenanceSteps from "@/components/features/maintain/MaintenanceSteps";
+import RatingSection from "@/components/shared/RatingSection";
+import { RepairResources } from "@/components/shared/RepairResources";
+import LatestResource from "@/components/shared/LatestResource";
+import GlossaryTerms from "@/components/shared/GlossaryTerms";
+import ContentGrid from "@/components/shared/ContentGrid";
 
 const SERVICE_CARDS = [
   {

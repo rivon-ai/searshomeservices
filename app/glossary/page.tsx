@@ -1,12 +1,12 @@
 "use client";
 
 import React from "react";
-import { GlossaryNav } from "../components/features/glossary/GlossaryNav";
-import { GlossaryHero } from "../components/features/glossary/GlossaryHero";
-import { TermGroup } from "../components/features/glossary/TermGroup";
-import LatestResource from "../components/shared/LatestResource";
-import GlossaryTerms from "../components/shared/GlossaryTerms";
-import { useGlossary } from "../hooks/useGlossary";
+import { GlossaryNav } from "@/components/features/glossary/GlossaryNav";
+import { GlossaryHero } from "@/components/features/glossary/GlossaryHero";
+import { TermGroup } from "@/components/features/glossary/TermGroup";
+import LatestResource from "@/components/shared/LatestResource";
+import GlossaryTerms from "@/components/shared/GlossaryTerms";
+import { useGlossary } from "../../hooks/useGlossary";
 
 export default function GlossaryPage() {
   const {

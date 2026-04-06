@@ -138,6 +138,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return { title: "Sears Home Services Blog" };
 }
 
+export const dynamic = "force-dynamic";
+
 export default async function DynamicBlogRouter({ params, searchParams }: DynamicBlogRouterProps) {
   // Await the entire params promise for Next.js 15
   const resolvedParams = await params;

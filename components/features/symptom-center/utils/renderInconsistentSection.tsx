@@ -1,7 +1,7 @@
-﻿import React from "react";
+import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { SymptomNode } from "@/services/symptomService";
+import { SymptomNode } from "@/utils/mappers/symptomMappers";
 import { cn } from "@/utils/cn";
 
 /**

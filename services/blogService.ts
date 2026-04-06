@@ -13,11 +13,7 @@ export const blogService = {
         cache: 'no-store',
       });
       if (!response.ok) throw new Error("Failed to fetch blog landing page data");
-      const data = await response.json();
-      console.log("--- BLOG HOMEPAGE API RESPONSE ---");
-      console.log(JSON.stringify(data, null, 2));
-      console.log("----------------------------------");
-      return data;
+      return await response.json();
     } catch (error) {
       console.error("Error in getHomepageData:", error);
       return [];
@@ -44,11 +40,7 @@ export const blogService = {
         cache: 'no-store',
       });
       if (!response.ok) throw new Error("Failed to fetch posts");
-      const data = await response.json();
-      console.log("--- BLOG POSTS API RESPONSE ---");
-      console.log(JSON.stringify(data, null, 2).substring(0, 1000) + "...");
-      console.log("-------------------------------");
-      return data;
+      return await response.json();
     } catch (error) {
       console.error("Error in getPosts:", error);
       return { articles: [], pagination: { total: 0, page: 1, totalPages: 0 } };
@@ -64,11 +56,7 @@ export const blogService = {
         cache: 'no-store',
       });
       if (!response.ok) return null;
-      const data = await response.json();
-      console.log("--- BLOG SINGLE POST API RESPONSE ---");
-      console.log(JSON.stringify(data, null, 2));
-      console.log("-------------------------------------");
-      return data;
+      return await response.json();
     } catch (error) {
       console.error(`Error in getPostBySlug (${slug}):`, error);
       return null;

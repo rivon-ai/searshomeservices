@@ -3,6 +3,8 @@ import HeroSection from "@/components/features/blog/HeroSection";
 import Blogs from "@/components/features/blog/Blogs";
 import { blogService } from "@/services/blogService";
 
+export const dynamic = "force-dynamic";
+
 export default async function page() {
   const sections = await blogService.getHomepageData();
 

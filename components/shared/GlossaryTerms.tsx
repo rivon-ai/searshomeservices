@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import { ScrapedNode } from "@/utils/brand-appliance-parser";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const defaultTerms = [
@@ -27,65 +26,17 @@ const defaultTerms = [
   },
 ];
 
-interface GlossaryTermsProps {
-  nodes?: ScrapedNode[];
+interface GlossaryItem {
+  title: string;
+  description: string;
 }
 
-export default function GlossaryTerms({ nodes }: GlossaryTermsProps) {
-  let terms = defaultTerms;
+interface GlossaryTermsProps {
+  items?: GlossaryItem[];
+}
 
-  if (nodes && nodes.length > 0) {
-    terms = [];
-    let currentTerm: { title: string; description: string } | null = null;
-    let lastContent = "";
-
-    nodes.forEach((node) => {
-      const content = node.content ? node.content.trim() : "";
-      if (!content || content === lastContent) return;
-      lastContent = content;
-
-      const attrs = (node.attributes as any) || {};
-      const className = attrs.class || "";
-      const isBold = className.includes("font-bold") || className.includes("font-semibold");
-      const isHeaderTag = ["h3", "h4", "h5", "h6", "strong", "b"].includes(node.tag);
-      const isStyledBold = isBold && content.length < 150;
-      const isQuestion = content.endsWith("?") && content.length < 150;
-      const isTitle = isHeaderTag || isQuestion || isStyledBold;
-
-      if (isTitle) {
-        if (currentTerm && currentTerm.title === content) return;
-        if (currentTerm) terms.push(currentTerm);
-        currentTerm = { title: content, description: "" };
-      } else if (currentTerm && content !== currentTerm.title) {
-        currentTerm.description += (currentTerm.description ? " " : "") + content;
-      }
-    });
-
-    if (currentTerm) terms.push(currentTerm);
-  }
-
-  if (terms.length === 0 && nodes && nodes.length > 0) {
-    return (
-      <div className="w-full">
-        <h2 className="text-3xl font-extrabold text-[#002855] mb-12 tracking-tight">
-          Glossary Terms
-        </h2>
-        <div className="prose max-w-none">
-          {nodes.map((n, i) => (
-            <Card key={i} className="mb-4 border-gray-100 shadow-sm">
-              <CardContent className="p-4 text-gray-600">
-                {n.tag.startsWith("h") || n.tag === "strong" ? (
-                  <strong className="text-[#002855]">{n.content}</strong>
-                ) : (
-                  n.content
-                )}
-              </CardContent>
-            </Card>
-          ))}
-        </div>
-      </div>
-    );
-  }
+export default function GlossaryTerms({ items }: GlossaryTermsProps) {
+  const terms = items || defaultTerms;
 
   if (terms.length === 0) return null;
 
@@ -96,7 +47,7 @@ export default function GlossaryTerms({ nodes }: GlossaryTermsProps) {
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-        {terms.map((term: { title: string; description: string }, index: number) => (
+        {terms.map((term: GlossaryItem, index: number) => (
           <Card key={index} className="shadow-none hover:border-blue-200 hover:shadow-xl hover:shadow-blue-900/5 transition-all rounded-2xl overflow-hidden">
             <CardHeader className="pb-2">
               <CardTitle className="text-lg font-bold text-[#002855] leading-tight group-hover:text-blue-700 transition-colors">

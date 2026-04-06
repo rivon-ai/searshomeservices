@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import { SectionData } from "@/app/maintain/types/maintain-data";
 
 // Components
@@ -30,7 +30,7 @@ import {
   mapRatingSectionProps,
   mapRecentSymptomsToContentGridProps,
   mapLatestResourcesToRepairResourcesProps,
-} from "@/utils/fetchers/maintain-data";
+} from "@/utils/mappers/maintainMappers";
 import Link from "next/link";
 
 interface SectionRendererProps {
@@ -123,3 +123,4 @@ export default function SectionRenderer({ section }: SectionRendererProps) {
       return null;
   }
 }
+

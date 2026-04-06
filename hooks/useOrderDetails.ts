@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { updateAppointment } from "@/lib/appointmentService";
+import { updateAppointment } from "@/services/appointmentService";
 
 interface UseOrderDetailsProps {
     appointmentId: string;
@@ -33,9 +33,11 @@ export function useOrderDetails({
         
         try {
             await updateAppointment(appointmentId, {
-                email: editEmail,
-                phone: editPhone,
-                instructions: editInstructions
+                customer: {
+                    email: editEmail,
+                    phone: editPhone,
+                } as any,
+                specialInstructions: editInstructions,
             });
             setIsEditSuccess(true);
             router.refresh();
@@ -76,3 +78,4 @@ export function useOrderDetails({
         handleCloseEdit
     };
 }
+

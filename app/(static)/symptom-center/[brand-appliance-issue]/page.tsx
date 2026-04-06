@@ -1,4 +1,4 @@
-import { getSymptomData } from '@/utils/fetchers/symptom-data';
+import { getSymptomData } from '@/services/symptomService';
 import React from 'react'
 import DynamicSymptomRenderer from '@/components/features/symptom-center/DynamicSymptomRenderer';
 

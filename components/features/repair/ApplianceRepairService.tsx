@@ -3,7 +3,7 @@
 import React from "react";
 import ImageScheduleCard from "@/components/shared/Image&ScheduleCard";
 import HowItWorks from "@/components/shared/HowItWorksSVG";
-import WhyToChoose from "@/components/shared/WhyToChoose"; // Verified in components root
+import WhyToChoose from "@/components/shared/WhyToChoose";
 import RatingSection from "@/components/shared/RatingSection";
 import ScheduleProfessionalMaintenance from "@/components/shared/SchdeluProfessionalMaintenance";
 import GlossaryTerms from "@/components/shared/GlossaryTerms";
@@ -18,35 +18,37 @@ import FAQ from "@/components/shared/FAQ";
 
 import img from "@/public/image1.webp";
 
-import {
-  parseRepairServiceData,
-  ScrapedNode,
-  RepairServiceData,
-} from "@/utils/repair-service-parser";
-import { useParams } from "next/navigation";
+import { SummarizedRepairData, ScrapedNode } from "@/types/repairTypes";
+import { parseServiceOverview } from "@/utils/service-overview-parser";
 
 interface RepairServiceHeroSectionProps {
-  scrapedData: { full_content: ScrapedNode[] } | null;
-  repairServiceSlug: string; // To pass into components if needed
+  scrapedData: SummarizedRepairData | null;
+  repairServiceSlug: string;
 }
 
 export default function RepairServiceHeroSection({
   scrapedData,
   repairServiceSlug,
 }: RepairServiceHeroSectionProps) {
-  if (!scrapedData || !scrapedData.full_content) {
+  if (!scrapedData) {
     return <div>Loading...</div>;
   }
 
-  const data: RepairServiceData = parseRepairServiceData(
-    scrapedData.full_content,
-  );
+  const overview = parseServiceOverview(scrapedData.serviceOverview);
 
-  // Random Area Render Logic
-
-  const applianceName = data.heroData.heading
-    ? data.heroData.heading.replace(" Repair Services", "")
+  const applianceName = scrapedData.pageTitle
+    ? scrapedData.pageTitle.replace(" Repair Services", "")
     : "Appliance";
+
+  // Build ScrapedNode[] from articleNodes for RenderRandomContent
+  const randomContent: ScrapedNode[] = overview.articleNodes.map(
+    (node, i) => ({
+      tag: node.type,
+      content: node.content,
+      attributes: node.src ? { src: node.src } : {},
+      order: i,
+    }),
+  );
 
   // Placeholder reviews for RatingSection (required prop)
   const reviews = [
@@ -70,17 +72,23 @@ export default function RepairServiceHeroSection({
     },
   ];
 
+  // Map blog links to RepairResources format
+  const blogPosts = scrapedData.blogArticles.links.map((l) => ({
+    title: l.title,
+    link: l.href,
+    image: undefined,
+  }));
+
   return (
     <div className="max-w-[80%] mx-auto">
       {/* 1. Image&ScheduleCard */}
       <div className="relative mb-12">
         <ImageScheduleCard
-          heroImage={img}
-          heading={data.heroData.heading || "Repair Services"}
+          heroImage={overview.heroImage || img}
+          heading={scrapedData.pageTitle || "Repair Services"}
           description={
-            data.heroData.description || "Expert repairs for your home."
+            overview.heroDescription || "Expert repairs for your home."
           }
-          // Add other props as extracted
           showBanner={true}
           bannerText={{
             boldInfo: "4.8/5 Stars",
@@ -90,9 +98,9 @@ export default function RepairServiceHeroSection({
       </div>
 
       {/* 2. randomArea */}
-      {data.randomContent && data.randomContent.length > 0 && (
+      {randomContent && randomContent.length > 0 && (
         <div className="mt-42">
-          <RenderRandomContent nodes={data.randomContent} />
+          <RenderRandomContent nodes={randomContent} />
         </div>
       )}
 
@@ -102,12 +110,12 @@ export default function RepairServiceHeroSection({
       </div>
 
       {/* 12. FAQ */}
-      {data.faqData && data.faqData.length > 0 && (
+      {scrapedData.faq && scrapedData.faq.length > 0 && (
         <div className=" my-10">
           <FAQ
-            items={data.faqData.map((f) => ({
+            items={scrapedData.faq.map((f) => ({
               question: f.question,
-              answer: f.answer.join("\n"),
+              answer: f.answer,
             }))}
           />
         </div>
@@ -119,13 +127,13 @@ export default function RepairServiceHeroSection({
       </div>
 
       {/* 5. ApplianceBrandsWeRepair */}
-      {data.applianceBrandsData &&
-        data.applianceBrandsData.brands &&
-        data.applianceBrandsData.brands.length > 0 && (
+      {scrapedData.brandsWeRepair &&
+        scrapedData.brandsWeRepair.brands &&
+        scrapedData.brandsWeRepair.brands.length > 0 && (
           <div className="my-10">
             <ApplianceBrandsWeRepair
-              title={data.applianceBrandsData.title}
-              brands={data.applianceBrandsData.brands}
+              title={scrapedData.brandsWeRepair.title || `${applianceName} Brands We Repair`}
+              brands={scrapedData.brandsWeRepair.brands}
             />
           </div>
         )}
@@ -141,60 +149,65 @@ export default function RepairServiceHeroSection({
       </div>
 
       {/* 8. BrandSuggestions */}
-      {data.brandSuggestionsData &&
-        data.brandSuggestionsData.brands &&
-        data.brandSuggestionsData.brands.length > 0 && (
+      {scrapedData.applianceBrandSelector &&
+        scrapedData.applianceBrandSelector.brands &&
+        scrapedData.applianceBrandSelector.brands.length > 0 && (
           <div className="my-10">
             <BrandSuggestions
-              title={data.brandSuggestionsData.title}
-              brands={data.brandSuggestionsData.brands.map((b: any) => ({
-                name: b.label || b.name,
-                logoUrl: b.iconSrc || b.logoUrl,
-                alt: b.iconAlt || b.alt,
-                link: b.href || b.link,
+              title={scrapedData.applianceBrandSelector.title}
+              brands={scrapedData.applianceBrandSelector.brands.map((b: any) => ({
+                name: b.name || b.label,
+                logoUrl: b.logoUrl || b.iconUrl || b.iconSrc,
+                alt: b.alt || b.iconAlt || b.name || b.label || "",
+                link: b.link || b.href || "#",
               }))}
             />
           </div>
         )}
 
       {/* 9. RepairResources */}
-      {data.repairResourcesData &&
-        data.repairResourcesData.blogPosts &&
-        data.repairResourcesData.blogPosts.length > 0 && (
-          <div className="my-10">
-            <RepairResources
-              blogPosts={data.repairResourcesData.blogPosts}
-              appliance={applianceName}
-              glossaryData={[]}
-            />
-          </div>
-        )}
+      {blogPosts && blogPosts.length > 0 && (
+        <div className="my-10">
+          <RepairResources
+            blogPosts={blogPosts}
+            appliance={applianceName}
+            glossaryData={[]}
+          />
+        </div>
+      )}
 
       {/* 11. GlossaryTerms */}
       <div className="lg:w-[50%] mx-auto">
-        <GlossaryTerms />
+        <GlossaryTerms
+          items={
+            scrapedData.glossary.length > 0
+              ? scrapedData.glossary.map((g) => ({
+                  title: g.term,
+                  description: g.definition,
+                }))
+              : undefined
+          }
+        />
       </div>
 
       {/* 13. CommonBrandSymptoms */}
-      {data.commonBrandSymptomsData &&
-        data.commonBrandSymptomsData.symptoms &&
-        data.commonBrandSymptomsData.symptoms.length > 0 && (
+      {scrapedData.brandSymptomLinks &&
+        scrapedData.brandSymptomLinks.length > 0 && (
           <div className="lg:w-[50%] mx-auto pt-10">
             <CommonBrandSymptoms
-              title={data.commonBrandSymptomsData.title}
-              symptoms={data.commonBrandSymptomsData.symptoms}
+              title={`Common ${applianceName} Symptoms`}
+              symptoms={scrapedData.brandSymptomLinks}
             />
           </div>
         )}
 
       {/* 13. CommonApplianceSymptoms */}
-      {data.commonApplianceSymptomsData &&
-        data.commonApplianceSymptomsData.symptoms &&
-        data.commonApplianceSymptomsData.symptoms.length > 0 && (
+      {scrapedData.symptomLinks &&
+        scrapedData.symptomLinks.length > 0 && (
           <div className="lg:w-[50%] mx-auto">
             <CommonApplianceSymptoms
-              title={data.commonApplianceSymptomsData.title}
-              symptoms={data.commonApplianceSymptomsData.symptoms}
+              title={`Common ${applianceName} Symptoms`}
+              symptoms={scrapedData.symptomLinks}
             />
           </div>
         )}

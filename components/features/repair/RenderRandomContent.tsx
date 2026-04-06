@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { ScrapedNode } from "@/utils/repair-service-parser";
+import { ScrapedNode } from "@/types/repairTypes";
 import { cn } from "@/utils/cn";
 
 // Helper to check if paragraph mentions video
@@ -198,30 +198,30 @@ export const renderNode = (
   switch (node.tag) {
     case "h2":
       return (
-        <h3
-          key={key}
-          {...attributes}
-          className={cn(
-            attributes.className,
-            "text-2xl text-blue-950 mb-5 leading-8",
-          )}
-        >
-          {content}
-        </h3>
-      );
-
-    case "h3":
-      return (
         <h2
           key={key}
           {...attributes}
           className={cn(
             attributes.className,
-            "text-xl text-gray-500 leading-8 my-5.5",
+            "text-2xl font-bold text-blue-950 mb-6 mt-12 leading-9",
           )}
         >
           {content}
         </h2>
+      );
+
+    case "h3":
+      return (
+        <h3
+          key={key}
+          {...attributes}
+          className={cn(
+            attributes.className,
+            "text-xl font-bold text-blue-950 my-8 leading-8",
+          )}
+        >
+          {content}
+        </h3>
       );
 
     case "h4":
@@ -231,7 +231,7 @@ export const renderNode = (
           {...attributes}
           className={cn(
             attributes.className,
-            "text-xl text-blue-950 my-2 leading-8",
+            "text-lg font-bold text-blue-950 my-6 leading-7",
           )}
         >
           {content}
@@ -315,7 +315,7 @@ export const renderNode = (
       );
 
     case "img":
-      // Extract src from content if likely
+      // ... (existing img logic)
       const imgSrc = attributes.src || "";
       const imgAlt = attributes.alt || "Image";
 
@@ -341,6 +341,17 @@ export const renderNode = (
               className={attributes.className || "rounded-md w-full"}
             />
           )}
+        </div>
+      );
+
+    case "iframe":
+      return (
+        <div key={key} className="my-6">
+          <iframe
+            {...attributes}
+            className={cn(attributes.className, "w-full aspect-video rounded-lg")}
+            allowFullScreen
+          />
         </div>
       );
 

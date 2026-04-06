@@ -1,11 +1,6 @@
 import React from "react";
 import { notFound } from "next/navigation";
 import { Metadata } from "next";
-
-import {
-  parseRepairServiceData,
-} from "@/utils/repair-service-parser";
-
 import BrandApplianceRepairService from "@/components/features/repair/BrandApplianceRepairService";
 import { getBrandApplianceRepairData } from "@/utils/fetchers/repair-data";
 
@@ -16,35 +11,21 @@ interface PageProps {
   }>;
 }
 
-export async function generateMetadata({
-  params,
-}: PageProps): Promise<Metadata> {
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { repairService, "appliance-repair-service": appliance } = await params;
-  const rawData = await getBrandApplianceRepairData(repairService, appliance);
-
-  if (rawData) {
-    const data = parseRepairServiceData(rawData.full_content);
-    if (data.heroData) {
-      return {
-        title: data.heroData.heading || `${repairService} ${appliance} Repair`,
-        description:
-          data.heroData.description ||
-          `Schedule your ${repairService} ${appliance} repair today.`,
-      };
-    }
-  }
-
+  const data = await getBrandApplianceRepairData(repairService, appliance);
+  if (!data) return { title: `${repairService} ${appliance} Repair` };
   return {
-    title: `${repairService} ${appliance} Repair`,
+    title: data.seoTitle,
+    description: data.pageTitle,
   };
 }
 
 export default async function ApplianceRepairPage({ params }: PageProps) {
   const { repairService, "appliance-repair-service": appliance } = await params;
+  const data = await getBrandApplianceRepairData(repairService, appliance);
 
-  const rawScrapedData = await getBrandApplianceRepairData(repairService, appliance);
-
-  if (!rawScrapedData) {
+  if (!data) {
     console.warn(`Data not found for ${repairService} / ${appliance}`);
     notFound();
   }
@@ -53,7 +34,7 @@ export default async function ApplianceRepairPage({ params }: PageProps) {
     <main className="min-h-screen bg-white">
       <BrandApplianceRepairService
         repairServiceSlug={repairService}
-        scrapedData={rawScrapedData}
+        scrapedData={data}
       />
     </main>
   );

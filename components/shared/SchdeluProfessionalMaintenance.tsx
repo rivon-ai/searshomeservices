@@ -1,89 +1,71 @@
+"use client";
+
 import React from "react";
-import { Button } from "@/components/ui/button";
+import Image from "next/image";
+import kitchenIcon from "@/public/sear-page-icons-images/fridge.svg";
+import laundryIcon from "@/public/sear-page-icons-images/washingMachine.svg";
+import hvacIcon from "@/public/sear-page-icons-images/HVAC.svg";
 
-interface PricingPackage {
-  savePercentage: string;
-  title: string;
-  price: string;
-  description: string;
-}
-
-const packages: PricingPackage[] = [
+const maintenanceOptions = [
   {
-    savePercentage: "25%*",
-    title: "LAUNDRY APPLIANCES",
-    price: "$149.99",
+    title: "Kitchen",
     description:
-      "Keep your laundry spinning with cleaning and maintenance for your washer and dryer.",
+      "Keep your kitchen running. Bundle 2 or more of these appliances: Refrigerator, Dishwasher, Wait Range, Oven or Cooktop.",
+    image: kitchenIcon,
   },
   {
-    savePercentage: "40%*",
-    title: "KITCHEN APPLIANCES",
-    price: "$179.99",
+    title: "Laundry",
     description:
-      "Keep your kitchen humming with cleaning and maintenance for your refrigerator, dishwasher and range.",
+      "Maintain your laundry pair and help prevent downtime. Includes: Washer and Dryer.",
+    image: laundryIcon,
   },
   {
-    savePercentage: "50%*",
-    title: "KITCHEN & LAUNDRY APPLIANCES",
-    price: "$249.99",
+    title: "HVAC",
     description:
-      "Five appliances, one great price. Includes maintenance and cleaning for three kitchen appliances and two laundry appliances.",
+      "Ensure your home stays comfortable year round. Includes: Heating and Cooling Systems.",
+    image: hvacIcon,
   },
 ];
 
 export default function SchdeluProfessionalMaintenance() {
   return (
-    <div className="py-12 w-full">
-      <h2 className="text-2xl font-bold text-blue-900 mb-2 uppercase">
-        SCHEDULE PROFESSIONAL APPLIANCE MAINTENANCE
-      </h2>
-      <p className="text-gray-600 mb-12">
-        Extend the life of your appliances with routine maintenance & save when
-        you bundle.
-      </p>
+    <div className="flex flex-col items-center justify-center py-20 bg-white w-full">
+      <div className="max-w-6xl w-full px-4">
+        <h2 className="text-3xl md:text-4xl text-blue-950 font-medium mb-12 uppercase text-center">
+          SCHEDULE PROFESSIONAL MAINTENANCE
+        </h2>
+        <p className="text-gray-600 mb-12 text-center">
+          Extend the life of your appliances with routine maintenance & save when
+          you bundle.
+        </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-        {packages.map((pkg, index) => (
-          <div
-            key={index}
-            className="bg-white rounded-xl shadow-lg p-8 pt-12 relative border border-gray-100 flex flex-col items-center text-center"
-          >
-            {/* Green Badge */}
-            <div className="absolute -top-10 left-1/2 transform -translate-x-1/2 bg-green-300 rounded-full w-24 h-24 flex flex-col items-center justify-center shadow-sm z-10 border-4 border-white">
-              <span className="text-blue-900 font-bold text-sm leading-tight">
-                SAVE
-              </span>
-              <span className="text-blue-900 font-bold text-xl leading-tight">
-                {pkg.savePercentage}
-              </span>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {maintenanceOptions.map((option, index) => (
+            <div
+              key={index}
+              className="flex flex-col items-center bg-gray-50 p-6 rounded-lg text-center"
+            >
+              <div className="mb-6 w-32 h-32 relative">
+                <Image
+                  src={option.image}
+                  alt={option.title}
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <h3 className="text-xl font-bold text-blue-900 mb-4">
+                {option.title}
+              </h3>
+              <p className="text-gray-600 text-sm leading-relaxed mb-6">
+                {option.description}
+              </p>
+              <button className="text-blue-600 font-bold uppercase text-sm hover:underline">
+                View Bundle
+              </button>
             </div>
-
-            <h3 className="text-blue-900 font-bold uppercase mb-2 mt-4 text-sm tracking-wide">
-              {pkg.title}
-            </h3>
-            <div className="text-blue-900 font-bold text-3xl mb-6">
-              {pkg.price}
-            </div>
-
-            <div className="w-full border-t border-gray-200 mb-6"></div>
-
-            <p className="text-gray-600 text-sm leading-relaxed mb-8 grow">
-              {pkg.description}
-            </p>
-
-            <Button className="w-full bg-blue-700 hover:bg-blue-800 text-white font-semibold rounded-md py-6 text-base">
-              Add Clean & Maintain
-            </Button>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
-
-      <p className="text-gray-500 text-xs leading-relaxed">
-        * Tax and all parts and labor for repairs (if needed) are extra. Savings
-        are obtained with multiple appliance packages vs. the individual regular
-        price of $99.99 each.
-      </p>
     </div>
   );
 }

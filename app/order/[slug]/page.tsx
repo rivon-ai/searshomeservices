@@ -1,5 +1,5 @@
 import React from "react";
-import { getAppointmentById } from "@/lib/appointmentService";
+import { getAppointmentById } from "@/services/appointmentService";
 import { AppointmentGrid } from "@/components/features/order/AppointmentGrid";
 import { OrderDetails } from "@/components/features/order/OrderDetails";
 import { ApplianceDetails } from "@/components/features/order/ApplianceDetails";
@@ -35,7 +35,7 @@ export default async function OrderDetailsPage({ params }: PageProps) {
               Canceled - {appointment.brand} {appointment.appliance} Service Appointment
             </h2>
             <p className="text-gray-500 text-sm mb-8 leading-relaxed max-w-4xl">
-              Your appointment has been canceled on {new Date(appointment.updatedAt).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}.
+              Your appointment has been canceled on {new Date(appointment.createdAt).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}.
             </p>
           </>
         ) : (
@@ -56,20 +56,21 @@ export default async function OrderDetailsPage({ params }: PageProps) {
           brand={appointment.brand}
           appliance={appointment.appliance}
           status={appointment.status}
+          diagnosticFee={appointment.diagnosticFee}
         />
 
         <OrderDetails
           appointmentStatus={appointment.status}
           appointmentId={appointment.id}
           orderNumber={appointment.id}
-          streetAddress={appointment.streetAddress}
-          suite={appointment.suite}
-          city={appointment.city}
-          state={appointment.state}
+          streetAddress={appointment.address.streetAddress}
+          suite={appointment.address.suite}
+          city={appointment.address.city}
+          state={appointment.address.state}
           zipCode={appointment.zipCode}
-          phone={appointment.phone}
-          email={appointment.email}
-          instructions={appointment.instructions}
+          phone={appointment.customer.phone}
+          email={appointment.customer.email}
+          instructions={appointment.specialInstructions}
         />
 
         {!isCancelled && (
@@ -90,6 +91,8 @@ export default async function OrderDetailsPage({ params }: PageProps) {
               appointmentId={appointment.id}
               serviceDate={appointment.serviceDate}
               serviceTime={appointment.serviceTime || "8:00 AM to 5:00 PM"}
+              zipCode={appointment.zipCode}
+              appliance={appointment.appliance}
             />
           </>
         )}

@@ -5,16 +5,14 @@ import ImageScheduleCard from "@/components/shared/Image&ScheduleCard";
 import RenderRandomContent from "./RenderRandomContent";
 import CommonApplianceSymptoms from "./CommonApplianceSymptoms";
 import img from "@/public/image1.webp";
-import {
-  parseBrandApplianceData,
-  BrandApplianceData,
-  ScrapedNode,
-} from "@/utils/brand-appliance-parser";
 import { RepairResources } from "@/components/shared/RepairResources";
 import GlossaryTerms from "@/components/shared/GlossaryTerms";
 
+import { SummarizedRepairData, ScrapedNode } from "@/types/repairTypes";
+import { parseServiceOverview } from "@/utils/service-overview-parser";
+
 interface BrandApplianceRepairServiceProps {
-  scrapedData: { full_content: ScrapedNode[] } | null;
+  scrapedData: SummarizedRepairData | null;
   repairServiceSlug: string;
 }
 
@@ -22,29 +20,43 @@ export default function BrandApplianceRepairService({
   scrapedData,
   repairServiceSlug,
 }: BrandApplianceRepairServiceProps) {
-  if (!scrapedData || !scrapedData.full_content) {
+  if (!scrapedData) {
     return <div>Loading...</div>;
   }
 
-  const data: BrandApplianceData = parseBrandApplianceData(
-    scrapedData.full_content,
-  );
+  const overview = parseServiceOverview(scrapedData.serviceOverview);
 
-  const applianceName = data.heroData.heading
-    ? data.heroData.heading.replace(" Repair Services", "")
+  const applianceName = scrapedData.pageTitle
+    ? scrapedData.pageTitle.replace(" Repair Services", "")
     : "Appliance";
 
-  console.log("scraped data...... : ", data);
+  // Build ScrapedNode[] from articleNodes for RenderRandomContent
+  const randomContent: ScrapedNode[] = overview.articleNodes.map(
+    (node, i) => ({
+      tag: node.type,
+      content: node.content,
+      attributes: node.src ? { src: node.src } : {},
+      order: i,
+    }),
+  );
+
+  // Map blog links to RepairResources format
+  const blogPosts = scrapedData.blogArticles.links.map((l) => ({
+    title: l.title,
+    link: l.href,
+    image: undefined,
+  }));
+
 
   return (
     <div className="max-w-[80%] mx-auto">
       {/* 1. Image&ScheduleCard */}
       <div className="relative mb-12">
         <ImageScheduleCard
-          heroImage={data.heroData.imageUrl || img}
-          heading={data.heroData.heading || "Repair Services"}
+          heroImage={overview.heroImage || img}
+          heading={scrapedData.pageTitle || "Repair Services"}
           description={
-            data.heroData.description || "Expert repairs for your home."
+            overview.heroDescription || "Expert repairs for your home."
           }
           showBanner={true}
           bannerText={{
@@ -55,62 +67,60 @@ export default function BrandApplianceRepairService({
       </div>
 
       {/* 2. randomArea (Content before first styled component) */}
-      {data.randomContent && data.randomContent.length > 0 && (
+      {randomContent && randomContent.length > 0 && (
         <div className="mt-42">
-          <RenderRandomContent nodes={data.randomContent} />
+          <RenderRandomContent nodes={randomContent} />
         </div>
       )}
 
       {/* 3. FAQ (optional) */}
-      {data.faqData && data.faqData.length > 0 && (
+      {scrapedData.faq && scrapedData.faq.length > 0 && (
         <div className="my-10">
           <FAQ
-            items={data.faqData.map((f) => ({
+            items={scrapedData.faq.map((f) => ({
               question: f.question,
-              answer: f.answer.join("\n"),
+              answer: f.answer,
             }))}
           />
         </div>
       )}
 
       {/* 4. How it works (optional) */}
-      {data.howItWorksData &&
-        data.howItWorksData.content &&
-        data.howItWorksData.content.length > 0 && (
-          <div className="my-20">
-            <HowItWorks />
-          </div>
-        )}
+      {scrapedData.navigationSections.howItWorks.show && (
+        <div className="my-20">
+          <HowItWorks />
+        </div>
+      )}
 
       {/* 5. RepairResources (optional) */}
-      {data.repairResourcesData &&
-        data.repairResourcesData.blogPosts &&
-        data.repairResourcesData.blogPosts.length > 0 && (
-          <div className="my-10 max-w-[50%] mx-auto">
-            <RepairResources
-              blogPosts={data.repairResourcesData.blogPosts}
-              appliance={applianceName}
-            />
-          </div>
-        )}
+      {blogPosts && blogPosts.length > 0 && (
+        <div className="my-10 max-w-[50%] mx-auto">
+          <RepairResources
+            blogPosts={blogPosts}
+            appliance={applianceName}
+          />
+        </div>
+      )}
 
       {/* 6. GlossaryTerms (optional) */}
-      {data.glossaryTermsData &&
-        data.glossaryTermsData.content &&
-        data.glossaryTermsData.content.length > 0 && (
-          <div className="max-w-[50%] mx-auto">
-            <GlossaryTerms nodes={data.glossaryTermsData.content} />
-          </div>
-        )}
+      {scrapedData.glossary && scrapedData.glossary.length > 0 && (
+        <div className="max-w-[50%] mx-auto">
+          <GlossaryTerms
+            items={scrapedData.glossary.map((g) => ({
+              title: g.term,
+              description: g.definition,
+            }))}
+          />
+        </div>
+      )}
 
       {/* 7. CommonApplianceSymptoms (optional) */}
-      {data.commonApplianceSymptomsData &&
-        data.commonApplianceSymptomsData.symptoms &&
-        data.commonApplianceSymptomsData.symptoms.length > 0 && (
+      {scrapedData.symptomLinks &&
+        scrapedData.symptomLinks.length > 0 && (
           <div className="lg:w-[50%] mx-auto pt-10">
             <CommonApplianceSymptoms
-              title={data.commonApplianceSymptomsData.title}
-              symptoms={data.commonApplianceSymptomsData.symptoms}
+              title={`Common ${applianceName} Symptoms`}
+              symptoms={scrapedData.symptomLinks}
             />
           </div>
         )}

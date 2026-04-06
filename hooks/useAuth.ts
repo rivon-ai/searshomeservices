@@ -1,8 +1,8 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { authService, validations, AuthResponse } from "@/lib/auth-service";
+import { authService, validations, AuthResponse } from "@/services/auth-service";
 
 export function useAuth() {
   const router = useRouter();
@@ -149,3 +149,4 @@ export function useAuth() {
     updateFieldError,
   };
 }
+

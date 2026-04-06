@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { getCategoryUrl } from "@/utils/blogUtils";
 import type { Article } from "./HeroGrid";
 
 interface ArticleListItemProps {
@@ -13,14 +14,21 @@ export default function ArticleListItem({ article }: ArticleListItemProps) {
       {/* Image Thumbnail */}
       <Link
         href={`/blog/${article.slug}`}
-        className="relative w-full md:w-[280px] aspect-[16/10] shrink-0 rounded-lg overflow-hidden group"
+        className="relative w-full md:w-[280px] aspect-16/10 shrink-0 rounded-lg overflow-hidden group"
       >
-        <Image
-          src={article.image}
-          alt={article.title}
-          fill
-          className="object-cover transition-transform duration-700 group-hover:scale-105"
-        />
+        <div className="relative w-full h-full bg-gray-100 flex items-center justify-center">
+          {article.image ? (
+            <Image
+              src={article.image}
+              alt={article.title}
+              fill
+              unoptimized
+              className="object-cover transition-transform duration-700 group-hover:scale-105"
+            />
+          ) : (
+            <span className="text-gray-400 text-xs">No image</span>
+          )}
+        </div>
       </Link>
 
       {/* Content Area */}
@@ -43,7 +51,7 @@ export default function ArticleListItem({ article }: ArticleListItemProps) {
 
         <div className="mt-1">
           <Link
-            href="#"
+            href={getCategoryUrl(article.parentCategory, article.category)}
             className="text-sm text-[#386df2] hover:underline font-medium"
           >
             {article.category}

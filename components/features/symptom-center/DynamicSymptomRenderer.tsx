@@ -1,8 +1,8 @@
 "use client";
 
 import React from "react";
-import { SymptomPageData } from "@/utils/fetchers/symptom-data";
-import { renderInconsistentSection } from "./utils/renderInconsistentSection";
+import Link from "next/link";
+import { SymptomPageData } from "@/services/symptomService";
 
 // Import all dedicated components
 import PageHeading from "./PageHeading";
@@ -14,7 +14,6 @@ import { RepairResources } from "@/components/shared/RepairResources";
 import AdditionalSymptoms from "./AdditionalSymptoms";
 import BrandComparisonSection from "./BrandComparisonSection";
 import QuickRepairSteps from "./QuickRepairSteps";
-import { QuickRepairData } from "@/utils/fetchers/symptom-data";
 
 interface DynamicSymptomRendererProps {
   symptomData: SymptomPageData;
@@ -22,9 +21,8 @@ interface DynamicSymptomRendererProps {
 
 export default function DynamicSymptomRenderer({
   symptomData,
-}: DynamicSymptomRendererProps) {
+}: Readonly<DynamicSymptomRendererProps>) {
   const {
-    rawNodes,
     meta,
     stats,
     repairs,
@@ -35,195 +33,16 @@ export default function DynamicSymptomRenderer({
     additionalSymptomsLinks,
     otherBrandLinks,
     quickRepair,
+    troubleshootingSections,
   } = symptomData;
 
   // Extract brand, appliance, and symptom from title
-  const slug = meta.title.toLowerCase().replace(/\s/g, "-");
-  const parts = slug.split("-");
-  const brand = parts[0] || "";
-  const appliance = parts[1] || "";
-  const symptom = parts.slice(2).join(" ") || "";
-
-  // Find H2 section indices
-  const h2Indices: number[] = [];
-  rawNodes.forEach((node, index) => {
-    if (node.tag === "h2") {
-      h2Indices.push(index);
-    }
-  });
-
-  // Identify sections
-  const firstH2Index = h2Indices[0] || -1;
-  const secondH2Index = h2Indices[1] || -1;
-
-  // Check if second H2 is "Most common repairs"
-  const hasMostCommonRepairs =
-    secondH2Index !== -1 &&
-    rawNodes[secondH2Index].content
-      .toLowerCase()
-      .includes("most common repairs");
-
-  // Find "What our customers say" section
-  const customersH2Index =
-    h2Indices.find((idx) =>
-      rawNodes[idx].content.toLowerCase().includes("what our customers say"),
-    ) || -1;
-
-  // Find FAQ section
-  const faqH2Index =
-    h2Indices.find((idx) =>
-      rawNodes[idx].content
-        .toLowerCase()
-        .includes("frequently asked questions"),
-    ) || -1;
-
-  // Find Resources section
-  const resourcesH2Index =
-    h2Indices.find(
-      (idx) =>
-        rawNodes[idx].content.toLowerCase().includes("repair") &&
-        rawNodes[idx].content.toLowerCase().includes("resources"),
-    ) || -1;
-
-  // Find Additional Symptoms section
-  const additionalSymptomsH2Index =
-    h2Indices.find(
-      (idx) =>
-        rawNodes[idx].content.toLowerCase().includes("additional possible") &&
-        rawNodes[idx].content.toLowerCase().includes("symptoms"),
-    ) || -1;
-
-  // Find Brand Comparison section
-  const brandComparisonH2Index =
-    h2Indices.find((idx) =>
-      rawNodes[idx].content
-        .toLowerCase()
-        .includes("brands may also experience"),
-    ) || -1;
-
-  // Track all reserved indices (content that belongs to specific sections)
-  const reservedIndices = new Set<number>();
-
-  // Mark stats section indices as reserved
-  rawNodes.forEach((node, idx) => {
-    if (
-      node.tag === "span" &&
-      node.content.includes("% of the time it's the")
-    ) {
-      reservedIndices.add(idx);
-      if (rawNodes[idx + 1]) reservedIndices.add(idx + 1); // The label span
-    }
-  });
-
-  // Mark repairs section indices as reserved
-  if (hasMostCommonRepairs && secondH2Index !== -1) {
-    const nextH2AfterRepairs =
-      h2Indices.find((idx) => idx > secondH2Index) || rawNodes.length;
-    for (let i = secondH2Index; i < nextH2AfterRepairs; i++) {
-      reservedIndices.add(i);
-    }
-  }
-
-  // Mark testimonials section indices as reserved
-  if (customersH2Index !== -1) {
-    const nextH2AfterCustomers =
-      h2Indices.find((idx) => idx > customersH2Index) || rawNodes.length;
-    for (let i = customersH2Index; i < nextH2AfterCustomers; i++) {
-      reservedIndices.add(i);
-    }
-  }
-
-  // Mark FAQ section indices as reserved
-  if (faqH2Index !== -1) {
-    const nextH2AfterFAQ =
-      h2Indices.find((idx) => idx > faqH2Index) || rawNodes.length;
-    for (let i = faqH2Index; i < nextH2AfterFAQ; i++) {
-      reservedIndices.add(i);
-    }
-  }
-
-  // Mark Resources section indices as reserved (includes Glossary)
-  if (resourcesH2Index !== -1) {
-    const nextH2AfterResources =
-      h2Indices.find((idx) => idx > resourcesH2Index) || rawNodes.length;
-    for (let i = resourcesH2Index; i < nextH2AfterResources; i++) {
-      reservedIndices.add(i);
-    }
-  }
-
-  // Mark Additional Symptoms section indices as reserved
-  if (additionalSymptomsH2Index !== -1) {
-    const nextH2AfterSymptoms =
-      h2Indices.find((idx) => idx > additionalSymptomsH2Index) ||
-      rawNodes.length;
-    for (let i = additionalSymptomsH2Index; i < nextH2AfterSymptoms; i++) {
-      reservedIndices.add(i);
-    }
-  }
-
-  // Mark Brand Comparison section indices as reserved
-  if (brandComparisonH2Index !== -1) {
-    const nextH2AfterBrands =
-      h2Indices.find((idx) => idx > brandComparisonH2Index) || rawNodes.length;
-    for (let i = brandComparisonH2Index; i < nextH2AfterBrands; i++) {
-      reservedIndices.add(i);
-    }
-  }
-
-  // Mark QuickRepairSteps section indices as reserved
-  const quickRepairTriggerIdx = rawNodes.findIndex(
-    (n) =>
-      n.tag === "h2" &&
-      n.content.toLowerCase().includes("repair is quick and easy"),
-  );
-
-  if (quickRepairTriggerIdx !== -1) {
-    reservedIndices.add(quickRepairTriggerIdx);
-    let itemsCollected = 0;
-    let j = quickRepairTriggerIdx + 1;
-    while (j < rawNodes.length && itemsCollected < 3) {
-      if (
-        rawNodes[j]?.tag === "img" &&
-        rawNodes[j + 1]?.tag === "h3" &&
-        rawNodes[j + 2]?.tag === "p"
-      ) {
-        reservedIndices.add(j);
-        reservedIndices.add(j + 1);
-        reservedIndices.add(j + 2);
-        j += 3;
-        itemsCollected++;
-      } else {
-        j++;
-        if (j > quickRepairTriggerIdx + 10) break;
-      }
-    }
-  }
-
-  // Mark first H2 section (stats intro) as reserved
-  if (firstH2Index !== -1 && secondH2Index !== -1) {
-    for (let i = firstH2Index; i < secondH2Index; i++) {
-      reservedIndices.add(i);
-    }
-  }
-
-  // Extract inconsistent section nodes - everything not reserved
-  let inconsistentSectionNodes: typeof rawNodes = [];
-  rawNodes.forEach((node, idx) => {
-    if (!reservedIndices.has(idx)) {
-      // Skip nodes before first H2 and conversion component nodes
-      if (
-        idx < firstH2Index ||
-        node.tag === "h4" ||
-        node.tag === "h1" ||
-        (node.tag === "div" && node.content === "$") ||
-        (node.tag === "div" && node.content === "/$") ||
-        node.attributes?.toString().includes("hidden")
-      ) {
-        return;
-      }
-      inconsistentSectionNodes.push(node);
-    }
-  });
+  // Since we have structured data, we might be able to get these from better places, 
+  // but let's keep the existing extraction logic if it works or use meta.title.
+  const titleParts = meta.title.split(" ");
+  const brand = titleParts[0] || "";
+  const appliance = titleParts[1] || "";
+  const symptom = titleParts.slice(2).join(" ") || "";
 
   return (
     <div className="max-w-[75%] mx-auto">
@@ -232,7 +51,7 @@ export default function DynamicSymptomRenderer({
         <PageHeading title={meta.title} />
       </div>
 
-      {/* 2. First H2 Section - Stats & Schedule Card */}
+      {/* 2. Stats & Schedule Card */}
       {stats.length > 0 && (
         <RadialStatsSection
           title={`Common reasons your ${brand} ${appliance} is ${symptom}`}
@@ -255,19 +74,67 @@ export default function DynamicSymptomRenderer({
         />
       )}
 
-      {/* 3. Second H2 Section - Most Common Repairs OR Inconsistent Section */}
-      {hasMostCommonRepairs && repairs.length > 0 ? (
+      {/* 3. Most Common Repairs */}
+      {repairs.length > 0 ? (
         <RepairCardsContainer
           mainTitle={`Most common repairs needed to fix a ${brand} ${appliance} ${symptom}`}
           repairs={repairs}
         />
       ) : null}
 
-      {/* 4. Inconsistent Section (if exists) */}
-      {inconsistentSectionNodes.length > 0 && (
+      {/* 4. Troubleshooting Sections (The new "Inconsistent" content) */}
+      {troubleshootingSections && troubleshootingSections.length > 0 && (
         <div className="py-8">
-          <div className="max-w-[50%] mx-auto">
-            {renderInconsistentSection(inconsistentSectionNodes)}
+          <div className="max-w-[80%] mx-auto space-y-12">
+            {troubleshootingSections.map((section) => (
+              <div key={section.heading} className="space-y-6">
+                <h2 className="text-3xl font-bold text-blue-950">
+                  {section.heading}
+                </h2>
+                <div 
+                  className="text-lg text-gray-700 leading-relaxed"
+                  dangerouslySetInnerHTML={{ __html: section.body }}
+                />
+                
+                {section.subSections && section.subSections.length > 0 && (
+                  <div className="grid grid-cols-1 gap-10 mt-8">
+                    {section.subSections.map((sub) => (
+                      <div key={sub.heading} className="space-y-4">
+                        <h3 className="text-2xl font-semibold text-gray-500 leading-tight">
+                          {sub.heading}
+                        </h3>
+                        {sub.image && (
+                          <div className="my-6 rounded-lg overflow-hidden border border-gray-100">
+                            <img 
+                              src={sub.image.startsWith("//") ? `https:${sub.image}` : sub.image} 
+                              alt={sub.heading}
+                              className="w-full object-cover max-h-[500px]"
+                            />
+                          </div>
+                        )}
+                        <div 
+                          className="text-lg text-gray-600 leading-relaxed prose prose-blue max-w-none prose-p:my-2"
+                          dangerouslySetInnerHTML={{ __html: sub.body }}
+                        />
+                        {sub.links && sub.links.length > 0 && (
+                          <div className="mt-4 flex flex-wrap gap-5">
+                            {sub.links.map((link) => (
+                              <Link 
+                                key={link.label} 
+                                href={link.href}
+                                className="text-blue-600 hover:text-blue-800 font-medium underline underline-offset-8 transition-colors"
+                              >
+                                {link.label}
+                              </Link>
+                            ))}
+                          </div>
+                        )}
+                      </div>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ))}
           </div>
         </div>
       )}
@@ -275,32 +142,30 @@ export default function DynamicSymptomRenderer({
       {/* 4.5 Quick Repair Steps */}
       {quickRepair && (
         <div className="py-8">
-          <div className="">
-            <QuickRepairSteps
-              title={quickRepair.title}
-              items={quickRepair.items}
-            />
-          </div>
+          <QuickRepairSteps
+            title={quickRepair.title}
+            items={quickRepair.items}
+          />
         </div>
       )}
 
       {/* 5. What Our Customers Say - Testimonials */}
       {testimonials.length > 0 && (
-        <div className="  ">
+        <div className="py-12">
           <ReviewCarousel testimonials={testimonials} />
         </div>
       )}
 
       {/* 6. Frequently Asked Questions */}
       {faqs.length > 0 && (
-        <div className="   py-8">
+        <div className="py-8">
           <FAQ items={faqs} />
         </div>
       )}
 
       {/* 7. Repair Resources & Glossary */}
       {(blogPosts.length > 0 || glossary.length > 0) && (
-        <div className="   py-8">
+        <div className="py-8">
           <RepairResources
             blogPosts={blogPosts}
             appliance={appliance.charAt(0).toUpperCase() + appliance.slice(1)}
@@ -311,7 +176,7 @@ export default function DynamicSymptomRenderer({
 
       {/* 8. Additional Symptoms */}
       {additionalSymptomsLinks.length > 0 && (
-        <div className="   py-8">
+        <div className="py-8">
           <AdditionalSymptoms
             symptomsData={additionalSymptomsLinks}
             brand={brand}
@@ -322,7 +187,7 @@ export default function DynamicSymptomRenderer({
 
       {/* 9. Brand Comparison */}
       {otherBrandLinks.length > 0 && (
-        <div className="   py-8">
+        <div className="py-8">
           <BrandComparisonSection
             otherBrandLinks={otherBrandLinks}
             symptom={symptom}
@@ -332,3 +197,4 @@ export default function DynamicSymptomRenderer({
     </div>
   );
 }
+

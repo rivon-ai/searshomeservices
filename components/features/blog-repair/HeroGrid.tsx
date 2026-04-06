@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
+import { getCategoryUrl } from "@/utils/blogUtils";
 
 function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
@@ -13,6 +14,7 @@ export interface Article {
   title: string;
   image: string;
   category: string;
+  parentCategory: string;
   date: string;
   readTime: string;
   excerpt: string;
@@ -37,13 +39,20 @@ export default function HeroGrid({ articles }: HeroGridProps) {
           href={`/blog/${featured.slug}`}
           className="group block w-full aspect-16/10 relative rounded-lg overflow-hidden"
         >
-          <Image
-            src={featured.image}
-            alt={featured.title}
-            fill
-            className="object-cover transition-transform duration-700 group-hover:scale-105"
-            priority
-          />
+          <div className="relative w-full aspect-16/10 rounded-lg overflow-hidden bg-gray-100 flex items-center justify-center">
+            {featured.image ? (
+              <Image
+                src={featured.image}
+                alt={featured.title}
+                fill
+                unoptimized
+                className="object-cover transition-transform duration-700 group-hover:scale-105"
+                priority
+              />
+            ) : (
+              <span className="text-gray-400">Image not available</span>
+            )}
+          </div>
         </Link>
 
         <div className="flex flex-col gap-2">
@@ -62,7 +71,10 @@ export default function HeroGrid({ articles }: HeroGridProps) {
           <p className="text-gray-600 line-clamp-2">{featured.excerpt}</p>
 
           <div className="flex gap-3 text-sm font-medium mt-1">
-            <Link href="#" className="text-[#386df2] hover:underline">
+            <Link 
+              href={getCategoryUrl(featured.parentCategory, featured.category)} 
+              className="text-[#386df2] hover:underline"
+            >
               {featured.category}
             </Link>
           </div>
@@ -77,12 +89,19 @@ export default function HeroGrid({ articles }: HeroGridProps) {
               href={`/blog/${article.slug}`}
               className="relative w-[180px] aspect-16/10 shrink-0 rounded-lg overflow-hidden group"
             >
-              <Image
-                src={article.image}
-                alt={article.title}
-                fill
-                className="object-cover transition-transform duration-500 group-hover:scale-105"
-              />
+              <div className="relative w-full h-full bg-gray-100 flex items-center justify-center">
+                {article.image ? (
+                  <Image
+                    src={article.image}
+                    alt={article.title}
+                    fill
+                    unoptimized
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
+                ) : (
+                  <span className="text-gray-400 text-xs">No image</span>
+                )}
+              </div>
             </Link>
 
             <div className="flex flex-col gap-1">
@@ -106,7 +125,7 @@ export default function HeroGrid({ articles }: HeroGridProps) {
               </p>
 
               <Link
-                href="#"
+                href={getCategoryUrl(article.parentCategory, article.category)}
                 className="text-sm text-[#386df2] hover:underline font-medium"
               >
                 {article.category}

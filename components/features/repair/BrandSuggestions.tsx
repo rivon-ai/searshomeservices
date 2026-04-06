@@ -19,6 +19,7 @@ export default function BrandSuggestions({
   title,
   brands = [],
 }: BrandSuggestionsProps) {
+
   return (
     <div className="px-0 md:px-4">
       <h3 className="text-blue-950 uppercase text-2xl font-medium leading-8 lg:leading-9 my-4 font-oswald">

@@ -12,6 +12,7 @@ export default function HeroSection() {
           src="https://images.ctfassets.net/e0821f6q5nel/1ismk2VeoZr0hHcZzP6QPB/c70a8bd53e6413eaaf2aa335feaa2bc7/family-in-kitchen.jpeg"
           alt="Resource Center Home Page Image"
           fill
+          unoptimized
           priority
           quality={75}
           className="object-cover w-full h-full"

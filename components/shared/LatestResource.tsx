@@ -63,53 +63,34 @@ export default function LatestResource() {
         Latest Resources
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {resources.map((resource, index) => (
-          <Card
-            key={index}
-            className="flex flex-col h-full group hover:shadow-xl hover:shadow-blue-900/5 transition-all rounded-2xl overflow-hidden"
-          >
-            <CardContent className="p-0 flex flex-col h-full">
-              <div className="relative overflow-hidden h-48 w-full">
-                <Image
-                  src={resource.image}
-                  alt={resource.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  placeholder="blur"
-                />
-                <div className="absolute top-4 left-4">
-                  <span className="px-3 py-1 bg-white/90 backdrop-blur-sm rounded-lg text-[10px] font-bold text-blue-900 uppercase tracking-widest shadow-sm">
-                    {resource.category}
-                  </span>
-                </div>
+          <Link key={index} href="#" className="group flex flex-col h-full bg-white rounded-xl overflow-hidden shadow-sm border border-gray-200 hover:shadow-md transition-all">
+            <div className="bg-gray-100 aspect-video overflow-hidden">
+              <Image
+                src={resource.image}
+                alt={resource.title}
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                placeholder="blur"
+              />
+            </div>
+            <div className="p-5 flex flex-col grow">
+              <div className="flex items-center gap-2 text-xs font-bold text-blue-600 mb-2 uppercase tracking-wider">
+                <span>{resource.category}</span>
               </div>
-
-              <div className="p-6 flex flex-col grow">
-                <h3 className="text-lg font-bold text-[#002855] mb-3 group-hover:text-blue-700 transition-colors leading-tight min-h-14">
-                  {resource.title}
-                </h3>
-
-                <div className="text-gray-400 text-xs font-bold mb-4 flex items-center gap-2 uppercase tracking-wide">
-                  <span>{resource.readTime}</span>
-                  <span className="text-blue-200">•</span>
-                  <span>{resource.date}</span>
-                </div>
-
-                <p className="text-gray-500 text-sm leading-relaxed mb-6 line-clamp-3">
-                  {resource.description}
-                </p>
-
-                <div className="mt-auto">
-                  <Button asChild variant="link" className="p-0 h-auto text-blue-600 hover:text-blue-800 font-bold group/btn">
-                    <Link href="#">
-                      Learn More
-                      <span className="ml-1 inline-block transition-transform group-hover/btn:translate-x-1">→</span>
-                    </Link>
-                  </Button>
-                </div>
+              <h4 className="font-bold text-gray-900 mb-3 group-hover:text-blue-700 leading-snug">
+                {resource.title}
+              </h4>
+              <p className="text-sm text-gray-600 line-clamp-3 mb-4">
+                {resource.description}
+              </p>
+              <div className="mt-auto flex items-center gap-2 text-xs font-medium text-gray-500">
+                <span>{resource.date}</span>
+                <span>&middot;</span>
+                <span>{resource.readTime}</span>
               </div>
-            </CardContent>
-          </Card>
+            </div>
+          </Link>
         ))}
       </div>
     </div>

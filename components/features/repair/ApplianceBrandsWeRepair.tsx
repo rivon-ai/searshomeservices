@@ -56,17 +56,16 @@ export default function ApplianceBrandsWeRepair({
             // I will use a conditional or just pass className if I wanted to be super generic, but for now I'll check name.
           >
             <Link
-              href={brand.link}
-              className="w-full h-full flex justify-center items-center filter invert-40 transition-[filter] duration-300 ease-out hover:invert-0"
+              href={brand.link || "#"}
+              className="w-full h-full flex justify-center items-center transition-opacity duration-300 ease-out hover:opacity-100 opacity-50"
             >
               <img
                 alt={brand.alt}
                 loading="lazy"
-                width={brand.name === "LG" ? 100 : 125} // LG had width 100 in snippet
+                width={brand.name === "LG" ? 100 : 125}
                 height={125}
                 decoding="async"
-                data-nimg="1"
-                style={{ color: "transparent" }}
+                className="brightness-0 object-contain"
                 src={brand.logoUrl}
               />
             </Link>

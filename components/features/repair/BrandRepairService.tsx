@@ -1,7 +1,6 @@
 import React from "react";
 import BrokenAppliance from "./BrokenAppliance";
 import ApplianceSuggestions from "./ApplianceSuggestions";
-import ExpertsCard from "./ExpertsCard";
 import FAQ from "@/components/shared/FAQ";
 import HowItWorks from "@/components/shared/HowItWorksSVG";
 import ImageScheduleCard from "@/components/shared/Image&ScheduleCard";
@@ -10,16 +9,14 @@ import RatingSection from "@/components/shared/RatingSection";
 import ApplianceBrandsWeRepair from "./ApplianceBrandsWeRepair";
 import CommonBrandSymptoms from "./CommonBrandSymptoms";
 import img from "@/public/image1.webp";
-import {
-  parseRepairServiceData,
-  ScrapedNode,
-  RepairServiceData,
-} from "@/utils/repair-service-parser";
 import { RepairResources } from "@/components/shared/RepairResources";
 import GlossaryTerms from "@/components/shared/GlossaryTerms";
 
+import { SummarizedRepairData, ScrapedNode } from "@/types/repairTypes";
+import { parseServiceOverview } from "@/utils/service-overview-parser";
+
 interface BrandRepairServiceProps {
-  scrapedData: { full_content: ScrapedNode[] } | null;
+  scrapedData: SummarizedRepairData | null;
   repairServiceSlug: string;
 }
 
@@ -27,17 +24,25 @@ export default function BrandRepairService({
   scrapedData,
   repairServiceSlug,
 }: BrandRepairServiceProps) {
-  if (!scrapedData || !scrapedData.full_content) {
+  if (!scrapedData) {
     return <div>Loading...</div>;
   }
 
-  const data: RepairServiceData = parseRepairServiceData(
-    scrapedData.full_content,
-  );
+  const overview = parseServiceOverview(scrapedData.serviceOverview);
 
-  const applianceName = data.heroData.heading
-    ? data.heroData.heading.replace(" Repair Services", "")
+  const applianceName = scrapedData.pageTitle
+    ? scrapedData.pageTitle.replace(" Repair Services", "")
     : "Appliance";
+
+  // Build ScrapedNode[] from articleNodes for RenderRandomContent
+  const randomContent: ScrapedNode[] = overview.articleNodes.map(
+    (node, i) => ({
+      tag: node.type,
+      content: node.content,
+      attributes: node.src ? { src: node.src } : {},
+      order: i,
+    }),
+  );
 
   // Placeholder reviews for RatingSection (required prop)
   const reviews = [
@@ -61,15 +66,22 @@ export default function BrandRepairService({
     },
   ];
 
+  // Map blog links to RepairResources format
+  const blogPosts = scrapedData.blogArticles.links.map((l) => ({
+    title: l.title,
+    link: l.href,
+    image: undefined,
+  }));
+
   return (
     <div className="max-w-[80%] mx-auto">
       {/* 1. Image&ScheduleCard */}
       <div className="relative mb-12">
         <ImageScheduleCard
-          heroImage={img}
-          heading={data.heroData.heading || "Repair Services"}
+          heroImage={overview.heroImage || img}
+          heading={scrapedData.pageTitle || "Repair Services"}
           description={
-            data.heroData.description || "Expert repairs for your home."
+            overview.heroDescription || "Expert repairs for your home."
           }
           showBanner={true}
           bannerText={{
@@ -81,20 +93,20 @@ export default function BrandRepairService({
 
       {/* 2. randomArea (Remaining Content) */}
       <div className="mt-42">
-        <RenderRandomContent nodes={data.randomContent} />
+        <RenderRandomContent nodes={randomContent} />
       </div>
 
       {/* 3. Broken Appliance */}
-      {data.brokenAppliancesData &&
-        data.brokenAppliancesData.appliances &&
-        data.brokenAppliancesData.appliances.length > 0 && (
+      {scrapedData.applianceSelector &&
+        scrapedData.applianceSelector.appliances &&
+        scrapedData.applianceSelector.appliances.length > 0 && (
           <div className="my-10">
             <BrokenAppliance
               title={
-                data.brokenAppliancesData.title ||
-                "WHICH KENMORE APPLIANCE IS BROKEN?"
+                scrapedData.applianceSelector.title ||
+                `WHICH ${scrapedData.brand.toUpperCase()} APPLIANCE IS BROKEN?`
               }
-              appliances={data.brokenAppliancesData.appliances}
+              appliances={scrapedData.applianceSelector.appliances}
             />
           </div>
         )}
@@ -105,60 +117,45 @@ export default function BrandRepairService({
       </div>
 
       {/* 4. Appliance Suggestions */}
-      {data.brandSuggestionsData &&
-        data.brandSuggestionsData.brands &&
-        data.brandSuggestionsData.brands.length > 0 && (
+      {scrapedData.applianceBrandSelector &&
+        scrapedData.applianceBrandSelector.brands &&
+        scrapedData.applianceBrandSelector.brands.length > 0 && (
           <div className="my-10">
             <ApplianceSuggestions
               title={
-                data.brandSuggestionsData.title ||
+                scrapedData.applianceBrandSelector.title ||
                 "Which appliance needs repair?"
               }
-              suggestions={data.brandSuggestionsData.brands.map((b: any) => ({
-                label: b.label || b.name,
-                iconSrc: b.iconSrc || b.logoUrl,
-                iconAlt: b.iconAlt || b.alt,
-                href: b.href || "#",
-              }))}
+              suggestions={scrapedData.applianceBrandSelector.brands.map(
+                (b: any) => ({
+                  label: b.name || b.label,
+                  iconSrc: b.logoUrl || b.iconUrl || b.iconSrc,
+                  iconAlt: b.alt || b.iconAlt || b.name || b.label || "",
+                  href: b.link || b.href || "#",
+                }),
+              )}
             />
           </div>
         )}
 
-      {/* 5. Experts Card */}
-      {data.expertsData &&
-        data.expertsData.experts &&
-        data.expertsData.experts.length > 0 && (
-          <div className="my-10">
-            <ExpertsCard
-              title={
-                data.expertsData.title || "We are the Kenmore repair experts"
-              }
-              experts={data.expertsData.experts.map((e: any) => ({
-                name: e.name,
-                description: e.description,
-                iconSrc: e.iconSrc,
-                iconAlt: e.iconAlt,
-              }))}
-            />
-          </div>
-        )}
+      {/* 5. Experts Card — not available in summarized JSON, keeping stub for future */}
 
       {/* 6. FAQ */}
       <div className="my-10">
         <FAQ
-          items={data.faqData.map((f) => ({
+          items={scrapedData.faq.map((f) => ({
             question: f.question,
-            answer: f.answer.join("\n"),
+            answer: f.answer,
           }))}
         />
       </div>
 
       {/* 8. ApplianceBrandsWeRepair (if applicable to brand page) */}
-      {data.applianceBrandsData && data.applianceBrandsData.brands && (
+      {scrapedData.brandsWeRepair && scrapedData.brandsWeRepair.brands && (
         <div className="my-10">
           <ApplianceBrandsWeRepair
-            title={data.applianceBrandsData.title}
-            brands={data.applianceBrandsData.brands}
+            title={scrapedData.brandsWeRepair.title || `${applianceName} Brands We Repair`}
+            brands={scrapedData.brandsWeRepair.brands}
           />
         </div>
       )}
@@ -170,9 +167,9 @@ export default function BrandRepairService({
 
       {/* RepairResources */}
       <div className="my-10 max-w-[50%] mx-auto">
-        {data.repairResourcesData && (
+        {blogPosts.length > 0 && (
           <RepairResources
-            blogPosts={data.repairResourcesData.blogPosts || []}
+            blogPosts={blogPosts}
             appliance={applianceName}
             glossaryData={[]}
           />
@@ -181,16 +178,25 @@ export default function BrandRepairService({
 
       {/* GlossaryTerms */}
       <div className="max-w-[50%] mx-auto">
-        <GlossaryTerms />
+        <GlossaryTerms
+          items={
+            scrapedData.glossary.length > 0
+              ? scrapedData.glossary.map((g) => ({
+                  title: g.term,
+                  description: g.definition,
+                }))
+              : undefined
+          }
+        />
       </div>
 
       {/* 10. CommonBrandSymptoms */}
-      {data.commonBrandSymptomsData &&
-        data.commonBrandSymptomsData.symptoms && (
+      {scrapedData.brandSymptomLinks &&
+        scrapedData.brandSymptomLinks.length > 0 && (
           <div className="lg:w-[50%] mx-auto pt-10">
             <CommonBrandSymptoms
-              title={data.commonBrandSymptomsData.title}
-              symptoms={data.commonBrandSymptomsData.symptoms}
+              title={`Common ${applianceName} Symptoms`}
+              symptoms={scrapedData.brandSymptomLinks}
             />
           </div>
         )}

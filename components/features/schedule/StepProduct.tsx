@@ -8,23 +8,38 @@ import {
     ComboboxList,
     ComboboxInput,
 } from "@/components/ui/combobox";
-import { brandAppliances } from "@/utils/data/brandAppliances";
 import { cn } from "@/utils/cn";
 import { ChevronDown } from "lucide-react";
+import type { ApplianceOption, BrandsByAppliance } from "@/types/repairTypes";
+import type { BookingData } from "@/hooks/useScheduleWizard";
 
-interface StepProps {
-    bookingData: any;
-    updateBookingData: (key: string, value: any) => void;
+interface StepProductProps {
+    bookingData: BookingData;
+    updateBookingData: (key: keyof BookingData, value: unknown) => void;
     onNext: () => void;
+    appliances: ApplianceOption[];
+    brandsByAppliance: BrandsByAppliance;
+    isLoading: boolean;
 }
 
-export function StepProduct({ bookingData, updateBookingData, onNext }: StepProps) {
-    const [applianceInputValue, setApplianceInputValue] = React.useState(bookingData.appliance || "");
-    const [brandInputValue, setBrandInputValue] = React.useState(bookingData.brand || "");
+export function StepProduct({
+    bookingData,
+    updateBookingData,
+    onNext,
+    appliances,
+    brandsByAppliance,
+    isLoading,
+}: StepProductProps) {
+    const [applianceInputValue, setApplianceInputValue] = React.useState(
+        bookingData.appliance || ""
+    );
+    const [brandInputValue, setBrandInputValue] = React.useState(
+        bookingData.brand || ""
+    );
     const [isApplianceFocused, setIsApplianceFocused] = React.useState(false);
     const [isBrandFocused, setIsBrandFocused] = React.useState(false);
 
-    // Sync input values when booking data changes (e.g. initial load or handleApplianceChange)
+    // Sync input display when booking data changes externally
     React.useEffect(() => {
         setApplianceInputValue(bookingData.appliance || "");
     }, [bookingData.appliance]);
@@ -33,61 +48,68 @@ export function StepProduct({ bookingData, updateBookingData, onNext }: StepProp
         setBrandInputValue(bookingData.brand || "");
     }, [bookingData.brand]);
 
-    // Get all unique appliances from the data
-    const allAppliances = React.useMemo(() => {
-        const applianceSet = new Set<string>();
-        brandAppliances.forEach((brandData) => {
-            brandData.appliances.forEach((app) => {
-                applianceSet.add(app.appliance);
-            });
-        });
-        const sorted = Array.from(applianceSet).sort().map(app => ({ value: app, label: app }));
-        if (!applianceInputValue) return sorted;
-        return sorted.filter(app =>
-            app.label.toLowerCase().includes(applianceInputValue.toLowerCase())
+    // ── Derived appliance list (filtered by search input) ────────────────────
+    const filteredAppliances = React.useMemo(() => {
+        if (!applianceInputValue) return appliances;
+        return appliances.filter((a) =>
+            a.label.toLowerCase().includes(applianceInputValue.toLowerCase())
         );
-    }, [applianceInputValue]);
+    }, [appliances, applianceInputValue]);
 
-    // Get brands that support the selected appliance
-    const brandsForSelectedAppliance = React.useMemo(() => {
+    // ── Brands for the selected appliance (filtered by search input) ─────────
+    const brandsForAppliance = React.useMemo<string[]>(() => {
         if (!bookingData.appliance) return [];
+        return brandsByAppliance[bookingData.appliance] ?? [];
+    }, [bookingData.appliance, brandsByAppliance]);
 
-        const brands = brandAppliances
-            .filter((brandData) =>
-                brandData.appliances.some((app) => app.appliance === bookingData.appliance)
-            )
-            .map((brandData) => ({ value: brandData.brand, label: brandData.brand }));
-
-        if (!brandInputValue) return brands;
-        return brands.filter(brand =>
-            brand.label.toLowerCase().includes(brandInputValue.toLowerCase())
+    const filteredBrands = React.useMemo(() => {
+        if (!brandInputValue) return brandsForAppliance;
+        return brandsForAppliance.filter((b) =>
+            b.toLowerCase().includes(brandInputValue.toLowerCase())
         );
-    }, [bookingData.appliance, brandInputValue]);
+    }, [brandsForAppliance, brandInputValue]);
 
-    // Check if brand selection is required (appliance has brands associated)
-    const isBrandRequired = brandsForSelectedAppliance.length > 0;
+    const isBrandRequired = brandsForAppliance.length > 0;
 
-    const handleApplianceChange = (val: string) => {
-        updateBookingData("appliance", val);
-
-        // Check if the new appliance supports the currently selected brand
-        const brandsForNewAppliance = brandAppliances
-            .filter((brandData) =>
-                brandData.appliances.some((app) => app.appliance === val)
-            )
-            .map((brandData) => brandData.brand);
-
-        if (!brandsForNewAppliance.includes(bookingData.brand)) {
+    // ── Handlers ─────────────────────────────────────────────────────────────
+    const handleApplianceChange = (selectedId: string) => {
+        updateBookingData("appliance", selectedId);
+        // Clear brand if it's no longer valid for the new appliance
+        const brandsForNew = brandsByAppliance[selectedId] ?? [];
+        if (!brandsForNew.includes(bookingData.brand)) {
             updateBookingData("brand", "");
         }
     };
 
+    const isContinueDisabled =
+        isLoading ||
+        !bookingData.appliance ||
+        (isBrandRequired && !bookingData.brand);
+
+    // ── Skeleton while options are loading ───────────────────────────────────
+    if (isLoading) {
+        return (
+            <div className="w-full mx-auto space-y-8 animate-pulse">
+                <div className="space-y-1">
+                    <div className="h-7 w-48 bg-gray-200 rounded" />
+                    <div className="h-4 w-36 bg-gray-100 rounded" />
+                </div>
+                <div className="h-12 bg-gray-100 rounded" />
+                <div className="h-12 bg-gray-100 rounded" />
+            </div>
+        );
+    }
+
     return (
         <div className="w-full mx-auto space-y-8 animate-in fade-in slide-in-from-bottom-4 duration-700 ease-out">
             <div className="space-y-1">
-                <h2 className="text-2xl font-semibold text-[#00245B]">What needs repair?</h2>
+                <h2 className="text-2xl font-semibold text-[#00245B]">
+                    What needs repair?
+                </h2>
                 <p className="text-gray-500">
-                    {isBrandRequired ? "Now, choose your brand." : "Choose your appliance."}
+                    {isBrandRequired
+                        ? "Now, choose your brand."
+                        : "Choose your appliance."}
                 </p>
             </div>
 
@@ -110,24 +132,27 @@ export function StepProduct({ bookingData, updateBookingData, onNext }: StepProp
                             <ChevronDown size={14} className="text-gray-400 mr-2" />
                             <ComboboxContent className="mt-2">
                                 <ComboboxList>
-                                    {allAppliances.length > 0 ? (
-                                        allAppliances.map((appliance) => (
-                                            <ComboboxItem key={appliance.value} value={appliance.value} className="cursor-pointer">
-                                                {appliance.label}
+                                    {filteredAppliances.length > 0 ? (
+                                        filteredAppliances.map((appliance) => (
+                                            <ComboboxItem
+                                                key={appliance.id}
+                                                value={appliance.id}
+                                                className="cursor-pointer"
+                                            >
+                                                {appliance.icon} {appliance.label}
                                             </ComboboxItem>
                                         ))
                                     ) : (
-                                        <div className="p-2 text-gray-400 text-sm text-center">No results found</div>
+                                        <div className="p-2 text-gray-400 text-sm text-center">
+                                            No results found
+                                        </div>
                                     )}
                                 </ComboboxList>
                             </ComboboxContent>
                         </ComboboxInput>
                     </Combobox>
 
-                    {/* Underline - Base */}
                     <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-gray-200 transition-colors duration-200" />
-
-                    {/* Underline - Active (Animated) */}
                     <div
                         className={cn(
                             "absolute bottom-0 left-0 right-0 h-[2px] bg-[#0046BE] transition-transform duration-300 ease-in-out origin-center scale-x-0",
@@ -136,12 +161,14 @@ export function StepProduct({ bookingData, updateBookingData, onNext }: StepProp
                     />
                 </div>
 
-                {/* Brand Combobox - Conditionally Shown */}
+                {/* Brand Combobox — shown only when the selected appliance has brands */}
                 {isBrandRequired && (
                     <div className="relative group animate-in fade-in slide-in-from-top-2 duration-300">
                         <Combobox
                             value={bookingData.brand}
-                            onValueChange={(val) => updateBookingData("brand", val || "")}
+                            onValueChange={(val) =>
+                                updateBookingData("brand", val || "")
+                            }
                             inputValue={brandInputValue}
                             onInputValueChange={setBrandInputValue}
                             onOpenChange={setIsBrandFocused}
@@ -155,24 +182,27 @@ export function StepProduct({ bookingData, updateBookingData, onNext }: StepProp
                                 <ChevronDown size={14} className="text-gray-400 mr-2" />
                                 <ComboboxContent className="mt-2">
                                     <ComboboxList>
-                                        {brandsForSelectedAppliance.length > 0 ? (
-                                            brandsForSelectedAppliance.map((brand) => (
-                                                <ComboboxItem key={brand.value} value={brand.value} className="cursor-pointer">
-                                                    {brand.label}
+                                        {filteredBrands.length > 0 ? (
+                                            filteredBrands.map((brand) => (
+                                                <ComboboxItem
+                                                    key={brand}
+                                                    value={brand}
+                                                    className="cursor-pointer"
+                                                >
+                                                    {brand}
                                                 </ComboboxItem>
                                             ))
                                         ) : (
-                                            <div className="p-2 text-gray-400 text-sm text-center">No results found</div>
+                                            <div className="p-2 text-gray-400 text-sm text-center">
+                                                No results found
+                                            </div>
                                         )}
                                     </ComboboxList>
                                 </ComboboxContent>
                             </ComboboxInput>
                         </Combobox>
 
-                        {/* Underline - Base */}
                         <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-gray-200 transition-colors duration-200" />
-
-                        {/* Underline - Active (Animated) */}
                         <div
                             className={cn(
                                 "absolute bottom-0 left-0 right-0 h-[2px] bg-[#0046BE] transition-transform duration-300 ease-in-out origin-center scale-x-0",
@@ -186,7 +216,7 @@ export function StepProduct({ bookingData, updateBookingData, onNext }: StepProp
             <div className="pt-4 px-20 md:px-44 flex flex-col items-center">
                 <button
                     onClick={onNext}
-                    disabled={!bookingData.appliance || (isBrandRequired && !bookingData.brand)}
+                    disabled={isContinueDisabled}
                     className="cursor-pointer px-16 py-3 bg-[#0046BE] text-white font-bold rounded-lg hover:bg-blue-800 disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors"
                 >
                     Continue

@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useMemo } from "react";
 import { useRouter } from "next/navigation";
@@ -6,8 +6,8 @@ import {
     getAppointmentsByPhoneEmail, 
     validateOrderId, 
     Appointment 
-} from "@/lib/appointmentService";
-import { validations } from "@/lib/validations";
+} from "@/services/appointmentService";
+import { validations } from "@/utils/validations";
 
 export function useOrderLookup() {
     const router = useRouter();
@@ -146,3 +146,4 @@ export function useOrderLookup() {
         clearLookup
     };
 }
+

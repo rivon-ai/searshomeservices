@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React from "react";
 import Link from "next/link";
@@ -12,7 +12,7 @@ import {
     TableHeader,
     TableRow,
 } from "@/components/ui/table";
-import { Appointment } from "@/lib/appointmentService";
+import { Appointment } from "@/services/appointmentService";
 
 interface OrderResultListProps {
     orders: Appointment[];
@@ -182,3 +182,4 @@ const OrderResultList: React.FC<OrderResultListProps> = ({
 };
 
 export default OrderResultList;
+

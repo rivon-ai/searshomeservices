@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { ArrowLeft, ArrowRight, X, Check } from "lucide-react";
 import {
     Dialog,
@@ -17,15 +17,15 @@ import {
     CarouselNext,
     CarouselPrevious,
 } from "@/components/ui/carousel";
-import { DATES } from "@/app/schedule/data";
-
 import { useRouter } from "next/navigation";
-import { Appointment, updateAppointment } from "@/lib/appointmentService";
+import { Appointment, updateAppointment, getSchedule } from "@/services/appointmentService";
 
 interface ActionFooterProps {
     appointmentId: string;
     serviceDate: string;
     serviceTime: string;
+    zipCode: string;
+    appliance: string;
 }
 
 const CANCEL_REASONS = [
@@ -38,12 +38,26 @@ const CANCEL_REASONS = [
     "Used Another Repair Service"
 ];
 
-export function ActionFooter({ appointmentId, serviceDate, serviceTime }: ActionFooterProps) {
+export function ActionFooter({ appointmentId, serviceDate, serviceTime, zipCode, appliance }: ActionFooterProps) {
     const router = useRouter();
     const [isRescheduleOpen, setIsRescheduleOpen] = useState(false);
     const [isCancelOpen, setIsCancelOpen] = useState(false);
     const [selectedDate, setSelectedDate] = useState("");
     const [selectedTime, setSelectedTime] = useState("");
+    const [availableDates, setAvailableDates] = useState<{ id: string; label: string; slots: { id: string; label: string; startTime: string; endTime: string; available: boolean }[] }[]>([]);
+
+    useEffect(() => {
+        if (isRescheduleOpen && availableDates.length === 0) {
+            getSchedule(zipCode, appliance).then((days) => {
+                const mapDates = days.map(day => ({
+                    id: day.date,
+                    label: day.date,
+                    slots: day.slots.filter(slot => slot.available)
+                })).filter(day => day.slots.length > 0);
+                setAvailableDates(mapDates);
+            }).catch(console.error);
+        }
+    }, [isRescheduleOpen, zipCode, appliance, availableDates.length]);
 
     // Reschedule State
     const [isRescheduleSuccess, setIsRescheduleSuccess] = useState(false);
@@ -156,7 +170,7 @@ export function ActionFooter({ appointmentId, serviceDate, serviceTime }: Action
 
                                 <div className="mb-6">
                                     <p className="text-[#00245B] text-lg font-medium mb-4">
-                                        Today is <span className="font-bold text-[#0046BE]">Wednesday, January 28</span>
+                                        Today is <span className="font-bold text-[#0046BE]">{new Intl.DateTimeFormat('en-US', { weekday: 'long', month: 'long', day: 'numeric' }).format(new Date())}</span>
                                     </p>
                                     <p className="text-[#0046BE] font-medium mb-6">Select a new date and time</p>
 
@@ -169,30 +183,24 @@ export function ActionFooter({ appointmentId, serviceDate, serviceTime }: Action
                                             className="w-full"
                                         >
                                             <CarouselContent className="mx-2">
-                                                {DATES.slice(0, 5).map((date) => (
-                                                    <CarouselItem key={date.id} className="basis-1/2 md:basis-1/4 pl-0 pr-2">
+                                                {availableDates.map((dateObj) => (
+                                                    <CarouselItem key={dateObj.id} className="basis-1/2 md:basis-1/4 pl-0 pr-2">
                                                         <div className="flex flex-col gap-3">
                                                             <div className="text-center font-bold text-[#00245B] text-sm mb-1">
-                                                                {date.label}
+                                                                {dateObj.label}
                                                             </div>
-                                                            <button
-                                                                onClick={() => { setSelectedDate(date.label); setSelectedTime("7 AM-6 PM"); }}
-                                                                className={`cursor-pointer py-3 px-1 border rounded-lg text-xs font-bold transition-all shadow-sm ${selectedDate === date.label && selectedTime === "7 AM-6 PM"
-                                                                    ? "bg-[#0046BE] text-white border-[#0046BE]"
-                                                                    : "bg-white text-[#00245B] border-gray-200 hover:border-blue-300 hover:shadow-md"
-                                                                    }`}
-                                                            >
-                                                                7 AM-6 PM
-                                                            </button>
-                                                            <button
-                                                                onClick={() => { setSelectedDate(date.label); setSelectedTime("8 AM-5 PM"); }}
-                                                                className={`cursor-pointer py-3 px-1 border rounded-lg text-xs font-bold transition-all shadow-sm ${selectedDate === date.label && selectedTime === "8 AM-5 PM"
-                                                                    ? "bg-[#0046BE] text-white border-[#0046BE]"
-                                                                    : "bg-white text-[#00245B] border-gray-200 hover:border-blue-300 hover:shadow-md"
-                                                                    }`}
-                                                            >
-                                                                8 AM-5 PM
-                                                            </button>
+                                                            {dateObj.slots.map(slot => (
+                                                                <button
+                                                                    key={slot.id}
+                                                                    onClick={() => { setSelectedDate(dateObj.label); setSelectedTime(slot.label); }}
+                                                                    className={`cursor-pointer py-3 px-1 border rounded-lg text-xs font-bold transition-all shadow-sm ${selectedDate === dateObj.label && selectedTime === slot.label
+                                                                        ? "bg-[#0046BE] text-white border-[#0046BE]"
+                                                                        : "bg-white text-[#00245B] border-gray-200 hover:border-blue-300 hover:shadow-md"
+                                                                        }`}
+                                                                >
+                                                                    {slot.label}
+                                                                </button>
+                                                            ))}
                                                         </div>
                                                     </CarouselItem>
                                                 ))}
@@ -204,7 +212,7 @@ export function ActionFooter({ appointmentId, serviceDate, serviceTime }: Action
 
                                     {selectedDate && (
                                         <p className="text-center text-[#00245B] font-medium mb-8">
-                                            Your appointment will now be {selectedDate}, between {selectedTime === "7 AM-6 PM" ? "7:00 AM and 6:00 PM" : "8:00 AM and 5:00 PM"}.
+                                            Your appointment will now be {selectedDate}, between {selectedTime}.
                                         </p>
                                     )}
 
@@ -300,3 +308,4 @@ export function ActionFooter({ appointmentId, serviceDate, serviceTime }: Action
         </div>
     );
 }
+

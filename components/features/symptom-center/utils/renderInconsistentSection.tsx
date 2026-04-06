@@ -1,7 +1,7 @@
-import React from "react";
+﻿import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { SymptomNode } from "@/utils/fetchers/symptom-data";
+import { SymptomNode } from "@/services/symptomService";
 import { cn } from "@/utils/cn";
 
 /**
@@ -423,3 +423,4 @@ export const renderInconsistentSection = (
 
   return result;
 };
+

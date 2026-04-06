@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import React, { useState } from "react";
 import { Info, X, Camera, Check } from "lucide-react";
@@ -10,7 +10,7 @@ import {
     DialogTitle,
     DialogClose,
 } from "@/components/ui/dialog";
-import { Appointment, updateAppointment } from "@/lib/appointmentService";
+import { Appointment, updateAppointment } from "@/services/appointmentService";
 
 interface ApplianceDetailsProps {
     appointmentId: string;
@@ -259,3 +259,4 @@ export function ApplianceDetails({
         </div>
     );
 }
+

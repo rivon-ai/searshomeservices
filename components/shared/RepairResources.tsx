@@ -1,5 +1,5 @@
 import React from "react";
-import Image, { StaticImageData } from "next/image";
+import type { StaticImageData } from "next/image";
 import Link from "next/link";
 
 interface BlogPost {
@@ -38,68 +38,51 @@ export function RepairResources({
   glossaryData = [],
   appliance,
   title,
-}: RepairResourcesProps) {
+}: Readonly<RepairResourcesProps>) {
   // If no blog posts provided, return null
   if (blogPosts.length === 0) {
     return null;
   }
 
   return (
-    <>
-      <div className="w-[50%] mx-auto">
-        {/* Repair Resources Section */}
-        <div className="mb-20">
-          {/* Section Title */}
-          <h2 className="text-2xl font-bold text-gray-900 mb-8">
-            {title || `Repair ${appliance || ""} Resources`}
-          </h2>
-
-          {/* Articles Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-            {blogPosts.map((article, index) => (
-              <div
-                key={article.id || index}
-                className="bg-white rounded-lg overflow-hidden border border-gray-200 hover:shadow-sm transition-shadow"
-              >
-                {/* Image */}
-                <div className="relative w-full h-48">
-                  {(article.imageUrl || article.image) ? (
-                    <Image
-                      src={article.imageUrl || article.image || ""}
-                      alt={article.imageAlt || article.title || "Blog post image"}
-                      fill
-                      className="object-cover"
-                      unoptimized={true}
-                    />
-                  ) : null}
+    <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 md:max-w-[70%] lg:max-w-[60%]">
+      <section className="mb-20">
+        <h3 className="text-2xl font-bold text-[#002855] mb-6">
+          {title || `Repair ${appliance || ""} Resources`}
+        </h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          {blogPosts.map((article, index) => (
+            <Link 
+              key={article.id || index} 
+              href={article.link || ""} 
+              className="group flex flex-col h-full bg-white rounded-xl overflow-hidden shadow-sm border border-gray-200 hover:shadow-md transition-all"
+            >
+              {(article.imageUrl || article.image) && (
+                <div className="bg-gray-100 aspect-video overflow-hidden">
+                  <img 
+                    src={typeof (article.imageUrl || article.image) === 'string' ? (article.imageUrl || article.image) as string : ''} 
+                    alt={article.imageAlt || article.title} 
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
+                  />
                 </div>
-                {/* Content */}
-                <div className="p-6">
-                  <h2 className="text-lg font-semibold text-gray-900 mb-3 leading-tight">
-                    {article.title || "Appliance Repair Tip"}
-                  </h2>
-                  <div className="flex items-center gap-2 text-sm text-gray-500 mb-3">
-                    {article.readTime && <span>{article.readTime}</span>}
-                    {article.readTime && article.date && <span>•</span>}
-                    {article.date && <span>{article.date}</span>}
-                  </div>
-                  <p className="text-gray-600 text-sm mb-4 line-clamp-2">
-                    {article.description || `Learn more about ${appliance || "appliance"} repair.`}
-                  </p>
-                  {appliance && (
-                    <Link
-                      href={article.link || `/blog/repair/${appliance}`}
-                      className="text-xs font-medium text-blue-600"
-                    >
-                      {appliance}
-                    </Link>
-                  )}
+              )}
+              <div className="p-5 flex flex-col grow">
+                <div className="flex items-center gap-2 text-xs font-bold text-blue-800 mb-2 uppercase tracking-wider">
+                  {article.category && <span>{article.category}</span>}
+                </div>
+                <h4 className="font-bold text-gray-700 mb-3 group-hover:text-blue-900 leading-snug">
+                  {article.title}
+                </h4>
+                <div className="mt-auto flex items-center gap-2 text-xs font-medium text-gray-500">
+                  {article.date && <span>{article.date}</span>}
+                  {article.date && article.readTime && <span>&middot;</span>}
+                  {article.readTime && <span>{article.readTime}</span>}
                 </div>
               </div>
-            ))}
-          </div>
+            </Link>
+          ))}
         </div>
-      </div>
+      </section>
 
       {/* Glossary Terms Section */}
       {glossaryData && glossaryData.length > 0 && (
@@ -131,6 +114,6 @@ export function RepairResources({
           </div>
         </div>
       )}
-    </>
+    </div>
   );
 }

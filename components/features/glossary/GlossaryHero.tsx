@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
 import { SearchBar } from "./SearchBar";
 import { TermObject } from "@/utils/data/glossaryData";
@@ -9,22 +9,48 @@ import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
 interface GlossaryHeroProps {
-  recentTerms: TermObject[];
-  searchQuery: string;
-  onSearchChange: (query: string) => void;
-  searchResults: TermObject[];
-  isSearching: boolean;
-  onClearSearch: () => void;
+  recentTerms: any[];
+  allTerms: any[];
 }
 
 export const GlossaryHero: React.FC<GlossaryHeroProps> = ({
   recentTerms,
-  searchQuery,
-  onSearchChange,
-  searchResults,
-  isSearching,
-  onClearSearch
+  allTerms
 }) => {
+  const [searchQuery, setSearchQuery] = useState("");
+  const [searchResults, setSearchResults] = useState<any[]>([]);
+  const [isSearching, setIsSearching] = useState(false);
+
+  // Debounced search logic against loaded API terms
+  useEffect(() => {
+    if (!searchQuery.trim()) {
+      setSearchResults([]);
+      setIsSearching(false);
+      return;
+    }
+
+    setIsSearching(true);
+    const timer = setTimeout(() => {
+      const lowerQuery = searchQuery.toLowerCase().trim();
+      const results = allTerms.filter(
+        (term) =>
+          term.term?.toLowerCase().includes(lowerQuery) ||
+          term.title?.toLowerCase().includes(lowerQuery) ||
+          term.description?.toLowerCase().includes(lowerQuery) ||
+          term.definition?.toLowerCase().includes(lowerQuery)
+      ).slice(0, 10);
+
+      setSearchResults(results);
+      setIsSearching(false);
+    }, 300);
+
+    return () => clearTimeout(timer);
+  }, [searchQuery, allTerms]);
+
+  const onClearSearch = useCallback(() => {
+    setSearchQuery("");
+    setSearchResults([]);
+  }, []);
   return (
     <div className="relative w-full bg-[#002855] text-blue-50 py-16 lg:py-28 px-6 lg:px-12 mb-16 rounded-3xl overflow-hidden shadow-2xl">
       {/* Premium Decorative Background */}
@@ -46,7 +72,7 @@ export const GlossaryHero: React.FC<GlossaryHeroProps> = ({
 
           <SearchBar
             query={searchQuery}
-            onQueryChange={onSearchChange}
+            onQueryChange={setSearchQuery}
             results={searchResults}
             isSearching={isSearching}
             onClear={onClearSearch}

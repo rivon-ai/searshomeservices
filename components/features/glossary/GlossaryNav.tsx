@@ -9,7 +9,7 @@ const alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
 export const GlossaryNav = () => {
   return (
-    <nav className="w-full py-4 bg-white/80 backdrop-blur-md border-b border-gray-100 mb-8 -mx-4 px-4 lg:mx-0 lg:px-0">
+    <nav className="sticky top-0 z-50 w-full py-4 bg-white/80 backdrop-blur-md border-b border-gray-100 mb-8 -mx-4 px-4 lg:mx-0 lg:px-0">
       <div className="max-w-7xl mx-auto">
         <ul className="flex flex-wrap justify-center gap-1.5 lg:gap-2">
           {alphabet.map((letter) => (

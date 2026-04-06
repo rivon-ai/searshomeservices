@@ -2,33 +2,15 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
-import blogSectionsData from "@/data/blog-sections.json";
+import { BlogSection } from "@/types/blog";
+import { getCategoryUrl } from "@/utils/blogUtils";
 
-// Define types based on the JSON structure
-interface Tag {
-  label: string;
-  url: string;
+interface BlogsProps {
+  sections: BlogSection[];
 }
 
-interface BlogPost {
-  isFeatured: boolean;
-  title: string;
-  url: string;
-  image: string;
-  readTime: string;
-  date: string;
-  description: string;
-  tags: Tag[];
-}
-
-interface BlogSection {
-  title: string;
-  link: string;
-  posts: BlogPost[];
-}
-
-export default function Blogs() {
-  const sections: BlogSection[] = blogSectionsData;
+export default function Blogs({ sections }: BlogsProps) {
+  if (!sections || sections.length === 0) return null;
 
   return (
     <div className="bg-white pb-10">
@@ -56,78 +38,95 @@ export default function Blogs() {
             {/* Grid Layout */}
             <section className="flex flex-col justify-evenly overflow-visible mt-6">
               <div className="grid grid-cols-1 gap-10 xl:grid-cols-2">
-                {/* Featured Post (Left Column) */}
-                {section.posts
-                  .filter((p) => p.isFeatured)
-                  .map((post, idx) => (
-                    <div key={idx} className="mb-6 xl:col-span-1 xl:row-span-3">
-                      <article className="rounded-none">
-                        <div className="flex flex-col justify-between">
-                          <Link
-                            href={post.url}
-                            className="text-md font-medium leading-6 text-blue-900 hover:underline hover:underline-offset-4"
-                          >
-                            <div className="relative mb-6 h-[280px] w-full xl:h-[385px]">
-                              <Image
-                                src={post.image}
-                                alt={post.title}
-                                fill
-                                className="rounded-lg object-cover"
-                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                              />
-                            </div>
-                          </Link>
-                          <div>
-                            <div className="mb-1">
-                              <Link
-                                href={post.url}
-                                className="hover:no-underline focus:no-underline"
-                              >
-                                <h2 className="text-3xl font-semibold leading-8 text-blue-900 xl:text-4xl">
-                                  {post.title}
-                                </h2>
-                              </Link>
-                            </div>
-                            <p className="mt-4 w-full items-center text-xs font-medium leading-6 text-gray-500 md:mt-0">
-                              <span className="wrap-break-word">
-                                {post.readTime}
-                              </span>
-                              <span className="ml-2 wrap-break-word">
-                                {post.date}
-                              </span>
-                            </p>
-                            <div className="mt-2 text-md font-normal leading-6 text-gray-600 line-clamp-3">
-                              <p>{post.description}</p>
-                            </div>
-                            <p className="mt-2 w-full items-center text-xs font-medium leading-4 text-gray-500">
-                              {post.tags.map((tag, tIdx) => (
-                                <span key={tIdx} className="mr-2">
-                                  {tag.url !== "N/A" ? (
-                                    <Link
-                                      href={tag.url}
-                                      className="wrap-break-word text-blue-600 text-xs hover:underline"
-                                    >
-                                      {tag.label}
-                                    </Link>
-                                  ) : (
-                                    <span className="wrap-break-word text-blue-600 text-xs">
-                                      {tag.label}
-                                    </span>
-                                  )}
+                {/* Featured Post (First item in array) */}
+                {section.posts.length > 0 && (
+                  <div className="mb-6 xl:col-span-1 xl:row-span-3">
+                    {(() => {
+                      const post = section.posts[0];
+                      const postUrl = `/blog/${post.slug}`;
+                      return (
+                        <article className="rounded-none">
+                          <div className="flex flex-col justify-between">
+                            <Link
+                              href={postUrl}
+                              className="text-md font-medium leading-6 text-blue-900 hover:underline hover:underline-offset-4"
+                            >
+                              <div className="relative mb-6 h-[280px] w-full xl:h-[385px] bg-gray-100 rounded-lg flex items-center justify-center">
+                                {post.image ? (
+                                  <Image
+                                    src={post.image}
+                                    alt={post.title}
+                                    fill
+                                    unoptimized
+                                    className="rounded-lg object-cover"
+                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                  />
+                                ) : (
+                                  <span className="text-gray-400 text-sm">Image not available</span>
+                                )}
+                              </div>
+                            </Link>
+                            <div>
+                              <div className="mb-1">
+                                <Link
+                                  href={postUrl}
+                                  className="hover:no-underline focus:no-underline"
+                                >
+                                  <h2 className="text-3xl font-semibold leading-8 text-blue-900 xl:text-4xl">
+                                    {post.title}
+                                  </h2>
+                                </Link>
+                              </div>
+                              <p className="mt-4 w-full items-center text-xs font-medium leading-6 text-gray-500 md:mt-0">
+                                <span className="wrap-break-word">
+                                  {post.readTime}
                                 </span>
-                              ))}
-                            </p>
+                                <span className="ml-2 wrap-break-word">
+                                  {post.date}
+                                </span>
+                              </p>
+                              <div className="mt-2 text-md font-normal leading-6 text-gray-600 line-clamp-3">
+                                <p>{post.excerpt}</p>
+                              </div>
+                              <div className="mt-4 flex flex-wrap gap-3 items-center">
+                                <Link
+                                  href={getCategoryUrl(post.parentCategory, post.category)}
+                                  className="text-sm font-semibold text-blue-600 hover:text-blue-800 hover:underline px-2 py-1 bg-blue-50 rounded"
+                                >
+                                  {post.category}
+                                </Link>
+                                <div className="flex items-center text-xs font-medium text-gray-500">
+                                  {post.tags.map((tag, tIdx) => (
+                                    <span key={tIdx} className="mr-2">
+                                      {tag.url !== "N/A" ? (
+                                        <Link
+                                          href={tag.url}
+                                          className="wrap-break-word text-blue-600 text-xs hover:underline"
+                                        >
+                                          {tag.label}
+                                        </Link>
+                                      ) : (
+                                        <span className="wrap-break-word text-blue-600 text-xs">
+                                          {tag.label}
+                                        </span>
+                                      )}
+                                    </span>
+                                  ))}
+                                </div>
+                              </div>
+                            </div>
                           </div>
-                        </div>
-                      </article>
-                    </div>
-                  ))}
+                        </article>
+                      );
+                    })()}
+                  </div>
+                )}
 
-                {/* List Posts (Right Column) */}
+                {/* List Posts (Remaining items) */}
                 <div className="xl:col-span-1 xl:col-start-2">
-                  {section.posts
-                    .filter((p) => !p.isFeatured)
-                    .map((post, idx) => (
+                  {section.posts.slice(1).map((post, idx) => {
+                    const postUrl = `/blog/${post.slug}`;
+                    return (
                       <div
                         key={idx}
                         className="mb-6 border-b border-gray-200 py-6 last:border-0 last:mb-0 xl:pt-0"
@@ -136,17 +135,22 @@ export default function Blogs() {
                           <div className="flex flex-col gap-4 xl:flex-row xl:gap-6">
                             <div className="shrink-0">
                               <Link
-                                href={post.url}
+                                href={postUrl}
                                 className="text-md font-medium leading-6 text-blue-900 hover:underline hover:underline-offset-4"
                               >
-                                <div className="relative h-[180px] w-full xl:h-[140px] xl:w-[180px]">
-                                  <Image
-                                    src={post.image}
-                                    alt={post.title}
-                                    fill
-                                    className="rounded-lg object-cover"
-                                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-                                  />
+                                <div className="relative h-[180px] w-full xl:h-[140px] xl:w-[180px] bg-gray-100 rounded-lg flex items-center justify-center">
+                                  {post.image ? (
+                                    <Image
+                                      src={post.image}
+                                      alt={post.title}
+                                      fill
+                                      unoptimized
+                                      className="rounded-lg object-cover"
+                                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                                    />
+                                  ) : (
+                                    <span className="text-gray-400 text-xs">No image</span>
+                                  )}
                                 </div>
                               </Link>
                             </div>
@@ -154,7 +158,7 @@ export default function Blogs() {
                               <div>
                                 <div className="mb-1">
                                   <Link
-                                    href={post.url}
+                                    href={postUrl}
                                     className="hover:no-underline focus:no-underline"
                                   >
                                     <h4 className="text-xl font-semibold leading-8 text-blue-900">
@@ -171,32 +175,41 @@ export default function Blogs() {
                                   </span>
                                 </p>
                                 <div className="mt-2 text-md font-normal leading-6 text-gray-600 line-clamp-2">
-                                  <p>{post.description}</p>
+                                  <p>{post.excerpt}</p>
                                 </div>
-                                <p className="mt-2 w-full items-center text-xs font-medium leading-4 text-gray-500">
-                                  {post.tags.map((tag, tIdx) => (
-                                    <span key={tIdx} className="mr-2">
-                                      {tag.url !== "N/A" ? (
-                                        <Link
-                                          href={tag.url}
-                                          className="break-all text-blue-600 text-xs hover:underline"
-                                        >
-                                          {tag.label}
-                                        </Link>
-                                      ) : (
-                                        <span className="break-all text-blue-600 text-xs">
-                                          {tag.label}
-                                        </span>
-                                      )}
-                                    </span>
-                                  ))}
-                                </p>
+                                <div className="mt-3 flex flex-wrap gap-2 items-center">
+                                  <Link
+                                    href={getCategoryUrl(post.parentCategory, post.category)}
+                                    className="text-xs font-semibold text-blue-600 hover:text-blue-800 hover:underline px-2 py-0.5 bg-blue-50 rounded"
+                                  >
+                                    {post.category}
+                                  </Link>
+                                  <div className="flex items-center text-[10px] font-medium text-gray-500">
+                                    {post.tags.map((tag, tIdx) => (
+                                      <span key={tIdx} className="mr-2">
+                                        {tag.url !== "N/A" ? (
+                                          <Link
+                                            href={tag.url}
+                                            className="break-all text-blue-600 hover:underline"
+                                          >
+                                            {tag.label}
+                                          </Link>
+                                        ) : (
+                                          <span className="break-all text-blue-600">
+                                            {tag.label}
+                                          </span>
+                                        )}
+                                      </span>
+                                    ))}
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
                         </article>
                       </div>
-                    ))}
+                    );
+                  })}
                 </div>
               </div>
             </section>

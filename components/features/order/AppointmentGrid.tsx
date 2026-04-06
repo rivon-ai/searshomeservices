@@ -7,9 +7,10 @@ interface AppointmentGridProps {
     brand: string;
     appliance: string;
     status: string;
+    diagnosticFee?: number;
 }
 
-export function AppointmentGrid({ serviceDate, serviceTime, brand, appliance, status }: AppointmentGridProps) {
+export function AppointmentGrid({ serviceDate, serviceTime, brand, appliance, status, diagnosticFee }: AppointmentGridProps) {
     return (
         <div className="py-6 border-b border-gray-100">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -38,7 +39,7 @@ export function AppointmentGrid({ serviceDate, serviceTime, brand, appliance, st
                 {/* 4. Diagnostic Fee */}
                 <div>
                     <h2 className="text-gray-500 text-sm mb-1">Diagnostic Fee</h2>
-                    <p className="text-[#00245B] font-medium">$99.00</p>
+                    <p className="text-[#00245B] font-medium">${(diagnosticFee ?? 129).toFixed(2)}</p>
                     <div className="flex items-center gap-1 mt-1 text-gray-500 text-xs cursor-pointer hover:text-blue-600">
                         <Info size={12} />
                         <span>What is this?</span>
